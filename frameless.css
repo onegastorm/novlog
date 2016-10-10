@@ -1102,12 +1102,6 @@ a.keyword {
 .hatena-urllist li a {
   text-decoration: none;
 }
-.hatena-module-search-box .search-form {
-  border: none;
-  background: #f5f5f5;
-  width: 200px;
-  position: relative;
-}
 /* Search module */
 .hatena-module-search-box .search-form {
   border: 1px solid #dddddd;
@@ -1147,6 +1141,12 @@ a.keyword {
   opacity: 0.85;
 }
 /*
+.hatena-module-search-box .search-form {
+  border: none;
+  background: #f5f5f5;
+  width: 200px;
+  position: relative;
+}
 .hatena-module-search-box .search-form {
   border: 1px solid #dddddd;
   border-top-right-radius: 3px;
