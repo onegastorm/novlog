@@ -693,6 +693,11 @@ a.keyword {
   text-decoration: none !important;
 }
 */
+.entry-header-menu a:hover {
+  background-color: #f5f5f5;
+  transition:0.8s;
+  text-decoration: none !important;
+}
 /*
 .entry-header-menu a:hover {
   color: #FFFFFF;
@@ -701,10 +706,12 @@ a.keyword {
   border-radius:2px;
 }
 */
+/*
 .entry-header-menu a:hover {
   background-color: #f5f5f5;
   text-decoration: none !important;
 }
+*/
 /* entry-content の中の書式 */
 .entry-content {
   text-align: center;
