@@ -640,8 +640,15 @@ a.keyword {
 .entry-header-menu {
   position: absolute;
   bottom: 0px;
-  right: 10%;
+  position: center;
 }
+/*
+.entry-header-menu {
+  position: absolute;
+  bottom: 0px;
+  left: -60px;
+}
+*/
 .entry-header-menu a {
   display: inline-block;
   *display: inline;
