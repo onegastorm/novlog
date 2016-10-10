@@ -382,6 +382,7 @@ td,
 th {
   padding: 0;
 }
+/*  import mixin */
 .clearfix {
   display: block;
   *zoom: 1;
@@ -404,6 +405,8 @@ th {
   text-overflow: ellipsis;
   overflow: hidden;
 }
+/*  import variable */
+/* Common */
 body {
   background: #fff;
   color: #1a1a1a;
