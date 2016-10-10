@@ -1018,6 +1018,16 @@ a.keyword {
   margin-bottom: 50px;
 }
 */
+/* ↓sailorより移植↓ */
+.hatena-module {
+  margin-bottom:25px;
+  width:31%;
+  display:inline-block;
+  vertical-align: top;
+  padding:3px;
+}
+/* ↑sailorより移植↑ */
+/*
 .hatena-module {
   border-top: 1px solid #999999;
   padding-top: .5em;
@@ -1025,6 +1035,17 @@ a.keyword {
   display: block;
   *zoom: 1;
 }
+*/
+/* ↓sailorより移植↓ */
+.hatena-module:after {
+  display: block;
+  visibility:hidden;
+  height: 0;
+  clear: both;
+  content: ".2222";
+}
+/* ↑sailorより移植↑ */
+/*
 .hatena-module:after {
   display: block;
   visibility: hidden;
@@ -1033,6 +1054,22 @@ a.keyword {
   clear: both;
   content: ".";
 }
+*/
+/* ↓sailorより移植↓ */
+.hatena-module-title {
+  display:block;
+  font-size:100%;
+  padding-bottom:2px;
+  border-bottom:solid 1px #001A43;
+  width:50%;
+}
+.hatena-module-title a {
+}
+.hatena-module-title a:hover {
+  text-decoration: underline;
+}
+/* ↑sailorより移植↑ */
+/*
 .hatena-module-title {
   font-size: 13px;
   float: left;
@@ -1045,23 +1082,26 @@ a.keyword {
 .hatena-module-title a:hover {
   text-decoration: underline;
 }
-
+*/
 /* ↓sailorより移植↓ */
 .hatena-module-body {
     margin-top:5px;
     float: left;
+}
+.hatena-module-body .circle-urllist .circle-image {
+  float: none;
+  vertical-align:middle;
 }
 /* ↑sailorより移植↑ */
 /*
 .hatena-module-body {
   float: left;
 }
-*/
 .hatena-module-body .circle-urllist .circle-image {
   float: none;
   vertical-align: middle;
 }
-
+*/
 /* ↓sailorに項目なし */
 .hatena-module-profile .profile-icon-link {
   display: inline-block;
