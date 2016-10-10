@@ -1010,8 +1010,7 @@ a.keyword {
 #box2 {
   width: 600px;
   font-size: 13px;
-  margin-bottom: 100px;
-  margin-left: 100px;
+  margin-left: 50px;
 }
 /*
 #box2 {
@@ -1037,16 +1036,8 @@ a.keyword {
 .hatena-module-title {
   font-size: 13px;
   float: left;
-  margin:0 0 0 10%;
   width: 200px;
 }
-/*
-.hatena-module-title {
-  font-size: 13px;
-  float: left;
-  width: 200px;
-}
-*/
 .hatena-module-title a {
   color: #1a1a1a;
   text-decoration: none;
