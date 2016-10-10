@@ -515,12 +515,21 @@ a.keyword {
 /* ★container */
 
 #container {
+  background-color:rgba(100, 255, 255, 0.75);
+  width: 973px;
+  margin:0px auto;
+  padding:0px 0px;
+  border-radius:0px;
+}
+/*
+#container {
   width: 940px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
   padding-top: 37px;
 }
+*/
 #container #content {
   display: block;
   *zoom: 1;
