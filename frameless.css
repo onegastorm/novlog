@@ -1008,6 +1008,7 @@ a.keyword {
 }
 /* sidebar */
 #box2 {
+  width: 400px;
   font-size: 13px;
   margin-bottom: 0px;
 }
