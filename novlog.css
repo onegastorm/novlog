@@ -532,7 +532,7 @@ a.keyword {
   width: 300px;
   float: right;
 }
-/* 1カラムにしたい場合は下記のコメントアウトを外してください ----
+/* 1カラムにしたい場合は下記のコメントアウトを外してください ---- */
 
 #main {
     width: 100%;
@@ -561,7 +561,7 @@ a.keyword {
     }
 }
 
----- END 1カラム */
+/* ---- END 1カラム */
 /* header */
 #blog-title {
   margin: 30px 0;
