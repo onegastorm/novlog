@@ -550,11 +550,18 @@ a.keyword {
   margin-bottom: 10px;
   text-align: center;
 }
+.categories,
+.entry-title,
+.date {
+  line-height: 39px;
+}
+/*
 .date,
 .entry-title,
 .categories {
   line-height: 39px;
 }
+*/
 .entry-title {
   display: inline;
   font-size: 13px;
