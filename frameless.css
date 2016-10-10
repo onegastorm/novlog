@@ -566,7 +566,6 @@ a.keyword {
 .entry-title,
 .categories {
   line-height: 0px;
-  max-width: 10px;
 }
 /*
 .date,
@@ -629,9 +628,11 @@ a.keyword {
   color: #999999;
   padding-left: 5px;
 }
+/* カテゴリの前に#をつける
 .categories a:before {
   content: "#";
 }
+*/
 .categories.no-categories {
   margin: 0;
 }
