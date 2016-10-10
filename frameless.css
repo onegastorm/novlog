@@ -568,21 +568,32 @@ a.keyword {
   font-size: 11px;
   z-index: 100;
 }
+/*
 .date .hyphen {
   padding: 2px;
   color: #999999;
 }
+*/
 .date a {
   color: #1a1a1a;
   text-decoration: none;
   display: inline-block;
 }
+/* カテゴリ */
 .categories {
   font-size: 11px;
   position: absolute;
   left: 0;
   top: 0;
 }
+/*
+.categories {
+  font-size: 11px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+*/
 .categories a {
   text-decoration: none;
   color: #999999;
