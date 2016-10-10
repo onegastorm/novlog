@@ -606,10 +606,18 @@ a.keyword {
   padding: 10px;
 }
 /* entry */
+
+
+.entry {
+  position: relative;
+  margin-bottom: 0px;
+}
+/*
 .entry {
   position: relative;
   margin-bottom: 100px;
 }
+*/
 
 .entry-header {
   padding: 10px 0 10px 0;
