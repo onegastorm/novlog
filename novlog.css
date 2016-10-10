@@ -624,7 +624,7 @@ a.keyword {
   position: relative;
 }
 */
-
+.entry-title a { position: relative }
 /*
 .entry-title { display: none; }
 */
