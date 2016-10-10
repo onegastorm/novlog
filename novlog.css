@@ -683,7 +683,7 @@ text-decoration:underline;
 .entry-header-menu {
   position: absolute;
   bottom: 0px;
-  right: 10px;
+  left: 100px;
 }
 /*
 .entry-header-menu {
