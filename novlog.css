@@ -566,11 +566,19 @@ a.keyword {
 /* ---- END 1カラム */
 
 /* header */
+
 #blog-title {
   display: none;
   margin: 30px 0;
   padding: 20px 0;
 }
+/*
+#blog-title {
+  margin: 30px 0;
+  padding: 20px 0;
+}
+*/
+
 #title {
   margin: 0;
 }
@@ -604,12 +612,22 @@ a.keyword {
   position: relative;
   margin-bottom: 100px;
 }
+
+.entry-header {
+  padding: 0 0 10px 0;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #dddddd;
+  position: relative;
+}
+/*
 .entry-header {
   padding: 0 0 10px 0;
   margin-bottom: 20px;
   border-bottom: 1px solid #dddddd;
   position: relative;
 }
+*/
+
 .entry-title {
   margin: 0;
   line-height: 1.3;
