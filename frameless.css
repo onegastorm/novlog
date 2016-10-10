@@ -967,16 +967,11 @@ a.keyword {
   border-top: 1px solid #999999;
 }
 .comment-box .read-more-comments {
-  padding-left: 10%;
-}
-/*
-.comment-box .read-more-comments {
   padding-left: 0;
 }
-*/
 .comment-box .hatena-id-icon {
   position: absolute;
-  top: 10px;
+  top: 100px;
   left: 0;
   width: 24px !important;
   height: 24px !important;
