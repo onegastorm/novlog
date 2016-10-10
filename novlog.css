@@ -656,13 +656,17 @@ a.keyword {
 }
 */
 
-/* カテゴリ */
+/* ★カテゴリ */
+
 .categories {
   margin-top: 10px;
   font-size: 80%;
 }
 .categories a {
   color: #999999;
+}
+.categories a:hover {
+  text-decoration:underline;
 }
 .categories.no-categories {
   margin: 0;
