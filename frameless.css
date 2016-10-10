@@ -1025,6 +1025,7 @@ a.keyword {
   *zoom: 1;
 }
 .hatena-module:after {
+  border-bottom: 1px solid #999999;
   display: block;
   visibility: hidden;
   font-size: 0;
