@@ -1239,6 +1239,34 @@ a.keyword {
 }
 */
 /* archive ページ */
+.page-archive .archive-entries .archive-entry {
+  margin-bottom: 3em;
+}
+.page-archive .archive-entries .entry-title {
+  font-size: 130%;
+  margin: 0 0 .5em;
+}
+.page-archive .archive-entries .categories {
+  margin: 0 0 .5em;
+}
+.page-archive .archive-entries .entry-description {
+  margin: 0 0 1em;
+  line-height: 1.7em;
+  font-size: 95%;
+}
+.page-archive .categories a {
+  color: #fff;
+  font-size: 70%;
+  background: #aaa;
+  padding: 3px 5px;
+  border-radius: 3px;
+  text-decoration: none;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  margin-right: 2px;
+}
+/*
 .page-archive .archive-entries {
   margin-bottom: 100px;
 }
@@ -1264,3 +1292,4 @@ a.keyword {
 .page-archive .entry-thumb {
   margin-right: 80px;
 }
+*/
