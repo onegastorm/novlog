@@ -664,6 +664,26 @@ a.keyword {
   line-height: 39px;
 }
 
+/* ★エントリータイトル */
+
+/*
+.entry-title { display: none; }
+*/
+.entry-title {
+  display: inline;
+  margin: 0;
+  line-height: 1.3;
+  font-size: 10px;
+  font-family: MS Mincho;
+}
+/*
+.entry-title {
+  margin: 0;
+  line-height: 1.3;
+  font-size: 160%;
+}
+*/
+
 /* ★日付 */
 
 .date { display: none; }
@@ -676,25 +696,6 @@ a.keyword {
   color: #1487bd;
   text-decoration: none;
   font-size: 90%;
-}
-*/
-
-/* ★エントリータイトル */
-
-/*
-.entry-title { display: none; }
-*/
-.entry-title {
-  margin: 0;
-  line-height: 1.3;
-  font-size: 10px;
-  font-family: MS Mincho;
-}
-/*
-.entry-title {
-  margin: 0;
-  line-height: 1.3;
-  font-size: 160%;
 }
 */
 
