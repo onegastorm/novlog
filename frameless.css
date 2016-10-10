@@ -1045,9 +1045,18 @@ a.keyword {
 .hatena-module-title a:hover {
   text-decoration: underline;
 }
+
+/* ↓sailorより移植↓ */
+.hatena-module-body {
+    margin-top:5px;
+    float: left;
+}
+/* ↑sailorより移植↑ */
+/*
 .hatena-module-body {
   float: left;
 }
+*/
 .hatena-module-body .circle-urllist .circle-image {
   float: none;
   vertical-align: middle;
