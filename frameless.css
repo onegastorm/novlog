@@ -693,18 +693,18 @@ a.keyword {
   text-decoration: none !important;
 }
 */
+/*
 .entry-header-menu a:hover {
   color: #FFFFFF;
 	background-color: #448AB0;
   transition:0.8s;
   border-radius:2px;
 }
-/*
+*/
 .entry-header-menu a:hover {
   background-color: #f5f5f5;
   text-decoration: none !important;
 }
-*/
 /* entry-content の中の書式 */
 .entry-content {
   text-align: center;
