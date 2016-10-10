@@ -1025,7 +1025,6 @@ a.keyword {
   *zoom: 1;
 }
 .hatena-module:after {
-  border-bottom: 1px solid #999999;
   display: block;
   visibility: hidden;
   font-size: 0;
@@ -1081,6 +1080,9 @@ a.keyword {
   margin: 0;
   vertical-align: middle;
 }
+/* urllist module
+    リンク・最新記事・最近のコメント・月別アーカイブ・カテゴリモジュールは .hatena-urllist という共通の class が振られます
+*/
 .hatena-urllist {
   list-style: none;
   margin: 0 0 0 0;
@@ -1096,6 +1098,20 @@ a.keyword {
   border: none;
   background: #f5f5f5;
   width: 200px;
+  position: relative;
+}
+/* Search module */
+.hatena-module-search-box .search-form {
+  border: 1px solid #dddddd;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-radius: 3px;
+  background-clip: padding-box;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   position: relative;
 }
 .hatena-module-search-box .search-module-input {
