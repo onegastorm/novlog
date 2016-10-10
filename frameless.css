@@ -547,7 +547,6 @@ a.keyword {
 }
 .entry-header {
   position: relative;
-  margin; 0 0 0 40px;
   text-align: left;
 }
 /*
@@ -579,7 +578,7 @@ a.keyword {
   display: inline;
   font-size: 13px;
   font-weight: normal;
-  margin: 0 0 0 40px;
+  margin-left: 60px;
 }
 /*
 .entry-title {
