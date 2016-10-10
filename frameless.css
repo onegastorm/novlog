@@ -971,7 +971,7 @@ a.keyword {
 }
 .comment-box .hatena-id-icon {
   position: absolute;
-  top: 100px;
+  top: 10px;
   left: 0;
   width: 24px !important;
   height: 24px !important;
@@ -985,6 +985,7 @@ a.keyword {
 .comment-user-name {
   margin: 0;
   font-weight: bold;
+  color: #cccccc;
 }
 .comment-content {
   margin: 0;
