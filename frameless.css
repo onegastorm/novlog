@@ -565,7 +565,7 @@ a.keyword {
 .date,
 .entry-title,
 .categories {
-  line-height: 10px;
+  line-height: 0px;
 }
 /*
 .date,
@@ -613,7 +613,7 @@ a.keyword {
   font-size: 11px;
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 10%;
 }
 /*
 .categories {
