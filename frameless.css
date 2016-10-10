@@ -547,8 +547,14 @@ a.keyword {
 }
 .entry-header {
   position: relative;
+  text-align: left;
+}
+/*
+.entry-header {
+  position: relative;
   text-align: center;
 }
+*/
 /*
 .entry-header {
   position: relative;
@@ -572,7 +578,7 @@ a.keyword {
   display: inline;
   font-size: 13px;
   font-weight: normal;
-  margin: 0 0 0 100px;
+  margin: 0 0 0 0;
 }
 /*
 .entry-title {
