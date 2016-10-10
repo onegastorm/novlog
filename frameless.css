@@ -613,7 +613,7 @@ a.keyword {
   font-size: 11px;
   position: absolute;
   left: 0;
-  bottom: 42%;
+  bottom: 43%;
 }
 /*
 .categories {
@@ -639,7 +639,7 @@ a.keyword {
 .entry-header-menu {
   position: absolute;
   bottom: 0px;
-  left: -60px;
+  left: 60px;
 }
 .entry-header-menu a {
   display: inline-block;
