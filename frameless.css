@@ -1052,6 +1052,8 @@ a.keyword {
   float: none;
   vertical-align: middle;
 }
+
+/* ↓sailorに項目なし */
 .hatena-module-profile .profile-icon-link {
   display: inline-block;
   width: 24px;
@@ -1059,6 +1061,8 @@ a.keyword {
   vertical-align: middle;
   margin-right: 3px;
 }
+/* ↑sailorに項目なし↑ */
+
 .hatena-module-profile .profile-icon {
   width: 24px;
   margin: 0;
@@ -1079,6 +1083,7 @@ a.keyword {
 
 
 
+/* ↓sailorより移植↓ */
 /* カテゴリー */
 .hatena-module-category .hatena-module-body ul.hatena-urllist li {
    display:inline-block;
@@ -1099,8 +1104,7 @@ a.keyword {
     clear: both;
     overflow: hidden;
 }
-
-
+/* ↑sailorより移植↑ */
 
 
 
