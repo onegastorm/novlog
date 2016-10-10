@@ -510,6 +510,7 @@ a.keyword {
 /*  max-width: 1280px; */
   margin: 0 auto;
 }
+/* 必要ないがあえて */
 #container-inner {
   padding: 0px 0px 0px 0px;
 }
@@ -518,6 +519,11 @@ a.keyword {
   padding: 0 25px;
 }
 */
+/* header*/
+#blog-title {
+  display: none;
+}
+/* blog-descriptionはタイトル下の見出しらしいですよっと
 #blog-title {
   margin: 120px 0;
   padding: 20px 0;
@@ -534,6 +540,7 @@ a.keyword {
   font-size: 11px;
   margin: 5px 0 0 0;
 }
+*/
 .entry {
   position: relative;
   margin-bottom: 200px;
