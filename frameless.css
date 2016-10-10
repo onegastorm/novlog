@@ -1021,7 +1021,7 @@ a.keyword {
 /* ↓sailorより移植↓ */
 .hatena-module {
   margin-bottom: 20px;
-  width:80%;
+  width:100%;
   display:inline-block;
   vertical-align: top;
   padding:3px;
@@ -1061,7 +1061,7 @@ a.keyword {
   font-size:100%;
   padding-bottom:2px;
   border-bottom:solid 1px #001A43;
-  width:50%;
+  width:40%;
 }
 .hatena-module-title a {
 }
