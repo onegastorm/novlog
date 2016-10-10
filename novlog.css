@@ -784,7 +784,7 @@ text-decoration:underline;
 .entry-content {
   font-size: 95%;
   line-height: 1.7;
-  padding-bottom: 0px;
+  padding-bottom: 10px;
   border-bottom: 1px solid #dddddd;
 }
 .entry-content p {
@@ -969,7 +969,9 @@ text-decoration:underline;
   background-color: #f5f5f5;
   text-decoration: none !important;
 }
-/* sidebar */
+
+/* ★sidebar */
+
 #box2 {
   font-size: 85%;
   line-height: 1.5;
@@ -989,7 +991,9 @@ text-decoration:underline;
 .hatena-module-title a:hover {
   text-decoration: underline;
 }
-/* Profile module */
+
+/* ★Profile module */
+
 .hatena-module-profile .profile-icon {
   float: left;
   margin: 0 10px 10px 0;
@@ -1012,9 +1016,11 @@ text-decoration:underline;
 .hatena-module-profile .profile-description p {
   margin-top: 0;
 }
-/* urllist module
+
+/* ★urllist module
     リンク・最新記事・最近のコメント・月別アーカイブ・カテゴリモジュールは .hatena-urllist という共通の class が振られます
 */
+
 .hatena-urllist {
   list-style: none;
   margin: 0 0 0 0;
@@ -1028,7 +1034,9 @@ text-decoration:underline;
 .hatena-urllist li a {
   text-decoration: none;
 }
-/* Search module */
+
+/* ★Search module */
+
 .hatena-module-search-box .search-form {
   border: 1px solid #dddddd;
   border-top-right-radius: 3px;
@@ -1066,7 +1074,9 @@ text-decoration:underline;
 .hatena-module-search-box .search-module-button:hover {
   opacity: 0.85;
 }
-/* Pager */
+
+/* ★Pager */
+
 .pager {
   margin: 1em 0;
   display: block;
@@ -1090,7 +1100,9 @@ text-decoration:underline;
   text-align: right;
   width: 45%;
 }
-/* Footer */
+
+/* ★Footer */
+
 #footer {
   padding: 30px 0;
   text-align: center;
@@ -1104,7 +1116,9 @@ text-decoration:underline;
 #footer a {
   color: #999999;
 }
-/* About ページ */
+
+/* ★About ページ */
+
 .page-about dt {
   font-size: 16px;
   font-weight: bold;
@@ -1115,7 +1129,9 @@ text-decoration:underline;
   margin-left: 0;
   margin-bottom: 30px;
 }
-/* archive ページ */
+
+/* ★archive ページ */
+
 .page-archive .archive-entries .archive-entry {
   margin-bottom: 3em;
 }
@@ -1143,15 +1159,19 @@ text-decoration:underline;
   *zoom: 1;
   margin-right: 2px;
 }
-/*  import media queries */
-/* Media Queries - Retina Display */
+
+/* ★import media queries */
+/* ★Media Queries - Retina Display */
+
 @media (-webkit-min-device-pixel-ratio: 2) {
   .hatena-module-search-box .search-module-button {
     background: transparent url(http://blog.hatena.ne.jp/images/theme/search@2x.png) no-repeat right center;
     background-size: 20px 20px;
   }
 }
-/* Media Queries - Tablet */
+
+/* ★Media Queries - Tablet */
+
 @media (min-width: 768px) and (max-width: 1024px) {
   #container {
     width: 724px;
@@ -1178,7 +1198,9 @@ text-decoration:underline;
       }
   ---- END 1カラム /**/
 }
-/* Media Queries - Small Tablet & Smartphone */
+
+/* ★Media Queries - Small Tablet & Smartphone */
+
 @media (max-width: 767px) {
   #globalheader-container {
     position: static;
@@ -1208,7 +1230,9 @@ text-decoration:underline;
     left: 0px;
   }
 }
-/* Media Queries - Smartphone */
+
+/* ★Media Queries - Smartphone */
+
 @media (max-width: 480px) {
   
 }
