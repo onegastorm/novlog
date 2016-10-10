@@ -657,6 +657,12 @@ a.keyword {
 }
 */
 
+.date,
+.entry-title,
+.categories {
+  line-height: 39px;
+}
+
 /* ★日付 */
 
 .date { display: none; }
