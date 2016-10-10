@@ -1148,6 +1148,7 @@ a.keyword {
   opacity: 0.85;
   filter: alpha(opacity=85);
 }
+/* Pager */
 .pager {
   margin: 0 0 30px;
   display: block;
@@ -1171,6 +1172,7 @@ a.keyword {
   text-align: right;
   width: 45%;
 }
+/* Footer */
 #footer {
   padding: 30px 0;
   text-align: left;
@@ -1192,6 +1194,7 @@ a.keyword {
   display: inline;
   padding-right: 1em;
 }
+/* About ページ */
 .page-about .entry-content {
   text-align: left;
 }
@@ -1208,6 +1211,7 @@ a.keyword {
   margin-left: 0;
   margin-bottom: 30px;
 }
+/* archive ページ */
 .page-archive .archive-entries {
   margin-bottom: 100px;
 }
