@@ -566,6 +566,7 @@ a.keyword {
 .entry-title,
 .categories {
   line-height: 0px;
+  max-width: 10px;
 }
 /*
 .date,
