@@ -1210,6 +1210,17 @@ a.keyword {
 }
 */
 /* About ページ */
+.page-about dt {
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid #dfdfdf;
+  margin-bottom: 5px;
+}
+.page-about dd {
+  margin-left: 0;
+  margin-bottom: 30px;
+}
+/*
 .page-about .entry-content {
   text-align: left;
 }
@@ -1226,6 +1237,7 @@ a.keyword {
   margin-left: 0;
   margin-bottom: 30px;
 }
+*/
 /* archive ページ */
 .page-archive .archive-entries {
   margin-bottom: 100px;
