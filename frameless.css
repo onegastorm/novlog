@@ -1020,8 +1020,8 @@ a.keyword {
 */
 /* ↓sailorより移植↓ */
 .hatena-module {
-  margin-bottom: 40px;
-  width:40%;
+  margin-bottom: 20px;
+  width:80%;
   display:inline-block;
   vertical-align: top;
   padding:3px;
