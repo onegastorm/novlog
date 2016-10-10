@@ -559,8 +559,15 @@ a.keyword {
 .date,
 .entry-title,
 .categories {
-  line-height: 11px;
+  line-height: 20px;
 }
+/*
+.date,
+.entry-title,
+.categories {
+  line-height: 39px;
+}
+*/
 .entry-title {
   display: inline;
   font-size: 13px;
@@ -592,6 +599,7 @@ a.keyword {
   font-size: 11px;
   position: absolute;
   left: 0;
+  top: 0;
 }
 /*
 .categories {
