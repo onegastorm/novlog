@@ -547,9 +547,15 @@ a.keyword {
 }
 .entry-header {
   position: relative;
+  text-align: center;
+}
+/*
+.entry-header {
+  position: relative;
   margin-bottom: 10px;
   text-align: center;
 }
+*/
 .date,
 .entry-title,
 .categories {
