@@ -563,6 +563,7 @@ a.keyword {
   text-align: center;
 }
 /* 日付 */
+.date { display: none; }
 /*
 .date {
   position: absolute;
