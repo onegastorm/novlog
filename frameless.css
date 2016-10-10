@@ -553,7 +553,7 @@ a.keyword {
 .date,
 .entry-title,
 .categories {
-  line-height: 20px;
+  line-height: 10px;
 }
 .entry-title {
   display: inline;
