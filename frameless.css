@@ -1097,7 +1097,7 @@ a.keyword {
   padding: 0 0 0 0;
 }
 .hatena-urllist li {
-  padding: 0 0 50px;
+  padding: 0;
 }
 .hatena-urllist li a {
   text-decoration: none;
