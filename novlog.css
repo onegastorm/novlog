@@ -497,7 +497,6 @@ a.keyword {
 #globalheader-container {
   background-color: #333;
   color: #fff;
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -506,6 +505,7 @@ a.keyword {
 #globalheader-container {
   background-color: #333;
   color: #fff;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
