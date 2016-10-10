@@ -1150,7 +1150,7 @@ a.keyword {
 }
 /* Pager */
 .pager {
-  margin: 0 0 30px;
+  margin: 1em 0;
   display: block;
   *zoom: 1;
 }
