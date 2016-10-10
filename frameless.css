@@ -640,7 +640,7 @@ a.keyword {
 .entry-header-menu {
   position: absolute;
   bottom: 0px;
-  left: -5%;
+  left: 0;
 }
 /*
 .entry-header-menu {
