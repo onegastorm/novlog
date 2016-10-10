@@ -453,6 +453,7 @@ a.keyword {
   border-bottom: 1px dotted #999999;
   color: #1a1a1a;
 }
+/* Buttons*/
 .btn {
   display: inline-block;
   *display: inline;
@@ -491,6 +492,10 @@ a.keyword {
   line-height: normal;
   font-weight: bold;
 }
+/* ヘッダ（グローバルヘッダ）
+  グローバルヘッダの中はiframeですが、
+  #globalheader-container に背景色や文字色を指定することでirameの中にも色が反映されます。
+*/
 #globalheader-container {
   background-color: #fff;
   color: #999;
