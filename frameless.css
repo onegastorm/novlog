@@ -640,7 +640,7 @@ a.keyword {
 .entry-header-menu {
   position: absolute;
   bottom: 0px;
-  left: 50%;
+  left: 40%;
 }
 /*
 .entry-header-menu {
@@ -649,6 +649,25 @@ a.keyword {
   left: -60px;
 }
 */
+.entry-header-menu a {
+  display: inline-block;
+  *display: inline;
+  *zoom:1;
+  padding: 2px 10px;
+  line-height: 18px;
+  color: #C0C0C0;
+  background-color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: ;
+  border: 1px solid #C0C0C0;
+  text-decoration: none !important;
+}
+/*
 .entry-header-menu a {
   display: inline-block;
   *display: inline;
@@ -673,10 +692,19 @@ a.keyword {
   border: 1px solid rgba(0, 0, 0, 0.2);
   text-decoration: none !important;
 }
+*/
+.entry-header-menu a:hover {
+  color: #FFFFFF;
+	background-color: #448AB0;
+  transition:0.8s;
+  border-radius:2px;
+}
+/*
 .entry-header-menu a:hover {
   background-color: #f5f5f5;
   text-decoration: none !important;
 }
+*/
 /* entry-content の中の書式 */
 .entry-content {
   text-align: center;
