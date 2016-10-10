@@ -875,7 +875,7 @@ text-decoration:underline;
 /* ★entry-footer */
 
 .entry-footer {
-  margin-top: 100px;
+  margin-top: 0px;
 }
 .entry-footer-section {
   font-size: 80%;
@@ -886,7 +886,7 @@ text-decoration:underline;
 }
 .social-buttons,
 .entry-footer-html {
-  margin: 100px 0;
+  margin: 0px 0;
 }
 
 /* ★コメント */
