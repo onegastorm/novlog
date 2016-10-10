@@ -607,20 +607,13 @@ a.keyword {
 }
 /* entry */
 
-
 .entry {
   position: relative;
   margin-bottom: 0px;
 }
-/*
-.entry {
-  position: relative;
-  margin-bottom: 100px;
-}
-*/
 
 .entry-header {
-  padding: 10px 0 10px 0;
+  padding: 1% 1.4% 1% 0;
   position: relative;
 }
 /*
