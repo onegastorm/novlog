@@ -1023,7 +1023,7 @@ a.keyword {
   margin-bottom: 20px;
   width:40%;
   display:inline-block;
-  vertical-align: top;
+  vertical-align: bottom;
   padding:3px;
 }
 /* ↑sailorより移植↑ */
