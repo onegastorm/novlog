@@ -488,20 +488,32 @@ a.keyword {
   line-height: normal;
   font-weight: bold;
 }
-/* ヘッダ（グローバルヘッダ）
+
+/* ★ヘッダ（グローバルヘッダ）
   グローバルヘッダの中はiframeですが、
   #globalheader-container に背景色や文字色を指定することでirameの中にも色が反映されます。
 */
+
 #globalheader-container {
   background-color: #333;
   color: #fff;
-/* グローバルヘッダの固定を解除 */
-/*  position: fixed; */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
 }
-/* container */
+/*
+#globalheader-container {
+  background-color: #333;
+  color: #fff;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+*/
+
+/* ★container */
+
 #container {
   width: 940px;
   margin-left: auto;
@@ -525,7 +537,8 @@ a.keyword {
   padding-top: 0;
 }
 
-/* 2カラムレイアウト */
+/* ★2カラムレイアウト */
+
 #main {
   width: 600px;
   float: left;
@@ -534,7 +547,6 @@ a.keyword {
   width: 300px;
   float: right;
 }
-
 /* 1カラムにしたい場合は下記のコメントアウトを外してください ---- */
 #main {
     width: 100%;
@@ -562,7 +574,6 @@ a.keyword {
         clear: both;
     }
 }
-
 /* ---- END 1カラム */
 
 /* ★header */
