@@ -679,11 +679,19 @@ text-decoration:underline;
 }
 
 /* ★「編集」ボタン */
+
+.entry-header-menu {
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+}
+/*
 .entry-header-menu {
   position: absolute;
   bottom: 0px;
   left: -60px;
 }
+*/
 .entry-header-menu a {
   display: inline-block;
   *display: inline;
