@@ -626,7 +626,7 @@ a.keyword {
 .categories a {
   text-decoration: none;
   color: #ff0000;
-  padding-left: 10%;
+  padding-left: 2%;
 }
 /* カテゴリの前に#をつける
 .categories a:before {
