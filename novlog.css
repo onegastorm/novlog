@@ -656,6 +656,24 @@ a.keyword {
   position: relative;
 }
 */
+
+/* ★日付 */
+
+.date { display: none; }
+/*
+.date {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.date a {
+  color: #1487bd;
+  text-decoration: none;
+  font-size: 90%;
+}
+*/
+
+/* ★エントリータイトル */
+
 /*
 .entry-title { display: none; }
 */
@@ -670,21 +688,6 @@ a.keyword {
   margin: 0;
   line-height: 1.3;
   font-size: 160%;
-}
-*/
-
-/* ★日付 */
-
-.date { display: none; }
-/*
-.date {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-.date a {
-  color: #1487bd;
-  text-decoration: none;
-  font-size: 90%;
 }
 */
 
