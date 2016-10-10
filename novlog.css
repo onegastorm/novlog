@@ -666,6 +666,9 @@ a.keyword {
   text-decoration:none;
   color: #999999;
 }
+.categories a:hover {
+text-decoration:underline;
+}
 /*
 .categories a {
   color: #999999;
