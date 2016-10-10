@@ -495,7 +495,8 @@ a.keyword {
 #globalheader-container {
   background-color: #333;
   color: #fff;
-  position: fixed;
+/* グローバルヘッダの固定を解除 */
+/*  position: fixed; */
   top: 0;
   left: 0;
   width: 100%;
