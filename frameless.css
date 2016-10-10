@@ -1,21 +1,14 @@
-/*
-Theme Name: Frameless
-Theme URI: http://blog.hatena.ne.jp/-/store/theme/8454420450090610537
-Description: ŽÊ^‰Æ‚Ì‚½‚ß‚ÌƒVƒ“ƒvƒ‹‚Èƒe[ƒ}‚Å‚·BŽg—p‚É‚ ‚½‚Á‚Ä‚¢‚­‚Â‚©§ŒÀ‚ª‚ ‚è‚Ü‚·BŽÀÛ‚ÌƒCƒ[ƒW‚Í [http://script.hatenadiary.jp/:title=‚±‚¿‚ç] ‚ÅŠm”F‚Å‚«‚Ü‚·B- ŽÊ^‚Ì”z’uFƒGƒ“ƒgƒŠ[‚Ìæ“ª‚É”z’u- ŽÊ^‚ÌƒTƒCƒYF’·•Ó1280pxˆÈãiRetina DisplayŒü‚¯‚É‚Í2048pxˆÈãj-- ƒtƒHƒgƒ‰ƒCƒt‚ð‚¨Žg‚¢‚Ìê‡AƒtƒHƒgƒ‰ƒCƒt‚ÌuÝ’èv¨u‰æ‘œƒTƒCƒYv‚Ì€–Ú‚ð2048pxˆÈã‚ÉÝ’è‚·‚é‚±‚Æ‚ð‚¨‚·‚·‚ß‚µ‚Ü‚·- ƒeƒLƒXƒg‚Ì‘•üFƒvƒŒ[ƒ“‚ÈƒeƒLƒXƒg‚ð‘z’è‚µ‚Ä‚¨‚èAƒŠƒXƒg‚âˆø—p‚Æ‚¢‚Á‚½‘•ü‚É‚ÍŒü‚«‚Ü‚¹‚ñ- •¶Í—ÊF­‚È‚ß‚ªŽ—‡‚¢‚Ü‚·
-Author: tanemu
-Author URI: http://blog.hatena.ne.jp/tanemu/
-*/
 @charset "utf-8";
 /*
   Theme: boilerplate
   Author: Hatena Blog Team
   Description:
-    ‚Í‚Ä‚ÈƒuƒƒO‚ÌƒfƒUƒCƒ“CSSƒJƒXƒ^ƒ}ƒCƒY‚Ì“y‘ä‚É“K‚µ‚½ƒfƒUƒCƒ“ƒe[ƒ}‚Å‚·B
-    ‚±‚Ìƒe[ƒ}‚ð‚à‚Æ‚É‚µ‚ÄCSS‚ð‘‚­‚Æ”äŠr“IŠy‚ÉƒJƒXƒ^ƒ}ƒCƒY‚Å‚«‚Ü‚·B
-    “Á’è‚Ì•”•ªi—á‚¦‚Î‹LŽ––{•¶‚Ì‘Ž®‚âƒRƒƒ“ƒg—“‚ÌƒXƒ^ƒCƒ‹‚È‚Çj‚¾‚¯‚ðƒRƒs[‚µ‚ÄŽg‚Á‚Ä‚à‚©‚Ü‚¢‚Ü‚¹‚ñB
-    ‚à‚¿‚ë‚ñ‚»‚Ì‚Ü‚Ü‚Ìó‘Ô‚Å‚àAƒVƒ“ƒvƒ‹‚Èƒe[ƒ}‚Æ‚µ‚ÄŽg‚¤‚±‚Æ‚ª‚Å‚«‚Ü‚·B
-    ‚±‚ÌCSS‚¨‚æ‚ÑLESSƒtƒ@ƒCƒ‹‚ÍŽ©—R‚É•¡»EÄ”z•z‚Å‚«‚Ü‚·B
-    ‚±‚Ìƒe[ƒ}‚ð‚à‚Æ‚É‚µ‚½ƒfƒUƒCƒ“ƒe[ƒ}‚Ì”z•z‚àŽ©—R‚Å‚·B
+    ã¯ã¦ãªãƒ–ãƒ­ã‚°ã®ãƒ‡ã‚¶ã‚¤ãƒ³CSSã‚«ã‚¹ã‚¿ãƒžã‚¤ã‚ºã®åœŸå°ã«é©ã—ãŸãƒ‡ã‚¶ã‚¤ãƒ³ãƒ†ãƒ¼ãƒžã§ã™ã€‚
+    ã“ã®ãƒ†ãƒ¼ãƒžã‚’ã‚‚ã¨ã«ã—ã¦CSSã‚’æ›¸ãã¨æ¯”è¼ƒçš„æ¥½ã«ã‚«ã‚¹ã‚¿ãƒžã‚¤ã‚ºã§ãã¾ã™ã€‚
+    ç‰¹å®šã®éƒ¨åˆ†ï¼ˆä¾‹ãˆã°è¨˜äº‹æœ¬æ–‡ã®æ›¸å¼ã‚„ã‚³ãƒ¡ãƒ³ãƒˆæ¬„ã®ã‚¹ã‚¿ã‚¤ãƒ«ãªã©ï¼‰ã ã‘ã‚’ã‚³ãƒ”ãƒ¼ã—ã¦ä½¿ã£ã¦ã‚‚ã‹ã¾ã„ã¾ã›ã‚“ã€‚
+    ã‚‚ã¡ã‚ã‚“ãã®ã¾ã¾ã®çŠ¶æ…‹ã§ã‚‚ã€ã‚·ãƒ³ãƒ—ãƒ«ãªãƒ†ãƒ¼ãƒžã¨ã—ã¦ä½¿ã†ã“ã¨ãŒã§ãã¾ã™ã€‚
+    ã“ã®CSSãŠã‚ˆã³LESSãƒ•ã‚¡ã‚¤ãƒ«ã¯è‡ªç”±ã«è¤‡è£½ãƒ»å†é…å¸ƒã§ãã¾ã™ã€‚
+    ã“ã®ãƒ†ãƒ¼ãƒžã‚’ã‚‚ã¨ã«ã—ãŸãƒ‡ã‚¶ã‚¤ãƒ³ãƒ†ãƒ¼ãƒžã®é…å¸ƒã‚‚è‡ªç”±ã§ã™ã€‚
 
   Licensed under the MIT license.
 */
@@ -398,7 +391,7 @@ th {
 body {
   background: #fff;
   color: #1a1a1a;
-  font: 15px/1.6 "ƒqƒ‰ƒMƒmŠpƒS ProN W3", "Hiragino Kaku Gothic ProN", "Meiryo", Helvetica, Arial, sans-serif;
+  font: 15px/1.6 "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ ProN W3", "Hiragino Kaku Gothic ProN", "Meiryo", Helvetica, Arial, sans-serif;
 }
 html,
 body {
