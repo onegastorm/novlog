@@ -565,7 +565,7 @@ a.keyword {
 
 /* ---- END 1カラム */
 
-/* header */
+/* ★header */
 
 #blog-title {
   display: none;
@@ -605,7 +605,7 @@ a.keyword {
   border: 1px solid #dddddd;
   padding: 10px;
 }
-/* entry */
+/* ★entry */
 
 .entry {
   position: relative;
@@ -641,7 +641,11 @@ a.keyword {
   font-size: 160%;
 }
 */
-/* 日付 */
+
+/* ★日付 */
+
+.date { display: none; }
+/*
 .date {
   font-weight: bold;
   margin-bottom: 10px;
@@ -651,6 +655,8 @@ a.keyword {
   text-decoration: none;
   font-size: 90%;
 }
+*/
+
 /* カテゴリ */
 .categories {
   margin-top: 10px;
