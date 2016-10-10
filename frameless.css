@@ -562,23 +562,24 @@ a.keyword {
   margin: 0;
   text-align: center;
 }
+/* 日付 */
+/*
 .date {
   position: absolute;
   border-top: 1px solid #999999;
   font-size: 11px;
   z-index: 100;
 }
-/*
 .date .hyphen {
   padding: 2px;
   color: #999999;
 }
-*/
 .date a {
   color: #1a1a1a;
   text-decoration: none;
   display: inline-block;
 }
+*/
 /* カテゴリ */
 .categories {
   font-size: 11px;
