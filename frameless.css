@@ -984,9 +984,13 @@ a.keyword {
 }
 .comment-user-name {
   margin: 0;
-  font-weight: bold;
-  color: #aaaaaa;
 }
+/*
+.comment-user-name {
+  margin: 0;
+  font-weight: bold;
+}
+*/
 .comment-content {
   margin: 0;
   word-wrap: break-word;
