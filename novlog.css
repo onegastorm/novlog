@@ -777,7 +777,6 @@ text-decoration:underline;
   text-decoration: none !important;
 }
 */
-
 /* entry-content の中の書式 */
 .entry-content {
   font-size: 95%;
@@ -1157,7 +1156,7 @@ text-decoration:underline;
   #box2 {
     width: 245px;
   }
-  /* 1カラムにしたい場合は下記のコメントアウトを外してください ---- */
+  /* 1カラムにしたい場合は下記のコメントアウトを外してください ----
       #main,
       #box2 {
           width: 100%;
@@ -1171,7 +1170,7 @@ text-decoration:underline;
       .hatena-module {
           width: 228px;
       }
-  ---- END 1カラム /**/
+  ---- END 1カラム */
 }
 /* Media Queries - Small Tablet & Smartphone */
 @media (max-width: 767px) {
