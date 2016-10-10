@@ -1035,8 +1035,16 @@ a.keyword {
 .hatena-module-title {
   font-size: 13px;
   float: left;
+  margin:0 0 0 10%;
   width: 200px;
 }
+/*
+.hatena-module-title {
+  font-size: 13px;
+  float: left;
+  width: 200px;
+}
+*/
 .hatena-module-title a {
   color: #1a1a1a;
   text-decoration: none;
