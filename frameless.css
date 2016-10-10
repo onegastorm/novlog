@@ -984,6 +984,7 @@ a.keyword {
 }
 .comment-user-name {
   margin: 0;
+  font-size: 24px;
   font-weight: bold;
 }
 .comment-content {
