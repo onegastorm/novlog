@@ -1175,6 +1175,20 @@ a.keyword {
 /* Footer */
 #footer {
   padding: 30px 0;
+  text-align: center;
+  color: #999999;
+  line-height: 1.5;
+  font-size: 80%;
+}
+#footer p {
+  margin: 0;
+}
+#footer a {
+  color: #999999;
+}
+/*
+#footer {
+  padding: 30px 0;
   text-align: left;
   color: #999999;
   line-height: 1.5;
@@ -1194,6 +1208,7 @@ a.keyword {
   display: inline;
   padding-right: 1em;
 }
+*/
 /* About ページ */
 .page-about .entry-content {
   text-align: left;
