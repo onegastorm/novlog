@@ -613,7 +613,7 @@ a.keyword {
   font-size: 11px;
   position: absolute;
   left: 0;
-  bottom: 40%;
+  bottom: 45%;
 }
 /*
 .categories {
@@ -625,7 +625,7 @@ a.keyword {
 */
 .categories a {
   text-decoration: none;
-  color: #999999;
+  color: #9999ff;
   padding-left: 5px;
 }
 /* カテゴリの前に#をつける
