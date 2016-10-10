@@ -559,7 +559,7 @@ a.keyword {
 .date,
 .entry-title,
 .categories {
-  line-height: 20px;
+  line-height: 28px;
 }
 /*
 .date,
@@ -572,9 +572,17 @@ a.keyword {
   display: inline;
   font-size: 13px;
   font-weight: normal;
+  margin: 0 0 0 100px;
+}
+/*
+.entry-title {
+  display: inline;
+  font-size: 13px;
+  font-weight: normal;
   margin: 0;
   text-align: center;
 }
+*/
 /* 日付 */
 .date { display: none; }
 /*
