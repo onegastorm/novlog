@@ -1076,11 +1076,13 @@ a.keyword {
 .hatena-module-profile .profile-description p {
   margin: 10px 0;
 }
+/*
 .hatena-follow-button-box {
   display: inline-block;
   margin: 0;
   vertical-align: middle;
 }
+*/
 /* urllist module
     リンク・最新記事・最近のコメント・月別アーカイブ・カテゴリモジュールは .hatena-urllist という共通の class が振られます
 */
