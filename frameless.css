@@ -1008,9 +1008,10 @@ a.keyword {
 }
 /* sidebar */
 #box2 {
-  width: 400px;
+  width: 600px;
   font-size: 13px;
   margin-bottom: 0px;
+  margin-left: 20%;
 }
 /*
 #box2 {
