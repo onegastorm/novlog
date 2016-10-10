@@ -1186,29 +1186,6 @@ a.keyword {
 #footer a {
   color: #999999;
 }
-/*
-#footer {
-  padding: 30px 0;
-  text-align: left;
-  color: #999999;
-  line-height: 1.5;
-  font-size: 11px;
-  max-width: 1230px;
-  margin: 0 auto;
-}
-#footer p {
-  margin: 0;
-}
-#footer a {
-  color: #999999;
-  text-decoration: none;
-}
-#footer address,
-#footer .services {
-  display: inline;
-  padding-right: 1em;
-}
-*/
 /* About ページ */
 .page-about dt {
   font-size: 16px;
@@ -1220,24 +1197,6 @@ a.keyword {
   margin-left: 0;
   margin-bottom: 30px;
 }
-/*
-.page-about .entry-content {
-  text-align: left;
-}
-.page-about .entry-content img {
-  margin: 0;
-  display: inline-block;
-  vertical-align: middle;
-}
-.page-about dt {
-  font-size: 13px;
-  color: #999999;
-}
-.page-about dd {
-  margin-left: 0;
-  margin-bottom: 30px;
-}
-*/
 /* archive ページ */
 .page-archive .archive-entries .archive-entry {
   margin-bottom: 3em;
@@ -1266,30 +1225,3 @@ a.keyword {
   *zoom: 1;
   margin-right: 2px;
 }
-/*
-.page-archive .archive-entries {
-  margin-bottom: 100px;
-}
-.page-archive .archive-entries .date {
-  position: static;
-}
-.page-archive .archive-entries .archive-entry {
-  position: relative;
-  margin-bottom: 3em;
-}
-.page-archive .archive-entries .entry-title {
-  font-size: 13px;
-  margin: 0 0 .5em;
-}
-.page-archive .archive-entries .categories {
-  margin: 0 0 .5em;
-}
-.page-archive .archive-entries .entry-description {
-  margin: 0 0 1em;
-  line-height: 1.7em;
-  font-size: 13px;
-}
-.page-archive .entry-thumb {
-  margin-right: 80px;
-}
-*/
