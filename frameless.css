@@ -1009,8 +1009,14 @@ a.keyword {
 /* sidebar */
 #box2 {
   font-size: 13px;
+  margin-bottom: 0px;
+}
+/*
+#box2 {
+  font-size: 13px;
   margin-bottom: 50px;
 }
+*/
 .hatena-module {
   border-top: 1px solid #999999;
   padding-top: .5em;
