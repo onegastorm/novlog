@@ -638,9 +638,8 @@ a.keyword {
 }
 /* 「編集する」ボタン */
 .entry-header-menu {
-  position: absolute;
-  bottom: 0px;
   position: center;
+  bottom: 0px;
 }
 /*
 .entry-header-menu {
