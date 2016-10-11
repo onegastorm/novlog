@@ -482,7 +482,7 @@ a.keyword {
 /* 記事フッター内のいろいろな小さいボタンの配置についての指定です。わりとどうでもいいです。*/
 /*.social-buttons,.entry-footer-html {  margin: 10px 0;}*/
 /* はてなスターとかを規定します。だと思います。 */
-.social-buttons,.entry-footer-html {  margin: 100px 100px 100px 100px;}
+.social-buttons,.entry-footer-html {  margin: 0 0 0 0;}
 
 
 
