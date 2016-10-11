@@ -333,9 +333,10 @@ a.keyword {
 .entry-header {  position: relative;/*  text-align: left;*/  background: #FFFF00;}
 /* 日付部、記事タイトル部、カテゴリー部のline-heightを指定します。 */
 .date,.entry-title,.categories {  line-height: 0px;}
+/* 記事タイトルを規定します。 */
 .entry-title {
   display: inline;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: normal;
   margin-left: 1.4%;
 }
