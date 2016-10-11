@@ -336,8 +336,7 @@ a.keyword {
 /* 記事タイトルを規定します。 */
 .entry-title {
   display: inline;
-  font-size: 20px;
-  font-weight: normal;
+  font-size: 11px;
   margin-left: 1.4%;
 }
 /*
