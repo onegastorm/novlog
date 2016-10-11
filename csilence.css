@@ -240,7 +240,7 @@ article {
   clear: both;
   margin: 0 auto;
   text-align: center;
-  background: rgba(256,0,0,0.02);
+  background: rgba(256,0,0,0.2);
 }
 #footer a {
   color: inherit;
