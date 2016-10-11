@@ -325,11 +325,11 @@ a.keyword {
 }
 #title {
   background: #FFCCCC;
-  font {color: #CCCCCC;}
 /*  margin: 0;
   font-size: 18px;*/
 }
 #title a {
+  background: #CCCCCC;
   color: #FFFFCC;
 }
 /* blog-descriptionはタイトル下のリードらしいです。 */
