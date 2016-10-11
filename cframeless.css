@@ -448,9 +448,9 @@ a.keyword {
 }
 */
 .entry-header-menu a:hover {
-  background-color: #CCCCCC;
-  transition:1.0s;
-  text-decoration: none !important;
+  background-color: #DDDDDD;
+  transition:2.0s;
+/*  text-decoration: none !important;*/
 }
 /*
 .entry-header-menu a:hover {
