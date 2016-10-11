@@ -319,11 +319,12 @@ a.keyword {
   display: none;
 }*/
 #blog-title {
-  margin: 120px 0;
-  padding: 20px 0;
+/*  margin: 120px 0;
+  padding: 20px 0;*/
   background: #CCCCFF;
 }
 #title {
+  background: #FFCCCC;
 /*  margin: 0;
   font-size: 18px;*/
 }
