@@ -291,13 +291,13 @@ a.keyword {
 
 /* Globalheader ---------------------------------------- */
 /* Globalheaderの中はiframeですが、 #globalheader-container に背景色や文字色を指定することでirameの中にも色が反映されます。 */
-#globalheader-container {  background-color: #FFF;  color: #999;  width: 980px;}
+#globalheader-container {  background-color: #FFF;  color: #999;  width: 978px;}
 
 /* Container ---------------------------------------- */
 /* ブログタイトル部、本文タイトル部、本文部、コメント部などを包括するテーブルです。 */
 
 /* テーブル全体の領域を規定します。 */
-#container {  background-color: #3FF;  width: 980px;  margin: 0 auto;}
+#container {  background-color: #3FF;  width: 978px;  margin: 0 auto;}
 /* メインカラムの領域を規定します。 */
 #container #content {  width: 973px;}
 /* Container内側の余白を規定します。必要ないがあえてのこしておきます。 */
@@ -305,7 +305,7 @@ a.keyword {
 /* メインカラムの幅を規定します。 */
 /*#main {  width: 973px;}*/
 /* box2の幅を規定しておきます。 */
-#box2 {  width: 980px;}
+#box2 {  width: 978px;}
 
 /* Blogtitle(header) ---------------------------------------- */
 /* ブログタイトル部、リード部を包括するテーブルです。 */
