@@ -304,6 +304,8 @@ a.keyword {
 #container-inner {  padding: 0 0 0 0;}
 /* メインカラムの幅を規定します。 */
 /*#main {  width: 973px;}*/
+/* box2の幅を規定しておきます。 */
+#box2 {  width: 980px;}
 
 /* Blogtitle(header) ---------------------------------------- */
 /* ブログタイトル部、リード部を包括するテーブルです。 */
@@ -546,7 +548,6 @@ a.keyword {
 /* box2についての指定です。 */
 
 #box2 {
-  width: 100%;
   font-size: 13px;
   margin-left: 50px;
 　background: #555555;
