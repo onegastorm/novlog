@@ -294,7 +294,7 @@ a.keyword {
 /* Globalheader ---------------------------------------- */
 /* Globalheaderの中はiframeですが、 #globalheader-container に背景色や文字色を指定することでirameの中にも色が反映されます。 */
 #globalheader-container {
-  background-color: #fff;
+  background-color: #FFF;
   color: #999;
   top: 0;
   left: 0;
@@ -305,19 +305,19 @@ a.keyword {
 #container {
   background-color: #3FF;
   width: 973px;
-/*  max-width: 1280px; */
   margin: 0 auto;
 }
 /* 必要ないがあえて */
 #container-inner {
-  padding: 0px 0px 0px 0px;
+  padding: 100px 100px 100px 100px;
 }
 /*
 #container-inner {
   padding: 0 25px;
 }
 */
-/* header*/
+
+/* header ---------------------------------------- */
 #blog-title {
   display: none;
 }
