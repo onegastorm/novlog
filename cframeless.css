@@ -403,7 +403,6 @@ a.keyword {
 /*  background-color: #ffffff;*/
 /*  text-align: center;*/
 /*  vertical-align: middle;*/
-/*  border-radius: 3px;*/
   cursor: pointer;
   padding: 2px 10px;
   font-size: 12px;
@@ -411,6 +410,7 @@ a.keyword {
   text-decoration: none;
 /*  font-weight: bold;*/
   border: 1px solid #C0C0C0;
+  border-radius: 3px;
 /*  text-decoration: none !important;*/
 }
 /* 編集ボタンのマウスオーバー時の動作を指定します。 */
