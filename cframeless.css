@@ -391,13 +391,13 @@ a.keyword {
 /* 「編集する」ボタン */
 .entry-header-menu {
   position: absolute;
-/*  bottom: 0px;*/
+  bottom: 0px;
 /*  left: -40px;*/
 }
 /* 編集ボタンの造作を指定します。 */
 .entry-header-menu a {
-  display: inline-block;
-  *display: inline;
+/*  display: inline-block;*/
+/*  *display: inline;*/
 /*  *zoom:1;*/
 /*  line-height: 18px;*/
 /*  text-align: center;*/
