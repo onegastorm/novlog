@@ -296,8 +296,8 @@ a.keyword {
 #globalheader-container {
   background-color: #FFF;
   color: #999;
-  top: 0;
-  left: 0;
+  top: 100px;
+  left: 100px;
   width: 100%;
 }
 
