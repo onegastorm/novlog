@@ -349,7 +349,7 @@ a.keyword {
 /* 日付ボタンの装飾を指定します。 */
 .date a {  color: #1a1a1a;  text-decoration: none;  display: inline-block;}
 /* カテゴリボタンの領域を規定します。 */
-.categories {  position: absolute;  font-size: 11px;  right: 10%;  top: 44%;}
+.categories {  position: absolute;  font-size: 11px;  right: 10%;  top: 50%;}
 /* カテゴリボタンの装飾を指定します。 */
 .categories a {
   cursor: pointer;
@@ -365,7 +365,7 @@ a.keyword {
 /* 記事がカテゴリーに属していなかった時の動作を指定します。 */
 .categories.no-categories {  margin: 0;}
 /* 編集ボタンの領域を規定します。 */
-.entry-header-menu {  position: absolute;  font-size: 11pz;  bottom: 8%;  left: -4%;}
+.entry-header-menu {  position: absolute;  font-size: 11pz;  bottom: 4%;  left: -6%;}
 /* 編集ボタンの装飾を指定します。 */
 .entry-header-menu a {
 /*  display: inline-block;
