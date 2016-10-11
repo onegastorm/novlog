@@ -356,7 +356,7 @@ a.keyword {
 .categories.no-categories {  margin: 0;}
 
 /* 編集ボタンの領域を規定します。 */
-.entry-header-menu {  position: absolute;  font-size: 11px;  left: -3%;  bottom: 10%;}
+.entry-header-menu {  position: absolute;  font-size: 11px;  left: -3%;  bottom: 44%;}
 /* 編集ボタンの装飾を指定します。 */
 .entry-header-menu a {
 /*  display: inline-block;
@@ -372,7 +372,6 @@ a.keyword {
   border: 1px solid #CCCCCC;
   border-radius: 3px;
   background: #FFFFFF;
-/*  text-decoration: none !important;*/
 }
 /* 編集ボタンのマウスオーバー時の動作を指定します。 */
 .entry-header-menu a:hover {  background: #F5F5F5;}
