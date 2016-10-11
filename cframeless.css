@@ -397,6 +397,7 @@ a.keyword {
 /*  left: -40px;*/
 }
 /* 編集ボタンの造作を指定します。 */
+/*
 .entry-header-menu a {
   display: inline-block;
   *display: inline;
@@ -414,7 +415,7 @@ a.keyword {
   font-weight: ;
   border: 1px solid #C0C0C0;
   text-decoration: none !important;
-}
+}*/
 /* 編集ボタンのマウスオーバー時の動作を指定します。 */
 .entry-header-menu a:hover {
   background: #EEEEEE;
