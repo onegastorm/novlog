@@ -222,6 +222,7 @@ article {
 
 /* box1, box2 ------------------------------------------------------------*/
 #box1, #box2 {
+  padding-top: 0;
   padding-right: 8%;
   background: #CCCCCC;
   /* アルファ値は処理が重いというもっぱらのうわさです。
