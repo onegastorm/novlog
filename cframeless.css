@@ -520,7 +520,7 @@ a.keyword {
 .comment-metadata {  font-size: 11px;  color: #777777;  margin: 0; text-align: right;}
 .comment-metadata a {  color: #555555;}
 /* 書き込みボタンの領域を規定します。 */
-.leave-comment-title {  font-size: 11px;  padding: 24px;  margin-left: 28px;
+.leave-comment-title {  font-size: 11px;  padding: 24px;  margin-left: 28px; padding-bottom; 10px;
 /*  display: inline-block;
   *display: inline;
   *zoom:1;
