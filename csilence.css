@@ -232,6 +232,7 @@ article {
   background: #CCFFCC;
 }
 #box2 {
+  width: 600px;
   background: #CCCCCC;
 }
 
@@ -249,7 +250,7 @@ article {
 #footer {
   clear: both;
   width:100%;
-  padding: 10px 0 40px;
+  padding: 10px 0 30px;
   margin: 0 auto;
   text-align: center;
   background: #FFCCCC;
