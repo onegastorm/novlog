@@ -476,7 +476,7 @@ a.keyword {
 /* entry-footer */
 .entry-footer {
   background: #AAAACC;
-  margin-top: 100px;
+  margin-top: 0px;
 }
 .entry-footer-section {
   font-size: 80%;
