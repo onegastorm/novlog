@@ -223,12 +223,17 @@ article {
 /* box1, box2 ------------------------------------------------------------*/
 /* アルファ値は処理が重いというもっぱらのうわさです。
 #box1, #box2 {
+  padding: 0 8%;
   background: #CCCCCC;
   background: rgba(0,0,0,0.02);
 }
 */
-#box1 { background: #CCFFCC;}
-#box1 { background: #CCCCFF;}
+#box1 {
+  background: #CCFFCC;
+}
+#box2 {
+  background: #CCCCFF;
+}
 
 #box1:before, #box1:after { content: " "; display: table; }
 #box2:before, #box2:after { content: " "; display: table; }
