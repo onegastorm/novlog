@@ -361,19 +361,14 @@ a.keyword {
 
 
 /* カテゴリボタンの領域を規定します。 */
-.categories {
-  font-size: 11px;
-/*  position: absolute;*/
-  right: 10%;
-  bottom: 44%;
-}
+.categories {  position: absolute;  font-size: 11px;  right: 10%;  bottom: 44%;}
 /* カテゴリボタンの装飾を指定します。 */
 .categories a {  text-decoration: none;  color: #99FF99;}
 /* 記事がカテゴリーに属していなかった時の動作を指定します。 */
 .categories.no-categories {  margin: 0;}
 
 /* 編集ボタンの領域を規定します。 */
-.entry-header-menu {  position: absolute;  bottom: 0px;  left: -40px;}
+.entry-header-menu {  position: absolute;  bottom: 0%;  left: -40px;}
 /* 編集ボタンの装飾を指定します。 */
 .entry-header-menu a {
 /*  display: inline-block;
