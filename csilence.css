@@ -246,7 +246,7 @@ article {
 /* アルファ値は処理が重いというもっぱらのうわさです。
   background: rgba(256,0,0,0.2);
 */
-  line-height: 80%;
+  line-height: 40%;
   font-size: 80%;
 }
 #footer a {
