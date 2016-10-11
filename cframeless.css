@@ -509,7 +509,7 @@ a.keyword {
   background-clip: padding-box;
 }
 /* 投稿者名の領域を規定します。 */
-.comment-user-name {  margin: 5px;}
+.comment-user-name {  margin: 4px 0 0 0;}
 /* 投稿者名の装飾を指定します。 */
 .comment-user-name a {  color: #777777;  text-decoration: none;}
 /* 本文の折り返しを指定しています。 */
