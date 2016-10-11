@@ -332,9 +332,9 @@ a.keyword {
 }
 /* blog-descriptionはタイトル下のリードらしいです。 */
 #blog-description {
-  font-weight: normal;
+/*  font-weight: normal;
   font-size: 11px;
-  margin: 5px 0 0 0;
+  margin: 5px 0 0 0;*/
   background: #CCFFCC;
 }
 
