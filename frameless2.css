@@ -339,78 +339,55 @@ a.keyword {
 .entry-header {  position: relative;/*  text-align: left;*/  background: #FFFF00;}
 /* 日付部、記事タイトル部、カテゴリー部のline-heightを指定します。 */
 .date,.entry-title,.categories {  line-height: 0px;}
-.entry-title {
-  display: inline;
-  font-size: 13px;
-  font-weight: normal;
-  margin: 0;
-  text-align: center;
-}
-.date {
-  position: absolute;
-  border-top: 1px solid #999999;
-  font-size: 11px;
-  z-index: 100;
-}
-.date .hyphen {
-  padding: 2px;
-  color: #999999;
-}
-.date a {
-  color: #1a1a1a;
-  text-decoration: none;
-  display: inline-block;
-}
-.categories {
-  font-size: 11px;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
+/* 記事タイトルを規定します。 */
+.entry-title {  display: inline;  font-size: 13px;  font-weight: normal;  margin: 0;}
+/* 日付ボタンの領域を規定します。 */
+.date { display: none; }
+/*.date {  position: absolute;  font-size: 11px;  z-index: 100;  background: #AAAAFF;}*/
+/* ハイフネーションを指定します。 */
+.date .hyphen {  padding: 2px;  color: #999999;}
+/* 日付ボタンの装飾を指定します。 */
+.date a {  color: #1a1a1a;  text-decoration: none;  display: inline-block;}
+/* カテゴリボタンの領域を規定します。 */
+.categories {  position: absolute;  font-size: 11px;  right: 10%;  top: 44%;}
+/* カテゴリボタンの装飾を指定します。 */
 .categories a {
-  text-decoration: none;
-  color: #999999;
-  padding-left: 5px;
-}
-.categories a:before {
-  content: "#";
-}
-.categories.no-categories {
-  margin: 0;
-}
-.entry-header-menu {
-  position: absolute;
-  bottom: 0px;
-  left: -60px;
-}
-.entry-header-menu a {
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
-  padding: 4px 10px 4px;
-  margin-bottom: 0;
-  line-height: 18px;
-  color: #1a1a1a;
-  background-color: #ffffff;
-  text-align: center;
-  vertical-align: middle;
-  border-top-right-radius: 2px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
-  border-radius: 2px;
-  background-clip: padding-box;
   cursor: pointer;
-  font-size: 12px;
+  padding: 2px 10px;
+  color: #CCCCCC;
   text-decoration: none;
-  font-weight: bold;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  text-decoration: none !important;
+  border: 1px solid #CCCCCC;
+  border-radius: 3px;
+  background: #FFFFFF;
 }
-.entry-header-menu a:hover {
-  background-color: #f5f5f5;
-  text-decoration: none !important;
+/* カテゴリボタンのマウスオーバー時の動作を指定します。 */
+.categories a:hover {  background: #F3F3F3;}
+/* 記事がカテゴリーに属していなかった時の動作を指定します。 */
+.categories.no-categories {  margin: 0;}
+/* 編集ボタンの領域を規定します。 */
+.entry-header-menu {  position: absolute;  font-size: 11pz;  bottom: 8%;  left: -4%;}
+/* 編集ボタンの装飾を指定します。 */
+.entry-header-menu a {
+/*  display: inline-block;
+  *display: inline;
+  *zoom:1;
+  line-height: 18px;
+  text-align: center;
+  vertical-align: middle;*/
+  cursor: pointer;
+  padding: 2px 10px;
+  color: #CCCCCC;
+  text-decoration: none;
+  border: 1px solid #CCCCCC;
+  border-radius: 3px;
+  background: #FFFFFF;
 }
+/* 編集ボタンのマウスオーバー時の動作を指定します。 */
+.entry-header-menu a:hover {  background: #F3F3F3;}
+
+/* entry-content ---------------------------------------- */
+/* 記事本文のテーブルです。boilerplateからのこぴぺです。ここでは無視します。 */
+
 .entry-content {
   text-align: center;
 }
