@@ -325,8 +325,9 @@ a.keyword {
 /*#blog-description {  background: #CCFFCC;}*/
 
 /* Entry ---------------------------------------- */
-/* 記事タイトル部、日付部、カテゴリー表示部、記事本文部などを包括するテーブルです。*/
+/* 記事タイトル部、日付部、カテゴリー表示部、記事本文部、コメント部などを包括するテーブルです。*/
 
+/* テーブル全体の領域を規定します。 */
 .entry {
   position: relative;
   margin-bottom: 0px;
@@ -335,20 +336,8 @@ a.keyword {
 .entry-header {
   position: relative;
   text-align: left;
+  background: #FFFF00;
 }
-/*
-.entry-header {
-  position: relative;
-  text-align: center;
-}
-*/
-/*
-.entry-header {
-  position: relative;
-  margin-bottom: 10px;
-  text-align: center;
-}
-*/
 .date,
 .entry-title,
 .categories {
