@@ -427,9 +427,11 @@ a.keyword {
 /* 編集ボタンのマウスオーバー時の動作を指定します。 */
 .entry-header-menu a:hover {
   background: #EEEEEE;
-  transition:1.0s;
+/*  transition:1.0s;*/
 /*  text-decoration: none !important;*/
 }
+
+
 
 /* entry-content の中の書式 ---------------------------------------- */
 .entry-content {
