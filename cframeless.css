@@ -409,8 +409,8 @@ a.keyword {
 /*  cursor: pointer;*/
   font-size: 12px;
   text-decoration: none;
-  font-weight: ;
-/*  border: 1px solid #C0C0C0;*/
+  font-weight: bold;
+  border: 1px solid #C0C0C0;
 /*  text-decoration: none !important;*/
 }
 /* 編集ボタンのマウスオーバー時の動作を指定します。 */
