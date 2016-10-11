@@ -517,7 +517,7 @@ a.keyword {
 /* よくわからないので触らないでおきます。 */
 .comment-content p {  margin: 0;}
 /* 投稿時間の装飾を指定しています。 */
-.comment-metadata {  font-size: 11px;  color: #777777;  margin: 0;}
+.comment-metadata {  font-size: 11px;  color: #777777;  margin: 0; text-align: right;}
 .comment-metadata a {  color: #555555;}
 /* 書き込みボタンの領域を規定しています。 */
 .leave-comment-title {
