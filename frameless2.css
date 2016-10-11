@@ -492,7 +492,7 @@ a.keyword {
 #container {
   width: 100%;
   margin: 0 auto;
-   color: #FFEEEE;
+  background: #FFEEEE;
 }
 #container #content {  width: 940px}
 #container-inner {
@@ -500,7 +500,7 @@ a.keyword {
 }
 
 #blog-title {
-  color: #EEFFEE;
+  background: #EEFFEE;
   margin: 120px 0;
   padding: 20px 0;
 }
@@ -518,7 +518,7 @@ a.keyword {
 }
 
 .entry {
-  color: #EEEEFF;
+  background: #EEEEFF;
   position: relative;
   margin-bottom: 200px;
 }
