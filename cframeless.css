@@ -341,9 +341,9 @@ a.keyword {
   margin: 20px 30px 40px 50px;
 /*  margin-left: 1.4%;*/
 }
-/* 日付 */
-.date { display: none; }
-/*
+/* 日付を規定します。 */
+/*.date { display: none; }*/
+
 .date {
   position: absolute;
   border-top: 1px solid #999999;
@@ -359,7 +359,9 @@ a.keyword {
   text-decoration: none;
   display: inline-block;
 }
-*/
+
+
+
 /* カテゴリ */
 .categories {
   font-size: 11px;
