@@ -783,6 +783,7 @@ a.keyword {
   text-align: center;
 }
 #box2 {
+  width: 100%;
   background: #FFFFEE;
   font-size: 13px;
   margin-bottom: 50px;
