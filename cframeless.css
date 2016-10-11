@@ -201,8 +201,6 @@ th {
   overflow: hidden;
 }
 
-/* import variable ======================================== */
-
 /* Common ---------------------------------------- */
 body {
   background: #fff;
@@ -411,7 +409,7 @@ a.keyword {
 /*  cursor: pointer;*/
   font-size: 12px;
   text-decoration: none;
-/*  font-weight: ;*/
+  font-weight: ;
 /*  border: 1px solid #C0C0C0;*/
 /*  text-decoration: none !important;*/
 }
