@@ -339,7 +339,7 @@ a.keyword {
 /*.date a {  color: #1a1a1a;  text-decoration: none;  display: inline-block;}*/
 
 /* カテゴリボタンの領域を規定します。 */
-.categories {  position: absolute;  font-size: 11px;  right: 10%;  bottom: 44%;}
+.categories {  position: absolute;  font-size: 11px;  right: 10%;  bottom: 20%;}
 /* カテゴリボタンの装飾を指定します。 */
 .categories a {
   cursor: pointer;
