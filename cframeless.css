@@ -478,10 +478,8 @@ a.keyword {
 /* 実質的には文責と時間程度ですかね。 */
 .entry-footer-section {  font-size: 80%;  color: #999999;}
 /* とりあえず何もしなくていいみたいです。 */
-/*.entry-footer-section a {  color: #999999;}*/
-/* 記事フッター内のいろいろな小さいボタンの配置についての指定です。わりとどうでもいいです。*/
-.social-buttons,.entry-footer-html {  margin: 100px 100px 100px 100px;}
-/* はてなスターとかを規定します。だと思います。 */
+.entry-footer-section a {  color: #FF0000;}*/
+/* はてなスターとかのブタン類を規定します。だと思います。 */
 .social-buttons,.entry-footer-html {  margin: 0 0 0 0;}
 
 
