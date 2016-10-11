@@ -239,14 +239,14 @@ article {
 #footer {
   clear: both;
   width:100%;
-  padding: 20px;
+  padding: 10px;
   margin: 0 auto;
   text-align: center;
   background: #FFCCCC;
 /* アルファ値は処理が重いというもっぱらのうわさです。
   background: rgba(256,0,0,0.2);
 */
-  line-height: 1.5;
+  line-height: 1.0;
   font-size: 80%;
 }
 #footer a {
