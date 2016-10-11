@@ -324,10 +324,13 @@ a.keyword {
 /* タイトル下のリードの領域を規定します。 */
 /*#blog-description {  background: #CCFFCC;}*/
 
+/* Entry ---------------------------------------- */
+/* 記事タイトル部、日付部、カテゴリー表示部、記事本文部などがあります。*/
 
 .entry {
   position: relative;
   margin-bottom: 200px;
+  background: #AAFFAA;
 }
 .entry-header {
   position: relative;
