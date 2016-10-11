@@ -518,15 +518,9 @@ a.keyword {
   background-clip: padding-box;
 }
 /* 投稿者名の装飾を指定します。 */
-.comment-user-name {
-  margin: 0;
-  color: #CCCCCC;
-/*  font-weight: bold;*/
-/*  text-decoration: none;*/
-}
-.comment-user-name a {
-  text-decoration: none;
-}
+.comment-user-name {  margin: 0;}
+.comment-user-name a {  color: #CCCCCC;  text-decoration: none;}
+
 .comment-content {
   margin: 0;
   word-wrap: break-word;
