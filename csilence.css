@@ -239,9 +239,8 @@ article {
 #footer {
   clear: both;
   margin: 0 auto;
-  padding: 0 0 0px;
   text-align: center;
-  background: rgba(0,0,0,0.02);
+  background: rgba(256,0,0,0.02);
 }
 #footer a {
   color: inherit;
