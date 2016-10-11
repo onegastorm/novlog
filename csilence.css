@@ -1,10 +1,3 @@
-/*
-Theme Name: Silence
-Theme URI: http://blog.hatena.ne.jp/-/store/theme/12921228815732989380
-Description: ‚ ‚È‚½‚Ì‘‚¢‚½•¶Í‚ğAÃ‚©‚É“Ç‚İè‚Ö‚Æ“Í‚¯‚é‚½‚ß‚Ìƒe[ƒ}‚Å‚·Bƒ^ƒCƒgƒ‹‚Íƒwƒbƒ_i¶ãj‚É‚ ‚é‚½‚ß”ñ•\¦AƒTƒCƒhƒo[‚Í”Ï‚í‚µ‚¢‚½‚ß‰º•”‚É”z’u‚µ‚Ä‚¢‚Ü‚·B
-Author: Dy66
-Author URI: http://blog.hatena.ne.jp/Dy66/
-*/
 @import url(http://fonts.googleapis.com/css?family=Lora:400,700);
 
 /* site ----------------------------------------------------------------*/
@@ -193,7 +186,7 @@ article {
   content: "by ";
 }
 .entry-footer .entry-footer-time:before {
-  content: " \ ";
+  content: " â€• ";
   padding: 0 0.4em;
 }
 
@@ -246,7 +239,7 @@ article {
 #footer {
   clear: both;
   margin: 0 auto;
-  padding: 0 0 80px;
+  padding: 0 0 0px;
   text-align: center;
   background: rgba(0,0,0,0.02);
 }
