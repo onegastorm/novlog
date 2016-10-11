@@ -330,12 +330,13 @@ a.keyword {
 /* テーブル全体の領域を規定します。 */
 .entry {
   position: relative;
-  margin-bottom: 0px;
+・/*  margin-bottom: 0px;*/
   background: #AAFFAA;
 }
+/* 記事タイトル部の領域を規定します。 */
 .entry-header {
   position: relative;
-  text-align: left;
+/*  text-align: left;*/
   background: #FFFF00;
 }
 .date,
