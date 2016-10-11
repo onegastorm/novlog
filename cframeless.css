@@ -476,11 +476,11 @@ a.keyword {
 /* 記事のフッターの領域を規定します。 */
 .entry-footer {  background: #FFEEEE;  margin:0 180px 0 180px;  padding-bottom: 60px;}
 /* 実質的には文責と時間程度ですかね。 */
-.entry-footer-section {  font-size: 80%;  color: #999999;  font-weight: normal;  text-decoration: none;}
+.entry-footer-section {  font-size: 80%;  color: #999999;  text-decoration: none;}
 /* とりあえず何もしなくていいみたいです。 */
-.entry-footer-section a {  color: #FF0000;  font-weight: normal;  text-decoration: none;}*/
+.entry-footer-section a {  color: #FF0000;}*/
 /* はてなスターとかのブタン類を規定します。だと思います。 */
-.social-buttons,.entry-footer-html {  margin: 0 0 0 0;  font-weight: normal;  text-decoration: none;}
+.social-buttons,.entry-footer-html {  margin: 0 0 0 0;}
 
 /* Comment-box ---------------------------------------- */
 /* コメント掲示板です。 */
@@ -521,7 +521,7 @@ a.keyword {
 .comment-user-name {
   margin: 0;
   color: #999999;
-  font-weight: bold;
+/*  font-weight: bold;*/
   text-decoration: none;
 }
 .comment-content {
