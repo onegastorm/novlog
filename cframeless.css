@@ -376,8 +376,9 @@ a.keyword {
 /* 編集ボタンのマウスオーバー時の動作を指定します。 */
 .entry-header-menu a:hover {  background: #F3F3F3;}
 
+/* entry-content ---------------------------------------- */
+/* 記事本文のテーブルです。ここでは無視します。 */
 
-/* entry-content の中の書式 ---------------------------------------- */
 .entry-content {
   font-size: 95%;
   line-height: 1.7;
@@ -468,9 +469,14 @@ a.keyword {
 .entry-content .hatena-asin-detail li {
   line-height: 1.4;
 }
+
+/* entry-footer ---------------------------------------- */
+/* 記事本文のフッターです。 */
+
 /* entry-footer */
 .entry-footer {
-  margin-top: 10px;
+  background: #AAAACC;
+  margin-top: 100px;
 }
 .entry-footer-section {
   font-size: 80%;
