@@ -524,6 +524,9 @@ a.keyword {
 /*  font-weight: bold;*/
 /*  text-decoration: none;*/
 }
+.comment-user-name a {
+  text-decoration: none;
+}
 .comment-content {
   margin: 0;
   word-wrap: break-word;
