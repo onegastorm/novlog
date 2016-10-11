@@ -486,29 +486,14 @@ a.keyword {
 /* Comment-box ---------------------------------------- */
 /* コメント掲示板です。 */
 
-/* 投稿されたコメントボックスの装飾を指定します。 */
-.comment-box ul {
-  list-style: none;
-  margin: 0 0 15px 0;
-  padding: 0;
-  font-size: 13px;
-  color: #999999;
-  text-align: left;
-}
 /* 投稿されたコメントボックスの領域を規定します。 */
-.comment-box li {
-  padding: 10px 20px 10px 60px;
-  border-bottom: 1px solid #999999;
-  position: relative;
-}
+.comment-box ul {  list-style: none;  margin: 0 0 15px 0;  padding: 0;  font-size: 13px;  color: #999999;  text-align: left;}
+/* 投稿されたコメントボックスの本文の領域を規定します。 */
+.comment-box li {  padding: 10px 20px 10px 60px;  border-bottom: 1px solid #999999;  position: relative;}
 /* コメントボックス最上段の罫線を指定します。 */
-.comment-box li:first-child {
-  border-top: 1px solid #999999;
-}
+.comment-box li:first-child {  border-top: 1px solid #999999;}
 /* コメントボックスを一覧表示するボタンのようなものと思われる。 */
-.comment-box .read-more-comments {
-  padding-left: 0;
-}
+.comment-box .read-more-comments {  padding-left: 0;}
 /* 投稿者のアイコンを指定します。 */
 .comment-box .hatena-id-icon {
   position: absolute;
@@ -523,17 +508,14 @@ a.keyword {
   border-radius: 12px;
   background-clip: padding-box;
 }
+/* 投稿者名の領域を規定します。 */
+.comment-user-name {  margin: 0;}
 /* 投稿者名の装飾を指定します。 */
-/*.comment-user-name {  margin: 0;}*/
 .comment-user-name a {  color: #999999;  text-decoration: none;}
-
-.comment-content {
-  margin: 0;
-  word-wrap: break-word;
-}
-.comment-content p {
-  margin: 0;
-}
+/* 本文の折り返しを指定しています。 */
+.comment-content {  margin: 0;  word-wrap: break-word;}
+/* よくわからないので触らないでおきます。 */
+.comment-content p {  margin: 0;}
 .comment-metadata {
   font-size: 11px;
   color: #999999;
