@@ -477,16 +477,17 @@ a.keyword {
 .entry-footer {  background: #CCAAAA;  margin-top: 0px;}
 /* フッター内のいろいろを指定します。 */
 .entry-footer-section {
-/*  font-size: 80%;
-  color: #999999;*/
+/*  font-size: 80%;*/
+  color: #999900;
 }
 .entry-footer-section a {
-  color: #999999;
+  color: #000099;
 }
-.social-buttons,
-.entry-footer-html {
-  margin: 10px 0;
-}
+/* 記事フッター内のいろいろな小さいボタンの配置について指定します。 */
+/*.social-buttons,.entry-footer-html {  margin: 10px 0;}*/
+
+
+
 /*
 .entry-content {
   text-align: center;
