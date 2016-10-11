@@ -474,7 +474,7 @@ a.keyword {
 /* 記事のフッターです。 */
 
 /* 記事のフッターの領域を規定します。 */
-.entry-footer {  background: #FFEEEE;  margin:0 180px 0 180px;  padding-bottom: 60px;  font-weight: normal;  text-decoration: none;}
+.entry-footer {  background: #FFEEEE;  margin:0 180px 0 180px;  padding-bottom: 60px;}
 /* 実質的には文責と時間程度ですかね。 */
 .entry-footer-section {  font-size: 80%;  color: #999999;  font-weight: normal;  text-decoration: none;}
 /* とりあえず何もしなくていいみたいです。 */
@@ -517,10 +517,12 @@ a.keyword {
   border-radius: 12px;
   background-clip: padding-box;
 }
+/* 投稿者名の装飾を指定します。 */
 .comment-user-name {
   margin: 0;
   color: #999999;
   font-weight: bold;
+  text-decoration: none;
 }
 .comment-content {
   margin: 0;
