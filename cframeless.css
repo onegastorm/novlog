@@ -325,7 +325,7 @@ a.keyword {
 .date,.entry-title,.categories {  line-height: 0px;}
 /* 記事タイトルを規定します。 */
 .entry-title {
-/*★  display: inline;*/
+  display: inline;
   font-size: 13px;
   font-weight: normal;
   margin-left: 1.4%;
