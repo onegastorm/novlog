@@ -324,8 +324,8 @@ a.keyword {
   background: #CCCCFF;
 }
 #title {
-  margin: 0;
-  font-size: 18px;
+/*  margin: 0;
+  font-size: 18px;*/
 }
 #title a {
   color: #1a1a1a;
