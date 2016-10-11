@@ -503,15 +503,17 @@ a.keyword {
 }
 /* コメントボックス最上段の罫線を指定します。 */
 .comment-box li:first-child {
-  border-top: 1px solid #990099;
+  border-top: 1px solid #999999;
 }
+/* コメントボックスを一覧表示するボタンのようなものと思われる。 */
 .comment-box .read-more-comments {
   padding-left: 0;
 }
+/* 投稿者のアイコンを指定します。 */
 .comment-box .hatena-id-icon {
   position: absolute;
   top: 10px;
-  left: 0;
+  left: 10px;
   width: 24px !important;
   height: 24px !important;
   border-top-right-radius: 12px;
