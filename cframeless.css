@@ -473,14 +473,12 @@ a.keyword {
 /* entry-footer ---------------------------------------- */
 /* 記事本文のフッターです。 */
 
-/* entry-footer */
-.entry-footer {
-  background: #AAAACC;
-  margin-top: 0px;
-}
+/* entry-footerの領域を規定します。 */
+.entry-footer {  background: #CCAAAA;  margin-top: 0px;}
+/* フッター内のいろいろを指定します。 */
 .entry-footer-section {
-  font-size: 80%;
-  color: #999999;
+/*  font-size: 80%;
+  color: #999999;*/
 }
 .entry-footer-section a {
   color: #999999;
