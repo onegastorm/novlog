@@ -43,10 +43,6 @@ pre {
   text-shadow: none;
 }
 
-/* width ----------------------------------------------------------------*/
-#container {  width: 100%;}
-#container #content {  width: 940px;}
-
 /* blog ----------------------------------------------------------------*/
 #blog-title {
   display: none;
