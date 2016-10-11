@@ -710,9 +710,9 @@ a.keyword {
   max-width: 1230px;
   margin: 0 auto;
 }
-*/
+/* フッターの文字の装飾を指定します。 */
 #footer p {  margin: 0;}
-#footer a {  color: #999999;  /*text-decoration: none;*/}
+#footer a {  color: #999999;  text-decoration: none;}
 /*#footer address,
 #footer .services {
   display: inline;
