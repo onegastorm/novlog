@@ -360,28 +360,16 @@ a.keyword {
 
 
 
-/* カテゴリ */
+/* カテゴリボタンの領域を規定します。 */
 .categories {
   font-size: 11px;
-  position: absolute;
+/*  position: absolute;
   right: 10%;
-  bottom: 44%;
+  bottom: 44%;*/
 }
-/*
-.categories {
-  font-size: 11px;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-*/
-/* カテゴリーボタンの装飾を指定します。 */
-.categories a {
-/*  text-decoration: none;*/
-  color: #ff6666;
-/*  padding-left: 6%;*/
-}
-/* 記事がカテゴリーに属していなかった場合の動作を指定します。 */
+/* カテゴリボタンの装飾を指定します。 */
+.categories a {  text-decoration: none;  color: #ff6666;}
+/* 記事がカテゴリーに属していなかった時の動作を指定します。 */
 .categories.no-categories {  margin: 0;}
 
 /* 編集ボタンの領域を規定します。 */
