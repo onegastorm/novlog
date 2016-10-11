@@ -474,7 +474,7 @@ a.keyword {
 /* 記事のフッターです。 */
 
 /* 記事のフッターの領域を規定します。 */
-.entry-footer {  background: #FFEEEE;  margin:0 100px 100px 100px;}
+.entry-footer {  background: #FFEEEE;  margin:0 100px 0 100px;  padding-bottom: 100px;}
 /* 実質的には文責と時間程度ですかね。 */
 .entry-footer-section {  color: #0000FF;  font-size: 9px;}
 /* とりあえず何もしなくていいみたいです。 */
