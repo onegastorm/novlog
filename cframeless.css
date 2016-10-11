@@ -526,8 +526,8 @@ a.keyword {
   *zoom: 1;
   padding: 4px 10px 4px;
   margin-bottom: 0;
-  line-height: 18px;
-  color: #454545;
+  line-height: 13px;
+  color: #999999;
   background-color: #ffffff;
   text-align: center;
   vertical-align: middle;
@@ -538,7 +538,7 @@ a.keyword {
   border-radius: 2px;
   background-clip: padding-box;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 13px;
   text-decoration: none;
   font-weight: bold;
   border: 1px solid rgba(0, 0, 0, 0.2);
