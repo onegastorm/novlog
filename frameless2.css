@@ -499,6 +499,10 @@ a.keyword {
   padding: 0 25px;
 }
 
+#box2 {
+  width: 100%;
+}
+
 #blog-title {
   background: #EEFFEE;
   margin: 120px 0;
