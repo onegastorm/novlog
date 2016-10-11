@@ -711,18 +711,17 @@ a.keyword {
   margin: 0 auto;
 }
 */
-#footer p {
-  margin: 0;
-}
-#footer a {
-  color: #999999;
-  text-decoration: none;
-}
-#footer address,
+#footer p {  margin: 0;}
+#footer a {  color: #999999;  /*text-decoration: none;*/}
+/*#footer address,
 #footer .services {
   display: inline;
   padding-right: 1em;
-}
+}*/
+
+
+
+
 .page-about .entry-content {
   text-align: left;
 }
