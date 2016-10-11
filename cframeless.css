@@ -200,8 +200,10 @@ th {
   text-overflow: ellipsis;
   overflow: hidden;
 }
-/* import variable ====================*/
-/* Common --------------------*/
+
+/* import variable ======================================== */
+
+/* Common ---------------------------------------- */
 body {
   background: #fff;
   color: #1a1a1a;
@@ -248,7 +250,8 @@ a.keyword {
   border-bottom: 1px dotted #999999;
   color: #1a1a1a;
 }
-/* Buttons*/
+
+/* Buttons ---------------------------------------- */
 .btn {
   display: inline-block;
   *display: inline;
@@ -287,10 +290,9 @@ a.keyword {
   line-height: normal;
   font-weight: bold;
 }
-/* ヘッダ（グローバルヘッダ）
-  グローバルヘッダの中はiframeですが、
-  #globalheader-container に背景色や文字色を指定することでirameの中にも色が反映されます。
-*/
+
+/* Globalheader ---------------------------------------- */
+/* Globalheaderの中はiframeですが、 #globalheader-container に背景色や文字色を指定することでirameの中にも色が反映されます。 */
 #globalheader-container {
   background-color: #fff;
   color: #999;
@@ -298,7 +300,8 @@ a.keyword {
   left: 0;
   width: 100%;
 }
-/* container*/
+
+/* Container ---------------------------------------- */
 #container {
   background-color: #3FF;
   width: 973px;
