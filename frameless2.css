@@ -333,21 +333,12 @@ a.keyword {
 /* Entry ---------------------------------------- */
 /* 記事タイトル部、日付部、カテゴリー表示部、記事本文部、コメント部などを包括するテーブルです。*/
 
-.entry {
-  background: #EEEEFF;
-  position: relative;
-  margin-bottom: 200px;
-}
-.entry-header {
-  position: relative;
-  margin-bottom: 10px;
-  text-align: center;
-}
-.date,
-.entry-title,
-.categories {
-  line-height: 39px;
-}
+/* テーブル全体の領域を規定します。 */
+.entry {  position: relative;  margin-bottom: 0px;  background: #EEEEFF;}
+/* 記事タイトル部の領域を規定します。 */
+.entry-header {  position: relative;/*  text-align: left;*/  background: #FFFF00;}
+/* 日付部、記事タイトル部、カテゴリー部のline-heightを指定します。 */
+.date,.entry-title,.categories {  line-height: 0px;}
 .entry-title {
   display: inline;
   font-size: 13px;
