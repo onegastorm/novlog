@@ -494,7 +494,7 @@ a.keyword {
   margin: 0 auto;
   background: #FFEEEE;
 }
-#main {  width: 940px;}
+#main {  position: center; width: 940px;}
 
 /*
 #container #content {  width: 940px}
