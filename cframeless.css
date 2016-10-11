@@ -368,6 +368,7 @@ a.keyword {
 }
 /* 編集ボタンのマウスオーバー時の動作を指定します。 */
 .entry-header-menu a:hover {
+  text-decoration: none;
   background: #EEEEEE;
 /*  transition:1.0s;*/
 /*  text-decoration: none !important;*/
