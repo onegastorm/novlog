@@ -240,7 +240,7 @@ article {
   clear: both;
   margin: 0 auto;
   text-align: center;
-  background: #660000;
+  background: #FFAAAA;
 /* アルファ値は処理が重いというもっぱらのうわさです。
   background: rgba(256,0,0,0.2);
 */
