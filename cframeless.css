@@ -339,7 +339,7 @@ a.keyword {
 /*.date a {  color: #1a1a1a;  text-decoration: none;  display: inline-block;}*/
 
 /* カテゴリボタンの領域を規定します。 */
-.categories {  position: absolute;  font-size: 11px;  right: 10%;  bottom: 20%;}
+.categories {  position: absolute;  font-size: 11px;  right: 10%;  bottom: 44%;}
 /* カテゴリボタンの装飾を指定します。 */
 .categories a {
   cursor: pointer;
@@ -356,7 +356,7 @@ a.keyword {
 .categories.no-categories {  margin: 0;}
 
 /* 編集ボタンの領域を規定します。 */
-.entry-header-menu {  position: absolute;  font-size: 11px;  left: -3%;  bottom: 44%;}
+.entry-header-menu {  position: absolute;  font-size: 11px;  left: -3%;  bottom: 20%;}
 /* 編集ボタンの装飾を指定します。 */
 .entry-header-menu a {
 /*  display: inline-block;
