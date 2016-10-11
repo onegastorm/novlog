@@ -299,7 +299,7 @@ a.keyword {
 /* テーブル全体の領域を規定します。 */
 #container {  background-color: #3FF;  width: 975px;  margin: 0 auto;}
 /* メインカラムの領域を規定します。 */
-#container #content {  width: 973px;}
+#container #content {  width: 900px;}
 /* Container内側の余白を規定します。必要ないがあえてのこしておきます。 */
 #container-inner {  padding: 0 0 0 0;}
 /* メインカラムの幅を規定します。 */
