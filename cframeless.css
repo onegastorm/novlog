@@ -379,6 +379,7 @@ a.keyword {
 /* entry-content ---------------------------------------- */
 /* 記事本文のテーブルです。ここでは無視します。 */
 
+/*
 .entry-content {
   font-size: 95%;
   line-height: 1.7;
@@ -469,6 +470,7 @@ a.keyword {
 .entry-content .hatena-asin-detail li {
   line-height: 1.4;
 }
+*/
 
 /* entry-footer ---------------------------------------- */
 /* 記事のフッターです。 */
@@ -484,7 +486,7 @@ a.keyword {
 
 
 
-/*
+
 .entry-content {
   text-align: center;
 }
@@ -605,7 +607,10 @@ a.keyword {
 .entry-footer-html {
   margin: 15px 0;
 }
-*/
+
+
+
+
 /* コメント */
 .comment-box ul {
   list-style: none;
