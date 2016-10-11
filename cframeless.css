@@ -377,9 +377,8 @@ a.keyword {
 .entry-header-menu a:hover {  background: #F3F3F3;}
 
 /* entry-content ---------------------------------------- */
-/* 記事本文のテーブルです。ここでは無視します。 */
+/* 記事本文のテーブルです。boilerplateからのこぴぺです。ここでは無視します。 */
 
-/*
 .entry-content {
   font-size: 95%;
   line-height: 1.7;
@@ -470,24 +469,31 @@ a.keyword {
 .entry-content .hatena-asin-detail li {
   line-height: 1.4;
 }
-*/
 
 /* entry-footer ---------------------------------------- */
 /* 記事のフッターです。 */
 
 /* 記事のフッターの領域を規定します。 */
-/*★.entry-footer {  background: #FFEEEE;  margin:0 100px 0 100px;  padding-bottom: 100px;}
+.entry-footer {  background: #FFEEEE;  margin:0 100px 0 100px;  padding-bottom: 100px;}
 /* 実質的には文責と時間程度ですかね。 */
-/*★.entry-footer-section {  color: #0000FF;  font-size: 13px;}
+.entry-footer-section {  font-size: 80%;  color: #999999;}
 /* とりあえず何もしなくていいみたいです。 */
-/*.entry-footer-section a {  color: #000099;}*/
-/* 記事フッター内のいろいろな小さいボタンの配置について指定します。 */
+/*.entry-footer-section a {  color: #999999;}*/
+/* 記事フッター内のいろいろな小さいボタンの配置についての指定です。わりとどうでもいいです。*/
 /*.social-buttons,.entry-footer-html {  margin: 10px 0;}*/
+/* なんだかよくわからないのでとりあえず触りません。 */
+.social-buttons,.entry-footer-html {  margin: 10px 0;}
 
 
 
 
 
+
+
+
+
+/* テーマFramelessのこぴペなんですけどね。文責・時間が表示されないエラー発生*/
+/*
 .entry-content {
   text-align: center;
 }
@@ -608,7 +614,7 @@ a.keyword {
 .entry-footer-html {
   margin: 15px 0;
 }
-
+*/
 
 
 
