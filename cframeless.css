@@ -340,8 +340,8 @@ a.keyword {
 /*  margin-left: 1.4%;*/
 }
 /* 日付の領域を規定します。 */
-/*.date { display: none; }*/
-.date {  position: absolute;  font-size: 11px;  z-index: 100;  background: #AAAAFF;}
+.date { display: none; }
+/*.date {  position: absolute;  font-size: 11px;  z-index: 100;  background: #AAAAFF;}*/
 /*.date .hyphen {  padding: 2px;  color: #999999;}*/
 /*.date a {  color: #1a1a1a;  text-decoration: none;  display: inline-block;}*/
 
