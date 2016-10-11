@@ -489,9 +489,9 @@ a.keyword {
 /* 投稿されたコメントボックスの領域を規定します。 */
 .comment-box ul {  list-style: none;  margin: 0 0 15px 0;  padding: 0;  font-size: 13px;  color: #999999;  text-align: left;}
 /* 投稿されたコメントボックスの本文の領域を規定します。 */
-.comment-box li {  padding: 10px 20px 10px 60px;  border-bottom: 1px solid #999999;  position: relative;}
+.comment-box li {  padding: 10px 20px 10px 60px;  border-bottom: 1px solid #CCCCCC;  position: relative;}
 /* コメントボックス最上段の罫線を指定します。 */
-.comment-box li:first-child {  border-top: 1px solid #999999;}
+.comment-box li:first-child {  border-top: 1px solid #CCCCCC;}
 /* コメントボックスを一覧表示するボタンのようなものと思われる。 */
 .comment-box .read-more-comments {  padding-left: 0;}
 /* 投稿者のアイコンを指定します。 */
@@ -511,14 +511,14 @@ a.keyword {
 /* 投稿者名の領域を規定します。 */
 .comment-user-name {  margin: 4px 0 3px 0;}
 /* 投稿者名の装飾を指定します。 */
-.comment-user-name a {  color: #777777;  text-decoration: none;}
+.comment-user-name a {  color: #666666;  text-decoration: none;}
 /* 本文の折り返しを指定しています。 */
 .comment-content {  margin: 0;  word-wrap: break-word;}
 /* よくわからないので触らないでおきます。 */
 .comment-content p {  margin: 0;}
 /* 投稿時間の装飾を指定しています。 */
-.comment-metadata {  font-size: 11px;  color: #777777;  margin: 0; text-align: right;}
-.comment-metadata a {  color: #555555;}
+.comment-metadata {  font-size: 11px;  color: #666666;  margin: 0; text-align: right;}
+.comment-metadata a {  color: #666666;}
 /* 書き込みボタンの領域を規定します。 */
 .leave-comment-title {  margin-left: 28px;  font-size: 11px;
 /*  display: inline-block;
@@ -538,23 +538,14 @@ a.keyword {
 /* 書き込みボタンのマウスオーバー時の動作を指定します。 */
 .leave-comment-title:hover {  background: #f3f3f3;  color: #CCCCCC;}
 
+/* sidebar ---------------------------------------- */
+/* box2についての指定です。 */
 
-
-
-
-
-
-
-
-
-
-
-
-/* sidebar */
 #box2 {
   width: 800px;
   font-size: 13px;
   margin-left: 50px;
+　background: #555555;
 }
 /*
 #box2 {
