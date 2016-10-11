@@ -509,7 +509,7 @@ a.keyword {
   background-clip: padding-box;
 }
 /* 投稿者名の領域を規定します。 */
-.comment-user-name {  margin: 0;}
+.comment-user-name {  margin: 5px;}
 /* 投稿者名の装飾を指定します。 */
 .comment-user-name a {  color: #777777;  text-decoration: none;}
 /* 本文の折り返しを指定しています。 */
@@ -520,7 +520,7 @@ a.keyword {
 .comment-metadata {  font-size: 11px;  color: #777777;  margin: 0; text-align: right;}
 .comment-metadata a {  color: #555555;}
 /* 書き込みボタンの領域を規定します。 */
-.leave-comment-title {  font-size: 11px;  margin-left:24px;
+.leave-comment-title {  font-size: 11px;  margin-left:28px;
 /*  display: inline-block;
   *display: inline;
   *zoom:1;
