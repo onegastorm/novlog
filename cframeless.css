@@ -478,10 +478,10 @@ a.keyword {
 /* 実質的には文責と時間程度ですかね。 */
 .entry-footer-section {  font-size: 80%;  color: #999999;}
 .entry-footer-section a {  text-decoration: none;}
-/* とりあえず何もしなくていいみたいです。 */
-.entry-footer-section a {  color: #FF0000;}
+/* 日付とか？ */
+.entry-footer-section a {  color: #CCCCCC;}
 /* はてなスターとかのブタン類を規定します。だと思います。 */
-.social-buttons,.entry-footer-html {  text-align: top; /*margin: 0 0 0 0;*/}
+.social-buttons,.entry-footer-html {  margin: 0 0 0 0;}
 
 /* Comment-box ---------------------------------------- */
 /* コメント掲示板です。 */
