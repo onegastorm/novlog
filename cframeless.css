@@ -291,21 +291,13 @@ a.keyword {
 
 /* Globalheader ---------------------------------------- */
 /* Globalheaderの中はiframeですが、 #globalheader-container に背景色や文字色を指定することでirameの中にも色が反映されます。 */
-#globalheader-container {
-  background-color: #FFF;
-  color: #999;
-  width: 100%;
-}
+#globalheader-container {  background-color: #FFF;  color: #999;  width: 100%;}
 
 /* Container ---------------------------------------- */
 /* ブログタイトル部、本文タイトル部、本文部、コメント部などを包括するテーブルです。 */
 
 /* テーブル全体の領域を規定します。 */
-#container {
-  background-color: #3FF;
-  width: 973px;
-  margin: 0 auto;
-}
+#container {  background-color: #3FF;  width: 973px;  margin: 0 auto;}
 /* Container内側の余白を規定します。必要ないがあえてのこしておきます。 */
 #container-inner {  padding: 0 0 0 0;}
 
@@ -337,12 +329,14 @@ a.keyword {
 /*  font-size: 30px;*/
   font-weight: normal;
 /*  margin: 20px 30px 40px 50px;*/
-/*  margin-left: 1.4%;*/
+  margin-left: 1.4%;
 }
-/* 日付の領域を規定します。 */
+/* 日付ボタンの領域を規定します。 */
 .date { display: none; }
 /*.date {  position: absolute;  font-size: 11px;  z-index: 100;  background: #AAAAFF;}*/
+/* ハイフネーションを指定します。 */
 /*.date .hyphen {  padding: 2px;  color: #999999;}*/
+/* 日付ボタンの装飾を指定します。 */
 /*.date a {  color: #1a1a1a;  text-decoration: none;  display: inline-block;}*/
 
 /* カテゴリボタンの領域を規定します。 */
