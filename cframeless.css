@@ -495,9 +495,9 @@ a.keyword {
   color: #999999;
   text-align: left;
 }
-/* 投稿されたコメントボックスの装飾を指定します。 */
+/* 投稿されたコメントボックスの領域を規定します。 */
 .comment-box li {
-  padding: 10px 0 10px 35px;
+  padding: 10px 0 10px 50px;
   border-bottom: 1px solid #999999;
   position: relative;
 }
