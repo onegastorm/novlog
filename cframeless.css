@@ -550,7 +550,8 @@ a.keyword {
   border-radius: 3px;
   background: #FFFFFF;
 }
-
+/* 編集ボタンのマウスオーバー時の動作を指定します。 */
+.entry-footer .leave-comment-title a:hover {  background: #F3F3F3;}
 
 
 
