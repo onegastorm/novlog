@@ -297,7 +297,7 @@ a.keyword {
 /* ブログタイトル部、本文タイトル部、本文部、コメント部などを包括するテーブルです。 */
 
 /* テーブル全体の領域を規定します。 */
-#container {  background-color: #333333;  width: 973px;  margin: 0 auto;}
+#container {  background-color: #3FF;  width: 973px;  margin: 0 auto;}
 /* Container内側の余白を規定します。必要ないがあえてのこしておきます。 */
 #container-inner {  padding: 0 0 0 0;}
 
@@ -542,7 +542,7 @@ a.keyword {
 /* box2についての指定です。 */
 
 #box2 {
-  width: 720px;
+  width: 100%;
   font-size: 13px;
   margin-left: 50px;
 　background: #555555;
