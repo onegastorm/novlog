@@ -43,6 +43,11 @@ pre {
   text-shadow: none;
 }
 
+
+/* width ----------------------------------------------------------------*/
+#container {  width: 100%;}
+#container #content {  width: 940px;}
+
 /* blog ----------------------------------------------------------------*/
 #blog-title {
   display: none;
@@ -50,6 +55,7 @@ pre {
   max-width: 1200px;
   margin: 40px auto 0;
   padding: 0 5%;
+  color: #FFEEEE;
 }
 #blog-title h1 {
   padding: 0 50px;
@@ -70,6 +76,7 @@ article {
 .entry-header .date {
   text-align: right;
   margin: 0 0 0 1%;
+  color: #EEFFEE;
 }
 .entry-header .date a {
   color: #aaa;
