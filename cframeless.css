@@ -291,7 +291,7 @@ a.keyword {
 
 /* Globalheader ---------------------------------------- */
 /* Globalheaderの中はiframeですが、 #globalheader-container に背景色や文字色を指定することでirameの中にも色が反映されます。 */
-#globalheader-container {  background-color: #FFF;  color: #999;  width: 900px;}
+#globalheader-container {  background-color: #FFF;  color: #999;  width: 900px !important;}
 
 /* Container ---------------------------------------- */
 /* ブログタイトル部、本文タイトル部、本文部、コメント部などを包括するテーブルです。 */
