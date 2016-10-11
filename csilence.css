@@ -223,7 +223,10 @@ article {
 /* box1, box2 ------------------------------------------------------------*/
 #box1, #box2 {
   padding: 0 8%;
+  background: #CCCCCC;
+  /* アルファ値は処理が重いというもっぱらのうわさです。
   background: rgba(0,0,0,0.02);
+*/
 }
 #box1:before, #box1:after { content: " "; display: table; }
 #box2:before, #box2:after { content: " "; display: table; }
