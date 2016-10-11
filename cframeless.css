@@ -363,12 +363,12 @@ a.keyword {
 /* カテゴリボタンの領域を規定します。 */
 .categories {
   font-size: 11px;
-/*  position: absolute;
+/*  position: absolute;*/
   right: 10%;
-  bottom: 44%;*/
+  bottom: 44%;
 }
 /* カテゴリボタンの装飾を指定します。 */
-.categories a {  text-decoration: none;  color: #ff6666;}
+.categories a {  text-decoration: none;  color: #99FF99;}
 /* 記事がカテゴリーに属していなかった時の動作を指定します。 */
 .categories.no-categories {  margin: 0;}
 
