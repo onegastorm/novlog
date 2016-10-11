@@ -476,7 +476,7 @@ a.keyword {
 /* 記事のフッターの領域を規定します。 */
 .entry-footer {  background: #FFEEEE;  margin:0 180px 0 180px;  padding-bottom: 60px;}
 /* 実質的には文責と時間程度ですかね。 */
-.entry-footer-section {  font-size: 80%;  color: #999999;}
+.entry-footer-section {  font-size: 80%;  color: #999999;  text-decoration: none;}
 /* とりあえず何もしなくていいみたいです。 */
 .entry-footer-section a {  color: #FF0000;  text-decoration: none;}*/
 /* はてなスターとかのブタン類を規定します。だと思います。 */
@@ -539,8 +539,8 @@ a.keyword {
 }
 .leave-comment-title {
   font-size: 30px;
-  text-align: center;
 /*
+  text-align: center;
 }
 .entry-footer .leave-comment-title a {
 */
@@ -553,7 +553,7 @@ a.keyword {
   background: #FFFFFF;
 }
 /* 編集ボタンのマウスオーバー時の動作を指定します。 */
-.leave-comment-title a:hover {  background: #F3F3F3;}
+.leave-comment-title :hover {  background: #F3F3F3;}
 
 
 
