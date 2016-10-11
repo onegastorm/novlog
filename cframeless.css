@@ -315,10 +315,9 @@ a.keyword {
 
 /* Blogtitle(header) ---------------------------------------- */
 /* ブログタイトル部、リード部を包括するテーブルです。 */
-/*
-#blog-title {  display: none;}
-*/
 /* テーブル全体の領域を規定します。 */
+#blog-title {  display: none;}
+/*
 #blog-title {  background: #CCCCFF;  padding: 10px 0 10px 0;}
 /* ブログタイトル領域を規定します。 */
 #title {  background: #FFCCCC;}
@@ -326,7 +325,7 @@ a.keyword {
 #title a {  background: #CCCCCC;}
 /* タイトル下のリードの領域を規定します。 */
 #blog-description {  background: #CCFFCC;}
-
+*/
 
 
 .entry {
