@@ -313,7 +313,7 @@ a.keyword {
 /* メインカラムの領域を規定します。こちらは失敗です。 */
 /*#container #content {  width: 940px}*/
 /* Container内側の余白を規定します。必要ないがあえてのこしておきます。 */
-#container-inner {  padding: 0 25px;}
+#container-inner {  padding: 0 0 0 0;}
 /* サイドバーのの領域を規定します。 */
 #box2 {  width: 100%;}
 
