@@ -511,15 +511,15 @@ a.keyword {
 /* 投稿者名の領域を規定します。 */
 .comment-user-name {  margin: 0;}
 /* 投稿者名の装飾を指定します。 */
-.comment-user-name a {  color: #999999;  text-decoration: none;}
+.comment-user-name a {  color: #777777;  text-decoration: none;}
 /* 本文の折り返しを指定しています。 */
 .comment-content {  margin: 0;  word-wrap: break-word;}
 /* よくわからないので触らないでおきます。 */
 .comment-content p {  margin: 0;}
 /* 投稿時間の装飾を指定しています。 */
-.comment-metadata {  font-size: 11px;  color: #AAAAAA;  margin: 0;}
+.comment-metadata {  font-size: 11px;  color: #777777;  margin: 0;}
 .comment-metadata a {  color: #555555;}
-
+/* 書き込みボタンの領域を規定しています。 */
 .leave-comment-title {
   display: inline-block;
   *display: inline;
