@@ -471,18 +471,14 @@ a.keyword {
 }
 
 /* entry-footer ---------------------------------------- */
-/* 記事本文のフッターです。 */
+/* 記事のフッターです。 */
 
-/* entry-footerの領域を規定します。 */
-.entry-footer {  background: #CCAAAA;  margin-top: 0px;}
-/* フッター内のいろいろを指定します。 */
-.entry-footer-section {
-/*  font-size: 80%;*/
-  color: #999900;
-}
-.entry-footer-section a {
-  color: #000099;
-}
+/* 記事のフッターの領域を規定します。 */
+.entry-footer {  background: #CCAAAA;  margin-top: 0px;  margin-bottom: 100px;}
+/* 実質的には文責と時間程度ですかね。 */
+.entry-footer-section {  color: #0000FF;/*  font-size: 80%;*/}
+/* とりあえず何もしなくていいみたいです。 */
+/*.entry-footer-section a {  color: #000099;}*/
 /* 記事フッター内のいろいろな小さいボタンの配置について指定します。 */
 /*.social-buttons,.entry-footer-html {  margin: 10px 0;}*/
 
