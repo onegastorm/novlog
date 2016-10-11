@@ -520,9 +520,9 @@ a.keyword {
 /* 投稿者名の装飾を指定します。 */
 .comment-user-name {
   margin: 0;
-  color: #AAAAAA;
+  color: #CCCCCC;
 /*  font-weight: bold;*/
-  text-decoration: none !important;
+  text-decoration: none;
 }
 .comment-content {
   margin: 0;
