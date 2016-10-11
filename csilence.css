@@ -232,7 +232,7 @@ article {
   background: #CCFFCC;
 }
 #box2 {
-  background: #CCCCFF;
+  background: #CCCCCC;
 }
 
 #box1:before, #box1:after { content: " "; display: table; }
