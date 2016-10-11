@@ -723,6 +723,10 @@ a.keyword {
   margin-left: 0;
   margin-bottom: 30px;
 }
+
+/* archiveページ */
+/* 過去記事検索コーナーのテーブルです。 */
+
 .page-archive .archive-entries {
   margin-bottom: 100px;
 }
