@@ -290,7 +290,6 @@ a.keyword {
   font-weight: bold;
 }
 
-
 /* Globalheader ---------------------------------------- */
 /* Globalheaderの中はiframeですが、 #globalheader-container に背景色や文字色を指定することでirameの中にも色が反映されます。 */
 
@@ -349,7 +348,7 @@ a.keyword {
 /* 日付ボタンの装飾を指定します。 */
 .date a {  color: #1a1a1a;  text-decoration: none;  display: inline-block;}
 /* カテゴリボタンの領域を規定します。 */
-.categories {  position: absolute;  font-size: 11px;  right: 10%;  top: 50%;}
+.categories {  position: absolute;  font-size: 11px;  right: 10%;  top: 60%;}
 /* カテゴリボタンの装飾を指定します。 */
 .categories a {
   cursor: pointer;
