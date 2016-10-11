@@ -314,7 +314,7 @@ a.keyword {
 }
 
 /* header ---------------------------------------- */
-/* ブログタイトル部です。 */
+/* ヘッダーは、ブログタイトル部、ブログタイトルリード部を包括するスペースです。 */
 /*#blog-title {
   display: none;
 }*/
@@ -329,7 +329,7 @@ a.keyword {
   font-size: 18px;*/
 }
 #title a {
-  color: #1a1a1a;
+  color: #FFFFCC;
 }
 /* blog-descriptionはタイトル下のリードらしいです。 */
 #blog-description {
