@@ -476,7 +476,7 @@ a.keyword {
 /* 記事のフッターの領域を規定します。 */
 .entry-footer {  background: #FFEEEE;  margin:0 100px 0 100px;  padding-bottom: 100px;}
 /* 実質的には文責と時間程度ですかね。 */
-.entry-footer-section {  color: #0000FF;  font-size: 9px;}
+.entry-footer-section {  color: #0000FF;  font-size: 13px;}
 /* とりあえず何もしなくていいみたいです。 */
 /*.entry-footer-section a {  color: #000099;}*/
 /* 記事フッター内のいろいろな小さいボタンの配置について指定します。 */
@@ -672,6 +672,9 @@ a.keyword {
   font-size: 13px;
   text-align: center;
 }
+
+
+
 /* sidebar */
 #box2 {
   width: 800px;
