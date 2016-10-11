@@ -474,9 +474,9 @@ a.keyword {
 /* 記事のフッターです。 */
 
 /* 記事のフッターの領域を規定します。 */
-.entry-footer {  background: #FFEEEE;  margin:0 100px 0 100px;  padding-bottom: 100px;}
+.entry-footer {  background: #FFEEEE;  margin:0 120px 0 120px;  padding-bottom: 80px;}
 /* 実質的には文責と時間程度ですかね。 */
-.entry-footer-section {  font-size: 80%;  color: #999999;  text-decoration: none;}
+.entry-footer-section {  font-size: 80%;  color: #999999;}
 /* とりあえず何もしなくていいみたいです。 */
 .entry-footer-section a {  color: #FF0000;  text-decoration: none;}*/
 /* はてなスターとかのブタン類を規定します。だと思います。 */
