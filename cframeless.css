@@ -375,22 +375,18 @@ a.keyword {
   top: 0;
 }
 */
+/* カテゴリーボタンの装飾を指定します。 */
 .categories a {
-  text-decoration: none;
-  color: #ff0000;
+/*  text-decoration: none;*/
+  color: #ff6666;
 /*  padding-left: 6%;*/
 }
-/* カテゴリの前に#をつける
-.categories a:before {
-  content: "#";
-}
-*/
-.categories.no-categories {
-  margin: 0;
-}
+/* 記事がカテゴリーに属していなかった場合の動作を指定します。 */
+.categories.no-categories {  margin: 0;}
+
 /* 編集ボタンの領域を規定します。 */
 .entry-header-menu {  position: absolute;  bottom: 0px;  left: -40px;}
-/* 編集ボタンの造作を指定します。 */
+/* 編集ボタンの装飾を指定します。 */
 .entry-header-menu a {
 /*  display: inline-block;
   *display: inline;
