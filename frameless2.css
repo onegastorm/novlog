@@ -494,10 +494,14 @@ a.keyword {
   margin: 0 auto;
   background: #FFEEEE;
 }
+#main {  width: 940px;}
+
+/*
 #container #content {  width: 940px}
 #container-inner {
   padding: 0 25px;
 }
+*/
 
 #box2 {
   width: 100%;
