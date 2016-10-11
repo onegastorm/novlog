@@ -477,6 +477,7 @@ a.keyword {
 .entry-footer {  background: #FFEEEE;  margin:0 180px 0 180px;  padding-bottom: 60px;}
 /* 実質的には文責と時間程度ですかね。 */
 .entry-footer-section {  font-size: 80%;  color: #999999;  text-decoration: none;}
+.entry-footer-section a {  text-decoration: none;}
 /* とりあえず何もしなくていいみたいです。 */
 .entry-footer-section a {  color: #FF0000;}*/
 /* はてなスターとかのブタン類を規定します。だと思います。 */
@@ -519,7 +520,7 @@ a.keyword {
 }
 /* 投稿者名の装飾を指定します。 */
 .comment-user-name {  margin: 0;}
-.comment-user-name a {  color: #CCCCCC;  text-decoration: none;}
+.comment-user-name a {  color: #999999;  text-decoration: none;}
 
 .comment-content {
   margin: 0;
