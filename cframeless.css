@@ -335,21 +335,12 @@ a.keyword {
 .date,.entry-title,.categories {  line-height: 0px;}
 /* 記事タイトルを規定します。 */
 .entry-title {
-  display: inline;
-  font-size: 30px;
-  font-weight: normal;
+/*  display: inline;*/
+/*  font-size: 30px;*/
+/*  font-weight: normal;*/
   margin: 20px 30px 40px 50px;
 /*  margin-left: 1.4%;*/
 }
-/*
-.entry-title {
-  display: inline;
-  font-size: 13px;
-  font-weight: normal;
-  margin: 0;
-  text-align: center;
-}
-*/
 /* 日付 */
 .date { display: none; }
 /*
