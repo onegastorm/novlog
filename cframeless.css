@@ -344,20 +344,21 @@ a.keyword {
 /* 日付を規定します。 */
 /*.date { display: none; }*/
 
+/*
 .date {
   position: absolute;
-/*  font-size: 11px;*/
-/*  z-index: 100;*/
-}
+  font-size: 11px;
+  z-index: 100;
+}*/
 /*.date .hyphen {
   padding: 2px;
   color: #999999;
 }*/
-.date a {
-/*  color: #1a1a1a;*/
-/*  text-decoration: none;*/
+/*.date a {
+  color: #1a1a1a;
+  text-decoration: none;
   display: inline-block;
-}
+}*/
 
 
 
