@@ -406,10 +406,10 @@ a.keyword {
   cursor: pointer;
   padding: 2px 10px;
   font-size: 12px;
-  color: #C0C0C0;
+  color: #CCCCCC;
   text-decoration: none;
 /*  font-weight: bold;*/
-  border: 1px solid #C0C0C0;
+  border: 1px solid #CCCCCC;
   border-radius: 3px;
 /*  text-decoration: none !important;*/
 }
