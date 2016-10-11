@@ -335,7 +335,7 @@ a.keyword {
 .date,.entry-title,.categories {  line-height: 0px;}
 /* 記事タイトルを規定します。 */
 .entry-title {
-/*  display: inline;*/
+/*★  display: inline;*/
 /*  font-size: 30px;*/
 /*  font-weight: normal;*/
   margin: 20px 30px 40px 50px;
@@ -346,7 +346,7 @@ a.keyword {
 
 /*
 .date {
-  position: absolute;
+★  position: absolute;
   font-size: 11px;
   z-index: 100;
 }*/
@@ -357,7 +357,7 @@ a.keyword {
 /*.date a {
   color: #1a1a1a;
   text-decoration: none;
-  display: inline-block;
+★  display: inline-block;
 }*/
 
 
@@ -448,7 +448,7 @@ a.keyword {
 }
 */
 .entry-header-menu a:hover {
-  background-color: #f5f5f5;
+  background-color: #CCCCCC;
   transition:1.0s;
   text-decoration: none !important;
 }
