@@ -512,7 +512,7 @@ a.keyword {
 /* 投稿者のアイコンを指定します。 */
 .comment-box .hatena-id-icon {
   position: absolute;
-  padding: 10px 0px 10px 0px;
+  margin: 10px 0px 10px 0px;
 /*  top: 10px;
   right: 10px
   left: 30px;*/
