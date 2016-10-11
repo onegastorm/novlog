@@ -302,6 +302,7 @@ a.keyword {
 }
 
 /* Container ---------------------------------------- */
+/* ブログタイトル部、本文タイトル部、本文部、コメント部などのwrapperです。 */
 #container {
   background-color: #3FF;
   width: 973px;
@@ -313,10 +314,11 @@ a.keyword {
 }
 
 /* header ---------------------------------------- */
-#blog-title {
+/* ブログタイトル部です。 */
+/*#blog-title {
   display: none;
-}
-/* blog-descriptionはタイトル下の見出しらしいですよっと
+}*/
+/* blog-descriptionはタイトル下の見出しらしいですよっと */
 #blog-title {
   margin: 120px 0;
   padding: 20px 0;
@@ -333,7 +335,9 @@ a.keyword {
   font-size: 11px;
   margin: 5px 0 0 0;
 }
-*/
+
+
+
 .entry {
   position: relative;
   margin-bottom: 200px;
@@ -505,7 +509,8 @@ a.keyword {
   text-decoration: none !important;
 }
 */
-/* entry-content の中の書式 */
+
+/* entry-content の中の書式 ---------------------------------------- */
 .entry-content {
   font-size: 95%;
   line-height: 1.7;
