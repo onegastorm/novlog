@@ -364,7 +364,7 @@ a.keyword {
 /* 記事がカテゴリーに属していなかった時の動作を指定します。 */
 .categories.no-categories {  margin: 0;}
 /* 編集ボタンの領域を規定します。 */
-.entry-header-menu {  position: absolute;  font-size: 11pz;  bottom: 4%;  left: -6%;}
+.entry-header-menu {  position: absolute;  font-size: 11pz;  bottom: 4%;  left: -4%;}
 /* 編集ボタンの装飾を指定します。 */
 .entry-header-menu a {
 /*  display: inline-block;
