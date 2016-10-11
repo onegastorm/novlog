@@ -516,14 +516,9 @@ a.keyword {
 .comment-content {  margin: 0;  word-wrap: break-word;}
 /* よくわからないので触らないでおきます。 */
 .comment-content p {  margin: 0;}
-.comment-metadata {
-  font-size: 11px;
-  color: #999999;
-  margin: 0;
-}
-.comment-metadata a {
-  color: #999999;
-}
+.comment-metadata {  font-size: 11px;  color: #000000;  margin: 0;}
+.comment-metadata a {  color: #99FF99;}
+
 .leave-comment-title {
   display: inline-block;
   *display: inline;
