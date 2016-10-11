@@ -319,23 +319,19 @@ a.keyword {
 
 /* Blogtitle(header) ---------------------------------------- */
 /* ブログタイトル部、リード部を包括するテーブルです。 */
-#blog-title {
-  background: #EEFFEE;
-  margin: 120px 0;
-  padding: 20px 0;
-}
-#title {
-  margin: 0;
-  font-size: 18px;
-}
-#title a {
-  color: #1a1a1a;
-}
-#blog-description {
-  font-weight: normal;
-  font-size: 11px;
-  margin: 5px 0 0 0;
-}
+
+/* ブログタイトルテーブル全体の領域を規定します。 */
+#blog-title {  display: none;  width: 975px;}
+/*#blog-title {  background: #CCCCFF;  padding: 10px 0 10px 0;}*/
+/* ブログタイトル領域を規定します。 */
+/*#title {  background: #FFCCCC;}*/
+/* ブログタイトルのリンク領域を規定します。 */
+/*#title a {  background: #CCCCCC;}*/
+/* タイトル下のリードの領域を規定します。 */
+/*#blog-description {  background: #CCFFCC;}*/
+
+/* Entry ---------------------------------------- */
+/* 記事タイトル部、日付部、カテゴリー表示部、記事本文部、コメント部などを包括するテーブルです。*/
 
 .entry {
   background: #EEEEFF;
