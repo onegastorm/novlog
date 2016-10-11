@@ -374,7 +374,7 @@ a.keyword {
 /*  text-decoration: none !important;*/
 }
 /* 編集ボタンのマウスオーバー時の動作を指定します。 */
-.entry-header-menu a:hover {
+.entry-header-menu,.categories a:hover {
   background: #EEEEEE;
 /*  transition:1.0s;*/
 /*  text-decoration: none !important;*/
