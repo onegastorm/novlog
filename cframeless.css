@@ -311,7 +311,7 @@ a.keyword {
 /* ブログタイトル部、リード部を包括するテーブルです。 */
 
 /* blogtitleテーブル全体の領域を規定します。 */
-#blog-title {  display: none;  width: 978px;}
+#blog-title {  display: none;  width: 975px;}
 /*#blog-title {  background: #CCCCFF;  padding: 10px 0 10px 0;}*/
 /* ブログタイトル領域を規定します。 */
 /*#title {  background: #FFCCCC;}*/
@@ -548,7 +548,7 @@ a.keyword {
 /* box2についての指定です。 */
 
 #box2 {
-  width: 978px;
+  width: 975px;
   font-size: 13px;
   margin-left: 50px;
 　background: #555555;
@@ -776,7 +776,7 @@ a.keyword {
 }
 /* Footer */
 #footer {
-  width: 978px;
+  width: 975px;
   padding: 30px 0;
   text-align: center;
   color: #999999;
