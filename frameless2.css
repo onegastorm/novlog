@@ -294,6 +294,7 @@ a.keyword {
 /* Globalheader ---------------------------------------- */
 /* Globalheaderの中はiframeですが、 #globalheader-container に背景色や文字色を指定することでirameの中にも色が反映されます。 */
 
+/* グローバルヘッダの領域を規定します。 */
 #globalheader-container {
   background-color: #fff;
   color: #999;
@@ -304,24 +305,20 @@ a.keyword {
 
 /* Container ---------------------------------------- */
 /* ブログタイトル部、本文タイトル部、本文部、コメント部などを包括するテーブルです。 */
-#container {
-  width: 100%;
-  margin: 0 auto;
-  background: #FFEEEE;
-}
-#main {   margin-left: auto; margin-right: auto; width: 940px;}
 
-/*
-#container #content {  width: 940px}
-#container-inner {
-  padding: 0 25px;
-}
-*/
+/* テーブルの領域を規定します。 */
+#container {  width: 100%;  margin: 0 auto;  background: #FFEEEE;}
+/* メインカラムの領域を規定します。 */
+#main {  margin-left: auto;  margin-right: auto; width: 940px;}
+/* メインカラムの領域を規定します。こちらは失敗です。 */
+/*#container #content {  width: 940px}*/
+/* Container内側の余白を規定します。必要ないがあえてのこしておきます。 */
+#container-inner {  padding: 0 25px;}
+/* サイドバーのの領域を規定します。 */
+#box2 {  width: 100%;}
 
-#box2 {
-  width: 100%;
-}
-
+/* Blogtitle(header) ---------------------------------------- */
+/* ブログタイトル部、リード部を包括するテーブルです。 */
 #blog-title {
   background: #EEFFEE;
   margin: 120px 0;
