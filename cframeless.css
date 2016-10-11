@@ -553,7 +553,7 @@ a.keyword {
   background: #FFFFFF;
 }
 /* 編集ボタンのマウスオーバー時の動作を指定します。 */
-.leave-comment-title :hover {  background: #F3F3F3;}
+.leave-comment-title :hover {  background: #F3F3F3; text-decoration: none !important;}
 
 
 
