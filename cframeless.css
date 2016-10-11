@@ -337,7 +337,9 @@ a.keyword {
 .entry-title {
   display: inline;
   font-size: 11px;
-  margin-left: 1.4%;
+  font-weight: normal;
+  margin: 20px 30px 40px 50px;
+/*  margin-left: 1.4%;*/
 }
 /*
 .entry-title {
