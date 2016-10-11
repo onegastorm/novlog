@@ -553,9 +553,8 @@ a.keyword {
   border: 1px solid rgba(0, 0, 0, 0.2);
   text-decoration: none !important;*/
 }
-.leave-comment-title:hover {
-  background-color: #f5f5f5;
-  text-decoration: none !important;
+.leave-comment-title:hover {  color: #CCCCCC;  background: #f3f3f3;
+/*  text-decoration: none !important;*/
 }
 
 
