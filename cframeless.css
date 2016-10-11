@@ -548,6 +548,7 @@ a.keyword {
 /* box2についての指定です。 */
 
 #box2 {
+  width: 978px;
   font-size: 13px;
   margin-left: 50px;
 　background: #555555;
@@ -775,6 +776,7 @@ a.keyword {
 }
 /* Footer */
 #footer {
+  width: 978px;
   padding: 30px 0;
   text-align: center;
   color: #999999;
