@@ -46,8 +46,9 @@ pre {
 
 /* width ----------------------------------------------------------------*/
 #container {  width: 100%;}
-#container #content {  width: 940px;}
-
+#main { width: 940px}
+/*#container #content {  width: 940px;}*/
+#box2 {  width: 100%;}
 /* blog ----------------------------------------------------------------*/
 #blog-title {
   display: none;
@@ -239,11 +240,10 @@ article {
 #box1 {
   background: #CCFFCC;
 }
+
 #box2 {
-  width: 100%;
   background: #CCCCCC;
 }
-
 #box1:before, #box1:after { content: " "; display: table; }
 #box2:before, #box2:after { content: " "; display: table; }
 #box1:after, #box2:after { clear: both; }
