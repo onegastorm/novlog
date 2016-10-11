@@ -318,7 +318,6 @@ a.keyword {
 /*#blog-title {
   display: none;
 }*/
-/* blog-descriptionはタイトル下の見出しらしいですよっと */
 #blog-title {
   margin: 120px 0;
   padding: 20px 0;
@@ -331,10 +330,12 @@ a.keyword {
 #title a {
   color: #1a1a1a;
 }
+/* blog-descriptionはタイトル下のリードらしいです。 */
 #blog-description {
   font-weight: normal;
   font-size: 11px;
   margin: 5px 0 0 0;
+  background: #CCFFCC;
 }
 
 
