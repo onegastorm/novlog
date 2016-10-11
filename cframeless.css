@@ -519,20 +519,14 @@ a.keyword {
 /* 投稿時間の装飾を指定しています。 */
 .comment-metadata {  font-size: 11px;  color: #777777;  margin: 0; text-align: right;}
 .comment-metadata a {  color: #555555;}
-
-
-
-/* 編集ボタンの領域を規定します。 */
-.leave-comment-title {  position: absolute;  font-size: 11px;}
-/* 編集ボタンの装飾を指定します。 */
-.leave-comment-title a {
+/* 書き込みボタンの領域を規定します。 */
+.leave-comment-title {  font-size: 11px;
 /*  display: inline-block;
   *display: inline;
   *zoom:1;
   line-height: 18px;
   text-align: center;
   vertical-align: middle;*/
-  font-size: 11px;
   cursor: pointer;
   padding: 2px 10px;
   color: #CCCCCC;
@@ -541,8 +535,8 @@ a.keyword {
   border-radius: 3px;
   background: #FFFFFF;
 }
-/* 編集ボタンのマウスオーバー時の動作を指定します。 */
-.leave-comment-title a:hover {  color: #CCCCCC;  background: #F3F3F3;}
+/* 書き込みボタンのマウスオーバー時の動作を指定します。 */
+.leave-comment-title:hover {  background: #f3f3f3;  color: #CCCCCC;}
 
 
 
