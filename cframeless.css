@@ -311,7 +311,7 @@ a.keyword {
 /* ブログタイトル部、リード部を包括するテーブルです。 */
 
 /* blogtitleテーブル全体の領域を規定します。 */
-#blog-title {  display: none;}
+#blog-title {  display: none;  width: 978px;}
 /*#blog-title {  background: #CCCCFF;  padding: 10px 0 10px 0;}*/
 /* ブログタイトル領域を規定します。 */
 /*#title {  background: #FFCCCC;}*/
