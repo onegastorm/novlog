@@ -482,21 +482,20 @@ a.keyword {
 }
 
 /* entry-footer ---------------------------------------- */
-/* 記事のフッターです。 */
 
 /* 記事のフッターの領域を規定します。 */
 .entry-footer {  background: #FFEEEE;  margin:0 20% 0 20%;  padding-bottom: 60px;}
 /*.entry-footer {  background: #FFEEEE;  margin:0 180px 0 180px;  padding-bottom: 60px;}*/
 /* 実質的には文責と時間程度ですかね。 */
-.entry-footer-section {  font-size: 80%;  color: #999999;}
-.entry-footer-section a {  text-decoration: none;}
+.entry-footer-section {  display: none;}
+/*.entry-footer-section {  font-size: 80%;  color: #999999;}*/
+/*.entry-footer-section a {  text-decoration: none;}*/
 /* 登校時間の装飾を指定します。 */
 .entry-footer-section a {  color: #999999;}
 /* はてなスターとかのブタン類を規定します。だと思います。 */
 .social-buttons,.entry-footer-html {  margin: 0 0 0 0;}
 
 /* Comment-box ---------------------------------------- */
-/* コメント掲示板です。 */
 
 /* 投稿されたコメントボックスの領域を規定します。 */
 .comment-box ul {  list-style: none;  margin: 0 0 15px 0;  padding: 0;  font-size: 13px;  color: #999999;  text-align: left;}
@@ -551,7 +550,7 @@ a.keyword {
 .leave-comment-title:hover {  background: #f3f3f3;  color: #CCCCCC;}
 
 /* sidebar ---------------------------------------- */
-/* box2についての指定です。 */
+/* ★box2についての指定です。 */
 
 #box2 {
   width: 100%;
