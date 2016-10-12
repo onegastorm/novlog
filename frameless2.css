@@ -626,19 +626,19 @@ a.keyword {
 }
 /* 検索窓の入力欄を規定 */
 .hatena-module-search-box .search-module-input {
-  padding: 5px;
+/*  padding: 5px;*/
   color: #BBBBBB;
   background: none;
 /*  border: none;*/
   border: 1px solid #CCCCCC;
-  outline: none;
+/*  outline: none;*/
   height: 20px;
 /*  width: 90%;*/
 /*  border-top-right-radius: 12px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;*/
-  border-radius: 16px;
+  border-radius: 10px;
 }
 /* 検索窓の画像を規定 */
 .hatena-module-search-box .search-module-button {
