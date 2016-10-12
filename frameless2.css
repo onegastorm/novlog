@@ -675,8 +675,7 @@ a.keyword {
   font-size: 0;
   height: 0;
   clear: both;
-  content: ".";
-  color: #0000FF;
+  content: ".";  text-decoration: none;
 }
 /* 戻るページ送りを規定 */
 .pager .pager-prev {  float: left;  text-align: left;  width: 45%;}
