@@ -628,11 +628,11 @@ a.keyword {
 .hatena-module-search-box .search-module-input {
 /*  padding: 5px;*/
   color: #BBBBBB;
-  background: none;
+/*  background: none;*/
 /*  border: none;*/
   border: 1px solid #CCCCCC;
 /*  outline: none;*/
-  height: 20px;
+/*  height: 20px;*/
 /*  width: 90%;*/
 /*  border-top-right-radius: 12px;
   border-bottom-right-radius: 0;
