@@ -637,7 +637,7 @@ a.keyword {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;*/
-  border-radius: 12px;
+  border-radius: 3px;
 }
 /* 検索窓の画像を規定 */
 .hatena-module-search-box .search-module-button {
