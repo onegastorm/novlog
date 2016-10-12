@@ -730,7 +730,7 @@ a.keyword {
 /* 何？ */
 .page-archive .archive-entries .date {  position: static;}
 
-.page-archive .archive-entries .archive-entry {  position: relative;  margin-left: 15%;  margin-bottom: 3em;}
+.page-archive .archive-entries .archive-entry {  position: relative;  margin-bottom: 3em;}
 
 /* アーカーブページの本文サブタイトルの領域規定 */
 .page-archive .archive-entries .entry-title {  font-size: 13px;  margin: 0 0 .5em;}
