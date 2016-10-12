@@ -666,7 +666,7 @@ a.keyword {
   filter: alpha(opacity=85);
 }
 
-/* Pager */
+/* Pager ---------------------------------------- */
 /* ページ送りです。 */
 .pager {  margin: 0 0 30px;  display: block;  *zoom: 1;}
 .pager:after {
@@ -679,10 +679,10 @@ a.keyword {
 }
 /* 戻るページ送りを規定 */
 .pager .pager-prev {  float: left;  text-align: left;  width: 30%;}
-.pager .pager-prev a {  text-decoration: none; font-size: 11px;  color: #CCCCCC;}
+.pager .pager-prev a {  text-decoration: none; font-size: 11px;  color: #999999;}
 /* 進むページ送りを規定 */
-.pager .pager-next {  float: right;  text-align: right;  width: 40%;}
-.pager .pager-next a {  color: #CCCCCC;}
+.pager .pager-next {  float: right;  text-align: right;  width: 50%;}
+.pager .pager-next a {  color: #777777;}
 /*  border-bottom: 1px solid #dfdfdf;*/
 
 /* footer -------------------------------------------------- */
@@ -706,7 +706,7 @@ a.keyword {
 /*#footer address,#footer .services {  display: inline;  padding-right: 1em;}*/
 
 
-/* page-about */
+/* page-about ---------------------------------------- */
 /* Aboutページについて */
 
 /* アバウトページの領域規定 */
@@ -719,7 +719,7 @@ a.keyword {
 /* 各要素の領域規定*/
 .page-about dd {  margin: 0 0 0 0;}
 
-/* archive */
+/* archive ---------------------------------------- */
 /* アーカイブコーナーのテーブルです。 */
 
 /* アーカイブコーナーのカラム領域規定 */
