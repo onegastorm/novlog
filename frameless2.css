@@ -304,7 +304,7 @@ a.keyword {
      min-height: 100%;
 }
 /* テーブルの領域を規定します。 */
-#container {  width: 100%;  margin: 0 auto 0 auto;  background: #FFEEEE;}
+#container {  width: 100%;  margin: 0 auto 0 auto;  background: #FFEEEE;  padding-bottom: 300px;}
 /* メインカラムの領域を規定します。 */
 #main {  margin: 0 auto 0 auto; width: 973px;}
 /*#main {  margin-left: auto;  margin-right: auto; width: 973px;}*/
