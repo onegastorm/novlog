@@ -667,7 +667,7 @@ a.keyword {
 }
 
 /* Pager ---------------------------------------- */
-/* ページ送りです。 */
+
 .pager {  margin: 0 0 30px;  display: block;  *zoom: 1;}
 /* 記号とかの指定？ */
 .pager:after {  display: block;  visibility: hidden;  font-size: 0;  height: 0;  clear: both;  content: ".";}
@@ -680,7 +680,6 @@ a.keyword {
 /*  border-bottom: 1px solid #dfdfdf;*/
 
 /* footer -------------------------------------------------- */
-/* フッターです。 */
 
 /* フッターの領域的要素。paddingをけすとなぜか横幅がイケナイことになります。 */
 #footer {
@@ -702,7 +701,6 @@ a.keyword {
 
 
 /* page-about ---------------------------------------- */
-/* Aboutページについて */
 
 /* アバウトページの領域規定 */
 .page-about .entry-content {    color: #999999; text-align: left;  margin: 0 20% 0 20%; padding: 8% 0 4% 0;}
@@ -715,7 +713,6 @@ a.keyword {
 .page-about dd {  margin: 0 0 0 0;}
 
 /* archive ---------------------------------------- */
-/* アーカイブコーナーのテーブルです。 */
 
 /* アーカイブコーナーのカラム領域規定 */
 .page-archive #main {  width: 60%;  margin: 0 auto 0 auto;}
