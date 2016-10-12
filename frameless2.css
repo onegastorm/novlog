@@ -608,15 +608,15 @@ a.keyword {
   margin: 0;
   vertical-align: middle;
 }
-.hatena-urllist {  color: #00FF00;
+.hatena-urllist {
   list-style: none;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
 }
-.hatena-urllist li {
+.hatena-urllist li {    color: #00FF00;
   padding: 0;
 }
-.hatena-urllist li a {    color: #00FF00;
+.hatena-urllist li a {
   text-decoration: none;
 }
 
