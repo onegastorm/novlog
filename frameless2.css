@@ -704,7 +704,9 @@ line-height: 1.5;
 /* フッターのリンク要素的装飾*/
 #footer a {  color: #CCCCCC;  text-decoration: none;}
 /* IDとはてなリンクを1列に！ */
-#footer .services,#footer address {  display: inline;  padding-right: 1em;}
+/*#footer .services,#footer address {  display: inline;  padding-right: 1em;}*/
+
+#footer adress {display: none;}
 
 
 
