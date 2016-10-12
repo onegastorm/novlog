@@ -547,123 +547,145 @@ a.keyword {
 /* sidebar ---------------------------------------- */
 /* ★box2についての指定です。 */
 
-/* サイドバーの領域規定 */
-#box2 {  width: 100%;  height: 200px;  color: #BBBBBB;  background: #333333;  font-size: 13px;}
-/* サイドバーの各要素の位置 */
-.hatena-module {
-/* 罫線ですね */
-/*  border-top: 1px solid #000000;*/
-  padding-top: 5px;
-/*  padding-top: .5em;*/
-  margin-bottom: 20px;
-/*  margin-bottom: 1.5em;*/
-/*  display: block;
-  *zoom: 1;*/
-}
 
+
+#box2 {
+  font-size:100%;
+  padding:10px 1%;
+}
+.hatena-module {
+  margin-bottom:25px;
+  width:31%;
+  display:inline-block;
+  vertical-align: top;
+  padding:3px;
+}
 .hatena-module:after {
   display: block;
-  visibility: hidden;
-  font-size: 0;
+  visibility:hidden;
   height: 0;
   clear: both;
-  content: ".";
+  content: ".2222";
 }
-/* はてなモジュールの各パーツのタイトル列の領域を規定 */
-.hatena-module-title {  font-size: 13px;/*  float: left;*/  width: 100px;}
-.hatena-module-title a {  color: #BBBBBB;  text-decoration: none;}
-/*.hatena-module-title a:hover {  text-decoration: none;}*/
-
-/* はてなモジュールの各タイトルの本体の領域を規定 */
-.hatena-module-body {  width: 24%;  float: left;}
-.hatena-module-body .circle-urllist .circle-image {  float: none;  vertical-align: middle;}
-
-
-.hatena-module-profile .profile-icon-link {
+.hatena-module-title {
+  display:block;
+  font-size:100%;
+  padding-bottom:2px;
+  border-bottom:solid 1px #001A43;
+  width:50%;
+}
+.hatena-module-title a {
+}
+.hatena-module-title a:hover {
+  text-decoration: underline;
+}
+.hatena-module-body {
+    margin-top:5px;
+    float: left;
+}
+.hatena-module-body .circle-urllist .circle-image {
+  float: none;
+  vertical-align:middle;
+}
+.hatena-module-profile .profile-icon {
   display: inline-block;
-  width: 24px;
   overflow: hidden;
   vertical-align: middle;
-  margin-right: 3px;
-}
-/* プロフィールのアイコンの領域規定 */
-.hatena-module-profile .profile-icon {
-  width: 24px;
-  margin: 0;
-  vertical-align: middle;
-  border-top-right-radius: 12px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
-  border-radius: 12px;
+  margin-right: 8px;
+  width: 40px;
+  margin-top: 4px;
+  border:solid 1px;
+  border-radius: 4px;
   background-clip: padding-box;
 }
-/* プロフィールのIDの装飾指定 */
-.hatena-module-profile .id {  display: none;}
-/*.hatena-module-profile .id a {  text-decoration: none;}*/
-/* プロフィールの最終更新とかかんとか？ */
-.hatena-module-profile .profile-description p {  margin: 10px 0;}
-/* プロフィールの読者になるボタン？ */
-.hatena-follow-button-box {  display: inline-block;  margin: 0;  vertical-align: middle;}
-/* 最新記事とカテゴリのリスト形式規定 */
-.hatena-urllist {  list-style: none;  margin: 4px 0 0 0;  padding: 0 0 0 0;}
-/* 最新記事とカテゴリの本文の領域規定 */
-.hatena-urllist li {  padding: 0;  font-size:11px;}
-/* 最新記事とカテゴリの本文の装飾指定 */
-.hatena-urllist li a {    color: #999999;  text-decoration: none;}
+.hatena-module-profile .id a {
+  text-decoration: none;
+}
+.hatena-module-profile .profile-description p {
+  margin: 10px 0;
+}
+
+/* カテゴリー */
+.hatena-module-category .hatena-module-body ul.hatena-urllist li {
+   display:inline-block;
+   margin:5px 0;
+}
+
+.hatena-module-category .hatena-module-body ul.hatena-urllist li a{
+  padding:2px 10px;
+	border: 1px solid #e4e4e4;
+	border-radius: 2px;
+}
+.hatena-module-category .hatena-module-body ul.hatena-urllist li a:hover{
+	color: #FFFFFF;
+	background-color: #448AB0;
+  transition:0.8s;
+  border-radius:2px;
+}
+
+
+.hatena-module {
+    clear: both;
+    overflow: hidden;
+}
 
 
 
+.hatena-follow-button-box {
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+}
 
+.hatena-urllist {
+  list-style: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+.hatena-urllist li {
+  padding: 0;
+  line-height: 1.5;
+}
+.hatena-urllist li a {
+  text-decoration: none;
+}
 
-/* search-box (hatena-module) ---------------------------------------- */
-/* ほりゅう！ */
 
 
 .hatena-module-search-box .search-form {
+  border: none;
+  background: #f5f5f5;
+  width: 200px;
   position: relative;
 }
 .hatena-module-search-box .search-module-input {
-  width: 175px;
-  margin: 0;
-  padding: 0 35px 0 10px;
-  border: 0;
-  color: #fff;
-  font-size: 15px;
-  line-height: 28px;
-  background: rgba(0,0,0,0.2);
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
-  border-radius: 30px;
-  -webkit-box-shadow: inset 0 2px 6px rgba(0,0,0,0.5);
-  -moz-box-shadow: inset 0 2px 6px rgba(0,0,0,0.5);
-  -ms-box-shadow: inset 0 2px 6px rgba(0,0,0,0.5);
-  -o-box-shadow: inset 0 2px 6px rgba(0,0,0,0.5);
-  box-shadow: inset 0 2px 6px rgba(0,0,0,0.5);
+  padding: 5px;
+  color: #1a1a1a;
+  background: none;
+  border: none;
+  outline: none;
+  height: 20px;
+  width: 90%;
 }
 .hatena-module-search-box .search-module-button {
+  width: 20px;
+  height: 20px;
+  background: transparent url(http://blog.hatena.ne.jp/images/theme/search.png) no-repeat right center;
+  border: none;
+  outline: none;
+  text-indent: -9999px;
   position: absolute;
-  top: 1px;
-  left: 185px;
-  width: 26px;
-  height: 26px;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  background: url(http://cdn-ak.f.st-hatena.com/images/fotolife/k/kudakurage/20130218/20130218162359.png) no-repeat center center;
-  text-indent: -999px;
-  cursor: pointer;
+  top: 5px;
+  right: 5px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.hatena-module-search-box .search-module-button:hover {
+  opacity: 0.85;
+  filter: alpha(opacity=85);
 }
 
-}
-/* search-result-form ----------------------------------------- */
-/* ほりゅう！ */
 
-form.search-result-form {
-  display: inline-block;
-}
 
 
 
