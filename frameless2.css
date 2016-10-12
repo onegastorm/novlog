@@ -614,7 +614,7 @@ a.keyword {
   padding: 0 0 0 0;
 }
 /* 最新記事とカテゴリの本文の領域規定 */
-.hatena-urllist li {  padding: 0;}
+.hatena-urllist li {  padding: 0;  font-size:11px;}
 /* 最新記事とカテゴリの本文の装飾指定 */
 .hatena-urllist li a {    color: #BBBBBB;  text-decoration: none;}
 
