@@ -691,7 +691,7 @@ a.keyword {
 /* フッターです。 */
 
 /* フッターの領域的要素。paddingをけすとなぜか横幅がイケナイことになります。 */
-#footer {  padding: 0 0 0 0;
+#footer {  padding: 10px 0 0 0;
 line-height: 1.5;
   text-align: center;
   color: #CCCCCC;
