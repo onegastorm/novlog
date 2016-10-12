@@ -700,7 +700,7 @@ a.keyword {
   width: 100%;
 }
 /* フッターの文字の装飾 */
-#footer p {  margin: 0;}
+/*#footer p {  margin: 0;}*/
 #footer a {  color: #999999;  text-decoration: none;}
 /*#footer address,#footer .services {  display: inline;  padding-right: 1em;}*/
 
