@@ -728,7 +728,7 @@ a.keyword {
 /* アーカイブコーナーのカラム領域規定 */
 .page-archive #main {  padding-top: 30px;  margin: 0 15% 0 15%;}
 /* アーカーブページの本文の領域規定 */
-.page-archive .entry-title {  margin: 0 15% 0 15%;}
+.page-archive .entry-title {  margin: 10% 0 10% 0;}
 .page-archive .archive-entries {  color: #999999;  margin: 0 15% 0 15%;}
 /* 何？ */
 .page-archive .archive-entries .date {  position: static;}
