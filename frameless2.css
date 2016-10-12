@@ -691,14 +691,7 @@ a.keyword {
 /* フッターです。 */
 
 /* フッターの領域的要素。paddingをけすとなぜか横幅がイケナイことになります。 */
-#footer {  padding: 6px 0 30px 0;
-/*line-height: 1.5;*/
-  text-align: center;
-  color: #CCCCCC;
-  background: #333333;
-  font-size: 80%;
-  width: 100%;
-}
+#footer {  padding: 4px 0 20px 0;  text-align: center;  color: #CCCCCC;  background: #333333;  font-size: 80%;  width: 100%;}
 /* ID消しちゃいましょう！ */
 #footer address {  display: none;}
 /* フッターの段落要素的装飾 */
