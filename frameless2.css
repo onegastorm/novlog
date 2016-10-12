@@ -727,10 +727,10 @@ a.keyword {
 
 /* アーカイブコーナーのカラム領域規定 */
 .page-archive #main {  width: 70%;  margin: 0 auto 0 auto;}
-
+/* アーカイブコーナーのタイトル文字の装飾 */
 .page-archive #main h2 {
   text-decoration: none;
-  text-align: center;
+/*  text-align: center;*/
   font-size: 1.2em;
 }
 
