@@ -563,18 +563,12 @@ a.keyword {
   clear: both;
   content: ".";
 }
-.hatena-module-title {
-  font-size: 13px;
-  float: left;
-  width: 200px;
-}
-.hatena-module-title a {
-  color: #1a1a1a;
-  text-decoration: none;
-}
-.hatena-module-title a:hover {
-  text-decoration: underline;
-}
+/* はてなモジュールのタイトルの列です */
+.hatena-module-title {  font-size: 13px;/*  float: left;*/  width: 100px;}
+.hatena-module-title a {  color: #BBBBBB;  text-decoration: none;}
+/*.hatena-module-title a:hover {  text-decoration: none;}*/
+
+
 .hatena-module-body {
   float: left;
 }
