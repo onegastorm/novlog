@@ -675,12 +675,12 @@ a.keyword {
   font-size: 0;
   height: 0;
   clear: both;
-  content: ".";  text-decoration: none;
+  content: ".";
 }
 /* 戻るページ送りを規定 */
-.pager .pager-prev {  float: left;  text-align: left;  width: 45%;}
+.pager .pager-prev {  float: left;  text-align: left;  width: 45%;  text-decoration: none; font-size: 11px;}
 /* 進むページ送りを規定 */
-.pager .pager-next {  float: right;  text-align: right;  width: 45%;}
+.pager .pager-next {  float: right;  text-align: right;  width: 45%;  text-decoration: none;  font-size: 11px;}
 
 /* footer -------------------------------------------------- */
 /* フッターです。 */
