@@ -719,7 +719,7 @@ a.keyword {
 /* サブタイトルの装飾指定 */
 .page-about dt {  font-size: 13px;  color: #999999;}
 /* 各要素の領域規定*/
-.page-about dd {  margin-top: 0;  margin-left: 0;  margin-bottom: 20px;}
+.page-about dd {  margin: 0 0 0 0;}
 
 /* archiveページ */
 /* 過去記事検索コーナーのテーブルです。 */
