@@ -549,7 +549,6 @@ a.keyword {
 
 /* サイドバーの領域規定 */
 #box2 {
-  position:absolute;
   bottom: 80px;
   width: 100%;
   height: 220px;
@@ -713,7 +712,6 @@ form.search-result-form {
 #footer {
   width: 100%;
   height: 80px;
-  position:absolute;
   bottom:0;
 /*  padding: 0.1% 0 2% 0;*/
   text-align: center;
