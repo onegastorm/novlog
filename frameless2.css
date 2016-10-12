@@ -733,7 +733,7 @@ a.keyword {
 .page-archive .archive-entries .archive-entry {  position: relative;  margin-bottom: 3em;}
 
 /* アーカーブページの本文サブタイトルの領域規定 */
-.page-archive .archive-entries .entry-title {  color: #000000;  font-size: 13px;  margin: 0 0 .5em;}
+.page-archive .archive-entries .entry-title {  color: #FFFFFF;  font-size: 13px;  margin: 0 0 .5em;}
 /*.page-archive .archive-entries .entry-title  a {  color: #CCCCCC;}*/
 /*カテゴリ表示。これは重要ですね！ */
 .page-archive .archive-entries .categories {  margin: 0 0 .5em;}
