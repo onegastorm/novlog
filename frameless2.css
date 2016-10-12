@@ -665,11 +665,10 @@ a.keyword {
   opacity: 0.85;
   filter: alpha(opacity=85);
 }
-.pager {
-  margin: 0 0 30px;
-  display: block;
-  *zoom: 1;
-}
+
+/* Pager */
+/* ページ送りです。 */
+.pager {  margin: 0 0 30px;  display: block;  *zoom: 1;}
 .pager:after {
   display: block;
   visibility: hidden;
@@ -677,17 +676,12 @@ a.keyword {
   height: 0;
   clear: both;
   content: ".";
+  color: #0000FF;
 }
-.pager .pager-prev {
-  float: left;
-  text-align: left;
-  width: 45%;
-}
-.pager .pager-next {
-  float: right;
-  text-align: right;
-  width: 45%;
-}
+/* 戻るページ送りを規定 */
+.pager .pager-prev {  float: left;  text-align: left;  width: 45%;}
+/* 進むページ送りを規定 */
+.pager .pager-next {  float: right;  text-align: right;  width: 45%;}
 
 /* footer -------------------------------------------------- */
 /* フッターです。 */
