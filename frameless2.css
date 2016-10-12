@@ -714,9 +714,10 @@ a.keyword {
 
 /* アバウトページの領域規定 */
 .page-about .entry-content {  text-align: left;  margin: 0 20% 0 20%;}
-/* よくわかんないっすけど、サムネイルだと思いませんか */
-/*.page-about .entry-content img {  display: none;}*/
-.page-about .entry-content img {  margin: 0;  display: inline-block;  vertical-align: middle;}
+/* よくわかんないっすけど、サムネイルですね。 */
+.page-about address {  display: none;}
+.page-about .entry-content img {  display: none;}
+/*.page-about .entry-content img {  margin: 0;  display: inline-block;  vertical-align: middle;}*/
 /* サブタイトルの装飾指定 */
 .page-about dt {  font-size: 13px;  color: #999999;}
 /* 各要素の領域規定*/
