@@ -629,7 +629,7 @@ a.keyword {
   padding: 5px;
   color: #BBBBBB;
   background: none;
-  border: none;
+/*  border: none;*/
   outline: none;
   height: 20px;
   width: 90%;
