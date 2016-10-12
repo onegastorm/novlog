@@ -734,6 +734,8 @@ form.search-result-form {
 /* サムネイル？　保留です。 */
 .page-archive .entry-thumb {  margin-right: 80px;}
 
+/* カテゴリ表示ページの領域規定*/
+.page-archive .categories {  font-size: 20px;}
 /* カテゴリ表示ページの装飾指定*/
 /*.page-archive .categories a {
   color: #fff;
