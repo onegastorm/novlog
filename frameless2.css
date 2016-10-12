@@ -707,8 +707,12 @@ form.search-result-form {
   text-align: center;
   color: #BBBBBB;
 /*  line-height: 3;*/
-  background: #333333;
-  font-size: 80%;  width: 100%;
+  background: #777777;
+  font-size: 80%;
+  width: 100%;
+  height:140px;
+  position:absolute;
+  bottom:0;
 }
 /* ID消しちゃいましょう！ */
 #footer address {  display: none;}
