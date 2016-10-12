@@ -556,7 +556,7 @@ a.keyword {
 }
 /* 2カラムレイアウト */
 #main {
-  width: 600px;
+  width: 800px;
   float: left;
 }
 #box2 {
@@ -993,7 +993,7 @@ a.keyword {
 }
 /* sidebar */
 #box2 {
-  font-size: 185%;
+  font-size: 85%;
   line-height: 1.5;
   padding-top: 21px;
 }
