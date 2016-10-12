@@ -546,7 +546,7 @@ a.keyword {
   width: 100%;
   background: #333333;
   font-size: 13px;
-  margin-bottom: 0px;
+/*  margin-bottom: 0px;*/
 }
 .hatena-module {
   border-top: 1px solid #999999;
