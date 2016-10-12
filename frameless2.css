@@ -699,9 +699,11 @@ a.keyword {
   font-size: 80%;
   width: 100%;
 }
-/* フッターの文字の装飾 */
-/*#footer p {  margin: 0;}*/
-#footer a {  color: #999999;  text-decoration: none;}
+/* フッターの段落要素的装飾 */
+#footer p {  margin: 0;}
+/* フッターのリンク要素的装飾*/
+#footer a {  color: #EEEEEE;  text-decoration: none;}
+/* なんだろう？ */
 /*#footer address,#footer .services {  display: inline;  padding-right: 1em;}*/
 
 
