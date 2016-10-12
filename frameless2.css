@@ -694,7 +694,7 @@ a.keyword {
 #footer {  padding: 12px 0 10px;
 /*line-height: 1.5;*/
   text-align: center;
-  color: #DDDDDD;
+  color: #CCCCCC;
   background: #333333;
   font-size: 80%;
   width: 100%;
@@ -702,7 +702,7 @@ a.keyword {
 /* フッターの段落要素的装飾 */
 #footer p {  margin: 0;}
 /* フッターのリンク要素的装飾*/
-#footer a {  color: #DDDDDD;  text-decoration: none;}
+#footer a {  color: #CCCCCC;  text-decoration: none;}
 /* なんだろう？ */
 /*#footer address,#footer .services {  display: inline;  padding-right: 1em;}*/
 
