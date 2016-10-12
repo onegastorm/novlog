@@ -718,8 +718,8 @@ a.keyword {
 .page-about .entry-content img {  margin: 0;  display: inline-block;  vertical-align: middle;}
 /* サブタイトルの装飾 */
 .page-about dt {  font-size: 13px;  color: #999999;}
-/**/
-.page-about dd {  margin-left: 0;  margin-bottom: 100px;}
+/* 段間です。*/
+.page-about dd {  margin-left: 0;  margin-bottom: 30px;}
 
 /* archiveページ */
 /* 過去記事検索コーナーのテーブルです。 */
