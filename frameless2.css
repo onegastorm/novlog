@@ -542,15 +542,11 @@ a.keyword {
 /* sidebar ---------------------------------------- */
 /* ★box2についての指定です。 */
 
-#box2 {
-  width: 100%;
-  color: #BBBBBB;
-  background: #333333;
-  font-size: 13px;
-/*  margin-bottom: 0px;*/
-}
+/* サイドバーの領域規定 */
+#box2 {  width: 100%;  color: #BBBBBB;  background: #333333;  font-size: 13px;/*  margin-bottom: 0px;*/}
+
 .hatena-module {
-  border-top: 1px solid #999999;
+  border-top: 10px solid #999999;
   padding-top: .5em;
   margin-bottom: 1.5em;
   display: block;
@@ -675,7 +671,7 @@ a.keyword {
 
 /* footer -------------------------------------------------- */
 
-/* フッターの領域的要素。paddingをけすとなぜか横幅がイケナイことになります。 */
+/* フッターの領域規定。paddingをけすとなぜか横幅がイケナイことになります。 */
 #footer {
   padding: 0.1% 0 2% 0;
   text-align: center;
