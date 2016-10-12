@@ -618,46 +618,44 @@ a.keyword {
 /* search-box (hatena-module) ---------------------------------------- */
 /* めんどうだから触りません */
 
+
 .hatena-module-search-box .search-form {
-  border: none;
-  background: #f5f5f5;
-  width: 200px;
   position: relative;
 }
-/* 検索窓の入力欄を規定 */
 .hatena-module-search-box .search-module-input {
-/*  padding: 5px;*/
-  color: #BBBBBB;
-/*  background: none;*/
-/*  border: none;*/
-  border: 1px solid #CCCCCC;
-/*  outline: none;*/
-  height: 30px;
-  width: 90%;
-/*  border-top-right-radius: 12px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;*/
-  border-radius: 10px;
+  width: 175px;
+  margin: 0;
+  padding: 0 35px 0 10px;
+  border: 0;
+  color: #fff;
+  font-size: 15px;
+  line-height: 28px;
+  background: rgba(0,0,0,0.2);
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-box-shadow: inset 0 2px 6px rgba(0,0,0,0.5);
+  -moz-box-shadow: inset 0 2px 6px rgba(0,0,0,0.5);
+  -ms-box-shadow: inset 0 2px 6px rgba(0,0,0,0.5);
+  -o-box-shadow: inset 0 2px 6px rgba(0,0,0,0.5);
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.5);
 }
-/* 検索窓の画像を規定 */
 .hatena-module-search-box .search-module-button {
-  width: 20px;
-  height: 20px;
-  background: transparent url(http://blog.hatena.ne.jp/images/theme/search.png) no-repeat right center;
-  border: none;
-  outline: none;
-  text-indent: -9999px;
   position: absolute;
-  top: 5px;
-  right: 5px;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
+  top: 1px;
+  left: 185px;
+  width: 26px;
+  height: 26px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: url(http://cdn-ak.f.st-hatena.com/images/fotolife/k/kudakurage/20130218/20130218162359.png) no-repeat center center;
+  text-indent: -999px;
+  cursor: pointer;
 }
-/* 検索窓のマウスオーバー時の動作を規定 */
-.hatena-module-search-box .search-module-button:hover {  opacity: 0.85;  filter: alpha(opacity=85);}
-/* プロフィールのサムネに手を加えます */
-/*.urllist-with-thumbnails li .urllist-image {  border-radius: 100%;}*/
+
 
 
 
