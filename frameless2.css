@@ -720,7 +720,7 @@ a.keyword {
 /* サブタイトルの装飾指定 */
 .page-about dt {  font-size: 13px;  color: #999999;}
 /* 各要素の領域規定*/
-.page-about dd {  margin: 20px 20px 20px 20px;}
+.page-about dd {  margin: 0 0 20px 0;}
 
 
 
