@@ -344,6 +344,7 @@ a.keyword {
 
 /* カテゴリボタンの装飾を指定します。 */
 .categories a {
+  font-size: 11px;
   cursor: pointer;
   padding: 2px 10px;
   color: #CCCCCC;
