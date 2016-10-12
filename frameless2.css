@@ -326,11 +326,7 @@ a.keyword {
 /* テーブル全体の領域を規定します。 */
 .entry {  position: relative;  margin-bottom: 0px;  background: #EEEEFF;  width: 100%;}
 /* 記事タイトル部の領域を規定します。 */
-.entry-header {  position: relative;  background: #FFFF00;  width: 80%;  padding:40px 0 40px 0;}
-
-/* 日付部、記事タイトル部、カテゴリー部のline-heightを指定します。 */
-/*.date,.entry-title,.categories {  line-height: 0px;}*/
-
+.entry-header {  position: relative;  background: #FFFF00;  width: 100%;  padding:40px 0 40px 0;}
 /* 記事タイトルを規定します。 */
 .entry-title {  display: inline;  font-size: 13px;  font-weight: normal;  margin: 1.4%;}
 /* 日付ボタンの領域を規定します。 */
@@ -342,7 +338,7 @@ a.keyword {
 /*.date a {  color: #1a1a1a;  text-decoration: none;  display: inline-block;}*/
 
 /* カテゴリボタンの領域を規定します。 */
-.categories {  display: inline;  position:right;  padding-right: 20%;}
+.categories {  display: inline;  text-align: right;  padding-right: 20%;}
 /*.categories {  position: absolute;  top: 52%;  right: 10%;}*/
 
 /* カテゴリボタンの装飾を指定します。 */
