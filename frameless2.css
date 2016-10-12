@@ -726,7 +726,7 @@ a.keyword {
 /* アーカイブコーナーのテーブルです。 */
 
 /* アーカイブコーナーのカラム領域規定 */
-.page-archive #main {  margin: 0 15% 0 15%;}
+.page-archive #main {  width: 800px;  margin: 0 auto 0 auto;}
 /* アーカーブページの本文の領域規定 */
 /*.page-archive .entry-title {  margin: 0 0 0 0;}*/
 .page-archive .archive-entries {  color: #999999;}
