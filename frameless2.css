@@ -709,17 +709,16 @@ a.keyword {
 /*#footer address,#footer .services {  display: inline;  padding-right: 1em;}*/
 
 
+/* page-about */
+/* ★Aboutページについて？　とりあえず保留だよ！★ */
 
-.page-about .entry-content {
-  text-align: left;
-}
-.page-about .entry-content img {
-  margin: 0;
-  display: inline-block;
-  vertical-align: middle;
-}
+/* アバウトページの領域規定 */
+.page-about .entry-content {  text-align: left;}
+/* よくわかんないっすけど、サムネイルっすかね？ */
+.page-about .entry-content img {  margin: 0;  display: inline-block;  vertical-align: middle;}
+/**/
 .page-about dt {
-  font-size: 13px;
+  font-size: 20px;
   color: #999999;
 }
 .page-about dd {
