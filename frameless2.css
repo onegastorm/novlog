@@ -549,7 +549,15 @@ a.keyword {
 
 
 /* サイドバーの領域規定 */
-#box2 {  width: 100%;  color: #BBBBBB;  background: #333333;  font-size: 13px;  padding: 10% 0 0 0;}
+#box2 {
+  position:absolute;
+  width: 100%;
+  height:120px;
+  color: #BBBBBB;
+  background: #333333;
+  font-size: 13px;
+  padding: 10% 0 80px 0;
+}
 /*#box2 {
   font-size:100%;
   padding:10px 1%;
@@ -704,7 +712,7 @@ form.search-result-form {
 /* フッターの領域規定。paddingをけすとなぜか横幅がイケナイことになります。 */
 #footer {
   width: 100%;
-  height:100px;
+  height:80px;
   position:absolute;
   bottom:0;
   padding: 0.1% 0 2% 0;
