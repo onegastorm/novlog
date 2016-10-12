@@ -324,7 +324,7 @@ a.keyword {
 #blog-title {  display: none;  width: 973px;}
 /*#blog-title {  background: #CCCCFF;  padding: 10px 0 10px 0;}*/
 /* ブログタイトル領域を規定します。 */
-/*#title {  background: #FFCCCC;}*/
+#title {  background: #FFCCCC;}
 /* ブログタイトルのリンク領域を規定します。 */
 /*#title a {  background: #CCCCCC;}*/
 /* タイトル下のリードの領域を規定します。 */
@@ -728,8 +728,7 @@ a.keyword {
 /* アーカーブページの本文の領域規定 */
 .page-archive .archive-entries {  color: #999999;  margin: 0 15% 0 15%;}
 /* 何？ */
-.page-archive .archive-entries .date {  position: static;  color: #FF0000;}
-.page-archive .archive-entries .date a {  margin-left: 100px;}
+.page-archive .archive-entries .date {  position: static;}
 /* アーカーブページの本文の領域規定 */
 .page-archive .archive-entries .archive-entry {  position: relative;  margin-bottom: 3em;} 
 /* アーカーブページの本文サブタイトルの領域規定 */
@@ -738,7 +737,7 @@ a.keyword {
 /*カテゴリ表示。これは重要ですね！ */
 .page-archive .archive-entries .categories {  margin-top: -60px;}
 /*.page-archive .archive-entries .categories {  margin: -58px 0 .5em;}*/
-/* よくわかりませんので保留です。 */
+/* 何？　保留です。 */
 .page-archive .archive-entries .entry-description {  margin: 0 0 1em;  line-height: 1.7em;  font-size: 13px;}
 /* サムネイル？　保留です。 */
 .page-archive .entry-thumb {  margin-right: 80px;}
