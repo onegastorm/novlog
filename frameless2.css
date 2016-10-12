@@ -691,7 +691,7 @@ a.keyword {
 /* フッターです。 */
 
 /* フッターの領域 */
-#footer {  padding: 12px;
+#footer {  padding: 12px 0;
 /*line-height: 1.5;*/
   text-align: center;
   color: #EEEEEE;
