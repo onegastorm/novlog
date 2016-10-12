@@ -370,7 +370,8 @@ a.keyword {
   font-size: 11px;
   color: #EEEEEE;
   text-decoration: none;
-  border: 1px solid #CCCCCC;
+  border: none;
+/*  border: 1px solid #CCCCCC;*/
   border-radius: 5px;
   background: #777777;
 }
