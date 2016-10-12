@@ -723,8 +723,10 @@ a.keyword {
 .page-about dd {  margin: 0 0 0 0;}
 
 /* archive */
-/* 過去記事検索コーナーのテーブルです。 */
+/* アーカイブコーナーのテーブルです。 */
 
+/* アーカイブコーナーのカラム領域規定 */
+.page-archive #main {  padding-top: 30px;  margin: 0 15% 0 15%;}
 /* アーカーブページの本文の領域規定 */
 .page-archive .entry-title {  margin: 0 15% 0 15%;}
 .page-archive .archive-entries {  color: #999999;  margin: 0 15% 0 15%;}
