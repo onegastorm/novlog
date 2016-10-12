@@ -669,14 +669,8 @@ a.keyword {
 /* Pager ---------------------------------------- */
 /* ページ送りです。 */
 .pager {  margin: 0 0 30px;  display: block;  *zoom: 1;}
-.pager:after {
-  display: block;
-  visibility: hidden;
-  font-size: 0;
-  height: 0;
-  clear: both;
-  content: ".";
-}
+/* 記号とかの指定？ */
+.pager:after {  display: block;  visibility: hidden;  font-size: 0;  height: 0;  clear: both;  content: ".";}
 /* 戻るページ送りを規定 */
 .pager .pager-prev {  float: left;  text-align: left;  width: 30%;  margin-left: 10%;}
 .pager .pager-prev a {  text-decoration: none; font-size: 11px;  color: #777777;}
@@ -695,7 +689,8 @@ a.keyword {
   color: #CCCCCC;
 /*  line-height: 3;*/
   background: #333333;
-  font-size: 80%;  width: 100%;}
+  font-size: 80%;  width: 100%;
+}
 /* ID消しちゃいましょう！ */
 #footer address {  display: none;}
 /* フッターの段落要素的装飾 */
