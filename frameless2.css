@@ -296,11 +296,17 @@ a.keyword {
 #globalheader-container {  background-color: #fff;  color: #999;  top: 0;  left: 0;  width: 100%;}
 
 /* Container ---------------------------------------- */
-
+#wrap{
+     width: 100%;
+     position: relative;
+     height:auto !important; /*IE6対策*/
+     height: 100%; /*IE6対策*/
+     min-height: 100%;
+}
 /* テーブルの領域を規定します。 */
 #container {  width: 100%;  margin: 0 auto 0 auto;  background: #FFEEEE;}
 /* メインカラムの領域を規定します。 */
-#main {  margin: 0 auto 0 auto; width: 973px;}
+#main {  margin: 0 auto 0 auto; width: 973px;  padding-bottom: 300px;}
 /*#main {  margin-left: auto;  margin-right: auto; width: 973px;}*/
 /* メインカラムの領域を規定します。こちらは失敗です。 */
 /*#container #content {  width: 940px}*/
