@@ -305,9 +305,6 @@ a.keyword {
      height: 100%; /*IE6対策*/
      min-height: 100%;
 }
-#contents{
-     padding-bottom:300px;
-}
 /* テーブルの領域を規定します。 */
 #container {  width: 100%;  margin: 0 auto 0 auto;  background: #FFEEEE;}
 /* メインカラムの領域を規定します。 */
@@ -745,6 +742,8 @@ form.search-result-form {
 
 /* page-about ---------------------------------------- */
 
+/* 余白対策 */
+.page-about {  padding-bottom: 300px;}
 /* アバウトページの領域規定 */
 .page-about .entry-content {    color: #999999; text-align: left;  margin: 0 20% 0 20%; padding: 8% 0 4% 0;}
 /* サムネイルですね。 */
