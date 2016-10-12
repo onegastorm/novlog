@@ -543,7 +543,7 @@ a.keyword {
 /* ★box2についての指定です。 */
 
 /* サイドバーの領域規定 */
-#box2 {  width: 100%;  color: #BBBBBB;  background: #333333;  font-size: 13px;}
+#box2 {  width: 100%;  color: #BBBBBB;  background: #333333;  font-size: 13px; height: 100px;}
 /* サイドバーの各要素の位置 */
 .hatena-module {
 /* 下の1行は完成時には削除して下さい */
@@ -563,19 +563,16 @@ a.keyword {
   clear: both;
   content: ".";
 }
-/* はてなモジュールのタイトルの列です */
+/* はてなモジュールの各パーツのタイトル列の領域を規定 */
 .hatena-module-title {  font-size: 13px;/*  float: left;*/  width: 100px;}
 .hatena-module-title a {  color: #BBBBBB;  text-decoration: none;}
 /*.hatena-module-title a:hover {  text-decoration: none;}*/
 
+/* はてなモジュールの各タイトルの本体の領域を規定 */
+.hatena-module-body {  float: left;}
+.hatena-module-body .circle-urllist .circle-image {  float: none;  vertical-align: middle;}
 
-.hatena-module-body {
-  float: left;
-}
-.hatena-module-body .circle-urllist .circle-image {
-  float: none;
-  vertical-align: middle;
-}
+
 .hatena-module-profile .profile-icon-link {
   display: inline-block;
   width: 24px;
