@@ -324,9 +324,9 @@ a.keyword {
 /* Entry ---------------------------------------- */
 
 /* テーブル全体の領域を規定します。 */
-.entry {  position: relative;  margin-bottom: 0px;  background: #EEEEFF;  width: 973px;}
+.entry {  position: relative;  margin-bottom: 0px;  background: #EEEEFF;  width: 100%;}
 /* 記事タイトル部の領域を規定します。 */
-.entry-header {  position: relative;  background: #FFFF00;  width: 973px;  padding:40px 0 40px 0;}
+.entry-header {  position: relative;  background: #FFFF00;  width: 100%;  padding:40px 0 40px 0;}
 /* 記事タイトルを規定します。 */
 .entry-title {  display: inline;  font-size: 13px;  font-weight: normal;  margin: 1.4%;}
 /* 日付ボタンの領域を規定します。 */
