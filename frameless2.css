@@ -306,7 +306,7 @@ a.keyword {
 /* テーブルの領域を規定します。 */
 #container {  width: 100%;  margin: 0 auto 0 auto;  background: #FFEEEE;}
 /* メインカラムの領域を規定します。 */
-#main {  margin: 0 auto 0 auto; width: 973px;  padding-bottom: 320px;}
+#main {  margin: 0 auto 0 auto; width: 973px;  padding-bottom: 500px;}
 /*#main {  margin-left: auto;  margin-right: auto; width: 973px;}*/
 /* メインカラムの領域を規定します。こちらは失敗です。 */
 /*#container #content {  width: 940px}*/
