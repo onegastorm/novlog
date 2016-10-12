@@ -734,7 +734,10 @@ a.keyword {
 
 /* アーカーブページの本文サブタイトルの領域規定 */
 .page-archive .archive-entries .entry-title {  color: #BBBBBB;  font-size: 13px;  margin: 0 0 .5em;}
-
+.page-archive .archive-entries .entry-title  a {  color: #BBBBBB;}
+/*カテゴリ表示。これは重要ですね！ */
 .page-archive .archive-entries .categories {  margin: 0 0 .5em;}
+/* よくわかりませんので保留です。 */
 .page-archive .archive-entries .entry-description {  margin: 0 0 1em;  line-height: 1.7em;  font-size: 13px;}
+/* サムネイル？　保留です。 */
 .page-archive .entry-thumb {  margin-right: 80px;}
