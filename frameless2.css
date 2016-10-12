@@ -313,7 +313,7 @@ a.keyword {
 
 /* ブログタイトルテーブル全体の領域を規定します。 */
 /*#blog-title {  display: none;  width: 973px;}*/
-#blog-title {  background: #CCCCFF;  padding: 10px 0 10px 0;}
+#blog-title {  background: #CCCCFF;  /*padding: 10px 0 10px 0;*/}
 /* ブログタイトル領域を規定します。 */
 /*#title {  background: #FFCCCC;}*/
 /* ブログタイトルのリンク領域を規定します。 */
