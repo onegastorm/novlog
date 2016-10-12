@@ -727,17 +727,14 @@ a.keyword {
 
 /* アーカーブページの本文の領域規定 */
 .page-archive .archive-entries {  color: #999999;  margin: 0 15% 0 15%;}
-/* 掲出期間の領域規定 */
-.page-archive .archive-entries .date {  color: #666666;  position: static;}
+/* 何？ */
+.page-archive .archive-entries .date {  position: static;}
 
-.page-archive .archive-entries .archive-entry {
-  position: relative;
-  margin-bottom: 3em;
-}
-.page-archive .archive-entries .entry-title {
-  font-size: 13px;
-  margin: 0 0 .5em;
-}
+/* アーカーブページの本文サブタイトルの領域規定 */
+.page-archive .archive-entries .archive-entry {  color: #BBBBBB;  position: relative;  margin-bottom: 3em;}
+
+.page-archive .archive-entries .entry-title {  font-size: 13px;  margin: 0 0 .5em;}
+
 .page-archive .archive-entries .categories {
   margin: 0 0 .5em;
 }
