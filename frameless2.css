@@ -659,6 +659,11 @@ a.keyword {
 }
 /* search-result-form ----------------------------------------- */
 
+form.search-result-form {
+  display: inline-block;
+  margin-top: 20px;
+  width: 100%;
+}
 
 /* Pager ---------------------------------------- */
 
