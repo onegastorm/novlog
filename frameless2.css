@@ -690,7 +690,7 @@ a.keyword {
 /* Footer -------------------------------------------------- */
 /* フッターです。 */
 
-/* フッターの領域。paddingをけすとなぜか横幅がイケナイことになります。 */
+/* フッターの領域的要素。paddingをけすとなぜか横幅がイケナイことになります。 */
 #footer {  padding: 12px 0 100px;
 /*line-height: 1.5;*/
   text-align: center;
@@ -700,9 +700,9 @@ a.keyword {
   width: 100%;
 }
 /* フッターの段落要素的装飾 */
-#footer p {  margin: 0;}
+#footer p {  margin: 0 0 20px;}
 /* フッターのリンク要素的装飾*/
-#footer a {  color: #EEEEEE;  text-decoration: none;}
+#footer a {  color: #DDDDDD;  text-decoration: none;}
 /* なんだろう？ */
 /*#footer address,#footer .services {  display: inline;  padding-right: 1em;}*/
 
