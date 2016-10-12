@@ -544,11 +544,14 @@ a.keyword {
 
 /* サイドバーの領域規定 */
 #box2 {  width: 100%;  color: #BBBBBB;  background: #333333;  font-size: 13px;/*  margin-bottom: 0px;*/}
-
+/* サイドバーの各要素の位置 */
 .hatena-module {
-  border-top: 10px solid #999999;
-  padding-top: .5em;
-  margin-bottom: 1.5em;
+/* 下の1行は完成時には削除して下さい */
+  border-top: 1px solid #000000;
+  padding-top: 5px;
+/*  padding-top: .5em;*/
+  margin-bottom: 20px;
+/*  margin-bottom: 1.5em;*/
   display: block;
   *zoom: 1;
 }
