@@ -730,11 +730,11 @@ a.keyword {
 /* 何？ */
 .page-archive .archive-entries .date {  position: static;}
 
-.page-archive .archive-entries .archive-entry {  position: relative;  margin-bottom: 3em;}
+.page-archive .archive-entries .archive-entry {  position: relative;  margin-bottom: 3em; margin-left: 100px;} 
 
 /* アーカーブページの本文サブタイトルの領域規定 */
 .page-archive .archive-entries .entry-title {  font-size: 13px;  margin: 0 0 .5em;}
-.page-archive .archive-entries .entry-title  a {  color: #CCCCCC;}
+.page-archive .archive-entries .entry-title  a {  color: #777777;}
 /*カテゴリ表示。これは重要ですね！ */
 .page-archive .archive-entries .categories {  margin-top: -60px;}
 /*.page-archive .archive-entries .categories {  margin: -58px 0 .5em;}*/
