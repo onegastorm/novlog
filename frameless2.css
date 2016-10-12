@@ -727,6 +727,12 @@ a.keyword {
 
 /* アーカイブコーナーのカラム領域規定 */
 .page-archive #main {  width: 70%;  margin: 0 auto 0 auto;}
+
+.page-archive #main h2 {
+  text-align: center;
+  font-size: 1.2em;
+}
+
 /* アーカーブページの本文の領域規定 */
 /*.page-archive .entry-title {  margin: 0 0 0 0;}*/
 .page-archive .archive-entries {  color: #999999;}
