@@ -338,11 +338,12 @@ a.keyword {
 /*.date a {  color: #1a1a1a;  text-decoration: none;  display: inline-block;}*/
 
 /* カテゴリボタンの領域を規定します。 */
-.categories {  display: inline-block;  text-align: right;}
+.categories {  display: inline;}
 /*.categories {  position: absolute;  top: 52%;  right: 10%;}*/
 
 /* カテゴリボタンの装飾を指定します。 */
 .categories a {
+  position: right;
   font-size: 11px;
   cursor: pointer;
   padding: 2px 10px;
