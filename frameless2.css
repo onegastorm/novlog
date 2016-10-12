@@ -586,6 +586,7 @@ a.keyword {
   vertical-align: middle;
   margin-right: 3px;
 }
+/* プロフィールのアイコンの領域規定 */
 .hatena-module-profile .profile-icon {
   width: 24px;
   margin: 0;
@@ -597,13 +598,12 @@ a.keyword {
   border-radius: 12px;
   background-clip: padding-box;
 }
-.hatena-module-profile .id a {
-  text-decoration: none;
-}
-.hatena-module-profile .profile-description p {
-  margin: 10px 0;
-}
-/* 読者になるボタン？ */
+/* プロフィールのIDの装飾指定 */
+.hatena-module-profile .id {  display: none;}
+/*.hatena-module-profile .id a {  text-decoration: none;}*/
+/* プロフィールの最終更新とかかんとか？ */
+.hatena-module-profile .profile-description p {  margin: 10px 0;}
+/* プロフィールの読者になるボタン？ */
 .hatena-follow-button-box {  display: inline-block;  margin: 0;  vertical-align: middle;}
 /* 最新記事とカテゴリのリスト形式規定 */
 .hatena-urllist {  list-style: none;  margin: 4px 0 0 0;  padding: 0 0 0 0;}
