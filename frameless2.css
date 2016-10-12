@@ -713,7 +713,7 @@ a.keyword {
 /* ★Aboutページについて？　とりあえず保留だよ！★ */
 
 /* アバウトページの領域規定 */
-.page-about .entry-content {  text-align: left;}
+.page-about .entry-content {  text-align: left; width: 720px;}
 /* よくわかんないっすけど、サムネイルっすかね？ */
 .page-about .entry-content img {  margin: 0;  display: inline-block;  vertical-align: middle;}
 /* サブタイトルの装飾 */
