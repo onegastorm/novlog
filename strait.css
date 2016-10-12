@@ -1083,7 +1083,7 @@ a.keyword {
   margin: 0 auto 20px auto;
 }
 .page-archive #main h2 {
-  text-align: center;
+  text-align: left;
   font-size: 1.2em;
 }
 .page-archive .archive-entries {
@@ -1115,7 +1115,7 @@ a.keyword {
   display: block;
 }
 .page-archive .archive-entries .entry-title {
-  font-size: 330%;
+  font-size: 130%;
   margin: 0 0 .5em;
 }
 .page-archive .archive-entries .categories {
