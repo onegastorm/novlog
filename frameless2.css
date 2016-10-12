@@ -729,9 +729,9 @@ a.keyword {
 .page-archive #main {  width: 70%;  margin: 0 auto 0 auto;}
 /* アーカイブコーナーのタイトル文字の装飾 */
 .page-archive #main h2 {
-  color: #CCCCCC;
+  color: #BBBBBB;
   font-weight: normal;
-  font-size: 13px;
+  font-size: 15px;
 /*  text-decoration: none;*/
 /*  text-align: center;*/
 /*  font-size: 1.2em;*/
