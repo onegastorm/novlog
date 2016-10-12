@@ -730,8 +730,9 @@ a.keyword {
 /* アーカイブコーナーのタイトル文字の装飾 */
 .page-archive #main h2 {
   text-decoration: none;
+  font-weight: normal;
 /*  text-align: center;*/
-  font-size: 1.2em;
+/*  font-size: 1.2em;*/
 }
 
 /* アーカーブページの本文の領域規定 */
