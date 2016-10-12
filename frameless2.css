@@ -716,9 +716,9 @@ a.keyword {
 .page-about .entry-content {  text-align: left;}
 /* よくわかんないっすけど、サムネイルっすかね？ */
 .page-about .entry-content img {  margin: 0;  display: inline-block;  vertical-align: middle;}
-/**/
+/* サブタイトルの装飾 */
 .page-about dt {
-  font-size: 20px;
+  font-size: 13px;
   color: #999999;
 }
 .page-about dd {
