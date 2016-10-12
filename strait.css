@@ -1,7 +1,7 @@
 /*
 Theme Name: Straight
 Theme URI: http://blog.hatena.ne.jp/-/store/theme/6653812171396210945
-Description: —]”’imarginj‚ğˆÓ¯‚µ‚½AƒŠƒLƒbƒhƒŒƒCƒAƒEƒg‚ÈƒuƒƒOƒe[ƒ}‚Å‚·BƒŒƒXƒ|ƒ“ƒVƒuƒfƒUƒCƒ“‚É‘Î‰‚µ‚Ä‚¢‚Ü‚·B* ƒŠƒ|ƒWƒgƒŠ[https://github.com/kgsi/hatenablog-theme-straight:title]* XV—š—ğ-ver1.0 (2016.05.15)FŒöŠJ
+Description: ä½™ç™½ï¼ˆmarginï¼‰ã‚’æ„è­˜ã—ãŸã€ãƒªã‚­ãƒƒãƒ‰ãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆãªãƒ–ãƒ­ã‚°ãƒ†ãƒ¼ãƒã§ã™ã€‚ãƒ¬ã‚¹ãƒãƒ³ã‚·ãƒ–ãƒ‡ã‚¶ã‚¤ãƒ³ã«å¯¾å¿œã—ã¦ã„ã¾ã™ã€‚* ãƒªãƒã‚¸ãƒˆãƒª[https://github.com/kgsi/hatenablog-theme-straight:title]* æ›´æ–°å±¥æ­´-ver1.0 (2016.05.15)ï¼šå…¬é–‹
 Author: kgsi
 Author URI: http://blog.hatena.ne.jp/kgsi/
 */
@@ -406,7 +406,7 @@ th {
 /* Common */
 html,
 body {
-  font-family: "ŸàƒSƒVƒbƒN", YuGothic, 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic', sans-serif;
+  font-family: "æ¸¸ã‚´ã‚·ãƒƒã‚¯", YuGothic, 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic', sans-serif;
   color: #454545;
   background-color: #fff;
 }
@@ -583,7 +583,7 @@ a.keyword {
   font-size: 80%;
   margin: 5px 0 0 0;
 }
-/* ƒwƒbƒ_‰æ‘œ‚ğİ’è‚µ‚½‚Æ‚« */
+/* ãƒ˜ãƒƒãƒ€ç”»åƒã‚’è¨­å®šã—ãŸã¨ã */
 .header-image-enable #title {
   padding-top: 70px;
 }
@@ -591,7 +591,7 @@ a.keyword {
 .header-image-enable #blog-description {
   padding-left: 20px;
 }
-/* ƒpƒ“‚­‚¸iƒJƒeƒSƒŠ[ƒy[ƒW‚Å•\¦‚³‚ê‚Ü‚·j */
+/* ãƒ‘ãƒ³ããšï¼ˆã‚«ãƒ†ã‚´ãƒªãƒ¼ãƒšãƒ¼ã‚¸ã§è¡¨ç¤ºã•ã‚Œã¾ã™ï¼‰ */
 #top-box {
   margin: 10px auto 20px;
   font-size: 90%;
@@ -635,7 +635,7 @@ a.keyword {
   position: relative;
   margin-bottom: 10px;
 }
-/* “ú•t */
+/* æ—¥ä»˜ */
 .date {
   font-family: 'AxisStd-Light';
   margin-bottom: 10px;
@@ -645,7 +645,7 @@ a.keyword {
   text-decoration: none;
   font-size: 80%;
 }
-/* ƒJƒeƒSƒŠ */
+/* ã‚«ãƒ†ã‚´ãƒª */
 .categories {
   font-size: 80%;
 }
@@ -662,7 +662,7 @@ a.keyword {
 .categories.no-categories {
   margin: 0;
 }
-/* u•ÒW‚·‚évƒ{ƒ^ƒ“ */
+/* ã€Œç·¨é›†ã™ã‚‹ã€ãƒœã‚¿ãƒ³ */
 .entry-header-menu {
   position: absolute;
   top: 0px;
@@ -695,7 +695,7 @@ a.keyword {
   background-color: #f7f8f9;
   text-decoration: none !important;
 }
-/* entry-content ‚Ì’†‚Ì‘® */
+/* entry-content ã®ä¸­ã®æ›¸å¼ */
 .entry-content {
   width: 782px;
   margin: 0 auto;
@@ -967,7 +967,7 @@ a.keyword {
   margin-top: 0;
 }
 /* urllist module
-	ƒŠƒ“ƒNEÅV‹L–EÅ‹ß‚ÌƒRƒƒ“ƒgEŒ•ÊƒA[ƒJƒCƒuEƒJƒeƒSƒŠƒ‚ƒWƒ…[ƒ‹‚Í .hatena-urllist ‚Æ‚¢‚¤‹¤’Ê‚Ì class ‚ªU‚ç‚ê‚Ü‚·
+	ãƒªãƒ³ã‚¯ãƒ»æœ€æ–°è¨˜äº‹ãƒ»æœ€è¿‘ã®ã‚³ãƒ¡ãƒ³ãƒˆãƒ»æœˆåˆ¥ã‚¢ãƒ¼ã‚«ã‚¤ãƒ–ãƒ»ã‚«ãƒ†ã‚´ãƒªãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã¯ .hatena-urllist ã¨ã„ã†å…±é€šã® class ãŒæŒ¯ã‚‰ã‚Œã¾ã™
 */
 .hatena-urllist {
   list-style: none;
@@ -1062,7 +1062,7 @@ a.keyword {
 #footer address img {
   display: none;
 }
-/* About ƒy[ƒW */
+/* About ãƒšãƒ¼ã‚¸ */
 .page-about dt {
   font-size: 16px;
   font-weight: bold;
@@ -1073,7 +1073,7 @@ a.keyword {
   margin-left: 0;
   margin-bottom: 30px;
 }
-/* archive ƒy[ƒW */
+/* archive ãƒšãƒ¼ã‚¸ */
 .page-archive #main {
   padding-top: 30px;
 }
@@ -1083,7 +1083,7 @@ a.keyword {
   margin: 0 auto 20px auto;
 }
 .page-archive #main h2 {
-  text-align: center;
+  text-align: left;
   font-size: 1.2em;
 }
 .page-archive .archive-entries {
