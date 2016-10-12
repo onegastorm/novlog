@@ -743,7 +743,7 @@ form.search-result-form {
 /* page-about ---------------------------------------- */
 
 /* 余白対策 */
-.page-about {  padding-bottom: 300px;}
+.page-about {  padding-bottom: 300px;　margin-bottom:auto;}
 /* アバウトページの領域規定 */
 .page-about .entry-content {    color: #999999; text-align: left;  margin: 0 20% 0 20%; padding: 8% 0 4% 0;}
 /* サムネイルですね。 */
