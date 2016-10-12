@@ -688,7 +688,7 @@ a.keyword {
   width: 45%;
 }
 
-/* Footer -------------------------------------------------- */
+/* footer -------------------------------------------------- */
 /* フッターです。 */
 
 /* フッターの領域的要素。paddingをけすとなぜか横幅がイケナイことになります。 */
@@ -722,14 +722,13 @@ a.keyword {
 /* 各要素の領域規定*/
 .page-about dd {  margin: 0 0 0 0;}
 
-
-
-/* archiveページ */
+/* archive */
 /* 過去記事検索コーナーのテーブルです。 */
 
-.page-archive .archive-entries {
-  margin-bottom: 100px;
-}
+/* アーカーブページの領域規定 */
+.page-archive .archive-entries {  margin: 100% 15% 100% 15%; /*margin-bottom: 100px;*/}
+
+
 .page-archive .archive-entries .date {
   position: static;
 }
