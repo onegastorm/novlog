@@ -485,7 +485,8 @@ a.keyword {
 /* 記事のフッターです。 */
 
 /* 記事のフッターの領域を規定します。 */
-.entry-footer {  background: #FFEEEE;  margin:0 180px 0 180px;  padding-bottom: 60px;}
+.entry-footer {  background: #FFEEEE;  width: 60%;  margin:0 auto 0 auto;  padding-bottom: 60px;}
+/*.entry-footer {  background: #FFEEEE;  margin:0 180px 0 180px;  padding-bottom: 60px;}*/
 /* 実質的には文責と時間程度ですかね。 */
 .entry-footer-section {  font-size: 80%;  color: #999999;}
 .entry-footer-section a {  text-decoration: none;}
