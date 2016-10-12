@@ -310,7 +310,6 @@ a.keyword {
 #box2 {  width: 100%;}
 
 /* Blogtitle(header) ---------------------------------------- */
-/* ブログタイトル部、リード部を包括するテーブルです。 */
 
 /* ブログタイトルテーブル全体の領域を規定します。 */
 #blog-title {  display: none;  width: 973px;}
@@ -323,7 +322,6 @@ a.keyword {
 /*#blog-description {  background: #CCFFCC;}*/
 
 /* Entry ---------------------------------------- */
-/* 記事タイトル部、日付部、カテゴリー表示部、記事本文部、コメント部などを包括するテーブルです。*/
 
 /* テーブル全体の領域を規定します。 */
 .entry {  position: relative;  margin-bottom: 0px;  background: #EEEEFF;}
@@ -336,10 +334,10 @@ a.keyword {
 /* 日付ボタンの領域を規定します。 */
 .date { display: none; }
 /*.date {  position: absolute;  font-size: 11px;  z-index: 100;  background: #AAAAFF;}*/
-/* ハイフネーションを指定します。 */
-.date .hyphen {  padding: 2px;  color: #999999;}
-/* 日付ボタンの装飾を指定します。 */
-.date a {  color: #1a1a1a;  text-decoration: none;  display: inline-block;}
+/* 日付表示のハイフネーションを指定します。 */
+/*.date .hyphen {  padding: 2px;  color: #999999;}*/
+/* 日付の装飾を指定します。 */
+/*.date a {  color: #1a1a1a;  text-decoration: none;  display: inline-block;}*/
 /* カテゴリボタンの領域を規定します。 */
 .categories {  position: absolute;  font-size: 11px;  right: 10%;  top: 56%;}
 /* カテゴリボタンの装飾を指定します。 */
