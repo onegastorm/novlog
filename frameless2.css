@@ -726,27 +726,14 @@ form.search-result-form {
 /* アーカーブページの本文サブタイトルの領域規定 */
 .page-archive .archive-entries .entry-title {  font-size: 13px;  margin: 0 0 .5em;}
 .page-archive .archive-entries .entry-title  a {  color: #777777;}
-/*カテゴリ表示。これは重要ですね！ */
-.page-archive .archive-entries .categories {  margin-top: -60px;}
-/*.page-archive .archive-entries .categories {  margin: -58px 0 .5em;}*/
 /* 何？　保留です。 */
 .page-archive .archive-entries .entry-description {  margin: 0 0 1em;  line-height: 1.7em;  font-size: 13px;}
 /* サムネイル？　保留です。 */
 .page-archive .entry-thumb {  margin-right: 80px;}
 
-/* カテゴリ表示ページの領域規定*/
-.page-archive .categories {  font-size: 20px;}
-/* カテゴリ表示ページの装飾指定*/
-/*.page-archive .categories a {
-  color: #fff;
-  font-size: 70%;
-  background: #aaa;
-  padding: 3px 5px;
-  border-radius: 3px;
-  text-decoration: none;
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
-  margin-right: 2px;
-}
-*/
+/*カテゴリ表示。これは重要ですね！ */
+/*.page-archive .archive-entries .categories {  margin-top: -60px;}*/
+/* カテゴリ表示ページのカテゴリボタンの領域規定*/
+/*.page-archive .categories {  ;}*/
+/* カテゴリ表示ページのカテゴリボタンの装飾指定*/
+/*.page-archive .categories a {  ;}*/
