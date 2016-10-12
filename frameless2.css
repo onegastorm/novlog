@@ -293,7 +293,7 @@ a.keyword {
 /* Globalheader ---------------------------------------- */
 
 /* グローバルヘッダの領域を規定します。 */
-#globalheader-container {  background-color: #fff;  color: #999;/*  top: 0;  left: 0;*/  width: 100%;}
+#globalheader-container {  background-color: #fff;  color: #999;  top: 0;  left: 0;  width: 100%;}
 
 /* Container ---------------------------------------- */
 
