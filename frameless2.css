@@ -699,12 +699,12 @@ form.search-result-form {
 /* 記号とかの指定？ */
 .pager:after {  display: block;  visibility: hidden;  font-size: 0;  height: 0;  clear: both;  content: ".";}
 /* 戻るページ送りを規定 */
-.pager .pager-next {  float: left;  text-align: left;  width: 50%;  margin-right: 10%;}
-.pager .pager-next a {  color: #555555;}
+.pager .pager-prev {  float: left;  text-align: left;  width: 50%;  margin-right: 10%;}
+.pager .pager-prev a {  color: #555555;}
 /*  border-bottom: 1px solid #dfdfdf;*/
 /* 進むページ送りを規定 */
-.pager .pager-prev {  float: right;  text-align: right;  width: 30%;  margin-left: 10%;}
-.pager .pager-prev a {  text-decoration: none; font-size: 11px;  color: #777777;}
+.pager .pager-next {  float: right;  text-align: right;  width: 30%;  margin-left: 10%;}
+.pager .pager-next a {  text-decoration: none; font-size: 11px;  color: #777777;}
 
 /* footer -------------------------------------------------- */
 
