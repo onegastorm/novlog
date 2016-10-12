@@ -735,7 +735,7 @@ form.search-result-form {
 .page-archive .entry-thumb {  margin-right: 80px;}
 
 /* カテゴリ表示ページの装飾指定*/
-.page-archive .categories a {
+/*.page-archive .categories a {
   color: #fff;
   font-size: 70%;
   background: #aaa;
@@ -747,3 +747,4 @@ form.search-result-form {
   *zoom: 1;
   margin-right: 2px;
 }
+*/
