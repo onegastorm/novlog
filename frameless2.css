@@ -713,13 +713,14 @@ a.keyword {
 /* ★Aboutページについて？　とりあえず保留だよ！★ */
 
 /* アバウトページの領域規定 */
-.page-about .entry-content {  text-align: left;  width:720px;  margin: 0 auto 0 auto;}
-/* よくわかんないっすけど、サムネイルっすかね？ */
-.page-about .entry-content img {  margin: 0;  display: inline-block;  vertical-align: middle;}
+.page-about .entry-content {  text-align: left;  margin: 0 30% 0 30%;}
+/* よくわかんないっすけど、サムネイルだと思いませんか */
+.page-about .entry-content img {  display: none;}
+/*.page-about .entry-content img {  margin: 0;  display: inline-block;  vertical-align: middle;}*/
 /* サブタイトルの装飾指定 */
 .page-about dt {  font-size: 13px;  color: #999999;}
 /* 各要素の領域規定*/
-.page-about dd {  margin: 0 0 0 0;}
+.page-about dd {  margin: 0 0 0 20px;}
 
 /* archiveページ */
 /* 過去記事検索コーナーのテーブルです。 */
