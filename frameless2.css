@@ -342,7 +342,7 @@ a.keyword {
 /*.date a {  color: #1a1a1a;  text-decoration: none;  display: inline-block;}*/
 
 /* カテゴリボタンの領域を規定します。 */
-.categories {  display: inline; padding-right: 20%;}
+.categories {  display: inline;  position:right;  padding-right: 20%;}
 /*.categories {  position: absolute;  top: 52%;  right: 10%;}*/
 
 /* カテゴリボタンの装飾を指定します。 */
