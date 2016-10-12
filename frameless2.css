@@ -323,44 +323,43 @@ a.keyword {
 
 /* Entry ---------------------------------------- */
 
-/* テーブル全体の領域を規定します。 */
+/* テーブル全体の領域規定 */
 .entry {  position: relative;  margin-bottom: 0px;  background: #EEEEFF;  width: 100%;}
-/* 記事タイトル部の領域を規定します。 */
+/* 記事タイトル部の領域規定 */
 .entry-header {  position: relative;  background: #FFFF00;  width: 100%;  padding:0 0 0 0;}
-/* 記事タイトルを規定します。 */
+/* 記事タイトルの領域規定 */
 .entry-title {  display: inline;  font-size: 13px;  font-weight: normal;  margin: 1.4%;}
-/* 日付ボタンの領域を規定します。 */
+/* 日付ボタンの領域規定 */
 .date {  display: none;}
 /*.date {  position: absolute;  font-size: 11px;  z-index: 100;  background: #AAAAFF;}*/
-/* 日付表示のハイフネーションを指定します。 */
+/* 日付表示のハイフネーション指定 */
 /*.date .hyphen {  padding: 2px;  color: #999999;}*/
-/* 日付の装飾を指定します。 */
+/* 日付の装飾指定 */
 /*.date a {  color: #1a1a1a;  text-decoration: none;  display: inline-block;}*/
-/* カテゴリボタンの領域を規定します。 */
+/* カテゴリボタンの領域規定 */
 .categories {  display: inline;}
 /*.categories {  display: inline;  float: right;  margin-right: 10%;}*/
-/* カテゴリボタンの装飾を指定します。 */
+/* カテゴリボタンの装飾指定 */
 .categories a {
-  text-align: right;
-  font-size: 11px;
   cursor: pointer;
   padding: 2px 10px;
+  font-size: 11px;
   color: #CCCCCC;
   text-decoration: none;
   border: 1px solid #CCCCCC;
   border-radius: 3px;
   background: #FFFFFF;
 }
-/* カテゴリボタンのマウスオーバー時の動作を指定します。 */
+/* カテゴリボタンのマウスオーバー時の動作指定 */
 .categories a:hover {  background: #F3F3F3;}
-/* 記事がカテゴリーに属していない時の動作を指定します。 */
+/* 記事がカテゴリーに属していない時の動作指定 */
 .categories.no-categories {  margin: 0;}
-/* 編集ボタンの領域を規定します。 */
-/*.entry-header-menu {  display: inline;}*/
+/* 編集ボタンの領域規定 */
+.entry-header-menu {  display: inline;  padding-left: 5%}
 /*.entry-header-menu {  position: absolute;  top: -4%;  left: 0.5%;}*/
-/* 編集ボタンの装飾を指定します。 */
+/* 編集ボタンの装飾指定 */
 .entry-header-menu a {
-  display: inline-block;
+/*  display: inline-block;
   *display: inline;
   *zoom:1;
   line-height: 18px;
@@ -375,8 +374,8 @@ a.keyword {
   border-radius: 3px;
   background: #FFFFFF;
 }
-/* 編集ボタンのマウスオーバー時の動作を指定します。 */
-.entry-header-menu a:hover {  background: #F3F3F3;}
+/* 編集ボタンのマウスオーバー時の動作指定 */
+.entry-header-menu a:hover {  background: #F3F3F3;  transition: 2.0s;}
 
 /* entry-content ---------------------------------------- */
 /* 記事本文のテーブルです。boilerplateからのこぴぺです。ここでは無視します。 */
