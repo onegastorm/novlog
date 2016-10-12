@@ -712,10 +712,10 @@ form.search-result-form {
 /* フッターの領域規定。paddingをけすとなぜか横幅がイケナイことになります。 */
 #footer {
   width: 100%;
-  height:80px;
+  height: 80px;
   position:absolute;
   bottom:0;
-  padding: 0.1% 0 2% 0;
+/*  padding: 0.1% 0 2% 0;*/
   text-align: center;
   color: #BBBBBB;
 /*  line-height: 3;*/
