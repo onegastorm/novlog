@@ -491,7 +491,7 @@ a.keyword {
 /* Comment-box ---------------------------------------- */
 
 /* 投稿されたコメントボックスの領域を規定します。 */
-.comment-box ul {  list-style: none;  margin: 0 0 15px 0;  padding: 0;  font-size: 13px;  color: #999999;  text-align: left;}
+.comment-box ul {  list-style: none;/*  margin: 0 0 15px 0;*/  padding: 0;  font-size: 13px;  color: #999999;  text-align: left;}
 /* 投稿されたコメントボックスの本文の領域を規定します。 */
 .comment-box li {  padding: 10px 20px 10px 60px;  border-bottom: 1px solid #EEEEEE;  position: relative;}
 /* コメントボックス最上段の罫線を指定します。 */
