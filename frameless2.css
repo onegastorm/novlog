@@ -729,6 +729,7 @@ a.keyword {
 .page-archive #main {  width: 70%;  margin: 0 auto 0 auto;}
 
 .page-archive #main h2 {
+  text-decoration: none;
   text-align: center;
   font-size: 1.2em;
 }
