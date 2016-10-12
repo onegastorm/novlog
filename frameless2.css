@@ -730,19 +730,11 @@ a.keyword {
 /* 何？ */
 .page-archive .archive-entries .date {  position: static;}
 
+.page-archive .archive-entries .archive-entry {  position: relative;  margin-bottom: 3em;}
+
 /* アーカーブページの本文サブタイトルの領域規定 */
-.page-archive .archive-entries .archive-entry {  color: #BBBBBB;  position: relative;  margin-bottom: 3em;}
+.page-archive .archive-entries .entry-title {  color: #BBBBBB;  font-size: 13px;  margin: 0 0 .5em;}
 
-.page-archive .archive-entries .entry-title {  font-size: 13px;  margin: 0 0 .5em;}
-
-.page-archive .archive-entries .categories {
-  margin: 0 0 .5em;
-}
-.page-archive .archive-entries .entry-description {
-  margin: 0 0 1em;
-  line-height: 1.7em;
-  font-size: 13px;
-}
-.page-archive .entry-thumb {
-  margin-right: 80px;
-}
+.page-archive .archive-entries .categories {  margin: 0 0 .5em;}
+.page-archive .archive-entries .entry-description {  margin: 0 0 1em;  line-height: 1.7em;  font-size: 13px;}
+.page-archive .entry-thumb {  margin-right: 80px;}
