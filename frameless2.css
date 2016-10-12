@@ -306,7 +306,7 @@ a.keyword {
 /* ブログタイトル部、本文タイトル部、本文部、コメント部などを包括するテーブルです。 */
 
 /* テーブルの領域を規定します。 */
-#container {  width: 100%;  margin: 0 auto;  background: #FFEEEE;}
+#container {  width: 100%;  margin: 0 auto 0;  background: #FFEEEE;}
 /* メインカラムの領域を規定します。 */
 #main {  margin-left: auto;  margin-right: auto; width: 973px;}
 /* メインカラムの領域を規定します。こちらは失敗です。 */
