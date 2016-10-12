@@ -544,7 +544,7 @@ a.keyword {
 
 #box2 {
   width: 100%;
-  background: #FFFFEE;
+  background: #333333;
   font-size: 13px;
   margin-bottom: 0px;
 }
@@ -622,6 +622,10 @@ a.keyword {
 .hatena-urllist li a {
   text-decoration: none;
 }
+
+/* search-box (hatena-module) ---------------------------------------- */
+/* めんどうだから触りません */
+
 .hatena-module-search-box .search-form {
   border: none;
   background: #f5f5f5;
