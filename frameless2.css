@@ -678,10 +678,11 @@ a.keyword {
   content: ".";
 }
 /* 戻るページ送りを規定 */
-.pager .pager-prev {  float: left;  text-align: left;  width: 45%;  text-decoration: none;  font-size: 11px;}
-/*.pager .pager-prev a {  text-decoration: none; font-size: 11px;}*/
+.pager .pager-prev {  float: left;  text-align: left;  width: 45%;  color: #CCCCCC;}
+.pager .pager-prev a {  text-decoration: none; font-size: 11px;}
 /* 進むページ送りを規定 */
-.pager .pager-next {  float: right;  text-align: right;  width: 45%;}
+.pager .pager-next {  float: right;  text-align: right;  width: 45%;  color: #CCCCCC;}
+/*.pager .pager-next a {  float: right;  text-align: right;  width: 45%;}*/
 /*  border-bottom: 1px solid #dfdfdf;*/
 
 /* footer -------------------------------------------------- */
