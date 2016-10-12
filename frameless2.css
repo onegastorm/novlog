@@ -713,7 +713,7 @@ a.keyword {
 /* Aboutページについて */
 
 /* アバウトページの領域規定 */
-.page-about .entry-content {  text-align: left;  margin: 0 15% 0 15%; padding: 5% 0 2% 0;}
+.page-about .entry-content {  text-align: left;  margin: 0 15% 0 15%; padding: 5% 0 1% 0;}
 /* サムネイルですね。 */
 /*.page-about .entry-content img {  display: none;}*/
 .page-about .entry-content img {  margin: 0;  display: inline-block;  vertical-align: middle;}
