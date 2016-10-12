@@ -708,7 +708,19 @@ a.keyword {
 /* IDとはてなリンクを1列に！ */
 /*#footer address,#footer .services {  display: inline;  padding-right: 1em;}*/
 
-
+.clearfix{
+  zoom:1;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  overflow: hidden;/* 隙間対応 */
+  font-size: 0.1em;/* 隙間対応 */
+  line-height: 0;/* 隙間対応 */
+}
 
 
 .page-about .entry-content {
