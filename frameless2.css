@@ -728,7 +728,8 @@ a.keyword {
 /* アーカーブページの本文の領域規定 */
 .page-archive .archive-entries {  color: #999999;  margin: 0 15% 0 15%;}
 /* 何？ */
-.page-archive .archive-entries .date {  position: static;  margin-top: 100px;}
+.page-archive .archive-entries .date {  position: static;}
+.page-archive .archive-entries .date a {  margin-left: 100px;}
 /* アーカーブページの本文の領域規定 */
 .page-archive .archive-entries .archive-entry {  position: relative;  margin-bottom: 3em;} 
 /* アーカーブページの本文サブタイトルの領域規定 */
