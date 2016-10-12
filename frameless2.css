@@ -624,33 +624,22 @@ a.keyword {
 }
 
 
-.hatena-module {
-    clear: both;
-    overflow: hidden;
-}
+.hatena-module {  clear: both;  overflow: hidden;}
+
+
+/* プロフィールの読者になるボタン？ */
+.hatena-follow-button-box {  display: inline-block;  margin: 0;  vertical-align: middle;}
+/* 最新記事とカテゴリのリスト形式規定 */
+.hatena-urllist {  list-style: none;  margin: 0 0 0 0;  padding: 0 0 0 0;}
+/* 最新記事とカテゴリの本文の領域規定 */
+.hatena-urllist li {  padding: 0;  line-height: 1.5;}
+/* 最新記事とカテゴリの本文の装飾指定 */
+.hatena-urllist li a {  color: #999999;  text-decoration: none;}
 
 
 
-.hatena-follow-button-box {
-  display: inline-block;
-  margin: 0;
-  vertical-align: middle;
-}
-
-.hatena-urllist {
-  list-style: none;
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-}
-.hatena-urllist li {
-  padding: 0;
-  line-height: 1.5;
-}
-.hatena-urllist li a {
-  text-decoration: none;
-}
-
-
+/* search-box (hatena-module) ---------------------------------------- */
+/* ほりゅう！ */
 
 .hatena-module-search-box .search-form {
   border: none;
@@ -685,7 +674,12 @@ a.keyword {
   filter: alpha(opacity=85);
 }
 
+/* search-result-form ----------------------------------------- */
+/* ほりゅう！ */
 
+form.search-result-form {
+  display: inline-block;
+}
 
 
 
