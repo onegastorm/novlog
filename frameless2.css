@@ -704,7 +704,7 @@ line-height: 1.5;
 /* フッターのリンク要素的装飾*/
 #footer a {  color: #CCCCCC;  text-decoration: none;}
 /* なんだろう？ */
-/*#footer address,#footer .services {  display: inline;  padding-right: 1em;}*/
+#footer address,#footer .services {  display: inline;  padding-right: 1em;}
 
 
 
