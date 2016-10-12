@@ -695,7 +695,7 @@ a.keyword {
   padding: 0.1% 0 10px 0;
   text-align: center;
   color: #CCCCCC;
-  line-height: 3;
+/*  line-height: 3;*/
   background: #333333;
   font-size: 80%;  width: 100%;}
 /* ID消しちゃいましょう！ */
