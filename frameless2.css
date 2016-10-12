@@ -575,7 +575,7 @@ a.keyword {
 /*.hatena-module-title a:hover {  text-decoration: none;}*/
 
 /* はてなモジュールの各タイトルの本体の領域を規定 */
-.hatena-module-body {  width: 20%;  float: left;}
+.hatena-module-body {  width: 24%;  float: left;}
 .hatena-module-body .circle-urllist .circle-image {  float: none;  vertical-align: middle;}
 
 
