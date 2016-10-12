@@ -726,7 +726,7 @@ a.keyword {
 /* 過去記事検索コーナーのテーブルです。 */
 
 /* アーカーブページの領域規定 */
-.page-archive .archive-entries {  margin: 100% 15% 100% 15%; /*margin-bottom: 100px;*/}
+.page-archive .archive-entries {  margin: 0 15% 0 15%;}
 
 
 .page-archive .archive-entries .date {
