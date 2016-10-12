@@ -691,16 +691,16 @@ a.keyword {
 /* フッターです。 */
 
 /* フッターの領域的要素。paddingをけすとなぜか横幅がイケナイことになります。 */
-#footer {  padding: 12px 0 100px;
+#footer {  padding: 12px 0 10px;
 /*line-height: 1.5;*/
   text-align: center;
-  color: #EEEEEE;
+  color: #DDDDDD;
   background: #333333;
   font-size: 80%;
   width: 100%;
 }
 /* フッターの段落要素的装飾 */
-#footer p {  margin: 0 0 20px;}
+#footer p {  margin: 0;}
 /* フッターのリンク要素的装飾*/
 #footer a {  color: #DDDDDD;  text-decoration: none;}
 /* なんだろう？ */
