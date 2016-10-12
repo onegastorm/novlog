@@ -342,13 +342,13 @@ a.keyword {
 /* カテゴリボタンの装飾指定 */
 .categories a {
   cursor: pointer;
-  padding: 2px 10px;
+  padding: 1px 10px;
   font-size: 11px;
   color: #FFFFFF;
   text-decoration: none;
   border: 0;
 /*  border: 1px solid #CCCCCC;*/
-  border-radius: 8px;
+  border-radius: 6px;
   background: #DDDDDD;
 }
 /* カテゴリボタンのマウスオーバー時の動作指定 */
