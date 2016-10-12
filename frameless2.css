@@ -296,12 +296,17 @@ a.keyword {
 #globalheader-container {  background-color: #fff;  color: #999;  top: 0;  left: 0;  width: 100%;}
 
 /* Container ---------------------------------------- */
+
+/* 余白対策のはず */
 #wrap{
      width: 100%;
      position: relative;
      height:auto !important; /*IE6対策*/
      height: 100%; /*IE6対策*/
      min-height: 100%;
+}
+#contents{
+     padding-bottom:300px;
 }
 /* テーブルの領域を規定します。 */
 #container {  width: 100%;  margin: 0 auto 0 auto;  background: #FFEEEE;}
