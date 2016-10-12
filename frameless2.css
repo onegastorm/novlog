@@ -326,12 +326,11 @@ a.keyword {
 /* テーブル全体の領域規定 */
 .entry {  position: relative;  margin-bottom: 0px;  background: #EEEEFF;  width: 100%;}
 /* 記事タイトル部の領域規定 */
-.entry-header {  display: flex;  position: relative;  background: #FFFF00;  width: 100%;  padding:40px 0 40px 0;}
+.entry-header {  position: relative;  background: #FFFF00;  width: 100%;  padding:0 0 0 0;}
 /* 記事タイトルの領域規定 */
 .entry-title {  display: inline;  font-size: 13px;  font-weight: normal;  margin: 1.4%;}
 /* 日付ボタンの領域規定 */
-.date {  display: inline;}
-/*.date {  display: none;}*/
+.date {  display: none;}
 /*.date {  position: absolute;  font-size: 11px;  z-index: 100;  background: #AAAAFF;}*/
 /* 日付表示のハイフネーション指定 */
 /*.date .hyphen {  padding: 2px;  color: #999999;}*/
