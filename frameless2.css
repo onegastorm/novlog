@@ -726,7 +726,7 @@ a.keyword {
 /* 過去記事検索コーナーのテーブルです。 */
 
 /* アーカーブページの本文の領域規定 */
-.page-archive .entry {  margin: 0 15% 0 15%;}
+.page-archive .entry-title {  margin: 0 15% 0 15%;}
 .page-archive .archive-entries {  color: #999999;  margin: 0 15% 0 15%;}
 /* 何？ */
 .page-archive .archive-entries .date {  position: static;}
