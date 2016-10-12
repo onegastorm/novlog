@@ -326,7 +326,7 @@ a.keyword {
 /* テーブル全体の領域を規定します。 */
 .entry {  position: relative;  margin-bottom: 0px;  background: #EEEEFF;  width: 100%;}
 /* 記事タイトル部の領域を規定します。 */
-.entry-header {  position: relative;  background: #FFFF00;  width: 80%;}
+.entry-header {  position: relative;  background: #FFFF00;  width: 80%;  padding:20px 0 20px 0;}
 /* 日付部、記事タイトル部、カテゴリー部のline-heightを指定します。 */
 .date,.entry-title,.categories {  line-height: 0px;}
 /* 記事タイトルを規定します。 */
