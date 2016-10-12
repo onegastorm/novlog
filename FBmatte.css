@@ -1,7 +1,7 @@
 /*
 Theme Name: FB matte
 Theme URI: http://blog.hatena.ne.jp/-/store/theme/11696248318758515013
-Description: Ê^ˆó‰æ†ƒCƒ“ƒXƒpƒCƒA[ƒhƒfƒUƒCƒ“‚Å‚·B¡‚Ì‚Æ‚±‚ë1ƒJƒ‰ƒ€‚Ì‚İ‘Î‰Bƒ^ƒCƒgƒ‹‚Í”¼Šp‰p”„§B
+Description: å†™çœŸå°ç”»ç´™ã‚¤ãƒ³ã‚¹ãƒ‘ã‚¤ã‚¢ãƒ¼ãƒ‰ãƒ‡ã‚¶ã‚¤ãƒ³ã§ã™ã€‚ä»Šã®ã¨ã“ã‚1ã‚«ãƒ©ãƒ ã®ã¿å¯¾å¿œã€‚ã‚¿ã‚¤ãƒˆãƒ«ã¯åŠè§’è‹±æ•°æ¨å¥¨ã€‚
 Author: ruemui
 Author URI: http://blog.hatena.ne.jp/ruemui/
 */
@@ -11,7 +11,7 @@ Author URI: http://blog.hatena.ne.jp/ruemui/
   Theme: FB matte
   Author: ruemui
   Description:
-    ˆó‰æ†ƒ‰ƒu‚ÈƒfƒUƒCƒ“‚Å‚·B
+    å°ç”»ç´™ãƒ©ãƒ–ãªãƒ‡ã‚¶ã‚¤ãƒ³ã§ã™ã€‚
 
   Licensed under the MIT license.
 */
@@ -513,9 +513,9 @@ a.keyword {
   line-height: normal;
   font-weight: bold;
 }
-/* ƒwƒbƒ_iƒOƒ[ƒoƒ‹ƒwƒbƒ_j
-  ƒOƒ[ƒoƒ‹ƒwƒbƒ_‚Ì’†‚Íiframe‚Å‚·‚ªA
-  #globalheader-container ‚É”wŒiF‚â•¶šF‚ğw’è‚·‚é‚±‚Æ‚Åirame‚Ì’†‚É‚àF‚ª”½‰f‚³‚ê‚Ü‚·B
+/* ãƒ˜ãƒƒãƒ€ï¼ˆã‚°ãƒ­ãƒ¼ãƒãƒ«ãƒ˜ãƒƒãƒ€ï¼‰
+  ã‚°ãƒ­ãƒ¼ãƒãƒ«ãƒ˜ãƒƒãƒ€ã®ä¸­ã¯iframeã§ã™ãŒã€
+  #globalheader-container ã«èƒŒæ™¯è‰²ã‚„æ–‡å­—è‰²ã‚’æŒ‡å®šã™ã‚‹ã“ã¨ã§irameã®ä¸­ã«ã‚‚è‰²ãŒåæ˜ ã•ã‚Œã¾ã™ã€‚
 */
 #globalheader-container {
   background-color: rgba(252, 251, 249, 0.6);
@@ -554,7 +554,7 @@ a.keyword {
 .globalheader-off #container {
   padding-top: 0;
 }
-/* 2ƒJƒ‰ƒ€ƒŒƒCƒAƒEƒg */
+/* 2ã‚«ãƒ©ãƒ ãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆ */
 #main {
   width: 600px;
   float: left;
@@ -563,7 +563,7 @@ a.keyword {
   width: 300px;
   float: right;
 }
-/* 1ƒJƒ‰ƒ€‚É‚µ‚½‚¢ê‡‚Í‰º‹L‚ÌƒRƒƒ“ƒgƒAƒEƒg‚ğŠO‚µ‚Ä‚­‚¾‚³‚¢ ---- */
+/* 1ã‚«ãƒ©ãƒ ã«ã—ãŸã„å ´åˆã¯ä¸‹è¨˜ã®ã‚³ãƒ¡ãƒ³ãƒˆã‚¢ã‚¦ãƒˆã‚’å¤–ã—ã¦ãã ã•ã„ ---- */
 #main {
   width: 100%;
   float: none;
@@ -598,7 +598,7 @@ a.keyword {
 .hatena-module:nth-child(3n+1) {
   clear: both;
 }
-/* ---- END 1ƒJƒ‰ƒ€ */
+/* ---- END 1ã‚«ãƒ©ãƒ  */
 /* header */
 #blog-title {
   margin-bottom: 35px;
@@ -624,7 +624,7 @@ a.keyword {
   text-align: center;
   margin-top: 35px;
 }
-/* ƒwƒbƒ_‰æ‘œ‚ğİ’è‚µ‚½‚Æ‚« */
+/* ãƒ˜ãƒƒãƒ€ç”»åƒã‚’è¨­å®šã—ãŸã¨ã */
 .header-image-enable #blog-title-inner {
   height: 330px;
 }
@@ -638,7 +638,7 @@ a.keyword {
 .header-image-enable #blog-description {
   padding-left: 20px;
 }
-/* ƒpƒ“‚­‚¸iƒJƒeƒSƒŠ[ƒy[ƒW‚Å•\¦‚³‚ê‚Ü‚·j */
+/* ãƒ‘ãƒ³ããšï¼ˆã‚«ãƒ†ã‚´ãƒªãƒ¼ãƒšãƒ¼ã‚¸ã§è¡¨ç¤ºã•ã‚Œã¾ã™ï¼‰ */
 #top-box {
   margin: 14px auto 21px;
   font-size: 93%;
@@ -683,7 +683,7 @@ a.keyword {
   border-bottom: 2px solid #6a6a6a;
   padding: 7px 0;
 }
-/* “ú•t */
+/* æ—¥ä»˜ */
 .date {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
@@ -701,7 +701,7 @@ a.keyword {
   /* 18px */
 
 }
-/* ƒJƒeƒSƒŠ */
+/* ã‚«ãƒ†ã‚´ãƒª */
 .categories {
   padding: 7px 0;
   font-family: 'Raleway', sans-serif;
@@ -719,7 +719,7 @@ a.keyword {
   border-bottom: none;
   margin: 0;
 }
-/* u•ÒW‚·‚évƒ{ƒ^ƒ“ */
+/* ã€Œç·¨é›†ã™ã‚‹ã€ãƒœã‚¿ãƒ³ */
 .entry-header-menu {
   position: absolute;
   bottom: 0px;
@@ -765,7 +765,7 @@ a.keyword {
   background-color: #ebeb4c;
   text-decoration: none !important;
 }
-/* entry-content ‚Ì’†‚Ì‘® */
+/* entry-content ã®ä¸­ã®æ›¸å¼ */
 .entry-content {
   font-size: 100%;
   /* 13px */
@@ -887,7 +887,7 @@ a.keyword {
 .entry-footer-html {
   margin: 10px 0;
 }
-/* ƒRƒƒ“ƒg */
+/* ã‚³ãƒ¡ãƒ³ãƒˆ */
 .comment-box ul {
   list-style: none;
   margin: 0 0 15px 0;
@@ -1059,7 +1059,7 @@ a.keyword {
   margin-top: 0;
 }
 /* urllist module
-    ƒŠƒ“ƒNEÅV‹L–EÅ‹ß‚ÌƒRƒƒ“ƒgEŒ•ÊƒA[ƒJƒCƒuEƒJƒeƒSƒŠƒ‚ƒWƒ…[ƒ‹‚Í .hatena-urllist ‚Æ‚¢‚¤‹¤’Ê‚Ì class ‚ªU‚ç‚ê‚Ü‚·
+    ãƒªãƒ³ã‚¯ãƒ»æœ€æ–°è¨˜äº‹ãƒ»æœ€è¿‘ã®ã‚³ãƒ¡ãƒ³ãƒˆãƒ»æœˆåˆ¥ã‚¢ãƒ¼ã‚«ã‚¤ãƒ–ãƒ»ã‚«ãƒ†ã‚´ãƒªãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã¯ .hatena-urllist ã¨ã„ã†å…±é€šã® class ãŒæŒ¯ã‚‰ã‚Œã¾ã™
 */
 .hatena-urllist {
   list-style: none;
@@ -1182,7 +1182,7 @@ a.keyword {
 #footer a:hover {
   color: #ebeb4c;
 }
-/* About ƒy[ƒW */
+/* About ãƒšãƒ¼ã‚¸ */
 .page-about dt {
   font-size: 16px;
   font-weight: bold;
@@ -1193,7 +1193,7 @@ a.keyword {
   margin-left: 0;
   margin-bottom: 30px;
 }
-/* archive ƒy[ƒW */
+/* archive ãƒšãƒ¼ã‚¸ */
 .page-archive #main {
   margin: 0 auto;
 }
@@ -1203,7 +1203,7 @@ a.keyword {
   padding: 0 1em;
 }
 .page-archive #main h1 {
-  font-size: 146.5%;
+  font-size: 246.5%;
   /* 19px */
 
   margin-bottom: 1em;
