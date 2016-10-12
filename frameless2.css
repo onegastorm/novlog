@@ -718,9 +718,9 @@ a.keyword {
 /*.page-about .entry-content img {  display: none;}*/
 .page-about .entry-content img {  margin: 0;  display: inline-block;  vertical-align: middle;}
 /* サブタイトルの装飾指定 */
-.page-about dt {  font-size: 13px;  color: #999999;}
+.page-about dt {  font-size: 13px;  color: #999999; margin: 5% 0 0 0;}
 /* 各要素の領域規定*/
-.page-about dd {  margin: 0 0 5% 0;}
+.page-about dd {  margin: 0 0 4% 0;}
 
 
 
