@@ -619,43 +619,39 @@ a.keyword {
 /* めんどうだから触りません */
 
 
-.hatena-module-search-box .search-form {
+
+.hatena-module-search-box {
+  margin: 0;
+  padding: 20px 0;
+}
+.search-form {
   position: relative;
 }
-.hatena-module-search-box .search-module-input {
-  width: 175px;
-  margin: 0;
-  padding: 0 35px 0 10px;
+.search-form .search-module-input {
+  width: 211px;
+  padding: 9px 35px 9px 12px;
   border: 0;
-  color: #fff;
-  font-size: 15px;
-  line-height: 28px;
-  background: rgba(0,0,0,0.2);
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
-  border-radius: 30px;
-  -webkit-box-shadow: inset 0 2px 6px rgba(0,0,0,0.5);
-  -moz-box-shadow: inset 0 2px 6px rgba(0,0,0,0.5);
-  -ms-box-shadow: inset 0 2px 6px rgba(0,0,0,0.5);
-  -o-box-shadow: inset 0 2px 6px rgba(0,0,0,0.5);
-  box-shadow: inset 0 2px 6px rgba(0,0,0,0.5);
+  color: rgba(255,255,255,0.9);
+  font-size: 13px;
+  background: rgba(85, 48, 0, 0.25);
+  -webkit-box-shadow: inset 0 2px 10px rgba(0,0,0,0.4), 0 1px 0 rgba(255,255,255,0.4);
+  -moz-box-shadow: inset 0 2px 10px rgba(0,0,0,0.4), 0 1px 0 rgba(255,255,255,0.4);
+  box-shadow: inset 0 2px 10px rgba(0,0,0,0.4), 0 1px 0 rgba(255,255,255,0.4);
+  border-radius: 40px;
 }
-.hatena-module-search-box .search-module-button {
+.search-form .search-module-button {
   position: absolute;
-  top: 1px;
-  left: 185px;
-  width: 26px;
-  height: 26px;
+  overflow: hidden;
+  top: 2px;
+  left: 222px;
+  width: 35px;
+  height: 33px;
   margin: 0;
   padding: 0;
   border: 0;
-  background: url(http://cdn-ak.f.st-hatena.com/images/fotolife/k/kudakurage/20130218/20130218162359.png) no-repeat center center;
-  text-indent: -999px;
-  cursor: pointer;
+  text-indent: -100px;
+  background: url(http://cdn-ak.f.st-hatena.com/images/fotolife/k/kudakurage/20130418/20130418224112.png) no-repeat center center;
 }
-
 
 
 
