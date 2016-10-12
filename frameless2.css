@@ -733,3 +733,17 @@ form.search-result-form {
 .page-archive .archive-entries .entry-description {  margin: 0 0 1em;  line-height: 1.7em;  font-size: 13px;}
 /* サムネイル？　保留です。 */
 .page-archive .entry-thumb {  margin-right: 80px;}
+
+/* カテゴリ表示ページの装飾指定*/
+.page-archive .categories a {
+  color: #fff;
+  font-size: 70%;
+  background: #aaa;
+  padding: 3px 5px;
+  border-radius: 3px;
+  text-decoration: none;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  margin-right: 2px;
+}
