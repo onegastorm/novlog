@@ -293,7 +293,7 @@ a.keyword {
 /* Globalheader ---------------------------------------- */
 
 /* グローバルヘッダの領域を規定します。 */
-#globalheader-container {  background-color: #fff;  color: #999;  top: 0;  left: 0;  width: 100%;}
+#globalheader-container {  background-color: #fff;  color: #999;/*  top: 0;  left: 0;*/  width: 100%;}
 
 /* Container ---------------------------------------- */
 
@@ -522,7 +522,9 @@ a.keyword {
 .comment-metadata {  font-size: 11px;  color: #666666;  margin: 0; text-align: right;}
 .comment-metadata a {  color: #666666;}
 /* 書き込みボタンの領域を規定します。 */
-.leave-comment-title {  margin-left: 28px;  font-size: 11px;
+.leave-comment-title {
+  margin-left: 28px;
+  font-size: 11px;
 /*  display: inline-block;
   *display: inline;
   *zoom:1;
