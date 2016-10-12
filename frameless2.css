@@ -543,7 +543,7 @@ a.keyword {
 /* ★box2についての指定です。 */
 
 /* サイドバーの領域規定 */
-#box2 {  width: 100%;  color: #BBBBBB;  background: #333333;  font-size: 13px;/*  margin-bottom: 0px;*/}
+#box2 {  width: 100%;  color: #BBBBBB;  background: #333333;  font-size: 13px;  margin:0 10% 0 10%;}
 /* サイドバーの各要素の位置 */
 .hatena-module {
 /* 下の1行は完成時には削除して下さい */
