@@ -691,22 +691,22 @@ a.keyword {
 /* フッターです。 */
 
 /* フッターの領域的要素。paddingをけすとなぜか横幅がイケナイことになります。 */
-#footer {  padding: 10px 0 40px 0;
-line-height: 1.5;
+#footer {  padding: 12px 0 30px 0;
+/*line-height: 1.5;*/
   text-align: center;
   color: #CCCCCC;
   background: #333333;
   font-size: 80%;
   width: 100%;
 }
+/* ID消しちゃいましょう！ */
+#footer address {  display: none;}
 /* フッターの段落要素的装飾 */
-#footer p {  margin: 0;}
+/*#footer p {  margin: 0;}*/
 /* フッターのリンク要素的装飾*/
 #footer a {  color: #CCCCCC;  text-decoration: none;}
 /* IDとはてなリンクを1列に！ */
 /*#footer address,#footer .services {  display: inline;  padding-right: 1em;}*/
-
-#footer address {display: none;}
 
 
 
