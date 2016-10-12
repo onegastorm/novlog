@@ -550,7 +550,7 @@ a.keyword {
 /* サイドバーの領域規定 */
 #box2 {
   position:absolute;
-  bottom: 120px;
+  bottom: 0px;
   width: 100%;
   height: 120px;
   color: #BBBBBB;
