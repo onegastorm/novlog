@@ -326,7 +326,7 @@ a.keyword {
 /* テーブル全体の領域を規定します。 */
 .entry {  position: relative;  margin-bottom: 0px;  background: #EEEEFF;  width: 100%;}
 /* 記事タイトル部の領域を規定します。 */
-.entry-header {  position: relative;  background: #FFFF00;  width: 100%;  padding:40px 0 40px 0;}
+.entry-header {  position: relative;  background: #FFFF00;  width: 100%;  padding:0 0 0 0;}
 /* 記事タイトルを規定します。 */
 .entry-title {  display: inline;  font-size: 13px;  font-weight: normal;  margin: 1.4%;}
 /* 日付ボタンの領域を規定します。 */
@@ -336,11 +336,9 @@ a.keyword {
 /*.date .hyphen {  padding: 2px;  color: #999999;}*/
 /* 日付の装飾を指定します。 */
 /*.date a {  color: #1a1a1a;  text-decoration: none;  display: inline-block;}*/
-
 /* カテゴリボタンの領域を規定します。 */
-.categories {  display: inline;  float: right;  margin-right: 10%;}
-/*.categories {  position: absolute;  top: 52%;  right: 10%;}*/
-
+.categories {  display: inline;}
+/*.categories {  display: inline;  float: right;  margin-right: 10%;}*/
 /* カテゴリボタンの装飾を指定します。 */
 .categories a {
   text-align: right;
@@ -355,7 +353,7 @@ a.keyword {
 }
 /* カテゴリボタンのマウスオーバー時の動作を指定します。 */
 .categories a:hover {  background: #F3F3F3;}
-/* 記事がカテゴリーに属していなかった時の動作を指定します。 */
+/* 記事がカテゴリーに属していない時の動作を指定します。 */
 .categories.no-categories {  margin: 0;}
 /* 編集ボタンの領域を規定します。 */
 .entry-header-menu {  position: absolute;/*  font-size: 11px;*/  top: -4%;*/  left: 0.5%;}
