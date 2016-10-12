@@ -608,7 +608,7 @@ a.keyword {
   margin: 0;
   vertical-align: middle;
 }
-.hatena-urllist {
+.hatena-urllist {  color: #00FF00;
   list-style: none;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
