@@ -544,7 +544,7 @@ a.keyword {
 
 #box2 {
   width: 100%;
-  color: #CCCCCC;
+  color: #BBBBBB;
   background: #333333;
   font-size: 13px;
 /*  margin-bottom: 0px;*/
@@ -679,7 +679,7 @@ a.keyword {
 #footer {
   padding: 0.1% 0 2% 0;
   text-align: center;
-  color: #CCCCCC;
+  color: #BBBBBB;
 /*  line-height: 3;*/
   background: #333333;
   font-size: 80%;  width: 100%;
@@ -689,7 +689,7 @@ a.keyword {
 /* フッターの段落要素的装飾 */
 /*#footer p {  margin: 0;}*/
 /* フッターのリンク要素的装飾*/
-#footer a {  color: #CCCCCC;  text-decoration: none;}
+#footer a {  color: #BBBBBB;  text-decoration: none;}
 /* IDとはてなリンクを1列に！ */
 /*#footer address,#footer .services {  display: inline;  padding-right: 1em;}*/
 
