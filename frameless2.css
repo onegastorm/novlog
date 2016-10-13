@@ -349,6 +349,11 @@ a.keyword {
   border-radius: 7px;
   background: #DDDDDD;
 }
+.categories a:before {
+  font-family: "fa-book";
+  content: "\f02d";
+  padding-right: 4px;
+}
 /* カテゴリボタンのマウスオーバー時の動作指定 */
 .categories a:hover {  color: #999999;  background: #EEEEEE;}
 /* 記事がカテゴリーに属していない時の領域指定 */
