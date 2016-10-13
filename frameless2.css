@@ -468,7 +468,7 @@ a.keyword {
   width:61%;/*段の幅*/
   display:inline-block;
   vertical-align: top;
-  padding:103px;
+/*  padding:3px;*/
 }
 
 .hatena-module:after {
