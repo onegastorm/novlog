@@ -342,23 +342,19 @@ a.keyword {
 /*.categories {  display: inline;  float: right;  margin-right: 10%;}*/
 /* カテゴリボタンの装飾指定 */
 .categories a {
-/*  cursor: pointer;*/
   padding: 0 10px;
   font-size: 12px;
   color: #FFFFFF;
   text-decoration: none;
-/*  border: 0;*/
-/*  border: 1px solid #CCCCCC;*/
   border-radius: 7px;
   background: #DDDDDD;
 }
 /* カテゴリボタンのマウスオーバー時の動作指定 */
 .categories a:hover {  color: #999999;  background: #EEEEEE;}
-/* 記事がカテゴリーに属していない時の動作指定 */
+/* 記事がカテゴリーに属していない時の領域指定 */
 .categories.no-categories {  margin: 0;}
 /* 編集ボタンの領域規定 */
-.entry-header-menu {  display: inline;  padding-left: 5%}
-/*.entry-header-menu {  position: absolute;  top: -4%;  left: 0.5%;}*/
+.entry-header-menu {  position: absolute; display: inline;  padding-left: 5%}
 /* 編集ボタンの装飾指定 */
 .entry-header-menu a {
 /*  display: inline-block;
@@ -367,9 +363,9 @@ a.keyword {
   line-height: 18px;
   text-align: center;
   vertical-align: middle;*/
-  cursor: pointer;
-  padding: 2px 10px;
-  font-size: 11px;
+/*  cursor: pointer;*/
+  padding: 1px 12px;
+  font-size: 12px;
   color: #CCCCCC;
   text-decoration: none;
   border: 1px solid #CCCCCC;
