@@ -472,11 +472,10 @@ a.keyword {
 .hatena-module-title a {  color: #999999;  text-decoration: none;}
 /* 最新記事のタイトルのマウスオーバー時の装飾指定 */
 .hatena-module-title a:hover {  color: #DDDDDD;  text-decoration: none;  transition: 0.8s;}
+/* 各ブロックの本文の領域規定 */
+.hatena-module-body {  margin-top:5px;/*  float: left;*/}
 
-.hatena-module-body {
-    margin-top:105px;
-    float: left;
-}
+
 .hatena-module-body .circle-urllist .circle-image {
   float: none;
   vertical-align:middle;
