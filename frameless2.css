@@ -671,3 +671,20 @@ form.search-result-form {
 /*.page-archive .categories {  ;}*/
 /* カテゴリ表示ページのカテゴリボタンの装飾指定*/
 /*.page-archive .categories a {  ;}*/
+
+.page-archive .archive-entries .categories {
+  margin: 0 0 1.3em;
+}
+.page-archive .categories a {
+  color: #ABABAB;
+  font-size: 70%;
+  background: #FFF;
+  padding: 5px 8px;
+  border-radius: 3px;
+  text-decoration: none;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  margin-right: 2px;
+  border: 1px solid #DEDEDE;
+}
