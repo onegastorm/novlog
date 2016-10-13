@@ -251,7 +251,7 @@ a.keyword {
 }
 
 /* Buttons ---------------------------------------- */
-.btn {
+/*.btn {
   display: inline-block;
   *display: inline;
   *zoom: 1;
@@ -288,7 +288,7 @@ a.keyword {
   font-size: 17px;
   line-height: normal;
   font-weight: bold;
-}
+}*/
 
 /* Globalheader ---------------------------------------- */
 
