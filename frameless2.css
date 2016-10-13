@@ -474,11 +474,13 @@ a.keyword {
   background: #FFFFFF;
 }*/
 
-/* カテゴリボタンの装飾指定 */
+/* コメントボタンの装飾指定 */
+.leave-comment-title {  text-align: center;}
+/* コメントボタンの装飾指定 */
 .leave-comment-title a {  font-size: 12px;  color: #DDDDDD;  text-decoration: none;}
-/* カテゴリボタンの前にアイコンをつけます */
+/* コメントボタンの前にアイコンをつけます */
 .leave-comment-title a:before {  font-family: "blogicon";  content: "\f024";  padding-right: 4px;}
-/* 書き込みボタンのマウスオーバー時の動作を指定します。 */
+/* コメントブタンのマウスオーバー時の動作を指定します。 */
 .leave-comment-title:hover {  color: #999999;/*  background: #EEEEEE;*/  transition: 0.8s;}
 
 
