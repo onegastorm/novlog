@@ -622,7 +622,7 @@ form.search-result-form {
 /* 月別アーカイブのタイトル文字の装飾 */
 .page-archive #main h2 {  color: #999999;  font-weight: normal;  font-size: 15px;  padding-top:50px;}
 /* アーカーブページの本文の全体の領域規定？ */
-.page-archive .archive-entries {  margin-top: 20px;}
+.page-archive .archive-entries {  margin-top: 40px;  font-size: 13px;}
 /* 記事タイトルの領域規定 */
 .page-archive .entry-title {  margin: 0 0 0 0;}
 /* 何？　日付っつーぐらいだから月間アーカイブとかの日付ですかね？ */
@@ -633,7 +633,7 @@ form.search-result-form {
 .page-archive .archive-entries .entry-title {  margin-top: 0px;  background: #00FFFF;}
 .page-archive .archive-entries .entry-title  a {  position: absolute;  font-size: 13px;  color: #777777;}
 /* 何？　保留です。 */
-.page-archive .archive-entries .entry-description {  margin: 0 0 1em;  line-height: 1.7em;  font-size: 13px;}
+/*.page-archive .archive-entries .entry-description {  margin: 0 0 1em;  line-height: 1.7em;  font-size: 13px;}*/
 /* サムネイル？　保留です。 */
 /*.page-archive .entry-thumb {  margin-right: 80px;}*/
 
