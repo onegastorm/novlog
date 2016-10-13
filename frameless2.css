@@ -324,10 +324,10 @@ a.keyword {
 
 /* Entry ---------------------------------------- */
 
-/* テーブル全体の領域規定 */
-.entry {  position: relative;  margin-bottom: 100px;  background: #EEEEFF;/*  width: 100%;*/}
+/* 記事コンテンツの領域規定 */
+.entry {  position: relative;/*  width: 100%;*/  margin-bottom: 100px;  background: #EEEEFF;}
 /* 記事タイトル部の領域規定 */
-.entry-header {  position: relative;/*  width: 100%;*/ padding:100px 0 100px 0;*/  background: #FFFF00;}
+.entry-header {  position: absolute;/*  width: 100%;*/ padding:100px 0 100px 0;*/  background: #FFFF00;}
 /* 記事タイトルの文字領域規定 */
 .entry-title {  display: inline;  font-size: 13px;  font-weight: normal;  margin: 1.4%;}
 /* 日付ボタンの領域規定 */
