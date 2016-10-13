@@ -639,6 +639,6 @@ form.search-result-form {
 /*カテゴリ表示。これは重要ですね！ */
 .page-archive .archive-entries .categories {  background: #00FF00;}
 /* カテゴリ表示ページのカテゴリボタンの領域規定*/
-.page-archive .categories {  display: inline-block;  text-align: right;}
+.page-archive .categories {  position: relative;  display: inline-block;  text-align: right;}
 /* カテゴリ表示ページのカテゴリボタンの装飾指定*/
 .page-archive .categories a {}
