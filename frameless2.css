@@ -502,7 +502,8 @@ a.keyword {
 	border-radius: 2px;
 }*/
 /* カテゴリボタンの前にアイコンをつけます */
-.categories a:before {  font-family: "blogicon";  content: "\f022";  padding-right: 4px;}
+.hatena-module-category .hatena-module-body ul.hatena-urllist li a:before {
+  font-family: "blogicon";  content: "\f022";  padding-right: 4px;}
 /* はてなモジュール・カテゴリーのマウスオーバー時の装飾指定 */
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a:hover{  color: #DDDDDD;  transition:0.8s;}
 
