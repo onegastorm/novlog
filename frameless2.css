@@ -325,11 +325,11 @@ a.keyword {
 /* Entry ---------------------------------------- */
 
 /* テーブル全体の領域規定 */
-.entry {  position: relative;  margin-bottom: 100px;  background: #EEEEFF;/*  width: 100%;*/}
+.entry {  position: absolute;/*  position: relative;*/  margin-bottom: 100px;  background: #EEEEFF;/*  width: 100%;*/}
 /* 記事タイトル部の領域規定 */
-.entry-header {  position: relative;  background: #FFFF00;/*  width: 100%;*/ padding:100px 0 100px 0;*/}
+.entry-header {  position: relative;/*  width: 100%;*/ padding:100px 0 100px 0;*/  background: #FFFF00;}
 /* 記事タイトルの文字領域規定 */
-.entry-title {  display: inline;  font-size: 13px;  font-weight: normal;  margin: 10.4%;}
+.entry-title {  display: inline;  font-size: 13px;  font-weight: normal;  margin: 1.4%;}
 /* 日付ボタンの領域規定 */
 .date {  display: none;}
 /*.date {  position: absolute;  font-size: 11px;  z-index: 100;  background: #AAAAFF;}*/
