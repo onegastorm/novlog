@@ -510,7 +510,7 @@ a.keyword {
 /* sidebar -> category ---------------------------------------- */
 
 /* パンくずリストの領域規定 */
-.breadcrumb {  font-size:15px;  color: #DDDDDD;  background: #FFEEEE;}
+.breadcrumb {  font-size:15px;  color: #999999;  background: #FFEEEE;}
 /* パンくずリストの装飾指定 */
 .breadcrumb a {  font-size:12px;  color: #DDDDDD;  text-decoration: none;}
 /* パンくずリストのマウスオーバー時の装飾指定 */
