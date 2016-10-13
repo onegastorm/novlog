@@ -329,7 +329,7 @@ a.keyword {
 /* 記事タイトル部の領域規定 */
 .entry-header {  position: relative;  width: 97.2%; margin:0 auto 0 auto;  background: #FFFF00;}
 /* 記事タイトルの文字領域規定 */
-.entry-title {  display: inline;  font-size: 13px;  font-weight: normal;  margin-right:10%;/*  margin: 1.4%;*/}
+.entry-title {  display: inline;  font-size: 13px;  font-weight: normal;  margin-right:2%;/*  margin: 1.4%;*/}
 /* 日付ボタンの領域規定 */
 .date {  display: none;}
 /*.date {  position: absolute;  font-size: 11px;  z-index: 100;  background: #AAAAFF;}*/
