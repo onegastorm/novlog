@@ -466,7 +466,6 @@ a.keyword {
 /* 段を作るためのダミー */
 .hatena-module-category:before {/*  display: block;*/  width: 10px;  height: auto;  padding-top: auto;  clear: both;  content: ".2222";  background: #FFFFFF;/*  visibility:hidden;*/}
 .hatena-module-category { vertical-align: bottom;}
-.hatena-urllist:after {  display: block;  height: auto;  padding-top: auto;  clear: both;  content: ".2222";  background: #FFFFFF;/*  visibility:hidden;*/}
 
 /* 回り込みを防ぐとか何とかよくわかりません */
 .hatena-module:after {  display: block;  visibility:hidden;  height: 0;  clear: both;  content: ".2222";}
@@ -523,7 +522,8 @@ a.keyword {
 /* アクセスランキングの文字の大きさを変えるというかなりどうでも良いお話 */
 .urllist-item-inner.entries-access-ranking-item-inner {  font-size: 12px;}
 .urllist-item-inner.entries-access-ranking-item-inner {  padding: 10px;  border-bottom: 1px solid #848484;}
-
+/* でもって最新記事で段差作っちゃう*/
+.urllist-item-inner.recent-entries:after {  display: block;  height: auto;  padding-top: auto;  clear: both;  content: ".2222";  background: #FFFFFF;/*  visibility:hidden;*/}
 
 /* search-box (hatena-module) ---------------------------------------- */
 /* ほりゅう！ */
