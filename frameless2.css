@@ -597,49 +597,44 @@ form.search-result-form {
 
 /* page-about ---------------------------------------- */
 
-/* アバウトページの領域規定 */
-.page-about .entry-content {    color: #999999; text-align: left;  margin: 0 20% 0 20%; padding: 8% 0 4% 0;}
-/* サムネイルですね。 */
-/*.page-about .entry-content img {  display: none;}*/
-.page-about .entry-content img {  margin: 0;  display: inline-block;  vertical-align: middle;}
-/* サブタイトルの装飾指定 */
-.page-about dt {  font-size: 13px;  color: #BBBBBB; margin: 6% 0 0 0;}
-/* 各要素の領域規定*/
+/* 紹介コーナー関係 */
 .page-about dd {  margin: 0 0 0 0;}
+/* サブタイトル関係 */
+.page-about dt {  font-size: 13px;  color: #BBBBBB; margin: 6% 0 0 0;}
+/* ないようがないよう */
+.page-about .entry-content {    color: #999999; text-align: left;  margin: 0 20% 0 20%; padding: 8% 0 4% 0;}
+/* サムネイルですかね */
+.page-about .entry-content img {  margin: 0;  display: inline-block;  vertical-align: middle;}
+/*.page-about .entry-content img {  display: none;}*/
 
 /* archive ---------------------------------------- */
 
-/* パンくずリストの領域規定 */
-.breadcramb {  display: none;}
-.breadcrumb {  font-size:13px;  color: #999999;  background: #FFEEEE;  width: 973px; margin:0 auto 0 auto;}
-/* パンくずリストの装飾指定 */
-.breadcrumb a {  font-size:11px;  color: #DDDDDD;  text-decoration: none; margin-left:1.4%;}
-/* パンくずリストのマウスオーバー時の装飾指定 */
-.breadcrumb a:hover {  color: #999999;  text-decoration: none;  transition: 0.8s;}
-
-/* アーカイブコーナーのカラム領域規定 */
+/* アーカイブコーナーのテーブル */
 .page-archive #main {  width: 60%;  margin: 0 auto 0 auto;}
-/* 月別アーカイブのタイトル文字の装飾 */
+/* 月別一覧のタイトル文字 */
 .page-archive #main h2 {  color: #999999;  font-weight: normal;  font-size: 15px;  padding-top:50px;}
-/* アーカーブページの本文の全体の領域規定？ */
-.page-archive .archive-entries {  margin-top: 40px;  font-size: 13px;  color: #999999;/*  line-height: 1.22em;*/}
-/* 記事タイトルの領域規定 */
+/* カテゴリ一覧ページの記事タイトル */
 .page-archive .entry-title {  margin: 0 0 0 0;}
-/* 何？　日付っつーぐらいだから月間アーカイブとかの日付ですかね？ */
-.page-archive .archive-entries .date {  position: static;}
-/* アーカーブページの本文の個別の領域規定 */
-.page-archive .archive-entries .archive-entry {  margin-top: 20px;}
-/* アーカーブページの本文サブタイトルの領域規定 */
 .page-archive .archive-entries .entry-title {  margin-top: 0px;}
 .page-archive .archive-entries .entry-title  a {  position: absolute;  font-size: 13px;  color: #777777;  background: #00FFFF;}
+/* カテゴリ一覧ページの本文関係 */
+.page-archive .archive-entries {  margin-top: 40px;  font-size: 13px;  color: #999999;/*  line-height: 1.22em;*/}
+.page-archive .archive-entries .archive-entry {  margin-top: 20px;}
 /* 何？　保留です。 */
 /*.page-archive .archive-entries .entry-description {  margin: 0 0 1em;  line-height: 1.7em;  font-size: 13px;}*/
 /* サムネイル？　保留です。 */
 /*.page-archive .entry-thumb {  margin-right: 80px;}*/
-
-/*カテゴリ表示。これは重要ですね！ */
+/* 何？　日付っつーぐらいだから月間一覧とかの日付ですかね？ */
+/*.page-archive .archive-entries .date {  position: static;}*/
+/* カテゴリ一覧ページのカテゴリボタン関係 */
 .page-archive .archive-entries .categories {  line-height: 1.4em;}
-/* カテゴリ表示ページのカテゴリボタンの領域規定*/
 .page-archive .categories {/*  display: inline-block;*/}
-/* カテゴリ表示ページのカテゴリボタンの装飾指定*/
 .page-archive .categories a {  display: block;  text-align: right;  background: #00FF00;}
+
+/* breadcrumb ---------------------------------------- */
+
+/* パンくずリスト関係 */
+.breadcramb {  display: none;}
+/*.breadcrumb {  font-size:13px;  color: #999999;  background: #FFEEEE;  width: 973px; margin:0 auto 0 auto;}*/
+/*.breadcrumb a {  font-size:11px;  color: #DDDDDD;  text-decoration: none; margin-left:1.4%;}*/
+/*.breadcrumb a:hover {  color: #999999;  text-decoration: none;  transition: 0.8s;}*/
