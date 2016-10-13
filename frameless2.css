@@ -510,9 +510,9 @@ a.keyword {
 /* sidebar -> category ---------------------------------------- */
 
 /* パンくずリストの領域規定 */
-.breadcrumb {  font-size:11px;  color: #DDDDDD;  background: #FFEEEE;}
+.breadcrumb {  font-size:12px;  color: #DDDDDD;  background: #FFEEEE;}
 /* パンくずリストの装飾指定 */
-.breadcrumb a {  font-size:11px;  color: #DDDDDD;  text-decoration: none;}
+.breadcrumb a {  font-size:15px;  color: #DDDDDD;  text-decoration: none;}
 /* パンくずリストのマウスオーバー時の装飾指定 */
 .breadcrumb a:hover {  color: #999999;  text-decoration: none;  transition: 0.8s;}
 /* 最新記事とカテゴリのリスト形式規定 */
