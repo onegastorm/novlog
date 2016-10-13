@@ -628,9 +628,9 @@ form.search-result-form {
 /* 何？　日付っつーぐらいだから月間アーカイブとかの日付ですかね？ */
 /*.page-archive .archive-entries .date {  position: static;}*/
 /* アーカーブページの本文の領域規定 */
-.page-archive .archive-entries .archive-entry {  position: relative;  margin-bottom: 3em;  background;77FF77;} 
+.page-archive .archive-entries .archive-entry {  position: relative;/*  margin-bottom: 3em;*/  background;77FF77;} 
 /* アーカーブページの本文サブタイトルの領域規定 */
-.page-archive .archive-entries .entry-title {  position: absolute;  font-size: 13px;  background: #00FFFF;}
+.page-archive .archive-entries .entry-title {  position: absolute;  font-size: 13px;  background: #00FFFF;  display: inline;}
 .page-archive .archive-entries .entry-title  a {  color: #777777;}
 /* 何？　保留です。 */
 /*.page-archive .archive-entries .entry-description {  margin: 0 0 1em;  line-height: 1.7em;  font-size: 13px;}*/
