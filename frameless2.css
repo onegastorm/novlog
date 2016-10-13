@@ -463,7 +463,7 @@ a.keyword {
 #box2 {  margin:0 0 0 0;  font-size: 13px;  color: #999999;  background: #333333;  padding-bottom: 40px;}
 /* 各要素の段上段右段下段左・段幅など */
 .hatena-module {  display:inline-block;  vertical-align: top;  margin:4% 0 0 4%;  width:28%;}
-/* 回り込みを防ぐとか何とかよくわからないです */
+/* 回り込みを防ぐとか何とかよくわかりま1000円 */
 .hatena-module:after {  display: block;  visibility:hidden;  height: 0;  clear: both;  content: ".2222";}
 
 /* 各要素のタイトル */
@@ -474,38 +474,23 @@ a.keyword {
 .hatena-module-body {  margin-top:5px;/*  float: left;*/}
 /* わかんねええええ */
 .hatena-module-body .circle-urllist .circle-image {  float: none;  vertical-align:middle;}
-/* プロフィールのアイコン */
-.hatena-module-profile .profile-icon {
-  display: inline-block;
-  overflow: hidden;
-  vertical-align: middle;
-  margin-right: 8px;
-  width: 40px;
-  margin-top: 4px;
-  border:solid 1px;
-  border-radius: 4px;
-  background-clip: padding-box;
-}
-/* プロフィールのID表示の装飾指定 */
+
+/* はてなモジュール・プロフィール関係 */
+.hatena-module-profile .profile-icon {  display: inline-block;  overflow: hidden;  vertical-align: middle;  margin-right: 8px;
+  width: 40px;  margin-top: 4px;  border:solid 1px;  border-radius: 4px;  background-clip: padding-box;}
 .hatena-module-profile .id a {  text-decoration: none;}
-/* プロフィールのID表示の下についてる何か */
 .hatena-module-profile .profile-description p {  margin: 10px 0;}
-/* はてなモジュール・カテゴリーの領域規定 */
+.hatena-follow-button-box {  display: inline-block;  margin: 0;  vertical-align: middle;}
+/* はてなモジュール・カテゴリー関係 */
 .hatena-module-category .hatena-module-body ul.hatena-urllist li {  display:inline-block;  margin:5px 0;}
-/* はてなモジュール・カテゴリーの装飾指定 */
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a{  font-size: 15px;  color: #999999;  margin-right:10px;}
-/* はてなモジュール・カテゴリーの前にアイコンをつけます */
-.hatena-module-category .hatena-module-body ul.hatena-urllist li a:before {
-  font-family: "blogicon";  content: "\f022";  padding-right: 2px;}
-/* はてなモジュール・カテゴリーのマウスオーバー時の装飾指定 */
+.hatena-module-category .hatena-module-body ul.hatena-urllist li a:before {  font-family: "blogicon";  content: "\f022";  padding-right: 2px;}
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a:hover{  color: #DDDDDD;  transition:0.8s;}
 /* よくわかりま1000円 */
 .hatena-module {  clear: both;  overflow: hidden;}
-/* プロフィールの読者になるボタン？ */
-.hatena-follow-button-box {  display: inline-block;  margin: 0;  vertical-align: middle;}
 
 /* 最新記事とカテゴリのリスト形式規定 */
-.hatena-urllist {  list-style: none;  margin:0 0 0 0;  padding: 0 0 0 0;  width: 973px;}
+.hatena-urllist {  list-style: disc;  margin:0 0 0 0;  padding: 0 0 0 0;  width: 973px;}
 /* 最新記事とカテゴリの本文の領域規定 */
 /*.hatena-urllist li {  padding: 0;  line-height: 2.4;}*/
 /* 最新記事とカテゴリの本文の装飾指定 */
