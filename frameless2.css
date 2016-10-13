@@ -638,8 +638,8 @@ form.search-result-form {
 /*.page-archive .entry-thumb {  margin-right: 80px;}*/
 
 /*カテゴリ表示。これは重要ですね！ */
-.page-archive .archive-entries .categories {}
+.page-archive .archive-entries .categories {  margin-top: 0px;  padding-top: 0px;}
 /* カテゴリ表示ページのカテゴリボタンの領域規定*/
-.page-archive .categories {/*  display: inline-block;*/  margin-top: 0px;}
+.page-archive .categories {/*  display: inline-block;*/  margin-top: 0px;  padding-top: 0px;}
 /* カテゴリ表示ページのカテゴリボタンの装飾指定*/
-.page-archive .categories a {  display: block;  text-align: right;  background: #00FF00;  margin-top: 0px;}
+.page-archive .categories a {  display: block;  text-align: right;  background: #00FF00;  margin-top: 0px;  padding-top: 0px;}
