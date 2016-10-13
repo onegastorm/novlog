@@ -302,7 +302,7 @@ a.keyword {
 /* コンテンツの領域規定。 */
 #container {/*  margin: 0 auto 0 auto;  width: 100%;*/  background: #BBFFBB;}
 /* メインカラムの領域規定 */
-#main {  margin: 0 auto 0 auto;  width: 973px;}
+#main {  margin: 0 auto 0 auto;  width: 973px;  margin-bottom:100px;}
 /* メインカラムの領域規定。こちらは失敗 */
 /*#container #content {  width: 940px}*/
 /* Container内側の余白規定。必要ないがあえてのこしておきます。 */
