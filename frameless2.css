@@ -519,8 +519,7 @@ a.keyword {
 
 /* 最新記事の文字の大きさを変えるという重要なお話*/
 .urllist-item-inner.recent-entries-item-inner {  font-size: 13px;}
-.urllist-item-inner.recent-entries-item-inner {  padding: 10px;  border-bottom: 1px solid #848484;}
-
+/*.urllist-item-inner.recent-entries-item-inner {  padding: 10px;  border-bottom: 1px solid #848484;}*/
 /* アクセスランキングの文字の大きさを変えるというかなりどうでも良いお話 */
 .urllist-item-inner.entries-access-ranking-item-inner {  font-size: 12px;}
 .urllist-item-inner.entries-access-ranking-item-inner {  padding: 10px;  border-bottom: 1px solid #848484;}
