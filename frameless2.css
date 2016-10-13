@@ -493,12 +493,10 @@ a.keyword {
 /* プロフィールのID表示の下についてる何か */
 .hatena-module-profile .profile-description p {  margin: 10px 0;}
 
-
-
-/* カテゴリー */
+/* はてなモジュール・カテゴリー */
 .hatena-module-category .hatena-module-body ul.hatena-urllist li {
    display:inline-block;
-   margin:5px 0;
+/*   margin:5px 0;*/
 }
 
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a{
