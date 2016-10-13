@@ -466,13 +466,13 @@ a.keyword {
 .hatena-module {  display:inline-block;  vertical-align: top;  margin:4% 0 0 4%;  width:28%;}
 /* うしろに何か入れてるけどまあいらないっすよね */
 /*.hatena-module:after {  display: block;  visibility:hidden;  height: 0;  clear: both;  content: ".2222";}*/
-
+/* 各ブロックのタイトルの装飾指定 */
 .hatena-module-title {
   display:block;
-  font-size:100%;
+/*  font-size:100%;*/
   padding-bottom:2px;
-  border-bottom:solid 1px #001A43;
-  width:50%;
+  border-bottom:solid 1px #555555;
+/*  width:50%;*/
 }
 .hatena-module-title a {
 }
