@@ -474,7 +474,6 @@ a.keyword {
 .hatena-module-body {  margin-top:5px;/*  float: left;*/}
 /* わかんねええええ */
 .hatena-module-body .circle-urllist .circle-image {  float: none;  vertical-align:middle;}
-
 /* はてなモジュール・プロフィール関係 */
 .hatena-module-profile .profile-icon {  display: inline-block;  overflow: hidden;  vertical-align: middle;  margin-right: 8px;
   width: 40px;  margin-top: 4px;  border:solid 1px;  border-radius: 4px;  background-clip: padding-box;}
@@ -490,7 +489,7 @@ a.keyword {
 .hatena-module {  clear: both;  overflow: hidden;}
 
 /* 最新記事とカテゴリのリスト形式規定 */
-.hatena-urllist {  list-style: disc;  margin:0 0 0 0;  padding: 0 0 0 0;  width: 973px;}
+.hatena-urllist {  list-style-type: disc;  margin:0 0 0 0;  padding: 0 0 0 0;  width: 973px;}
 /* 最新記事とカテゴリの本文の領域規定 */
 /*.hatena-urllist li {  padding: 0;  line-height: 2.4;}*/
 /* 最新記事とカテゴリの本文の装飾指定 */
