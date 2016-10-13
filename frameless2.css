@@ -521,9 +521,8 @@ a.keyword {
 .urllist-item-inner.entries-access-ranking-item-inner {  padding: 10px;  border-bottom: 1px solid #848484;}
 
 /* 段差作っちゃう*/
-.hatena-module-category { text-align: bottom;}
 .hatena-module-category:before {  display: block;  clear: both;  content: "@@@@";  visibility:hidden;}
-/*.hatena-module-category { vertical-align: bottom;}*/
+.hatena-module-category { vertical-align: bottom;}
 /*.hatena-module-recent-entries:after {  display: block;  height: 50px;  clear: both;  content: "@@@@";  background: #FFFFFF;}*/
 .recent-entries:after {  display: block;  height: 50px;  clear: both;  content: "@@@@";/*  visibility: hidden;*/  background: #FFFFFF;}
 
