@@ -510,13 +510,11 @@ a.keyword {
 /* sidebar -> category ---------------------------------------- */
 
 /* パンくずリストの領域規定 */
-.breadcrumb {  font-size:11px;  color: #DDDDDD;  background: #FF00FF;
-/*  width:100%;*/
-/*  margin: auto;*/
-/*  padding: 20px 20px 0;*/
-}
+.breadcrumb {  font-size:11px;  color: #DDDDDD;  background: #FFEEEE;}
 /* パンくずリストの装飾指定 */
 .breadcrumb a {  font-size:11px;  color: #DDDDDD;  text-decoration: none;}
+/* パンくずリストのマウスオーバー時の装飾指定 */
+.breadcrumb a:hover {  color: #999999;  text-decoration: none;  transition: 0.8s;}
 /* 最新記事とカテゴリのリスト形式規定 */
 .hatena-urllist {  list-style: none;  margin: 0 0 0 0;  padding: 0 0 0 0;}
 /* 最新記事とカテゴリの本文の領域規定 */
