@@ -497,7 +497,7 @@ a.keyword {
 /* はてなモジュール・カテゴリーの領域規定 */
 .hatena-module-category .hatena-module-body ul.hatena-urllist li {  display:inline-block;  margin:5px 0;}
 /* はてなモジュール・カテゴリーの装飾指定 */
-.hatena-module-category .hatena-module-body ul.hatena-urllist li a{  font-size: 13px;  color: #999999;  margin-right:10px;}
+.hatena-module-category .hatena-module-body ul.hatena-urllist li a{  font-size: 15px;  color: #999999;  margin-right:10px;}
 /* はてなモジュール・カテゴリーの前にアイコンをつけます */
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a:before {
   font-family: "blogicon";  content: "\f022";  padding-right: 2px;}
