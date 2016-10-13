@@ -325,7 +325,7 @@ a.keyword {
 /* Entry ---------------------------------------- */
 
 /* テーブル全体の領域規定 */
-.entry {  position: absolute;/*  position: relative;*/  margin-bottom: 100px;  background: #EEEEFF;/*  width: 100%;*/}
+.entry {  position: relative;  margin-bottom: 100px;  background: #EEEEFF;/*  width: 100%;*/}
 /* 記事タイトル部の領域規定 */
 .entry-header {  position: relative;/*  width: 100%;*/ padding:100px 0 100px 0;*/  background: #FFFF00;}
 /* 記事タイトルの文字領域規定 */
@@ -713,7 +713,7 @@ form.search-result-form {
 #footer {
   width: 100%;
   height: 80px;
-  bottom:0;
+/*  bottom:0;*/
 /*  padding: 0.1% 0 2% 0;*/
   text-align: center;
   color: #BBBBBB;
