@@ -449,7 +449,7 @@ a.keyword {
 /* 本文の折り返し */
 .comment-content {  margin: 0;  word-wrap: break-word;}
 /* よくわからないので触らないでおきます。 */
-.comment-content p {  margin: 0;}
+/*.comment-content p {  margin: 0;}*/
 
 /* 投稿時間の装飾を指定しています。 */
 .comment-metadata {  font-size: 11px;  color: #999999;/*  margin: 0;*/ text-align: right;}
