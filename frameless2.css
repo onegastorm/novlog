@@ -421,7 +421,7 @@ a.keyword {
 /* Comment-box ---------------------------------------- */
 
 /* 投稿されたコメントボックスの領域規定 */
-.comment-box ul {  list-style: none;  font-size: 13px;  color: #999999;  margin:0;/*  margin: 0 0 15px 0;  text-align: left;*/}
+.comment-box ul {  list-style: none;  font-size: 13px;  color: #999999;/*  margin: 0 0 15px 0;  text-align: left;*/}
 /* 投稿されたコメントボックスの本文の領域規定 */
 .comment-box li {  padding: 10px 40px 10px 40px;  border-bottom: 1px solid #DDDDDD;  position: relative;}
 /* コメントボックス最上段の罫線を指定 */
@@ -450,7 +450,7 @@ a.keyword {
 /* 本文の折り返し */
 .comment-content {  margin: 0;  word-wrap: break-word;}
 /* よくわからないので触らないでおきます。 */
-/*.comment-content p {  margin: 0;}*/
+.comment-content p {  margin: 0;}
 
 /* 投稿時間の装飾を指定しています。 */
 .comment-metadata {  font-size: 11px;  color: #999999;/*  margin: 0;*/ text-align: right;}
