@@ -573,17 +573,9 @@ form.search-result-form {
 
 /* footer -------------------------------------------------- */
 
-/* フッターの領域規定。paddingをけすとなぜか横幅がイケナイことになります。 */
-#footer {
-  width: 100%;
-  height: 80px;
-/*  bottom:0;*/
-/*  padding: 0.1% 0 2% 0;*/
-  text-align: center;
-  color: #BBBBBB;
-/*  line-height: 3;*/
-  background: #777777;
-  font-size: 80%;
+/* フッター関係 */
+#footer {  width: 100%;  height: 80px;  text-align: center;  color: #BBBBBB;  background: #333333;  font-size: 80%;
+/*  bottom:0;  padding: 0.1% 0 2% 0;  line-height: 3;*/
 }
 /* ID消しちゃいましょう！ */
 #footer address {  display: none;}
@@ -593,7 +585,6 @@ form.search-result-form {
 #footer a {  color: #BBBBBB;  text-decoration: none;}
 /* IDとはてなリンクを1列に！ */
 /*#footer address,#footer .services {  display: inline;  padding-right: 1em;}*/
-
 
 /* page-about ---------------------------------------- */
 
@@ -630,6 +621,8 @@ form.search-result-form {
 .page-archive .archive-entries .categories {  line-height: 1.4em;}
 .page-archive .categories {/*  display: inline-block;*/}
 .page-archive .categories a {  display: block;  text-align: right;  background: #00FF00;}
+
+.page-archive .entry-title, .page-archive .categories {  display: inline;}
 
 /* breadcrumb ---------------------------------------- */
 
