@@ -303,10 +303,10 @@ a.keyword {
 #container {/*  margin: 0 auto 0 auto;  width: 100%;*/  background: #BBFFBB;}
 /* メインカラムの領域規定 */
 #main {  margin: 0 auto 0 auto;  width: 973px;}
-/* メインカラムの領域を規定します。こちらは失敗です。 */
+/* メインカラムの領域規定。こちらは失敗 */
 /*#container #content {  width: 940px}*/
-/* Container内側の余白を規定します。必要ないがあえてのこしておきます。 */
-#container-inner {  padding: 100px 0 0 0;}
+/* Container内側の余白規定。必要ないがあえてのこしておきます。 */
+/*#container-inner {  padding: 0 0 0 0;}*/
 /* サイドバーの領域規定 */
 #box2 {/*  width: 100%;*/}
 
@@ -327,7 +327,7 @@ a.keyword {
 /* テーブル全体の領域規定 */
 .entry {  position: relative;  margin-bottom: 0px;  background: #EEEEFF;/*  width: 100%;*/}
 /* 記事タイトル部の領域規定 */
-.entry-header {  position: relative;  background: #FFFF00;/*  width: 100%; padding:100px 100px 100px 100px;*/}
+.entry-header {  position: relative;  background: #FFFF00;/*  width: 100%;*/ padding:100px 0 100px 0;*/}
 /* 記事タイトルの文字領域規定 */
 .entry-title {  display: inline;  font-size: 13px;  font-weight: normal;  margin: 10.4%;}
 /* 日付ボタンの領域規定 */
