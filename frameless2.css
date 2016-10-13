@@ -442,11 +442,9 @@ a.keyword {
 .comment-content {  margin: 0;  word-wrap: break-word;}
 /*コメント本文上のマージンを0に！ */
 .comment-content p {  margin: 0;}
-
 /* 投稿時間の装飾を指定しています。 */
 .comment-metadata {  font-size: 11px;  color: #999999;/*  margin: 0;*/ text-align: right;}
 /*.comment-metadata a {  color: #000000;}*/
-
 /* 書き込みボタンの領域を規定します。 */
 .leave-comment-title {  font-size: 12px;  color: #DDDDDD;
 /*  display: inline-block;  *display: inline;  *zoom:1;*/
@@ -459,9 +457,6 @@ a.keyword {
 /* コメントブタンのマウスオーバー時の動作を指定します。 */
 .leave-comment-title:hover {  color: #999999;/*  background: #EEEEEE;*/  transition: 0.8s;}
 
-
-
-
 /* sidebar ---------------------------------------- */
 /* ★box2についての指定です。 */
 
@@ -469,11 +464,11 @@ a.keyword {
 #box2 {  height: 220px;  margin-bottom: 0px;  font-size: 13px;  color: #BBBBBB;  background: #333333;}
 /* はてなモジュールの領域規定 */
 .hatena-module {
-/*  margin-bottom:25px;*/
-  width:61%;
+  margin-bottom:25px;/*段間の高さ*/
+  width:61%;/*段の幅*/
   display:inline-block;
   vertical-align: top;
-  padding:3px;
+  padding:103px;
 }
 
 .hatena-module:after {
