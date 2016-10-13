@@ -331,6 +331,12 @@ a.keyword {
 /* 記事タイトルの文字領域規定 */
 .entry-title {  display: inline;  font-size: 13px;  font-weight: normal;  margin: 1.4%;}
 /* 日付ボタンの領域規定 */
+}
+.entry-categories.categories {
+  color: rgba(256,0,0,0.44);
+  font-size: 12px;
+  text-decoration: none;
+}
 .date {  display: none;}
 /*.date {  position: absolute;  font-size: 11px;  z-index: 100;  background: #AAAAFF;}*/
 /* 日付表示のハイフネーション指定 */
