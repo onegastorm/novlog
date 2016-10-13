@@ -461,7 +461,7 @@ a.keyword {
 /* ★box2についての指定です。 */
 
 /* サイドバーの領域規定 */
-#box2 {  height: 220px;  margin-bottom: 0px;  font-size: 11px;  color: #BBBBBB;  background: #333333;}
+#box2 {  height: 220px;  margin-bottom: 0px;  font-size: 11px;  color: #BBBBBB;  background: #333333; margin:0 auto 0 auto;}
 /* はてなモジュールの領域規定 */
 .hatena-module {
   margin-bottom:25px;/*段間の高さ*/
