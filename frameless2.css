@@ -362,7 +362,7 @@ a.keyword {
 .entry-header-menu a:hover {  color: #999999;/*  background: #EEEEEE;*/  transition: 0.8s;}
 
 /* entry-content ---------------------------------------- */
-/* 記事本文のテーブルです。boilerplateからのこぴぺです。とりあえず保留です。 */
+/* 記事本文のテーブルです。boilerplateからのこぴぺです。しかし縦書文庫のほうで規定しているようすです。 */
 
 .entry-content {  text-align: center;}
 .entry-content p {  margin: 0 0 2em 0;  font-size: 32px;}
