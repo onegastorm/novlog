@@ -464,7 +464,7 @@ a.keyword {
 /* はてなモジュールの領域規定。段上段右段下段左・段幅などを規定 */
 .hatena-module {  display:inline-block;  vertical-align: top;  margin:4% 0 0 4%;  width:28%;}
 /* うしろに何か入れてるけどまあいらないっすよね */
-.hatena-module:before {  display: block;  width:100px; height: 200px;  clear: both;  content: ".2222";  background: #FFFFFF;/*  visibility:hidden;*/}
+.hatena-module-category:before {  display: block;  width:100px; height: 200px;  clear: both;  content: ".2222";  background: #FFFFFF;/*  visibility:hidden;*/}
 /*.hatena-module:after {  display: block;  width:100px; height: 100px;  clear: both;  content: ".2222";  background: #FFFFFF;  visibility:hidden;}*/
 /* 各ブロックのタイトルの領域規定 */
 .hatena-module-title {  display:block;  padding-bottom:2px;  border-bottom:solid 1px #555555;/*  font-size:100%;*/}
