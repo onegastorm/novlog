@@ -327,8 +327,11 @@ a.keyword {
 /* 記事コンテンツの領域規定 */
 .entry {  position: relative;/*  width: 100%;  margin-bottom: 100px;*/  background: #EEEEFF;}
 /* 記事タイトル部の領域規定 */
-.entry-header {  position: relative;  width: 97%; margin:0 auto 0 auto;  background: #FFFF00;}
+.entry-header {  position: relative;  width: 97.2%; margin:0 auto 0 auto;  background: #FFFF00;}
 /* 記事タイトルの文字領域規定 */
+.categories {  display: inline;}
+/*.categories {  display: inline;  float: right;  margin-right: 10%;}*/
+/* カテゴリボタンの装飾指定 */
 .entry-title {  display: inline;  font-size: 13px;  font-weight: normal;/*  margin: 1.4%;*/}
 /* 日付ボタンの領域規定 */
 .date {  display: none;}
@@ -338,9 +341,6 @@ a.keyword {
 /* 日付の装飾指定 */
 /*.date a {  color: #1a1a1a;  text-decoration: none;  display: inline-block;}*/
 /* カテゴリボタンの領域規定 */
-.categories {  display: inline;}
-/*.categories {  display: inline;  float: right;  margin-right: 10%;}*/
-/* カテゴリボタンの装飾指定 */
 .categories a {
   cursor: pointer;
   padding: 1px 10px;
