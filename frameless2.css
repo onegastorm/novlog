@@ -344,10 +344,10 @@ a.keyword {
 .categories a {
 /*  cursor: pointer;*/
   padding: 0 10px;
-  font-size: 11px;
+  font-size: 12px;
   color: #FFFFFF;
   text-decoration: none;
-  border: 0;
+/*  border: 0;*/
 /*  border: 1px solid #CCCCCC;*/
   border-radius: 6px;
   background: #DDDDDD;
