@@ -332,11 +332,15 @@ a.keyword {
 .entry-title {  display: inline;  font-size: 13px;  font-weight: normal;  margin: 1.4%;}
 /* 日付ボタンの領域規定 */
 }
+
+/* ほりゅう！ */
 .entry-categories.categories {
   color: rgba(256,0,0,0.44);
   font-size: 10px;
   text-decoration: none;
 }
+
+
 .date {  display: none;}
 /*.date {  position: absolute;  font-size: 11px;  z-index: 100;  background: #AAAAFF;}*/
 /* 日付表示のハイフネーション指定 */
@@ -344,7 +348,7 @@ a.keyword {
 /* 日付の装飾指定 */
 /*.date a {  color: #1a1a1a;  text-decoration: none;  display: inline-block;}*/
 /* カテゴリボタンの領域規定 */
-.categories {  display: inline;}
+.categories {  display: inline;  font-size:32px}
 /*.categories {  display: inline;  float: right;  margin-right: 10%;}*/
 /* カテゴリボタンの装飾指定 */
 .categories a {  font-size: 12px;  color: #DDDDDD;  text-decoration: none;}
