@@ -350,8 +350,8 @@ a.keyword {
   background: #DDDDDD;
 }
 .categories a:before {
-  font-family: "fa-book";
-  content: "\f02d";
+  font-family: "blogicon";
+  content: "\f022";
   padding-right: 4px;
 }
 /* カテゴリボタンのマウスオーバー時の動作指定 */
