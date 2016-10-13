@@ -461,16 +461,16 @@ a.keyword {
 /* ★box2についての指定です。 */
 
 /* サイドバーの領域規定 */
-#box2 {  height: 220px;  margin:0 0 0 0;  font-size: 11px;  color: #BBBBBB;  background: #333333;}
+#box2 {  height: 220px;  margin:0 0 0 0;  font-size: 13px;  color: #999999;  background: #333333;}
 /* はてなモジュールの領域規定。段上段右段下段左・段幅などを規定 */
 .hatena-module {  display:inline-block;  vertical-align: top;  margin:4% 0 0 4%;  width:28%;}
 /* うしろに何か入れてるけどまあいらないっすよね */
 /*.hatena-module:after {  display: block;  visibility:hidden;  height: 0;  clear: both;  content: ".2222";}*/
 /* 各ブロックのタイトルの領域規定 */
 .hatena-module-title {  display:block;  padding-bottom:2px;  border-bottom:solid 1px #555555;/*  font-size:100%;*/}
-/* 各ブロックのタイトルの装飾指定 */
+/* 最新記事のタイトルの装飾指定 */
 .hatena-module-title a {  color: #999999;  text-decoration: none;}
-/* 各ブロックのタイトルのマウスオーバー時の装飾指定 */
+/* 最新記事のタイトルのマウスオーバー時の装飾指定 */
 .hatena-module-title a:hover {  color: #DDDDDD;  text-decoration: none;  transition: 0.8s;}
 
 .hatena-module-body {
