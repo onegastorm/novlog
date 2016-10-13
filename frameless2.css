@@ -610,6 +610,7 @@ form.search-result-form {
 /* archive ---------------------------------------- */
 
 /* パンくずリストの領域規定 */
+.breadcramb {  display: none;}
 .breadcrumb {  font-size:13px;  color: #999999;  background: #FFEEEE;  width: 973px; margin:0 auto 0 auto;}
 /* パンくずリストの装飾指定 */
 .breadcrumb a {  font-size:12px;  color: #DDDDDD;  text-decoration: none; margin-left:1.4%;}
