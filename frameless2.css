@@ -456,9 +456,9 @@ a.keyword {
 
 
 /* 書き込みボタンの領域を規定します。 */
-/*.leave-comment-title {
-  margin-left: 28px;
-  font-size: 11px;*/
+.leave-comment-title {
+/*  margin-left: 28px;*/
+  font-size: 11px;
 /*  display: inline-block;
   *display: inline;
   *zoom:1;
@@ -466,16 +466,16 @@ a.keyword {
   text-align: center;
   vertical-align: middle;*/
 /*  cursor: pointer;
-  padding: 2px 10px;
-  color: #CCCCCC;
-  text-decoration: none;
+  padding: 2px 10px;*/
+  color: #FF00FF;
+/*  text-decoration: none;
   border: 1px solid #CCCCCC;
   border-radius: 3px;
-  background: #FFFFFF;
-}*/
+  background: #FFFFFF;*/
+}
 
 /* コメントボタンの装飾指定 */
-.leave-comment-title {  display: inline;  text-align: center; font-size: 10px;  color: #DDDDDD;}
+/*.leave-comment-title {  display: inline;  text-align: center; font-size: 10px;  color: #DDDDDD;}*/
 /* コメントボタンの装飾指定 */
 .leave-comment-title a {  color: #DDDDDD;  text-decoration: none;}
 /* コメントボタンの前にアイコンをつけます */
