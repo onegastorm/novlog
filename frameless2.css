@@ -367,10 +367,10 @@ a.keyword {
   border-radius: 3px;
   background: #FFFFFF;
 }
-/* カテゴリボタンの前にアイコンをつけます */
+/* 編集ブタンの前にアイコンをつけます */
 .entry-header-menu a:before {  font-family: "blogicon";  content: "\f010";  padding-right: 4px;}
 /* 編集ボタンのマウスオーバー時の動作指定 */
-.entry-header-menu a:hover {  background: #F3F3F3;  transition: 1.0s;}
+.entry-header-menu a:hover {  background: #EEEEEE;  transition: 1.0s;}
 
 /* entry-content ---------------------------------------- */
 /* 記事本文のテーブルです。boilerplateからのこぴぺです。ここでは無視します。 */
