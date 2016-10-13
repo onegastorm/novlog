@@ -362,10 +362,10 @@ a.keyword {
 .entry-header-menu a:hover {  color: #999999;/*  background: #EEEEEE;*/  transition: 0.8s;}
 
 /* entry-content ---------------------------------------- */
-/* 記事本文のテーブルです。boilerplateからのこぴぺです。しかし縦書文庫のほうで規定しているようすです。 */
+/* 記事本文の領域規定。boilerplateからのこぴぺです。しかし縦書文庫のほうで規定しているようすです。 */
 
 .entry-content {  text-align: center;}
-.entry-content p {  margin: 0 0 2em 0;  font-size: 32px;}
+.entry-content p {  margin: 0 0 2em 0;  font-size: 13px;}
 .entry-content img {  max-width: 100%;  max-height: 1280px;  display: block;  margin: 0 auto 2em;  line-height: 1;}
 .entry-content h1,
 .entry-content h2,
