@@ -622,7 +622,7 @@ form.search-result-form {
 /* 月別アーカイブのタイトル文字の装飾 */
 .page-archive #main h2 {  color: #999999;  font-weight: normal;  font-size: 15px;  padding-top:50px;}
 /* アーカーブページの本文の全体の領域規定？ */
-.page-archive .archive-entries {  margin-top: 40px;  font-size: 13px;  color: #999999;/*  line-height: 1.24em;*/}
+.page-archive .archive-entries {  margin-top: 40px;  font-size: 13px;  color: #999999;  line-height: 1.22em;}
 /* 記事タイトルの領域規定 */
 .page-archive .entry-title {  margin: 0 0 0 0;}
 /* 何？　日付っつーぐらいだから月間アーカイブとかの日付ですかね？ */
