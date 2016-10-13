@@ -343,7 +343,7 @@ a.keyword {
 /* カテゴリボタンの装飾指定 */
 .categories a {
 /*  cursor: pointer;*/
-  padding: 1px 10px;
+/*  padding: 1px 10px;*/
   font-size: 11px;
   color: #FFFFFF;
   text-decoration: none;
