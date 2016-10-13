@@ -334,7 +334,7 @@ a.keyword {
 }
 .entry-categories.categories {
   color: rgba(256,0,0,0.44);
-  font-size: 12px;
+  font-size: 10px;
   text-decoration: none;
 }
 .date {  display: none;}
