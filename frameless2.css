@@ -526,7 +526,7 @@ a.keyword {
 .hatena-module-recent-entries:after {  width: 80px;  height: 200px;  clear: both;  content: ".2222";  background: #FFFFFF;}
 .hatena-module-recent-entries:after {  width: 80px;  height: 200px;  clear: both;  content: ".2222";  background: #FFFFFF;}
 */
-.recent-entries:after {  display: block;  height: 200px;  clear: both;  content: ".2222";  background: #FFFFFF;/*  visibility:hidden;*/}
+.recent-entries:after {  display: block;  height: 100px;  clear: both;  content: ".2222";  background: #FFFFFF;/*  visibility:hidden;*/}
 
 /* search-box (hatena-module) ---------------------------------------- */
 /* ほりゅう！ */
