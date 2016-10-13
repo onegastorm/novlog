@@ -477,9 +477,9 @@ a.keyword {
 /* コメントボタンの装飾指定 */
 /*.leave-comment-title {  display: inline;  text-align: center; font-size: 10px;  color: #DDDDDD;}*/
 /* コメントボタンの装飾指定 */
-.leave-comment-title a {  color: #DDDDDD;  text-decoration: none;}
+.leave-comment-title a {/*  color: #DDDDDD;*/  /*text-decoration: none;*/}
 /* コメントボタンの前にアイコンをつけます */
-.leave-comment-title a:before {  font-family: "blogicon";  content: "\f024";  padding-right: 4px;}
+.leave-comment-title:before {  font-family: "blogicon";  content: "\f010";/*  padding-right: 4px;*/}
 /* コメントブタンのマウスオーバー時の動作を指定します。 */
 .leave-comment-title:hover {  color: #999999;/*  background: #EEEEEE;*/  transition: 0.8s;}
 
