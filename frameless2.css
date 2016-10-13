@@ -343,7 +343,7 @@ a.keyword {
 /* カテゴリボタンの装飾指定 */
 .categories a {  font-size: 12px;  color: #DDDDDD;  text-decoration: none;}
 /* カテゴリボタンの前にアイコンをつけます */
-.categories a:before {  font-family: "blogicon";  content: "\f022";  padding-right: 2px;}
+.categories a:before {  font-family: "blogicon";  content: "\f022";  padding-right: 3px;}
 /* カテゴリボタンのマウスオーバー時の動作指定 */
 .categories a:hover {  color: #999999;}
 /* 記事がカテゴリーに属していない時の領域指定 */
