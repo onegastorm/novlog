@@ -462,22 +462,11 @@ a.keyword {
 
 /* サイドバーの領域規定 */
 #box2 {  height: 220px;  margin:0 0 0 0;  font-size: 11px;  color: #BBBBBB;  background: #333333;}
-/* はてなモジュールの領域規定 */
-.hatena-module {
-  margin:4% 0 0 4%;/*段上・段右・段下・段左*/
-  width:28%;/*段の幅*/
-  display:inline-block;
-  vertical-align: top;
-/*  padding:3px;*/
-}
+/* はてなモジュールの領域規定。段上段右段下段左・段幅などを規定 */
+.hatena-module {  display:inline-block;  vertical-align: top;  margin:4% 0 0 4%;  width:28%;}
+/* うしろに何か入れてるけどまあいらないっすよね */
+/*.hatena-module:after {  display: block;  visibility:hidden;  height: 0;  clear: both;  content: ".2222";}*/
 
-.hatena-module:after {
-  display: block;
-  visibility:hidden;
-  height: 0;
-  clear: both;
-  content: ".2222";
-}
 .hatena-module-title {
   display:block;
   font-size:100%;
