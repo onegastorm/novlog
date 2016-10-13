@@ -488,7 +488,7 @@ a.keyword {
 .hatena-module {  clear: both;  overflow: hidden;}
 
 /* 最新記事とカテゴリ関係 */
-.hatena-urllist {/*  list-style-type: disc;  margin:0 0 0 0;*/  padding: 0 0 0 0;  width: 100%;}
+.hatena-urllist {  list-style-type: disc;  margin:0 0 0 0;  padding: 0 0 0 0;  width: 100%;}
 .hatena-urllist li {/*  padding: 0;*/  line-height: 2.0;}
 .hatena-urllist li a {  color: #DDDDDD;  text-decoration: none;  transition: 0.8s;}
 .recent-entries a:hover {  color: #DDDDDD;  text-decoration: none;  transition: 0.8s;}
