@@ -503,7 +503,7 @@ a.keyword {
 
 /* 段差作っちゃう */
 .hatena-module-category:before {  display: block;  clear: both;  content: "@@@@";  visibility:hidden;}
-.hatena-module-category { vertical-align: bottom; padding:0 0 0 0;  margin:0 0 0 0;}
+.hatena-module-category { vertical-align: bottom;}
 /*.hatena-module-recent-entries:after {  display: block;  height: 40px;  clear: both;  content: "@@@@";  background: #FFFFFF;}*/
 .recent-entries:after {  display: block;  height: 40px;  clear: both;  content: "@@@@";  visibility: hidden;}
 
