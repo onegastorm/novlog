@@ -465,7 +465,6 @@ a.keyword {
 .hatena-module {  display:inline-block;  vertical-align: top;  margin:4% 0 0 4%;  width:28%;}
 /* 回り込みを防ぐとか何とかよくわかりま1000円 */
 .hatena-module:after {  display: block;  visibility:hidden;  height: 0;  clear: both;  content: ".2222";}
-
 /* 各要素のタイトル */
 .hatena-module-title {  display:block;/*  padding-bottom:10px;*/  border-bottom:solid 1px #555555;}
 .hatena-module-title a {  color: #999999;  text-decoration: none;}*/
@@ -488,14 +487,11 @@ a.keyword {
 /* よくわかりま1000円 */
 .hatena-module {  clear: both;  overflow: hidden;}
 
-/* 最新記事とカテゴリのリスト形式規定 */
-.hatena-urllist {  list-style-type: disc;  margin:0 0 0 0;  padding: 0 0 0 0;  width: 973px;}
-/* 最新記事とカテゴリの本文の領域規定 */
-/*.hatena-urllist li {  padding: 0;  line-height: 2.4;}*/
-/* 最新記事とカテゴリの本文の装飾指定 */
+/* 最新記事とカテゴリ関係 */
+.hatena-urllist {  list-style-type: disc;  margin:0 0 0 0;  padding: 0 0 0 0;  width: 100px;}
+.hatena-urllist li {  padding: 0;  line-height: 2.4;}
 .hatena-urllist li a {  color: #999999;  text-decoration: none;}
-
-.hatena-module-category {  line-height: 1.0;}
+/*.hatena-module-category {  line-height: 1.0;}*/
 
 /* 最新記事の本文の文字の大きさを変えるという重要なお話 */
 .urllist-item-inner.recent-entries-item-inner {  font-size: 13px;}
