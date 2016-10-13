@@ -523,7 +523,7 @@ a.keyword {
 .urllist-item-inner.entries-access-ranking-item-inner {  font-size: 12px;}
 .urllist-item-inner.entries-access-ranking-item-inner {  padding: 10px;  border-bottom: 1px solid #848484;}
 /* でもって最新記事で段差作っちゃう*/
-.urllist-item-inner.recent-entries:after {  display: block;  height: auto;  padding-top: auto;  clear: both;  content: ".2222";  background: #FFFFFF;/*  visibility:hidden;*/}
+.urllist-item-inner.recent-entries-item-inner:after {  display: block;  height: auto;  padding-top: auto;  clear: both;  content: ".2222";  background: #FFFFFF;/*  visibility:hidden;*/}
 
 /* search-box (hatena-module) ---------------------------------------- */
 /* ほりゅう！ */
