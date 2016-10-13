@@ -467,10 +467,10 @@ a.keyword {
 
 /* サイドバーの領域規定 */
 #box2 {  height: 220px;  margin-bottom: 0px;  font-size: 13px;  color: #BBBBBB;  background: #333333;}
-
+/* はてなモジュールの領域規定 */
 .hatena-module {
   margin-bottom:25px;
-  width:31%;
+  width:61%;
   display:inline-block;
   vertical-align: top;
   padding:3px;
