@@ -294,13 +294,13 @@ a.keyword {
 
 /* Globalheader ---------------------------------------- */
 
-/* グローバルヘッダの領域を規定します。 */
-#globalheader-container {  background-color: #FFFFFF;  color: #999999;  top: 0;  left: 0;  width: 100%;}
+/* グローバルヘッダの領域規定。なくてもいいですよねぇ？ */
+/*#globalheader-container {  background: #FFFFFF;  color: #999999;  top: 0;  left: 0;  width: 100%;}*/
 
 /* Container ---------------------------------------- */
 
 /* テーブルの領域を規定します。 */
-#container {  width: 100%;  margin: 0 auto 0 auto;  background: #EEFFEE;}
+#container {/*  width: 100%;  margin: 0 auto 0 auto;*/  background: #EEFFEE;}
 /* メインカラムの領域を規定します。 */
 #main {  margin: 0 auto 0 auto; width: 973px;}
 /*#main {  margin-left: auto;  margin-right: auto; width: 973px;}*/
