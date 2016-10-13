@@ -462,7 +462,7 @@ a.keyword {
 /* サイドバーの領域 */
 #box2 {  margin:0 0 0 0;  font-size: 13px;  color: #999999;  background: #333333;  padding-bottom: 20px;}
 /* 各要素の段上段右段下段左・段幅など */
-.hatena-module {  display:inline-block;  vertical-align: top;  margin:4% 0 0 4%;  width:36%;}
+.hatena-module {  display:inline-block;  vertical-align: top;  margin:4% 0 0 4%;  width:32%;}
 /* 回り込みを防ぐとか何とかよくわかりま1000円 */
 .hatena-module:after {  display: block;  visibility:hidden;  height: 0;  clear: both;  content: "@@@@";}
 /* 各要素のタイトル */
@@ -503,7 +503,7 @@ a.keyword {
 
 /* 段差作っちゃう */
 .hatena-module-category:before {  display: block;  clear: both;  content: "@@@@";  visibility:hidden;}
-.hatena-module-category { vertical-align: bottom;}
+.hatena-module-category { vertical-align: bottom; padding:0 0 0 0;}
 /*.hatena-module-recent-entries:after {  display: block;  height: 40px;  clear: both;  content: "@@@@";  background: #FFFFFF;}*/
 .recent-entries:after {  display: block;  height: 40px;  clear: both;  content: "@@@@";  visibility: hidden;}
 
