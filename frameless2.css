@@ -432,7 +432,8 @@ a.keyword {
 .comment-box .hatena-id-icon {
   position: absolute;
   top: 18px;
-  left: 18px;
+  left: 0px;
+/*  left: 18px;*/
   width: 24px !important;
   height: 24px !important;
   border-top-right-radius: 12px;
