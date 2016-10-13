@@ -406,29 +406,29 @@ a.keyword {
 
 /* entry-footer ---------------------------------------- */
 
-/* 記事のフッターの領域を規定します。 */
+/* 記事のフッターの領域規定 */
 .entry-footer {  margin:0 20% 0 20%;  background: #FFEEEE;  margin-bottom: 60px;/*  padding-bottom: 60px;*/}
 /*.entry-footer {  background: #FFEEEE;  margin:0 180px 0 180px;  padding-bottom: 60px;}*/
-/* 実質的には文責と時間程度ですかね。 */
+/* 文責と投稿時間だけ？ */
 .entry-footer-section {  display: none;}
 /*.entry-footer-section {  font-size: 80%;  color: #999999;}*/
 /*.entry-footer-section a {  text-decoration: none;}*/
-/* 登校時間の装飾を指定します。 */
+/* 投稿時間の装飾指定 */
 /*.entry-footer-section a {  color: #999999;}*/
-/* はてなスターとかのブタン類を規定します。だと思います。 */
+/* はてなスターとかのブタン類？ */
 /*.social-buttons,.entry-footer-html {  margin: 0 0 0 0;}*/
 
 /* Comment-box ---------------------------------------- */
 
-/* 投稿されたコメントボックスの領域を規定します。 */
+/* 投稿されたコメントボックスの領域規定 */
 .comment-box ul {  list-style: none;/*  margin: 0 0 15px 0;  padding: 0;*/  font-size: 13px;  color: #999999;  text-align: left;}
-/* 投稿されたコメントボックスの本文の領域を規定します。 */
+/* 投稿されたコメントボックスの本文の領域規定 */
 .comment-box li {  padding: 10px 20px 10px 60px;  border-bottom: 1px solid #EEEEEE;  position: relative;}
-/* コメントボックス最上段の罫線を指定します。 */
+/* コメントボックス最上段の罫線を指定 */
 .comment-box li:first-child {  border-top: 1px solid #EEEEEE;}
-/* コメントボックスを一覧表示するボタンのようなものと思われる。 */
+/* コメントボックスを一覧表示するボタンと思われる。 */
 .comment-box .read-more-comments {  padding-left: 0;}
-/* 投稿者のアイコンを指定します。 */
+/* 投稿者のアイコンの領域規定 */
 .comment-box .hatena-id-icon {
   position: absolute;
   top: 18px;
@@ -442,17 +442,17 @@ a.keyword {
   border-radius: 12px;
   background-clip: padding-box;
 }
-/* 投稿者名の領域を規定します。 */
+/* 投稿者名の領域規定 */
 .comment-user-name {  margin: 4px 0 3px 0;}
-/* 投稿者名の装飾を指定します。 */
+/* 投稿者名の装飾指定 */
 .comment-user-name a {  color: #666666;  text-decoration: none;}
-/* 本文の折り返しを指定しています。 */
+/* 本文の折り返し */
 .comment-content {  margin: 0;  word-wrap: break-word;}
 /* よくわからないので触らないでおきます。 */
 .comment-content p {  margin: 0;}
 /* 投稿時間の装飾を指定しています。 */
-.comment-metadata {  font-size: 11px;  color: #666666;  margin: 0; text-align: right;}
-.comment-metadata a {  color: #666666;}
+.comment-metadata {  font-size: 11px;  color: #999999;  margin: 0; text-align: right;}
+.comment-metadata a {  color: #000000;}
 /* 書き込みボタンの領域を規定します。 */
 .leave-comment-title {
   margin-left: 28px;
@@ -472,7 +472,7 @@ a.keyword {
   background: #FFFFFF;
 }
 /* 書き込みボタンのマウスオーバー時の動作を指定します。 */
-.leave-comment-title:hover {  background: #f3f3f3;  color: #CCCCCC;}
+.leave-comment-title:hover {  color: #999999;/  background: #EEEEEE;  transition: 0.8s;}
 
 /* sidebar ---------------------------------------- */
 /* ★box2についての指定です。 */
