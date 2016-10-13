@@ -623,7 +623,7 @@ form.search-result-form {
 .page-archive #main h2 {  color: #999999;  font-weight: normal;  font-size: 15px;  padding-top:50px;}
 /* アーカーブページの本文の領域規定 */
 /*.page-archive .entry-title {  margin: 0 0 0 0;}*/
-.page-archive .archive-entries {  color: #999999; margin-top:40px;}
+.page-archive .archive-entries {  color: #999999;  margin-top: 40px;  display: inline;}
 /* 何？　日付っつーぐらいだから月間アーカイブとかの日付ですかね？ */
 .page-archive .archive-entries .date {  position: static;}
 /* アーカーブページの本文の領域規定 */
