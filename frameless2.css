@@ -464,7 +464,7 @@ a.keyword {
 /* はてなモジュール。段上段右段下段左・段幅などを規定 */
 .hatena-module {  display:inline-block;  vertical-align: top;  margin:4% 0 0 4%;  width:28%;}
 /* 段を作るためのダミー */
-.hatena-module-category:before {  display: block;  height: auto;  clear: both;  content: ".2222";  background: #FFFFFF;/*  visibility:hidden;*/}
+.hatena-module-category:before {/*  display: block;*/  width: 10px;  height: auto;  clear: both;  content: ".2222";  background: #FFFFFF;/*  visibility:hidden;*/}
 .hatena-module-category { bottom:0;}
 /* 回り込みを防ぐとか何とか */
 .hatena-module:after {  display: block;  visibility:hidden;  height: 0;  clear: both;  content: ".2222";}
