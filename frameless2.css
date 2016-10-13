@@ -464,8 +464,7 @@ a.keyword {
 #box2 {  height: 220px;  margin:0 0 0 0;  font-size: 11px;  color: #BBBBBB;  background: #333333;}
 /* はてなモジュールの領域規定 */
 .hatena-module {
-  margin-left:4%;
-  margin-bottom:4%;/*段間の高さ*/
+  margin:4% 0 0 4%;/*段上・段右・段下・段左*/
   width:61%;/*段の幅*/
   display:inline-block;
   vertical-align: top;
