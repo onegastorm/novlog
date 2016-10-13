@@ -474,12 +474,9 @@ a.keyword {
 .hatena-module-title a:hover {  color: #DDDDDD;  text-decoration: none;  transition: 0.8s;}
 /* 各ブロックの本文の領域規定 */
 .hatena-module-body {  margin-top:5px;/*  float: left;*/}
-
-
-.hatena-module-body .circle-urllist .circle-image {
-  float: none;
-  vertical-align:middle;
-}
+/* 各ブロックの本文の何？ */
+.hatena-module-body .circle-urllist .circle-image {  float: none;  vertical-align:middle;}
+/* プロフィールのアイコン */
 .hatena-module-profile .profile-icon {
   display: inline-block;
   overflow: hidden;
@@ -491,12 +488,12 @@ a.keyword {
   border-radius: 4px;
   background-clip: padding-box;
 }
-.hatena-module-profile .id a {
-  text-decoration: none;
-}
-.hatena-module-profile .profile-description p {
-  margin: 10px 0;
-}
+/* プロフィールのID表示の装飾指定 */
+.hatena-module-profile .id a {  text-decoration: none;}
+/* プロフィールのID表示の下についてる何か */
+.hatena-module-profile .profile-description p {  margin: 10px 0;}
+
+
 
 /* カテゴリー */
 .hatena-module-category .hatena-module-body ul.hatena-urllist li {
