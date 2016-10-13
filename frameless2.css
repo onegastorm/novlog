@@ -429,7 +429,7 @@ a.keyword {
 /* コメントボックスを一覧表示するボタンと思われる。 */
 .comment-box .read-more-comments {  padding-left: 0;}
 /* 投稿者のアイコンの領域規定 */
-.comment-box .hatena-id-icon {  position: absolute;  top: 18px;  left: 18px;
+.comment-box .hatena-id-icon {  position: absolute;  top: 18px;  left: 0px;
   width: 24px !important;  height: 24px !important;
   border-top-right-radius: 12px;  border-bottom-right-radius: 0;  border-bottom-left-radius: 0;  border-top-left-radius: 0;
   border-radius: 12px;  background-clip: padding-box;
