@@ -1,0 +1,755 @@
+/*
+Theme Name: Yunomi
+Theme URI: http://blog.hatena.ne.jp/-/store/theme/6435922169449274523
+Description: ***Summary真っ白な2カラムテーマです。背景画像を変えたり、ヘッダ画像を追加したりすると個性的なデザインになります。[http://sesleria.hateblo.jp/entry/2013/02/22/000401:title=テーマ紹介記事はこちら]***画像バナー最適化表示について画像バナーは大抵aタグとimgタグの入れ子構造になっていると思います。サイドバーにバナーを挿入する際、imgタグに class="erg"を付与することで、良い感じに最適化表示されます。***サイドバーの新着タイトルを省略表示する(1行に収める)以下のソースコードをデザインCSSの最後に追記してください。>|css|.hatena-module-recent-entries li {	word-wrap: normal; for IE	white-space: nowrap;	text-overflow: ellipsis;	overflow: hidden;}||<***History|*2013/2/26|はてなフォトライフ以外のサービスを利用して貼りつけた画像に、CSSが適用されない不具合を修正しました。||*2013/4/6|・画像スタイル(拡大とか)の適用範囲をはてなフォトライフとPicasaに限定しました。Instagramとミイルについてはデフォルトのスタイルで表示されます。修正理由は、amazonのサムネイルやはてなブックマークのユーザ数表示にもスタイルが適用されてしまっていた為です。<br>・amazon商品紹介リンクの文字サイズを調整しました。<br>・コメントボタンの位置を調整しました。||*2013/4/17|微調整||*2013/6/6|アーカイブ表示を修正||*2013/10/18|Zenback関連の修正。一部デザインを変更。||*2014/03/09|Archive関連の表示を修正||*2015/01/03|最新記事リンクに付与している記号位置がおかしくなっていたのを修正|
+Author: platism
+Author URI: http://blog.hatena.ne.jp/platism/
+*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+	font-size:100%;
+}
+
+img {
+	border:none;
+}
+
+ol, ul{
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: "Open Sans","Helvetica Neue",Arial,"Hiragino Kaku Gothic Pro",Meiryo,"MS PGothic",sans-serif;
+}
+
+/* navigation design */
+#globalheader-container {
+    color: #fff;
+    background: #444;
+    background: rgba(0,0,0,0.6);
+    /*
+    box-shadow: 0 0 5px #000;
+    */
+    width 100%;
+}
+
+/* headline design */
+#blog-title {
+    width: 1000px;
+    margin: auto;
+    padding: 20px 20px;
+}
+
+/* container rayout */
+#content {
+    width: 1000px;
+    margin: auto auto 50px;
+    background: #fff;
+}
+
+#container * {
+/*
+    -webkit-transition: 0.2s linear;
+	-moz-transition: 0.2s linear;
+	-ms-transition: 0.2s linear;
+	-o-transition: 0.2s linear;
+	transition: 0.2s linear;
+*/
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#wrapper {
+    width: 750px;
+    float: left;
+    padding: 20px;
+    position: relative;
+    background-color: #fff;
+}
+
+/* title design */
+#title {
+    font-size: 250%;
+    color: #fff;
+    text-shadow: 1px 1px 1px #fff,-1px 1px 1px #fff,1px -1px 1px #fff,-1px -1px 1px #fff,2px 2px 2px #999;
+    font-weight: bold;
+}
+
+.header-image-enable #title {
+    text-align: center;
+}
+
+#title a {
+    color: #000;
+}
+
+#blog-description {
+    margin-top: 5px;
+    font-size: 90%;
+    color: #999;
+}
+
+.header-image-enable #blog-description {
+    text-align: center;
+}
+
+.header-image-enable #blog-title-inner {
+    padding: 60px;
+}
+
+/* breadcrumb design */
+.breadcrumb {
+    width: 1000px;
+    margin: auto;
+    background: #fff;
+    padding: 20px 20px 0;
+}
+
+.breadcrumb a {
+    color: #ff3399;
+}
+
+/* calender rayout */
+.entry-header .date a {
+    display: block;
+    font-family: 'Open Sans', serif;
+    width: 70px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 10px;
+    background: orange;
+    text-align: center;
+    color: #fff;
+}
+
+.entry-header .date a:hover {
+    background: #000;
+    text-decoration: none;
+}
+
+/* entry headline */
+.entry-title {
+    font-size: 150%;
+    font-weight: bold;
+    font-family: "Helvetica Neue",Arial,"Hiragino Kaku Gothic Pro",Meiryo,"MS PGothic",sans-serif;
+    margin: 0.1em 0;
+}
+
+.entry-title a {
+    color: #000;
+}
+
+.entry-header {
+    position: relative;
+    margin-bottom: 0.5em;
+}
+
+/* edit button */
+.entry-header-menu a {
+    display: block;
+    position: absolute;
+    left: -60px;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #000;
+    font-size: 80%;
+    color: #fff;
+    border: solid 1px #fff;
+}
+
+.entry-header-menu a:hover {
+    box-shadow: 0 0 10px #000;
+}
+
+.categories a {
+    color: #666;
+    font-size: 80%;
+}
+
+.categories a:before {
+  content: '\25B8';
+}
+
+/* entry design */
+.entry {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: solid 1px  #aaa;
+}
+
+.entry-content {
+    color: #000; 
+    margin: 0.8em 0;
+    line-height: 1.8;
+    font-size: 100%;
+    font-family: "Helvetica Neue",Arial,"Hiragino Kaku Gothic Pro",Meiryo,"MS PGothic",sans-serif;
+}
+
+.entry-content p {
+    margin: 0.8em 0;
+}
+
+.entry-content a {
+    color: #2d6bc4;
+}
+
+a.keyword {
+    color: #000;
+    border-bottom: dotted 1px #aaa;
+}
+
+a.keyword:hover {
+    border-bottom: solid 1px #aaa;
+    text-decoration: none;
+}
+
+.entry-content h3, .entry-content h1, .entry-content h2 {
+    font-size: 140%;
+    font-weight: bold;
+    margin: 1em 0 0.5em 0;
+}
+
+.entry-content h4 {
+    font-size: 130%;
+    font-weight: bold;
+    margin: 1em 0 0.5em 0;
+}
+
+.entry-content h5 {
+    font-size: 120%;
+    font-weight: bold;
+    margin: 1em 0 0.5em 0;
+}
+
+/*
+.entry-content blockquote {
+    background: #ece4e8;
+    padding: 20px;
+	margin: 0.8em 0;
+}
+
+.entry-content blockquote p {
+    margin: 0;
+}
+*/
+
+.entry-content blockquote {
+	padding: 20px 55px;
+	background: #efefef;
+	background: rgba(245,245,245,0.8);
+	color: #333;
+	position: relative;
+	border: solid 1px #fff; /* 背景が白以外のケース用 */
+	margin: 0.8em 0;
+}
+
+.entry-content blockquote p {
+	font-size: 90%;
+}
+
+.entry-content blockquote:before {
+	content: "“";
+	font-family: serif;
+	position: absolute;
+	top:0;
+	left:0;
+	font-size: 600%;
+	color: #c8c8c8;
+	color: rgba(200,200,200,1);
+	line-height: 1em;
+}
+
+.entry-content blockquote:after {
+	content: "”";
+	font-family: serif;
+	position: absolute;
+	bottom:0;
+	right:0;
+	font-size: 600%;
+	color: #c8c8c8;
+	color: rgba(200,200,200,1);
+	line-height: 0;
+}
+
+.entry-content blockquote img {
+	max-width: 100%;
+}
+
+.entry-content blockquote cite {
+	display: block;
+	text-align: right;
+	font-size: 80%;
+}
+
+.entry-content blockquote p {
+	margin: 0;
+}
+
+.entry-content pre {
+    color: #fff;
+    border: solid 1px #eee;
+    padding: 20px;
+    background: #333;
+    font-size: 100%;
+}
+
+.entry-content pre.code {
+    color: #fff;
+    border: solid 1px #eee;
+    padding: 20px;
+    background: #333;
+    font-size: 80%;
+}
+
+.entry-content pre a.keyword {
+    color: inherit;
+    text-decoration: underline;
+    margin: 0.5em 0;
+}
+
+/*
+.entry-content table {
+    border-collapse: collapse;
+    border: solid 1px #000;
+    font-size: 90%;
+}
+
+.entry-content th {
+    background: #eee;
+}
+
+.entry-content th, .entry-content td {
+    border: solid 1px #000;
+    padding: 3px 6px;
+}
+*/
+
+.entry-content table {
+	border-collapse: collapse;
+	border: solid 1px #ddd;
+	margin: 0.8em 0;
+}
+
+.entry-content th {
+	background: #f5f5f5;
+	font-weight: bold;
+}
+
+.entry-content th, .entry-content td {
+	border: solid 1px #ddd;
+	padding: 5px 10px;
+}
+
+.entry-content td {
+	background: #fff;
+}
+
+.entry-content ul li {
+    list-style-type: square;
+    margin-left: 30px;
+}
+.entry-content ol li {
+    list-style-type: decimal;
+    margin-left: 30px;
+}
+
+.entry-content .hatena-asin-detail, .entry-content .itunes-embed  {
+	padding: 15px 20px;
+}
+
+.entry-content .hatena-asin-detail li, .entry-content .itunes-embed  li {
+    list-style-type: none;
+    font-size: 90%;
+	margin: 0;
+}
+
+.entry-content dl {
+    margin: 0.8em 0;
+}
+
+.entry-content dt {
+    font-weight: bold;
+}
+
+.entry-content dd {
+    margin-left: 40px;
+}
+
+.entry-content img, .entry-content iframe, .entry-content embed { 
+    max-width: 710px;
+}
+
+.entry-content img.magnifiable, .entry-content img.hatena-fotolife { 
+    border-radius: 3px;
+    box-shadow: 0 2px 4px #ccc;
+
+    -webkit-transition: 0.1s linear;
+    -moz-transition: 0.1s linear;
+    -ms-transition: 0.1s linear;
+	-o-transition: 0.1s linear;
+	transition: 0.1s linear;
+}
+
+.entry-content img.magnifiable:hover, .entry-content img.hatena-fotolife:hover  {
+/*
+    -webkit-transform: scale(1.05,1.05);
+    -ms-transform: scale(1.05,1.05);
+    transform: scale(1.05,1.05);
+    box-shadow: 0 0 7px #999;
+*/
+	opacity: 0.7;
+}
+
+
+.entry-footer a {
+    color: #4c4c4c;
+    font-size: 80%;
+}
+
+.fn {
+    font-size: 80%;
+}
+
+.hatena-star-container {
+    margin-bottom: 10px;
+}
+
+/* comment design */
+.entry-comment {
+	margin-top: 8px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: dotted 1px #999;
+}
+
+.entry-comment:hover {
+    box-shadow: 0 0 4px #000;
+}
+
+.comment-content {
+    font-size: 90%;
+    padding: 5px;
+    
+    word-wrap: break-word;
+}
+
+.comment-metadata {
+    font-size: 90%;
+}
+
+.entry-footer .leave-comment-title {
+	padding: 5px 8px;
+    background-color: #999;
+    color: #fff;
+    
+    white-space: nowrap;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.entry-footer .leave-comment-title:hover {
+    background-color: #000;
+    text-decoration: none;
+}
+
+/* sidebar design */
+#box2 {
+    width: 250px;
+    float: right;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.hatena-module {
+    margin-bottom: 30px;
+}
+
+.hatena-module a {
+    color: #4c4c4c;
+}
+
+.hatena-module a:hover {
+    color: #4c4c4c;
+}
+
+.hatena-module-title {
+    font-size: 120%;
+    color: #4c4c4c;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #aaa;
+    margin-bottom: 15px;
+}
+
+.hatena-module-body {
+    font-size: 80%;
+}
+
+/* eroge bunner optimize */
+.hatena-module-body a .erg {
+	-webkit-box-sizing: content-box !important;
+	-moz-box-sizing: content-box !important;
+	-ms-box-sizing: content-box !important;
+	-o-box-sizing: content-box !important;
+	box-sizing: content-box !important;
+	
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px #999;
+}
+
+.hatena-module-body:hover a .erg {
+    opacity: 0.8;
+}
+
+.hatena-urllist li {
+    padding: 0.3em 0;
+}
+
+.hatena-urllist li:before {
+  content: '\25B8';
+}
+
+.hatena-urllist .archive-module-year:before {
+  content: '';
+}
+
+.recent-entries li:before {
+  content: '';
+}
+
+.recent-entries li div:before {
+  content: '\25B8';
+}
+
+.archive-module-month {
+	list-style-type: none !important;
+}
+
+/* profile design */
+.profile-icon {
+    box-shadow: 0 1px 4px #999;
+    border-radius: 50%;
+}
+
+.id {
+    display: block;
+}
+
+.profile-description {
+    margin: 0.8em 0;
+}
+
+/* searchbox design */
+.search-module-input {
+    width: 150px;
+    height: 25px;
+    padding: 3px 5px;
+    border: solid 1px #aaa;
+    vertical-align: middle;
+}
+
+.search-module-button {
+    height: 25px;
+    padding: 0 6px;
+    line-height: 25px;
+    background-color: #999;
+    color: #fff;
+
+    border: none;
+    cursor: pointer;
+    margin-left: -4px;
+    vertical-align: middle;
+}
+
+.search-module-button:hover {
+    background-color: #000;
+}
+
+/* pager design */
+.pager-prev a {
+    color: #ff3399;
+}
+
+.pager-next a {
+    color: #ff3399;
+}
+
+/* archive design */
+.page-archive #main a {
+    color: #4c4c4c;
+}
+
+.page-archive #main p {
+    font-size: 90%;
+    color: #4c4c4c;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.page-archive #main .entry-title {
+	font-size: 110%;
+	font-weight: normal;
+	display: inline-block;
+	margin-top: 10px;
+	color: #3489bd;
+}
+
+.page-archive #main .entry-title {
+    color: #2d6bc4;
+}
+
+.page-archive #main .entry-description {
+	margin: 0.2em 0;
+}
+.page-archive #main .categories {
+	margin: 0 0 0.5em;
+}
+
+.archive-entry {
+	border-bottom: solid 1px #ddd;
+	padding-bottom: 15px;
+	margin-bottom: 15px !important;
+}
+
+.page-archive #main li {
+    margin-left: 30px;
+}
+
+.page-archive section {
+    margin-bottom: 10px;
+}
+
+/* about */
+.page-about #main dd {
+    margin-bottom: 10px;
+}
+
+/* corresponding problem of height */
+#content:after {
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+/* footer */
+#footer {
+    clear: both;
+    background-color: #444;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    padding: 10px;
+    font-size: 80%;
+}
+
+#footer a {
+    color: #fff;
+}
+
+#footer img {
+    border-radius: 50%;
+}
+
+/* scroll button design */
+#page-top {
+    width: 40px;
+	height: 40px;
+    font-family: "Open Sans",sans-serif;
+	position: fixed;
+	top: 95px;
+	right: 20px;
+
+	background: #999;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	font-size: 22px;
+
+	font-weight: 300;
+	border-radius: 50%;
+
+	z-index: 1;
+	box-shadow: 0 0 5px #999;
+	cursor: pointer;
+    opacity: 0.7;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#page-top:hover {
+    opacity: 1;
+}
+
+#page-down {
+    width: 40px;
+	height: 40px;
+	font-family: "Open Sans",sans-serif;
+	position: fixed;
+	top: 145px;
+	right: 20px;
+
+	background: #999;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	font-size: 22px;
+
+	font-weight: 300;
+	border-radius: 50%;
+
+	z-index: 1;
+	box-shadow: 0 0 5px #999;
+	cursor: pointer;
+    opacity: 0.7;
+    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#page-down:hover {
+    opacity: 1;
+}
+
+#top-editarea, #bottom-editarea {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.zenback-container * {
+	-webkit-box-sizing: content-box !important;
+	-moz-box-sizing: content-box !important;
+	-ms-box-sizing: content-box !important;
+	-o-box-sizing: content-box !important;
+	box-sizing: content-box !important;
