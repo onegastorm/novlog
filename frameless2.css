@@ -637,9 +637,8 @@ form.search-result-form {
 .page-archive .entry-thumb {  margin-right: 80px;}
 
 /*カテゴリ表示。これは重要ですね！ */
-.page-archive .archive-entries .categories {  position: relative;  background: #00FF00;  text-align: right;}
-.page-archive .archive-entries .categories a {  position: relative;  text-align: right;}
+.page-archive .archive-entries .categories {  background: #00FF00;}
 /* カテゴリ表示ページのカテゴリボタンの領域規定*/
-/*.page-archive .categories {  ;}*/
+.page-archive .categories {  display: inline;}
 /* カテゴリ表示ページのカテゴリボタンの装飾指定*/
 /*.page-archive .categories a {  ;}*/
