@@ -475,9 +475,9 @@ a.keyword {
 }*/
 
 /* コメントボタンの装飾指定 */
-.leave-comment-title {  margin:0 auto 0 auto; font-size: 10px;}
+.leave-comment-title {  display: inline;  text-align: center; font-size: 10px;  color: #DDDDDD;}
 /* コメントボタンの装飾指定 */
-.leave-comment-title a {  font-size: 12px;  color: #DDDDDD;  text-decoration: none;}
+.leave-comment-title a {  color: #DDDDDD;  text-decoration: none;}
 /* コメントボタンの前にアイコンをつけます */
 .leave-comment-title a:before {  font-family: "blogicon";  content: "\f024";  padding-right: 4px;}
 /* コメントブタンのマウスオーバー時の動作を指定します。 */
