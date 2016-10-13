@@ -623,7 +623,7 @@ form.search-result-form {
 .page-archive #main h2 {  color: #999999;  font-weight: normal;  font-size: 15px;  padding-top:50px;}
 /* アーカーブページの本文の領域規定 */
 /*.page-archive .entry-title {  margin: 0 0 0 0;}*/
-.page-archive .archive-entries {  color: #999999;  margin-top: 40px;  background: #FFFFFF;  display: inline;}
+.page-archive .archive-entries {  color: #999999;  margin-top: 40px;}
 /* 何？　日付っつーぐらいだから月間アーカイブとかの日付ですかね？ */
 .page-archive .archive-entries .date {  position: static;}
 /* アーカーブページの本文の領域規定 */
@@ -638,6 +638,7 @@ form.search-result-form {
 
 /*カテゴリ表示。これは重要ですね！ */
 .page-archive .archive-entries .categories {  display: inline;  background: #00FF00;}
+.page-archive .archive-entries .categories a {  display: inline;}
 /* カテゴリ表示ページのカテゴリボタンの領域規定*/
 /*.page-archive .categories {  ;}*/
 /* カテゴリ表示ページのカテゴリボタンの装飾指定*/
