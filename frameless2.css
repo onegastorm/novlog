@@ -626,7 +626,7 @@ form.search-result-form {
 /* 記事タイトルの領域規定 */
 .page-archive .entry-title {  margin: 0 0 0 0;}
 /* 何？　日付っつーぐらいだから月間アーカイブとかの日付ですかね？ */
-/*.page-archive .archive-entries .date {  position: static;}*/
+.page-archive .archive-entries .date {  position: static;}
 /* アーカーブページの本文の領域規定 */
 /*.page-archive .archive-entries .archive-entry {  position: relative;  background;77FF77;}*/
 /* アーカーブページの本文サブタイトルの領域規定 */
