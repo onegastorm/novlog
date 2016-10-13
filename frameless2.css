@@ -251,7 +251,9 @@ a.keyword {
 }
 
 /* Buttons ---------------------------------------- */
-/*.btn {
+/* 何が何だか？ */
+
+.btn {
   display: inline-block;
   *display: inline;
   *zoom: 1;
@@ -288,7 +290,7 @@ a.keyword {
   font-size: 17px;
   line-height: normal;
   font-weight: bold;
-}*/
+}
 
 /* Globalheader ---------------------------------------- */
 
@@ -326,9 +328,9 @@ a.keyword {
 /* テーブル全体の領域規定 */
 .entry {  position: relative;  margin-bottom: 0px;  background: #EEEEFF;  width: 100%;}
 /* 記事タイトル部の領域規定 */
-.entry-header {  position: relative;  background: #FFFF00;  width: 100%;  padding:0 0 0 0;}
+.entry-header {  position: relative;  background: #FFFF00;  width: 100%;  padding:100px 100px 100px 100px;}
 /* 記事タイトルの領域規定 */
-.entry-title {  display: inline;  font-size: 13px;  font-weight: normal;  margin: 1.4%;}
+.entry-title {  display: inline;  font-size: 13px;  font-weight: normal;  margin: 10.4%;}
 /* 日付ボタンの領域規定 */
 .date {  display: none;}
 /*.date {  position: absolute;  font-size: 11px;  z-index: 100;  background: #AAAAFF;}*/
