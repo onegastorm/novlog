@@ -498,15 +498,14 @@ a.keyword {
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a{  font-size: 12px;  color: #999999;  margin-right:10px;}
 /* はてなモジュール・カテゴリーの前にアイコンをつけます */
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a:before {
-  font-family: "blogicon";  content: "\f022";  padding-right: 4px;}
+  font-family: "blogicon";  content: "\f022";  padding-right: 3px;}
 /* はてなモジュール・カテゴリーのマウスオーバー時の装飾指定 */
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a:hover{  color: #DDDDDD;  transition:0.8s;}
 /* よくわかりま1000円 */
 .hatena-module {  clear: both;  overflow: hidden;}
-
-
 /* プロフィールの読者になるボタン？ */
 .hatena-follow-button-box {  display: inline-block;  margin: 0;  vertical-align: middle;}
+
 /* 最新記事とカテゴリのリスト形式規定 */
 .hatena-urllist {  list-style: none;  margin: 0 0 0 0;  padding: 0 0 0 0;}
 /* 最新記事とカテゴリの本文の領域規定 */
