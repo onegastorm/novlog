@@ -510,7 +510,7 @@ a.keyword {
 /* sidebar -> category ---------------------------------------- */
 
 /* パンくずリストの領域規定 */
-.breadcrumb {  background: #FF00FF;
+.breadcrumb {  background: #FF00FF;  font-size:11px;
 /*  width:100%;*/
 /*  margin: auto;*/
 /*  padding: 20px 20px 0;*/
