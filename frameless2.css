@@ -458,7 +458,6 @@ a.keyword {
 .leave-comment-title:hover {  color: #999999;/*  background: #EEEEEE;*/  transition: 0.8s;}
 
 /* sidebar ---------------------------------------- */
-/* ★box2についての指定です。 */
 
 /* サイドバーの領域規定 */
 #box2 {  height: 220px;  margin:0 0 0 0;  font-size: 13px;  color: #999999;  background: #333333;}
@@ -506,14 +505,24 @@ a.keyword {
 /* プロフィールの読者になるボタン？ */
 .hatena-follow-button-box {  display: inline-block;  margin: 0;  vertical-align: middle;}
 
+
+
+/* sidebar -> category ---------------------------------------- */
+
+/* パンくずリストの領域規定 */
+.breadcrumb {  background: #FF00FF;
+/*  width:100%;*/
+/*  margin: auto;*/
+/*  padding: 20px 20px 0;*/
+}
+/* パンくずリストの装飾指定 */
+.breadcrumb a {  font-size:11px;  color: #DDDDDD;}
 /* 最新記事とカテゴリのリスト形式規定 */
 .hatena-urllist {  list-style: none;  margin: 0 0 0 0;  padding: 0 0 0 0;}
 /* 最新記事とカテゴリの本文の領域規定 */
 .hatena-urllist li {  padding: 0;  line-height: 1.5;}
 /* 最新記事とカテゴリの本文の装飾指定 */
 .hatena-urllist li a {  color: #999999;  text-decoration: none;}
-
-
 
 
 
