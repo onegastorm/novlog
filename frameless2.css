@@ -641,4 +641,4 @@ form.search-result-form {
 /* カテゴリ表示ページのカテゴリボタンの領域規定*/
 .page-archive .categories {  display: inline; line-height: 0px; position: relative;}
 /* カテゴリ表示ページのカテゴリボタンの装飾指定*/
-.page-archive .categories a {  text-align: right;  margin-left: 100px;  display: inline; line-height: 0px; position: relative;}
+.page-archive .categories a {  margin-right: 0px;  display: inline;}
