@@ -460,7 +460,7 @@ a.keyword {
 /* sidebar ---------------------------------------- */
 
 /* サイドバーの領域規定 */
-#box2 {  width: 973px;  height: 220px;  margin:0 0 0 0;  font-size: 13px;  color: #999999;  background: #333333;}
+#box2 {  height: 220px;  margin:0 0 0 0;  font-size: 13px;  color: #999999;  background: #333333;}
 /* はてなモジュールの領域規定。段上段右段下段左・段幅などを規定 */
 .hatena-module {  display:inline-block;  vertical-align: top;  margin:4% 0 0 4%;  width:28%;}
 /* うしろに何か入れてるけどまあいらないっすよね */
@@ -510,13 +510,13 @@ a.keyword {
 /* sidebar -> category ---------------------------------------- */
 
 /* パンくずリストの領域規定 */
-.breadcrumb {  font-size:13px;  color: #999999;  background: #FFEEEE;}
+.breadcrumb {  font-size:13px;  color: #999999;  background: #FFEEEE;  width: 973px;}
 /* パンくずリストの装飾指定 */
 .breadcrumb a {  font-size:12px;  color: #DDDDDD;  text-decoration: none;}
 /* パンくずリストのマウスオーバー時の装飾指定 */
 .breadcrumb a:hover {  color: #999999;  text-decoration: none;  transition: 0.8s;}
 /* 最新記事とカテゴリのリスト形式規定 */
-.hatena-urllist {  list-style: none;  margin: 0 0 0 0;  padding: 0 0 0 0;}
+.hatena-urllist {  list-style: none;  margin: 0 0 0 0;  padding: 0 0 0 0;  width: 973px;}
 /* 最新記事とカテゴリの本文の領域規定 */
 .hatena-urllist li {  padding: 0;  line-height: 1.5;}
 /* 最新記事とカテゴリの本文の装飾指定 */
