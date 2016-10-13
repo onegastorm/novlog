@@ -314,8 +314,8 @@ a.keyword {
 /* Blogtitle(header) ---------------------------------------- */
 
 /* ブログタイトルテーブル全体の領域規定。#mainに縛られてないみたい */
-/*#blog-title {  display: none;}*/
-#blog-title {  background: #CCCCFF;/*  margin:0 auto 0 auto;*/  width: 973px;}
+#blog-title {  display: none;}
+/*#blog-title {  margin:0 auto 0 auto;  width: 973px;  background: #CCCCFF;}*/
 /* ブログタイトル領域を規定します。 */
 /*#title {  background: #FFCCCC;}*/
 /* ブログタイトルのリンク領域を規定します。 */
