@@ -465,7 +465,7 @@ a.keyword {
 /* はてなモジュールの領域規定 */
 .hatena-module {
   margin:4% 0 0 4%;/*段上・段右・段下・段左*/
-  width:61%;/*段の幅*/
+  width:40%;/*段の幅*/
   display:inline-block;
   vertical-align: top;
 /*  padding:3px;*/
