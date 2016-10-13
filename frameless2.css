@@ -388,8 +388,8 @@ a.keyword {
 .entry-content h3 {  font-size: 140%;}
 .entry-content h4 {  font-size: 130%;}
 .entry-content h5 {  font-size: 110%;}
-.entry-content h6 {  font-size: 100%;
-}.entry-content table {  border-collapse: collapse;  border-spacing: 0;  margin-bottom: 1em;}
+.entry-content h6 {  font-size: 100%;}
+.entry-content table {  border-collapse: collapse;  border-spacing: 0;  margin-bottom: 1em;}
 .entry-content table img {  max-width: none;}
 .entry-content table th,.entry-content table td {  border: 1px solid #ddd;  padding: 5px 10px;}
 .entry-content table th {  background: #f5f5f5;}
@@ -524,8 +524,15 @@ a.keyword {
 .hatena-urllist li a {  color: #999999;  text-decoration: none;}
 
 
-.hatena-module-category {  background:#0000FF;}
-form.category-result-form {  background:#0000FF;}
+.urllist-categories.entries-access-ranking-categories {
+  display: none;
+}
+.hatena-module.hatena-module-category .hatena-urllist li{
+  margin-right: 8px;
+  margin-bottom: 8px;
+  line-height: 1.5;
+  float: left;
+}
 
 
 
