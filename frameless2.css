@@ -359,7 +359,7 @@ a.keyword {
 /* 編集ブタンの前にアイコンをつけます */
 .entry-header-menu a:before {  font-family: "blogicon";  content: "\f010";  padding-right: 4px;}
 /* 編集ボタンのマウスオーバー時の動作指定 */
-.entry-header-menu a:hover {  color: #999999;/*  background: #EEEEEE;*/  transition: 0.8s;}
+.entry-header-menu a:hover {  color: #999999;  transition: 0.8s;}
 
 /* entry-content ---------------------------------------- */
 /* 記事本文の領域規定。boilerplateからのこぴぺです。しかし縦書文庫のほうで規定しているようすです。 */
@@ -453,26 +453,36 @@ a.keyword {
 /* 投稿時間の装飾を指定しています。 */
 .comment-metadata {  font-size: 11px;  color: #999999;  margin: 0; text-align: right;}
 .comment-metadata a {  color: #000000;}
+
+
 /* 書き込みボタンの領域を規定します。 */
-.leave-comment-title {
+/*.leave-comment-title {
   margin-left: 28px;
-  font-size: 11px;
+  font-size: 11px;*/
 /*  display: inline-block;
   *display: inline;
   *zoom:1;
   line-height: 18px;
   text-align: center;
   vertical-align: middle;*/
-  cursor: pointer;
+/*  cursor: pointer;
   padding: 2px 10px;
   color: #CCCCCC;
   text-decoration: none;
   border: 1px solid #CCCCCC;
   border-radius: 3px;
   background: #FFFFFF;
-}
+}*/
+
+/* カテゴリボタンの装飾指定 */
+.leave-comment-title a {  font-size: 12px;  color: #DDDDDD;  text-decoration: none;}
+/* カテゴリボタンの前にアイコンをつけます */
+.leave-comment-title a:before {  font-family: "blogicon";  content: "\f024";  padding-right: 4px;}
 /* 書き込みボタンのマウスオーバー時の動作を指定します。 */
-.leave-comment-title:hover {  color: #999999;/  background: #EEEEEE;  transition: 0.8s;}
+.leave-comment-title:hover {  color: #999999;/*  background: #EEEEEE;*/  transition: 0.8s;}
+
+
+
 
 /* sidebar ---------------------------------------- */
 /* ★box2についての指定です。 */
