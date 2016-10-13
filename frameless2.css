@@ -523,8 +523,8 @@ a.keyword {
 /* 段差作っちゃう*/
 .hatena-module-category:before {  display: block;  height: auto;  clear: both;  content: ".2222";  background: #FFFFFF;/*  visibility:hidden;*/}
 .hatena-module-category { vertical-align: bottom;}
-/*.hatena-module-recent-entries:after {  display: block;  height: 40px;  clear: both;  content: "@@@@";  background: #FFFFFF;}*/
-.recent-entries:after {  display: block;  height: 40px;  clear: both;  content: "@@@@";/*  background: #FFFFFF;  visibility:hidden;*/}
+/*.hatena-module-recent-entries:after {  display: block;  height: 50px;  clear: both;  content: "@@@@";  background: #FFFFFF;}*/
+.recent-entries:after {  display: block;  height: 50px;  clear: both;  content: "@@@@";  visibility:hidden;}
 
 
 
