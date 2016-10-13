@@ -633,7 +633,7 @@ form.search-result-form {
 .page-archive .archive-entries .entry-title {  margin-top: 0px;  background: #00FFFF;}
 .page-archive .archive-entries .entry-title  a {  position: absolute;  font-size: 13px;  color: #777777;}
 /* 何？　保留です。 */
-/*.page-archive .archive-entries .entry-description {  margin: 0 0 1em;  line-height: 1.7em;  font-size: 13px;}*/
+.page-archive .archive-entries .entry-description {  margin: 0 0 1em;  line-height: 1.7em;  font-size: 13px;}
 /* サムネイル？　保留です。 */
 /*.page-archive .entry-thumb {  margin-right: 80px;}*/
 
