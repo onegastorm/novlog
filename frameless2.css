@@ -466,7 +466,9 @@ a.keyword {
 /* 段を作るためのダミー */
 .hatena-module-category:before {/*  display: block;*/  width: 10px;  height: auto;  padding-top: auto;  clear: both;  content: ".2222";  background: #FFFFFF;/*  visibility:hidden;*/}
 .hatena-module-category { vertical-align: bottom;}
-/* 回り込みを防ぐとか何とか */
+.hatena-urllist:after {  display: block;  height: auto;  padding-top: auto;  clear: both;  content: ".2222";  background: #FFFFFF;/*  visibility:hidden;*/}
+
+/* 回り込みを防ぐとか何とかよくわかりません */
 .hatena-module:after {  display: block;  visibility:hidden;  height: 0;  clear: both;  content: ".2222";}
 /* 各ブロックのタイトルの領域規定 */
 .hatena-module-title {  display:block;  padding-bottom:2px;  border-bottom:solid 1px #555555;/*  font-size:100%;*/}
