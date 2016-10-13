@@ -407,7 +407,7 @@ a.keyword {
 /* entry-footer ---------------------------------------- */
 
 /* 記事のフッターの領域を規定します。 */
-.entry-footer {  margin:0 20% 0 20%;  background: #FFEEEE;/*  padding-bottom: 60px;*/}
+.entry-footer {  margin:0 20% 0 20%;  background: #FFEEEE;  margin-bottom: 60px;/*  padding-bottom: 60px;*/}
 /*.entry-footer {  background: #FFEEEE;  margin:0 180px 0 180px;  padding-bottom: 60px;}*/
 /* 実質的には文責と時間程度ですかね。 */
 .entry-footer-section {  display: none;}
