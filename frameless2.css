@@ -460,7 +460,7 @@ a.keyword {
 /* sidebar ---------------------------------------- */
 
 /* サイドバーの領域 */
-#box2 {/*  height: 220px;*/  margin:0 0 0 0;  font-size: 18px;  color: #999999;  background: #333333;  padding-bottom: 40px;}
+#box2 {/*  height: 220px;*/  margin:0 0 0 0;  font-size: 13px;  color: #999999;  background: #333333;  padding-bottom: 40px;}
 /* はてなモジュール。段上段右段下段左・段幅などを規定 */
 .hatena-module {  display:inline-block;  vertical-align: top;  margin:4% 0 0 4%;  width:28%;}
 /* 段を作るためのダミー */
