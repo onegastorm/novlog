@@ -640,6 +640,6 @@ form.search-result-form {
 /*カテゴリ表示。これは重要ですね！ */
 .page-archive .archive-entries .categories {}
 /* カテゴリ表示ページのカテゴリボタンの領域規定*/
-.page-archive .categories {  background: #00FF00;/*  display: inline-block;*/  text-align: right;/*  padding-top: 0px; padding-bottom: 0px;*/}
+.page-archive .categories {  background: #00FF00;/*  display: inline-block;*/  text-align: right;  margin-right: 0px;/*  padding-top: 0px; padding-bottom: 0px;*/}
 /* カテゴリ表示ページのカテゴリボタンの装飾指定*/
 .page-archive .categories a {  display: inline-block;  margin-right: 0px;}
