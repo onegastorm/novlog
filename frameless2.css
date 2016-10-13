@@ -341,7 +341,7 @@ a.keyword {
 .categories {  display: inline;}
 /*.categories {  display: inline;  float: right;  margin-right: 10%;}*/
 /* カテゴリボタンの装飾指定 */
-.categories a {  font-size: 12px;  color: #DDDDDD;  text-decoration: none;}
+.categories a {  font-size: 13px;  color: #DDDDDD;  text-decoration: none;}
 /* カテゴリボタンの前にアイコンをつけます */
 .categories a:before {  font-family: "blogicon";  content: "\f022";  padding-right: 4px;}
 /* カテゴリボタンのマウスオーバー時の動作指定 */
@@ -351,7 +351,7 @@ a.keyword {
 /* 編集ボタンの領域規定 */
 .entry-header-menu {  display: inline;  padding-left: 5%}
 /* 編集ボタンの装飾指定 */
-.entry-header-menu a {  font-size: 12px;  color: #DDDDDD;  text-decoration: none;}
+.entry-header-menu a {  font-size: 13px;  color: #DDDDDD;  text-decoration: none;}
 /*.entry-header-menu a {    display: inline-block;  *display: inline;  *zoom:1;
   line-height: 18px;  text-align: center;  vertical-align: middle;  padding: 1px 12px;  cursor: pointer;
   font-size: 12px;  text-decoration: none;  color: #CCCCCC;  background: #FFFFFF;
