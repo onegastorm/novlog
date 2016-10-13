@@ -475,7 +475,7 @@ a.keyword {
 }*/
 
 /* コメントボタンの装飾指定 */
-.leave-comment-title {  text-align: center;}
+.leave-comment-title {  margin:0 auto 0 auto; font-size: 10px;}
 /* コメントボタンの装飾指定 */
 .leave-comment-title a {  font-size: 12px;  color: #DDDDDD;  text-decoration: none;}
 /* コメントボタンの前にアイコンをつけます */
