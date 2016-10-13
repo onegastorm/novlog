@@ -490,7 +490,7 @@ a.keyword {
 /* 最新記事とカテゴリ関係 */
 .hatena-urllist {  list-style-type: disc;  margin:0 0 0 0;  padding: 0 0 0 0;  width: 100%;}
 .hatena-urllist li {  padding: 0;  line-height: 2.0;}
-.hatena-urllist li a {  color: #DDDDDD;  text-decoration: none;  transition: 0.8s;}
+/*.hatena-urllist li a {  color: #DDDDDD;  text-decoration: none;  transition: 0.8s;}*/
 /*.hatena-module-category {  line-height: 1.0;}*/
 
 /* 最新記事の本文の文字の大きさを変えるという重要なお話 */
