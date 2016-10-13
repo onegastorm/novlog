@@ -119,12 +119,13 @@ body {
 .breadcrumb {
     width: 1000px;
     margin: auto;
+    font-size: 11px
     background: #AAFFAA;
     padding: 20px 20px 0;
 }
 
 .breadcrumb a {
-    color: #EEEEEE;
+    color: #2222EE;
 }
 
 /* calender rayout */
