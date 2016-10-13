@@ -629,7 +629,7 @@ form.search-result-form {
 /* アーカーブページの本文の領域規定 */
 .page-archive .archive-entries .archive-entry {  position: relative;  margin-bottom: 3em;} 
 /* アーカーブページの本文サブタイトルの領域規定 */
-.page-archive .archive-entries .entry-title {  font-size: 13px;  margin: 0 0 .5em;  background: #00FFFF;}
+.page-archive .archive-entries .entry-title {  font-size: 13px;  margin: 0 0 .5em;  background: #00FFFF;  display: inline;}
 .page-archive .archive-entries .entry-title  a {  color: #777777;}
 /* 何？　保留です。 */
 .page-archive .archive-entries .entry-description {  margin: 0 0 1em;  line-height: 1.7em;  font-size: 13px;}
@@ -641,4 +641,4 @@ form.search-result-form {
 /* カテゴリ表示ページのカテゴリボタンの領域規定*/
 .page-archive .categories {  display: inline;}
 /* カテゴリ表示ページのカテゴリボタンの装飾指定*/
-.page-archive .categories a {  text-align: right; margin-left: 100px}
+.page-archive .categories a {  text-align: right;  margin-left: 100px;  display: inline;}
