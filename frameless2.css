@@ -620,7 +620,7 @@ form.search-result-form {
 /* カテゴリ一覧ページのカテゴリボタン関係 */
 .page-archive .archive-entries .categories {  line-height: 1.4em;}
 .page-archive .categories {/*  display: inline-block;*/}
-.page-archive .categories a {  display: block;  text-align: right;  background: #00FF00;}
+.page-archive .categories a {/*  display: block;*/  text-align: right;  background: #00FF00;}
 
 .page-archive .entry-title, .page-archive .categories {  display: inline;}
 
