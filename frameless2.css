@@ -504,24 +504,12 @@ a.keyword {
 .hatena-module {  clear: both;  overflow: hidden;}
 /* プロフィールの読者になるボタン？ */
 .hatena-follow-button-box {  display: inline-block;  margin: 0;  vertical-align: middle;}
-
-
-
-/* sidebar -> category ---------------------------------------- */
-
-/* パンくずリストの領域規定 */
-.breadcrumb {  font-size:13px;  color: #999999;  background: #FFEEEE;  width: 973px; margin:0 auto 0 auto;}
-/* パンくずリストの装飾指定 */
-.breadcrumb a {  font-size:12px;  color: #DDDDDD;  text-decoration: none; margin-left:1.4%;}
-/* パンくずリストのマウスオーバー時の装飾指定 */
-.breadcrumb a:hover {  color: #999999;  text-decoration: none;  transition: 0.8s;}
 /* 最新記事とカテゴリのリスト形式規定 */
-.hatena-urllist {  list-style: none;  margin: 100px 0 0 0;  padding: 0 0 0 0;  width: 973px;}
+.hatena-urllist {  list-style: none;  margin:0 0 0 0;  padding: 0 0 0 0;  width: 973px;}
 /* 最新記事とカテゴリの本文の領域規定 */
 .hatena-urllist li {  padding: 0;  line-height: 1.5;}
 /* 最新記事とカテゴリの本文の装飾指定 */
 .hatena-urllist li a {  color: #999999;  text-decoration: none;}
-
 
 
 /* search-box (hatena-module) ---------------------------------------- */
@@ -620,6 +608,13 @@ form.search-result-form {
 .page-about dd {  margin: 0 0 0 0;}
 
 /* archive ---------------------------------------- */
+
+/* パンくずリストの領域規定 */
+.breadcrumb {  font-size:13px;  color: #999999;  background: #FFEEEE;  width: 973px; margin:0 auto 0 auto;}
+/* パンくずリストの装飾指定 */
+.breadcrumb a {  font-size:12px;  color: #DDDDDD;  text-decoration: none; margin-left:1.4%;}
+/* パンくずリストのマウスオーバー時の装飾指定 */
+.breadcrumb a:hover {  color: #999999;  text-decoration: none;  transition: 0.8s;}
 
 /* アーカイブコーナーのカラム領域規定 */
 .page-archive #main {  width: 60%;  margin: 0 auto 0 auto;}
