@@ -525,6 +525,7 @@ a.keyword {
 /* でもって最新記事で段差作っちゃう*/
 .hatena-module-recent-entries:after {/*  display: block;*/  width: 80px;  height: 200px;  padding-top: auto;  clear: both;  content: ".2222";  background: #FFFFFF;/*  visibility:hidden;*/}
 .hatena-module-recent-entries:after {/*  display: block;*/  width: 80px;  height: 200px;  padding-top: auto;  clear: both;  content: ".2222";  background: #FFFFFF;/*  visibility:hidden;*/}
+.recent-entries:after {/*  display: block;*/  width: 80px;  height: 200px;  padding-top: auto;  clear: both;  content: ".2222";  background: #FFFFFF;/*  visibility:hidden;*/}
 
 /* search-box (hatena-module) ---------------------------------------- */
 /* ほりゅう！ */
