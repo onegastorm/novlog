@@ -494,7 +494,7 @@ a.keyword {
 .recent-entries a:hover {  color: #DDDDDD;  text-decoration: none;  transition: 0.8s;}
 /*.hatena-module-category {  line-height: 1.0;}*/
 /* 記事の前にアイコンをつけます。 */
-.recent-entries a:before {  font-family: "blogicon";  content: "\f012";  padding-right: 4px;}
+.recent-entries a:before {  font-family: "blogicon";  content: "\f006";  padding-right: 4px;}
 
 /* 最新記事の本文の文字の大きさを変えるという重要なお話 */
 .urllist-item-inner.recent-entries-item-inner {  font-size: 13px;}
