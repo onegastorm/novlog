@@ -407,7 +407,7 @@ a.keyword {
 /* entry-footer ---------------------------------------- */
 
 /* 記事のフッターの領域規定 */
-.entry-footer {  margin:0 20% 0 20%;  background: #FFEEEE;  margin-bottom: 60px;/*  padding-bottom: 60px;*/}
+.entry-footer {  margin:0 10% 0 20%;  background: #FFEEEE;  margin-bottom: 60px;/*  padding-bottom: 60px;*/}
 /*.entry-footer {  background: #FFEEEE;  margin:0 180px 0 180px;  padding-bottom: 60px;}*/
 /* 文責と投稿時間だけ？ */
 .entry-footer-section {  display: none;}
@@ -423,9 +423,9 @@ a.keyword {
 /* 投稿されたコメントボックスの領域規定 */
 .comment-box ul {  list-style: none;  font-size: 13px;  color: #999999;/*  margin: 0 0 15px 0;  text-align: left;*/}
 /* 投稿されたコメントボックスの本文の領域規定 */
-.comment-box li {  padding: 0px 40px 10px 40px;  border-bottom: 1px solid #EEEEEE;  position: relative;}
+.comment-box li {  padding: 10px 40px 10px 40px;  border-bottom: 1px solid #DDDDDD;  position: relative;}
 /* コメントボックス最上段の罫線を指定 */
-.comment-box li:first-child {  border-top: 1px solid #EEEEEE;}
+.comment-box li:first-child {  border-top: 1px solid #DDDDDD;}
 /* コメントボックスを一覧表示するボタンと思われる。 */
 .comment-box .read-more-comments {  padding-left: 0;}
 /* 投稿者のアイコンの領域規定 */
