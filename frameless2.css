@@ -539,13 +539,14 @@ a.keyword {
 /* footer -------------------------------------------------- */
 
 /* フッター関係 */
-#footer {  width: 100%;  font-size:13px;  color: #999999;  background: #555555;  line-height: 0;}
-/*#footer p {  margin: 0;}*/
+#footer {  width: 100%;  font-size:13px;  color: #999999;  background: #555555;/*  line-height: 0;*/}
+#footer p {  margin: 0;}
 #footer a {  color: #999999;  text-decoration: none;}
 /* ID消しちゃいましょう！ */
 footer address {/*display: none;*/  visibility: hidden;}
 /* IDとはてなリンクを1列に！ */
 /*#footer address,#footer .services {  display: inline;  padding-right: 1em;}*/
+/*#footer .services  {  position: absolute;}*/
 
 /* page-about ---------------------------------------- */
 
