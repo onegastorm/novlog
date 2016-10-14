@@ -516,7 +516,7 @@ a.keyword {
 
 /* Pager ---------------------------------------- */
 
-/*.pager {  margin: 0 0 30px;  display: block;  *zoom: 1;}*/
+.pager {  margin: 0 10% 10% 10%;/*  display: block;  *zoom: 1;*/}
 .pager:after {  display: block;/*  visibility: hidden;*/  font-size: 0;  height: 0;  clear: both;  content: ".";}
 /* 戻るページ送り */
 .pager .pager-prev {  float: left;  text-align: left;  width: 50%;  margin-right: 10%;}
