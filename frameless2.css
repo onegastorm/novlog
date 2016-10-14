@@ -516,8 +516,8 @@ a.keyword {
 
 /* Pager ---------------------------------------- */
 
-.pager {  margin: 0 10% 10% 10%;/*  display: block;  *zoom: 1;*/}
-.pager:after {  display: block;/*  visibility: hidden;*/  font-size: 0;  height: 0;  clear: both;  content: ".";}
+.pager {  margin: 0 10% 3% 10%;/*  display: block;  *zoom: 1;*/}
+.pager:after {  display: block;/*  visibility: hidden;*/  font-size: 0;  height: 0;  clear: both;  content: ".";  background:#FFFFFF;}
 /* 戻るページ送り */
 .pager .pager-prev {  float: left;  text-align: left;  width: 50%;  margin-right: 10%;}
 .pager .pager-prev a {  color: #555555;}
