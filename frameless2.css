@@ -468,7 +468,7 @@ a.keyword {
 /* 各要素のタイトル */
 .hatena-module-title {  display: block;/*  padding-bottom:10px;*/  border-bottom:solid 1px #555555;}
 .hatena-module-title a {  color: #FFEEFF;/*  text-decoration: none;*/}*/
-.hatena-module-title a:hover {  color: #DDDDDD;/*  text-decoration: none;*/  transition: 0.8s;}
+.hatena-module-title a:hover {  color: #DDDDDD;/*  text-decoration: none;  transition: 0.8s;*/}
 /* 各要素の本文 */
 .hatena-module-body {  margin-top:5px;/*  float: left;*/}
 /* 何これ？ */
@@ -498,10 +498,10 @@ a.keyword {
 /* アクセスランキングの本文の文字の大きさを変えるというかなりどうでも良い任務 */
 /*.urllist-item-inner.entries-access-ranking-item-inner {  font-size: 13px;}*/
 /* 段差作っちゃう */
-.hatena-module-category:before {  display: block;  clear: both;  content: "@@@@";  visibility:hidden;}
+.hatena-module-category:before {  display: block;  clear: both;  content: "@@@";  visibility:hidden;}
 .hatena-module-category { vertical-align: bottom;}
 /*.hatena-module-recent-entries:after {  display: block;  height: 40px;  clear: both;  content: "@@@@";  background: #FFFFFF;}*/
-.recent-entries:after {  display: block;  height: 40px;  clear: both;  content: "@@@@";  visibility: hidden;}
+.recent-entries:after {  display: block;  height: 40px;  clear: both;  content: "@@@";  visibility: hidden;}
 
 
 
