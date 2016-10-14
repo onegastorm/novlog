@@ -540,12 +540,10 @@ a.keyword {
 
 /* フッター関係 */
 #footer {  width: 100%;  font-size:13px;  color: #999999;  background: #555555;  height: auto;}
-/* ID消しちゃいましょう！ */
-/*footer address {  display: none;}*/
-/* フッターの段落要素的装飾 */
 /*#footer p {  margin: 0;}*/
-/* フッターのリンク要素的装飾*/
 #footer a {  color: #999999;  text-decoration: none;}
+/* ID消しちゃいましょう！ */
+footer address {/*display: none;*/  visibility: hidden;}
 /* IDとはてなリンクを1列に！ */
 /*#footer address,#footer .services {  display: inline;  padding-right: 1em;}*/
 
