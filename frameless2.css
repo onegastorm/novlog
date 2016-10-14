@@ -531,7 +531,7 @@ a.keyword {
 
 /* copyright, footer -------------------------------------------------- */
 
-#copyright {  width:100%;  font-size: 13px;  color: #999999;  background: #444444;  padding-top: 5%;}
+#copyright {  width:100%;  font-size: 13px;  color: #999999;  background: #333333;  padding-top: 5%;}
 #copyright a {  text-decoration: none;  color: #999999;}
 #copyright a:hover {  color: #333333;  transition: 0.8s;}
 
