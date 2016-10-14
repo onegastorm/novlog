@@ -488,9 +488,9 @@ a.keyword {
 .hatena-module {  clear: both;  overflow: hidden;}
 /* 最新記事とカテゴリ関係 */
 .hatena-urllist {  list-style-type: disc;  margin:0 0 0 0;  padding: 0 0 0 0;  width: 100%;}
+.hatena-urllist:hover {  color: #DDDDDD;  text-decoration: none;  transition: 0.8s;}
 .hatena-urllist li {  padding: 0;  line-height: 2.0;}
 .hatena-urllist li a {  color: #999999;  text-decoration: none;}
-.hatena-urllist a:hover {  color: #DDDDDD;  text-decoration: none;  transition: 0.8s;}
 .recent-entries a:before {  font-family: "blogicon";  content: "\f029";  padding-right: 4px;}
 .recent-entries a:hover {  color: #DDDDDD;  text-decoration: none;  transition: 0.8s;}
 /*.hatena-module-category {  line-height: 1.0;}*/
