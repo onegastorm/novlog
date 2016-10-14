@@ -462,7 +462,7 @@ a.keyword {
 /* サイドバーの領域 */
 #box2 {/*  margin-top: 4%;*/  font-size: 13px;  color: #777777;  background: #333333;  padding: 6% 2% 2% 2%;}
 /* 各要素の段上段右段下段左・段幅など */
-.hatena-module {/*  display: inline-block;  vertical-align: top;*/  margin: 0 0 0 4%;  width: 36%;}
+.hatena-module {  display: inline-block;/*  vertical-align: top;*/  margin: 0 0 0 4%;  width: 36%;}
 /* 回り込みを防ぐとか何とかよくわかりま1000円 */
 .hatena-module:after {  display: block;  visibility: hidden;  height: 0;  clear: both;  content: "@@@@";}
 /* 各要素のタイトル */
