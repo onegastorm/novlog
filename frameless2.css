@@ -550,6 +550,7 @@ a.keyword {
   clear: both;  content: "&copy;&copy;&copy;";}*/
 /* 入れてミマシタワー */
 #copyright { font-size: 13px;  text-decoration: none;}
+#copyright a { font-size: 13px;  text-decoration: none;}
 
 
 /* page-about ---------------------------------------- */
