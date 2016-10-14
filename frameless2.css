@@ -517,9 +517,9 @@ a.keyword {
 /* Pager ---------------------------------------- */
 
 /* pagerだよー！ */
-.pager {  margin: -3% 3% 5% 3%;  display: block;  *zoom: 1;}
+.pager {  margin: -3% 3% 5% 3%;  display: block;  *zoom: 1;  font-size: 15px;}
 /* 戻るページ送り */
-.pager .pager-prev {  float: left;  text-align: left;  width: 50%;  font-size: 15px;}
+.pager .pager-prev {  float: left;  text-align: left;  width: 50%;}
 .pager .pager-prev a {  color: #999999;}
 .pager .pager-prev a:hover {  color: #333333;  transition: 0.8s;}
 /* 進むページ送り */
