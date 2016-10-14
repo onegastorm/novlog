@@ -545,9 +545,9 @@ a.keyword {
 /* IDとはてなリンクを1列に！ */
 /*#footer address,#footer .services {  display: inline;  padding-right: 1em;}*/
 
-#footer .services:before {  display: block;  width: 100px;  height: 100px;  background: #00FF00;
-/*  visibility: hidden;  font-size: 24px;  height: 0;*/
-  clear: both;  content: "&copy;&copy;&copy;";}
+/*#footer .services:before {  display: block;  width: 100px;  height: 100px;  background: #00FF00;:?
+/*  visibility: hidden;  font-size: 24px;  height: 0;
+  clear: both;  content: "&copy;&copy;&copy;";}*/
 /* 入れてミマシタワー */
 #copyright { font-size: 13px;  text-decoration: none;}
 
