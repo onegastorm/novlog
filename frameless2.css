@@ -540,13 +540,13 @@ a.keyword {
 /* フッターの段落要素的装飾 */
 /*#footer p {  margin: 0;}*/
 /* フッターのリンク要素的装飾*/
-#footer a {  color: #BBBBBB;  text-decoration: none;}
+#footer a {  color: #999999;  text-decoration: none;}
 /* IDとはてなリンクを1列に！ */
 /*#footer address,#footer .services {  display: inline;  padding-right: 1em;}*/
 
-#footer .services:before {  display: block;  width: 100%;  height: 100px;
-/*  visibility: hidden;*/
-  font-size: 24px;/*  height: 0;*/  clear: both;  content: "@@@";}
+#footer .services:before {  display: block;  width: 100px;  height: 100px;  background: #00FF00;
+/*  visibility: hidden;  font-size: 24px;  height: 0;*/
+  clear: both;  content: "@@@";}
 
 /* page-about ---------------------------------------- */
 
