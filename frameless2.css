@@ -539,7 +539,7 @@ a.keyword {
 /* footer -------------------------------------------------- */
 
 /* フッター関係 */
-#footer {  width: 100%;  font-size:13px;  color: #999999;  background: #555555;  height: auto;}
+#footer {  width: 100%;  font-size:13px;  color: #999999;  background: #555555;  line-height: 0;}
 /*#footer p {  margin: 0;}*/
 #footer a {  color: #999999;  text-decoration: none;}
 /* ID消しちゃいましょう！ */
