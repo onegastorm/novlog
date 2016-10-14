@@ -539,7 +539,7 @@ a.keyword {
 /* footer -------------------------------------------------- */
 
 /* フッター関係 */
-#footer {  width: 100%;  font-size:13px;  color: #999999;  background: #555555;  margin:0 0 0 0;  padding:0 0 0 0;}
+#footer {  width: 100%;  font-size:13px;  color: #999999;  background: #555555;  margin:0 0 0 0;  padding:100px 0 200px 0;}
 /* ID消しちゃいましょう！ */
 #footer address {  display: none;}
 /* フッターの段落要素的装飾 */
