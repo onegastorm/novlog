@@ -462,17 +462,17 @@ a.keyword {
 /* サイドバーの領域 */
 #box2 {/*  margin:0 0 0 0;*/  font-size: 13px;  color: #777777;  background: #333333;  padding: 0 2% 2% 2%;}
 /* 各要素の段上段右段下段左・段幅など */
-.hatena-module {  display:inline-block;  vertical-align: top;  margin:4% 0 0 4%;  width:32%;}
+.hatena-module {  display: inline-block;  vertical-align: top;  margin: 4% 0 0 4%;  width: 36%;}
 /* 回り込みを防ぐとか何とかよくわかりま1000円 */
-.hatena-module:after {  display: block;  visibility:hidden;  height: 0;  clear: both;  content: "@@@@";}
+.hatena-module:after {  display: block;  visibility: hidden;  height: 0;  clear: both;  content: "@@@@";}
 /* 各要素のタイトル */
-.hatena-module-title {  display: block;/*  padding-bottom:10px;*/  border-bottom:solid 1px #555555;}
+.hatena-module-title {  display: block;/*  padding-bottom:10px;*/  border-bottom: solid 1px #555555;}
 .hatena-module-title a {  color: #777777;  text-decoration: none;}
 .hatena-module-title a:hover {  color: #DDDDDD;  text-decoration: none;  transition: 0.8s;}
 /* 各要素の本文 */
-.hatena-module-body {  margin-top:5px;/*  float: left;*/}
+.hatena-module-body {  margin-top: 5px;/*  float: left;*/}
 /* 何これ？ */
-.hatena-module-body .circle-urllist .circle-image {  float: none;  vertical-align:middle;}
+.hatena-module-body .circle-urllist .circle-image {  float: none;  vertical-align: middle;}
 /* はてなモジュール・プロフィール関係 */
 .hatena-module-profile .profile-icon {  display: inline-block;  overflow: hidden;  vertical-align: middle;  margin-right: 8px;
   width: 40px;  margin-top: 4px;  border:solid 1px;  border-radius: 4px;  background-clip: padding-box;}
