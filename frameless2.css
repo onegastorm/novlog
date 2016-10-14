@@ -470,7 +470,7 @@ a.keyword {
 .hatena-module-title a {  color: #777777;  text-decoration: none;}
 .hatena-module-title a:hover {  color: #DDDDDD;  text-decoration: none;  transition: 0.8s;}
 /* 各要素の本文 */
-.hatena-module-body {  margin-top: 4%;/*  float: left;*/}
+.hatena-module-body {  margin-top: 4%;/*  float: left;*/  background: #444444;}
 /* 何これ？ */
 .hatena-module-body .circle-urllist .circle-image {  float: none;  vertical-align: middle;}
 /* はてなモジュール・プロフィール関係 */
@@ -480,7 +480,7 @@ a.keyword {
 .hatena-module-profile .profile-description p {  margin: 10px 0;}
 .hatena-follow-button-box {  display: inline-block;  margin: 0;  vertical-align: middle;}
 /* はてなモジュール・カテゴリー関係 */
-.hatena-module-category .hatena-module-body ul.hatena-urllist li {  display:inline-block;  margin-top: -3%;}
+.hatena-module-category .hatena-module-body ul.hatena-urllist li {  display:inline-block;  margin-top: -5%;}
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a{  font-size: 15px;  color: #777777;  margin-right:10px;}
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a:before {  font-family: "blogicon";  content: "\f022";}
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a:hover{  color: #DDDDDD;  transition:0.8s;}
