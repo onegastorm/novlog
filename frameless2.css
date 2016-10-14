@@ -471,7 +471,7 @@ a.keyword {
 .hatena-module-title a:hover {  color: #DDDDDD;  text-decoration: none;  transition: 0.8s;}
 /* 各要素の本文 */
 .hatena-module-body {  margin-top:5px;/*  float: left;*/}
-/* わかんねええええ */
+/* 何これ？ */
 .hatena-module-body .circle-urllist .circle-image {  float: none;  vertical-align:middle;}
 /* はてなモジュール・プロフィール関係 */
 .hatena-module-profile .profile-icon {  display: inline-block;  overflow: hidden;  vertical-align: middle;  margin-right: 8px;
@@ -484,28 +484,27 @@ a.keyword {
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a{  font-size: 15px;  color: #999999;  margin-right:10px;}
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a:before {  font-family: "blogicon";  content: "\f022";  padding-right: 2px;}
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a:hover{  color: #DDDDDD;  transition:0.8s;}
-/* よくわかりま1000円 */
+/* 何これ？ */
 .hatena-module {  clear: both;  overflow: hidden;}
-
 /* 最新記事とカテゴリ関係 */
 .hatena-urllist {  list-style-type: disc;  margin:0 0 0 0;  padding: 0 0 0 0;  width: 100%;}
 .hatena-urllist li {  padding: 0;  line-height: 2.0;}
 .hatena-urllist li a {  color: #999999;  text-decoration: none;}
+.hatena-urllist a:hover {  color: #DDDDDD;  text-decoration: none;  transition: 0.8s;}
+.recent-entries a:before {  font-family: "blogicon";  content: "\f029";  padding-right: 4px;}
 .recent-entries a:hover {  color: #DDDDDD;  text-decoration: none;  transition: 0.8s;}
 /*.hatena-module-category {  line-height: 1.0;}*/
-/* 記事の前にアイコンをつけます。 */
-.recent-entries a:before {  font-family: "blogicon";  content: "\f029";  padding-right: 4px;}
-
-/* 最新記事の本文の文字の大きさを変えるという重要なお話 */
+/* 最新記事の本文の文字の大きさを変えるという重要な任務 */
 .urllist-item-inner.recent-entries-item-inner {  font-size: 13px;}
-/* アクセスランキングの本文の文字の大きさを変えるというかなりどうでも良いお話 */
+/* アクセスランキングの本文の文字の大きさを変えるというかなりどうでも良いも任務 */
 .urllist-item-inner.entries-access-ranking-item-inner {  font-size: 13px;}
-
 /* 段差作っちゃう */
 .hatena-module-category:before {  display: block;  clear: both;  content: "@@@@";  visibility:hidden;}
 .hatena-module-category { vertical-align: bottom;}
 /*.hatena-module-recent-entries:after {  display: block;  height: 40px;  clear: both;  content: "@@@@";  background: #FFFFFF;}*/
 .recent-entries:after {  display: block;  height: 40px;  clear: both;  content: "@@@@";  visibility: hidden;}
+
+
 
 /* search-box (hatena-module) ---------------------------------------- */
 /* ほりゅう！ */
