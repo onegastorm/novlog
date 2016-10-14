@@ -481,7 +481,7 @@ a.keyword {
 .hatena-follow-button-box {  display: inline-block;  margin: 0;  vertical-align: middle;}*/
 /* はてなモジュール・カテゴリー関係 */
 .hatena-module-category .hatena-module-body ul.hatena-urllist li {
-  display:inline-block;  font-size: 15px;  line-height: 21px;  color: #777777;  margin-right: 6%;}
+  display:inline-block;  font-size: 15px;  line-height: 23px;  color: #777777;  margin-right: 6%;}
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a{}
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a:before {  font-family: "blogicon";  content: "\f022";}
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a:hover{  color: #DDDDDD;  transition: 0.8s;}
