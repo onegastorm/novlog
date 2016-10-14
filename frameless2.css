@@ -300,7 +300,7 @@ a.keyword {
 /* Container ---------------------------------------- */
 
 /* コンテンツの領域規定。 */
-#container {/*  margin: 0 auto 0 auto;  width: 100%;*/  background: #BBFFBB;}
+#container {/*  margin: 0 auto 0 auto;  width: 100%;*/  background: #BB00BB;}
 /* メインカラムの領域規定 */
 #main {  margin: 0 auto 0 auto;  width: 973px;  margin-bottom: auto;}
 /* メインカラムの領域規定。こちらは失敗 */
@@ -325,7 +325,7 @@ a.keyword {
 /* Entry ---------------------------------------- */
 
 /* 記事コンテンツの領域規定 */
-.entry {  position: relative;/*  width: 100%;  margin-bottom: 100px;*/  background: #FFEEFF;}
+.entry {  position: relative;/*  width: 100%;  margin-bottom: 100px;*/  background: #EEEEFF;}
 /* 記事タイトル部の領域規定 */
 .entry-header {  position: relative;  width: 97.2%; margin:0 auto 0 auto;  background: #FFFF00;}
 /* 記事タイトルの文字領域規定 */
