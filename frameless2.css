@@ -536,7 +536,7 @@ a.keyword {
 /*  bottom:0;  padding: 0.1% 0 2% 0;  line-height: 3;*/
 }
 /* ID消しちゃいましょう！ */
-#footer address {  display: none;}
+/*#footer address {  display: none;}*/
 /* フッターの段落要素的装飾 */
 /*#footer p {  margin: 0;}*/
 /* フッターのリンク要素的装飾*/
