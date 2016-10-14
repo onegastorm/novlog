@@ -542,8 +542,7 @@ a.keyword {
 footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* IDとはてなリンクを1列に！ */
 /*#footer address,#footer .services {  display: inline;  padding-right: 1em;}*/
-#footer .services {  position: relative;  background:00FFFF;}
-#footer .services a {  background:00FFFF;}
+#footer .services {  position: relative;  height: auto;}
 
 /* page-about ---------------------------------------- */
 
