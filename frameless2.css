@@ -535,14 +535,14 @@ a.keyword {
 #copyright a {  text-decoration: none;  color: #999999;}
 #copyright a:hover {  color: #333333;  transition: 0.8s;}
 
-#footer {  width: 100%;  font-size: 13px;  color: #999999;  background: #333333;}
+#footer {  width: 100%;  font-size: 13px;  color: #999999;  background: #333333;  padding-bottom: 5%;}
 #footer p {  margin: 0;}
 #footer a {  color: #999999;  text-decoration: none;}
 /* ID消しちゃいましょう！ */
 footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* IDとはてなリンクを1列に！ */
 /*#footer address,#footer .services {  display: inline;  padding-right: 1em;}*/
-#footer .services {  position: relative;  padding-bottom: 5%:}
+#footer .services {  position: relative;}
 
 /* page-about ---------------------------------------- */
 
