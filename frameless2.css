@@ -460,7 +460,7 @@ a.keyword {
 /* sidebar ---------------------------------------- */
 
 /* サイドバーの領域 */
-#box2 {  margin:0 0 0 0;  font-size: 13px;  color: #777777;  background: #333333;  padding-bottom: 10%;}
+#box2 {  margin:0 0 0 0;  font-size: 13px;  color: #777777;  background: #333333;  padding-bottom: 5%;}
 /* 各要素の段上段右段下段左・段幅など */
 .hatena-module {  display:inline-block;  vertical-align: top;  margin:4% 0 0 4%;  width:32%;}
 /* 回り込みを防ぐとか何とかよくわかりま1000円 */
