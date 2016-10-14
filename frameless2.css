@@ -527,7 +527,7 @@ a.keyword {
 .pager .pager-next a {  text-decoration: none;/*  font-size: 11px;*/  color: #999999;}
 .pager .pager-next a:hover {  color: #333333;  transition: 0.8s;}
 /* よくわからないが必要なものらしい */
-.pager:after {  display: block;  visibility: hidden;  font-size: 0;  height: 0;  clear: both;  content: "@@@";
+.pager:after {  display: block;  visibility: hidden;  font-size: 0;  height: 0;  clear: both;  content: "@@@";}
 
 /* footer -------------------------------------------------- */
 
