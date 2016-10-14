@@ -523,7 +523,7 @@ a.keyword {
 .pager .pager-prev a {  color: #999999;}
 .pager .pager-prev a:hover {  color: #333333;  transition: 0.8s;}
 /* 進むページ送り */
-.pager .pager-next {  display: inline;  margin-right: auto;/*  float: right;  text-align: right;  width: 40%;*/}
+.pager .pager-next {  display: inline;  text-align: right;/*  float: right;  text-align: right;  width: 40%;*/}
 .pager .pager-next a {  text-decoration: none;  font-size: 11px;  color: #999999;}
 .pager .pager-next a:hover {  color: #333333;  transition: 0.8s;}
 /* よくわからないが必要なものらしい */
