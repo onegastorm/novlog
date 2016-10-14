@@ -543,11 +543,10 @@ a.keyword {
 #footer p {  margin: 0;}
 #footer a {  color: #999999;  text-decoration: none;}
 /* ID消しちゃいましょう！ */
-/*footer address {  display: none;  visibility: hidden;}*/
+footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* IDとはてなリンクを1列に！ */
 /*#footer address,#footer .services {  display: inline;  padding-right: 1em;}*/
-#footer .address {  visibility: hidden;/*  position: absolute;*/}
-#footer .services {  position: relative;  background:00FFFF}
+#footer .services {  position: relative;  background:00FFFF;}
 
 /* page-about ---------------------------------------- */
 
