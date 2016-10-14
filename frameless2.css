@@ -551,9 +551,9 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* 紹介コーナー関係 */
 .page-about dd {  margin: 0 0 0 0;}
 /* サブタイトル関係 */
-.page-about dt {  font-size: 13px;  color: #BBBBBB; margin: 6% 0 0 0;}
+.page-about dt {  font-size: 13px;  color: #BBBBBB;  margin: 6% 0 0 0;}
 /* ないようがないよう */
-.page-about .entry-content {    color: #999999; text-align: left;  margin: 0 20% 0 20%; padding: 8% 0 4% 0;}
+.page-about .entry-content {  color: #999999;  text-align: left;  margin: 0 20% 0 20%;  padding: 8% 0 4% 0;}
 /* サムネイルですかね */
 .page-about .entry-content img {  margin: 0;  display: inline-block;  vertical-align: middle;}
 /*.page-about .entry-content img {  display: none;}*/
@@ -569,9 +569,9 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 .page-archive .archive-entries .entry-title {  margin-top: 0px;}
 .page-archive .archive-entries .entry-title  a {  position: absolute;  font-size: 13px;  color: #777777;  background: #00FFFF;}
 /* カテゴリ一覧ページの本文関係 */
-.page-archive .archive-entries {  margin:40px; 0 40px 0;  font-size: 13px;  color: #999999;/*  line-height: 1.22em;*/}
+.page-archive .archive-entries {  margin: 40px; 0 40px 0;  font-size: 13px;  color: #999999;/*  line-height: 1.22em;*/}
 .page-archive .archive-entries .archive-entry {  margin-top: 20px;}
-/* 何？　保留です。 */
+/* 何？ */
 /*.page-archive .archive-entries .entry-description {  margin: 0 0 1em;  line-height: 1.7em;  font-size: 13px;}*/
 /* サムネイル？　保留です。 */
 /*.page-archive .entry-thumb {  margin-right: 80px;}*/
@@ -586,6 +586,6 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 
 /* パンくずリスト関係 */
 .breadcramb {  display: none;}
-.breadcrumb {  font-size:13px;  color: #999999;  background: #FFEEEE;  width: 973px; margin:0 auto 0 auto;}
-.breadcrumb a {  font-size:11px;  color: #DDDDDD;  text-decoration: none; margin-left:1.4%;}
+.breadcrumb {  font-size:13px;  color: #999999;  background: #FFEEEE;  width: 973px;  margin: 0 auto 0 auto;}
+.breadcrumb a {  font-size:11px;  color: #DDDDDD;  text-decoration: none;  margin-left:1.4%;}
 .breadcrumb a:hover {  color: #999999;  text-decoration: none;  transition: 0.8s;}
