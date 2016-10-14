@@ -460,14 +460,14 @@ a.keyword {
 /* sidebar ---------------------------------------- */
 
 /* サイドバーの領域 */
-#box2 {  margin:0 0 0 0;  font-size: 13px;  color: #999999;  background: #333333;  padding-bottom: 20px;}
+#box2 {  margin:0 0 0 0;  font-size: 13px;  color: #777777;  background: #333333;  padding-bottom: 20px;}
 /* 各要素の段上段右段下段左・段幅など */
 .hatena-module {  display:inline-block;  vertical-align: top;  margin:4% 0 0 4%;  width:32%;}
 /* 回り込みを防ぐとか何とかよくわかりま1000円 */
 .hatena-module:after {  display: block;  visibility:hidden;  height: 0;  clear: both;  content: "@@@@";}
 /* 各要素のタイトル */
 .hatena-module-title {  display: block;/*  padding-bottom:10px;*/  border-bottom:solid 1px #555555;}
-.hatena-module-title a {  color: #777777;  text-decoration: none;}
+.hatena-module-title a {/*  color: #777777;*/  text-decoration: none;}
 .hatena-module-title a:hover {  color: #DDDDDD;  text-decoration: none;  transition: 0.8s;}
 /* 各要素の本文 */
 .hatena-module-body {  margin-top:5px;/*  float: left;*/}
