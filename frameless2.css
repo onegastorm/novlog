@@ -480,7 +480,7 @@ a.keyword {
 .hatena-module-profile .profile-description p {  margin: 10px 0;}
 .hatena-follow-button-box {  display: inline-block;  margin: 0;  vertical-align: middle;}*/
 /* はてなモジュール・カテゴリー関係 */
-.hatena-module-category .hatena-module-body ul.hatena-urllist li {  display:inline-block;  line-height: 2;/*  margin-top: -100%;*/}
+.hatena-module-category .hatena-module-body ul.hatena-urllist li {  display:inline-block;  line-height: 1.5;/*  margin-top: -100%;*/}
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a{  font-size: 15px;  color: #777777;/*  margin-right:10px;*/}
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a:before {  font-family: "blogicon";  content: "\f022";}
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a:hover{  color: #DDDDDD;  transition:0.8s;}
