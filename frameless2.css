@@ -531,11 +531,11 @@ a.keyword {
 
 /* copyright, footer -------------------------------------------------- */
 
-#copyright {  width:100%;  font-size: 13px;  color: #999999;  background: #333333;  padding-top: 5%;}
+#copyright {  width:100%;  font-size: 13px;  color: #999999;  background: #333333;  padding: 3% 0 0 3%;}
 #copyright a {  text-decoration: none;  color: #999999;}
 #copyright a:hover {  color: #333333;  transition: 0.8s;}
 
-#footer {  width: 100%;  font-size: 13px;  color: #999999;  background: #333333;  padding-bottom: 5%;}
+#footer {  width: 100%;  font-size: 13px;  color: #999999;  background: #333333;  padding: 0 0 5% 3%;}
 #footer p {  margin: 0;}
 #footer a {  color: #999999;  text-decoration: none;}
 /* ID消しちゃいましょう！ */
