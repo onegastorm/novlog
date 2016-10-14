@@ -538,23 +538,15 @@ a.keyword {
 /* footer -------------------------------------------------- */
 
 /* フッター関係 */
-#footer {  width: 100%;/*  height: 200px;*/  font-size:13px;  color: #999999;  background: #555555;  padding-bottom:0;
-/*  height: 80px;  text-align: center;*/
-/*  font-size: 80%;  bottom:0;  padding: 0.1% 0 2% 0;  line-height: 3;*/
-}
+#footer {  width: 100%;/*  height: 200px;*/  font-size:13px;  color: #999999;  background: #555555;  padding-bottom:0;}
 /* ID消しちゃいましょう！ */
-/*#footer address {  display: none;}*/
+#footer address {  display: none;}
 /* フッターの段落要素的装飾 */
 /*#footer p {  margin: 0;}*/
 /* フッターのリンク要素的装飾*/
 #footer a {  color: #999999;  text-decoration: none;}
 /* IDとはてなリンクを1列に！ */
 /*#footer address,#footer .services {  display: inline;  padding-right: 1em;}*/
-
-/*#footer .services:before {  display: block;  width: 100px;  height: 100px;  background: #00FF00;:?
-/*  visibility: hidden;  font-size: 24px;  height: 0;
-  clear: both;  content: "&copy;&copy;&copy;";}*/
-
 
 /* page-about ---------------------------------------- */
 
