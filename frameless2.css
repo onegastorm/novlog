@@ -520,12 +520,12 @@ a.keyword {
 .pager {  margin: -3% 3% 5% 3%;  display: block;  *zoom: 1;}
 /* 戻るページ送り */
 .pager .pager-prev {  float: left;  text-align: left;  width: 50%;}
-.pager .pager-prev a {  color: #555555;}
-.pager .pager-prev a:hover {  font-size: 120%;  color: #DDDDDD;  transition: 0.8s;}
+.pager .pager-prev a {  color: #999999;}
+.pager .pager-prev a:hover {  color: #555555;  transition: 0.8s;}
 /* 進むページ送り */
 .pager .pager-next {  float: right;  text-align: right;  width: 30%;}
-.pager .pager-next a {  text-decoration: none;  font-size: 11px;  color: #555555;}
-.pager .pager-next a:hover {  font-size: 120%;  color: #DDDDDD;  transition: 0.8s;}
+.pager .pager-next a {  text-decoration: none;  font-size: 11px;  color: #999999;}
+.pager .pager-next a:hover {  color: #555555;  transition: 0.8s;}
 /* よくわからないが必要なものらしい */
 .pager:after {  display: block;  visibility: hidden;  font-size: 0;  height: 0;  clear: both;  content: "@@@";
 
