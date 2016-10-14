@@ -532,7 +532,7 @@ a.keyword {
 /* footer -------------------------------------------------- */
 
 /* フッター関係 */
-#footer {  width: 100%;  color: #999999;  background: #333333;
+#footer {  width: 100%;  height: auto;  color: #999999;  background: #555555;
 /*  height: 80px;  text-align: center;*/  
 /*  font-size: 80%;  bottom:0;  padding: 0.1% 0 2% 0;  line-height: 3;*/
 }
