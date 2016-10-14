@@ -584,7 +584,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* breadcrumb ---------------------------------------- */
 
 /* パンくずリスト関係 */
-.breadcramb {  display: none;}
+/*.breadcramb {  display: none;}*/
 .breadcrumb {  font-size:13px;  color: #999999;  background: #FFEEEE;  width: 973px;  margin: 0 auto 0 auto;}
 .breadcrumb a {  font-size:11px;  color: #DDDDDD;  text-decoration: none;  margin-left:1.4%;}
 .breadcrumb a:hover {  color: #999999;  text-decoration: none;  transition: 0.8s;}
