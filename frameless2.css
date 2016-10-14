@@ -537,7 +537,7 @@ a.keyword {
 
 #footer {  width: 100%;  font-size: 13px;  color: #999999;  background: #333333;  padding: 0 0 5% 3%;}
 #footer p {  margin: 0;}
-#footer a {  color: #999999;  text-decoration: none;}
+#footer a {  color: #777777;  text-decoration: none;}
 /* ID消しちゃいましょう！ */
 footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* IDとはてなリンクを1列に！ */
