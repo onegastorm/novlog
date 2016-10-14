@@ -481,10 +481,10 @@ a.keyword {
 .hatena-follow-button-box {  display: inline-block;  margin: 0;  vertical-align: middle;}*/
 /* はてなモジュール・カテゴリー関係 */
 .hatena-module-category .hatena-module-body ul.hatena-urllist li {
-  display:inline-block;  font-size: 15px;  line-height: 1.6;/*  line-height: 23px;*/  color: #777777;  margin-right:10px;}
+  display:inline-block;  font-size: 15px;  line-height: 23px;  color: #777777;  margin-right: 10px;}
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a{}
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a:before {  font-family: "blogicon";  content: "\f022";}
-.hatena-module-category .hatena-module-body ul.hatena-urllist li a:hover{  color: #DDDDDD;  transition:0.8s;}
+.hatena-module-category .hatena-module-body ul.hatena-urllist li a:hover{  color: #DDDDDD;  transition: 0.8s;}
 /* 何これ？ */
 .hatena-module {  clear: both;  overflow: hidden;}
 /* 最新記事とカテゴリ関係 */
@@ -499,7 +499,7 @@ a.keyword {
 /* アクセスランキングの本文の文字の大きさを変えるというかなりどうでも良い任務 */
 /*.urllist-item-inner.entries-access-ranking-item-inner {  font-size: 13px;}*/
 /* 段差作っちゃう */
-.hatena-module-category:before {  display: block;  clear: both;  content: "@";  visibility:hidden;}
+.hatena-module-category:before {  display: block;  clear: both;  content: "@";  visibility: hidden;}
 .hatena-module-category { vertical-align: bottom;}
 /*.hatena-module-recent-entries:after {  display: block;  height: 40px;  clear: both;  content: "@";  visibility: hidden;}*/
 .recent-entries:after {  display: block;  height: 40px;  clear: both;  content: "@";  visibility: hidden;}
