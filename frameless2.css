@@ -480,14 +480,15 @@ a.keyword {
 .hatena-module-profile .profile-description p {  margin: 10px 0;}
 .hatena-follow-button-box {  display: inline-block;  margin: 0;  vertical-align: middle;}*/
 /* はてなモジュール・カテゴリー関係 */
-.hatena-module-category .hatena-module-body ul.hatena-urllist li {  display:inline-block;  font-size: 15px;  line-height: 23px;  color: #777777;  margin-right:10px;}
+.hatena-module-category .hatena-module-body ul.hatena-urllist li {
+  display:inline-block;  font-size: 15px;  line-height: 23px;  color: #777777;  margin-right:10px;}
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a{}
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a:before {  font-family: "blogicon";  content: "\f022";}
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a:hover{  color: #DDDDDD;  transition:0.8s;}
 /* 何これ？ */
 .hatena-module {  clear: both;  overflow: hidden;}
 /* 最新記事とカテゴリ関係 */
-.hatena-urllist {  list-style-type: disc;  margin:0 0 0 0;  padding: 0 0 0 0;  width: 100%;}
+.hatena-urllist {/*  list-style-type: disc;  margin:0 0 0 0;  padding: 0 0 0 0;  width: 100%;*/}
 .hatena-urllist li {  padding: 0;  line-height: 2.0;}
 .hatena-urllist li a {  color: #777777;  text-decoration: none;}
 .recent-entries a:before {  font-family: "blogicon";  content: "\f029";  padding-right: 4px;}
