@@ -1,0 +1,63 @@
+<!-- ふえぇ、縦書文庫だよぉ！ -->
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/tategakibunko/nehan.js/v5.5.4/css/nehan.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/onegastorm/nov/master/responsivook.css" />
+<script type="text/javascript" src="https://cdn.rawgit.com/tategakibunko/nehan.js/v5.5.4/dist/nehan.min.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/tategakibunko/responsivook/v1.2.0/responsivook.js"></script>
+
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function(event){
+  Responsivook.start(".nehan-vert-dangumi", {
+    theme:"dangumi",
+    flow:"tb-rl",
+    fontSize:14,
+    fontFamily:"MS Mincho",
+    height:600,
+    // その他のスタイル
+    styles:{
+       body:{
+          // 行末揃えを有効にする（ちょっと重くなる）
+          textAlign:"justify"
+       }
+     }
+  });
+});
+</script>
+
+<!-- ふえぇ、コピーライトだよぉ！ -->
+<div id="copyright">
+<font>&copy; 2016 <a href="http://n11b.hatenablog.com/about">Novlog</a></font>
+</div>
+
+<!-- ふえぇ、戻るブタンだよぉ！ -->
+<div id="return-top">
+  <a id="return-top-btn"><i class="fa fa-angle-double-up"></i></a>
+</div>
+
+<script>
+  $(window).scroll(function(){
+    var now = $(window).scrollTop();
+//    if(now > 0){
+//      $("#return-top").fadeIn("slow");
+//    }else{
+//      $("#return-top").fadeOut("slow");
+//    }
+  });
+  $("#return-top-btn").click(function(){
+    $("html,body").animate({scrollTop:0},"slow");
+  });
+</script>
+
+<!-- ふえぇ、進むブタンだよぉ！ -->
+<div id="return-bottom">
+    <a id="return-bottom-btn"><i class="fa fa-angle-double-down"></i></a>
+</div>
+
+<script type="text/javascript">
+$(function(){
+    $("#return-bottom-btn").click(function(){
+        $('body').animate({scrollTop: $(document).height()},"slow");
+//      $('body').animate({scrollTop: $(document).height()},1500);
+        return false;
+    });
+});
+</script>
