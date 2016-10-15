@@ -211,7 +211,6 @@ body {  color: #999999;  background: #EEEEEE;
 /* これもヘッダ？ 文字関係ははてなキーワードとか広告非表示とか、はっきりいっていらないものばかりです */
 html,
 body {  "color: #555555;  background-color: #000000; 
-  line-height: 3;
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic', sans-serif;}
 a {  color: #555555;}
 a:hover {  color: #333333;}
@@ -354,7 +353,8 @@ a.keyword {  text-decoration: none;  border-bottom: 1px dotted #999999;  color: 
 /* entry-content ---------------------------------------- */
 /* 記事本文の領域規定。boilerplateからのこぴぺです。しかし縦書文庫のほうで規定しているようすなのでシカトです。 */
 
-.entry-content {  text-align: center;}
+.entry-content {  text-align: center;
+  line-height: 3;}
 .entry-content p {  margin: 0 0 2em 0;  font-size: 13px;}
 .entry-content img {  max-width: 100%;  max-height: 1280px;  display: block;  margin: 0 auto 2em;  line-height: 1;}
 .entry-content h1,
