@@ -598,7 +598,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* 一番下に進むブタンだよ！ */
 
 
-#footer .scroll_button_btm a{
+#footer .return-bottom a{
     position: fixed;
     display: block;
     right:50px;
