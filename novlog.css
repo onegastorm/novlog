@@ -1,7 +1,11 @@
 @charset "utf-8";
 html {  font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
+/* 文字の大きさの自動調整機能を効かなくする呪文らしいです */
   -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -o-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 
 /* テキストを選択できなくする呪文らしいです */
   -moz-user-select: none; /* Firefox */
