@@ -235,7 +235,7 @@ h4 a:visited,
 h5 a:visited,
 h6 a:visited {  color: #333333;  text-decoration: none;}
 /* はてなキーワード？ */
-a.keyword {  text-decoration: none;  border-bottom: 1px dotted #999999;  color: #FF0000;}
+a.keyword {  text-decoration: none;  border-bottom: 1px dotted #999999;  color: #1a1a1a;  background: #FF00FF;}
 
 /* Buttons ---------------------------------------- */
 /* 何が何だか？ */
