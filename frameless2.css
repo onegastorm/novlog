@@ -210,7 +210,7 @@ body {  background: #FF0000;  color: #1a1a1a;
 
 /* ヘッダ（と余白とem指定） 文字関係ははてなキーワードとか広告非表示とか、はっきりいっていらないものばかりです */
 html,
-body {  color: #555555;  background-color: #EEEEEE;
+body {  "color: #555555;  background-color: #EEEEEE;
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic', sans-serif;}
 a {  color: #555555;}
 a:hover {  color: #333333;}
@@ -578,26 +578,14 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 .breadcrumb a {  font-size:11px;  color: #DDDDDD;  text-decoration: none;  margin-left:1.4%;}
 .breadcrumb a:hover {  color: #999999;  text-decoration: none;  transition: 0.8s;}
 
-
-
 /* return ---------------------------------------- */
 
 /* 上に戻るブタンだよ！　ここにもつけてほしいよ！ */
 #return-top {  position: fixed;  top: 1%;  left: 49%;  background: #FF0000;}
 #return-top-btn {  color: #DDDDDD;  cursor: pointer;  background: #00FF00;}
 #return-top-btn:hover {  color: #999999;  transition: 0.8s;}
-/*
-@media only screen and (min-width: 400px){
-  #return{
-    right:50%;
-    margin-right: -450px;
-  }
-}
-*/
-
+/*@media only screen and (min-width: 400px){  #return{  right:50%;  margin-right: -450px;}}*/
 /* 一番下に進むブタンだよ！ */
-
-
 #return-bottom {  position: fixed;  bottom: 1%;  left: 49%;  background: #00FF00;}
 #return-bottom-btn {  color: #DDDDDD;   cursor: pointer;  background: #0000FF;}
 #return-bottom-btn:hover {  color: #999999;  transition: 0.8s;}
