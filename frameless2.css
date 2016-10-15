@@ -210,7 +210,7 @@ body {  background: #FF0000;  color: #1a1a1a;
 
 /* ヘッダ（と余白とem指定） 文字関係ははてなキーワードとか広告非表示とか、はっきりいっていらないものばかりです */
 html,
-body {  color: #555555;  background-color: #EEEEEE;  font-size: 62.5%;
+body {  color: #555555;  background-color: #EEEEEE;
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic', sans-serif;}
 a {  color: #555555;}
 a:hover {  color: #333333;}
