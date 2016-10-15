@@ -353,7 +353,7 @@ a.keyword {
 /* 編集ボタンの領域規定 */
 .entry-header-menu {  top: 1%;  left: 32%;  /*  display: block;*/  width: 100px;/*  margin-left: 5.0%;*/  position: fixed;  background: #00FF00;}
 /* 編集ボタンの装飾指定 */
-.entry-header-menu a {  font-size: 80%;  color: #DDDDDD;  text-decoration: none;  background: #FF00FF;}
+.entry-header-menu a {  font-size: 82%;  color: #DDDDDD;  text-decoration: none;  background: #FF00FF;}
 /*.entry-header-menu a {    display: inline-block;  *display: inline;  *zoom:1;
   line-height: 18px;  text-align: center;  vertical-align: middle;  padding: 1px 12px;  cursor: pointer;
   font-size: 12px;  text-decoration: none;  color: #CCCCCC;  background: #FFFFFF;
