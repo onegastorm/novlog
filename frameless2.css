@@ -343,7 +343,7 @@ a.keyword {
 .categories {  display: inline;}
 /*.categories {  display: inline;  float: right;  margin-right: 10%;}*/
 /* カテゴリボタンの装飾指定 */
-.categories a {  font-size: 13px;  color: #DDDDDD;  text-decoration: none;}
+.categories a {  font-size: 13px;  color: #DDDDDD;  text-decoration: none;  background: #0000FF;}
 /* カテゴリボタンの前にアイコンをつけます */
 .categories a:before {  font-family: "blogicon";  content: "\f022";  padding-right: 0.5%;}
 /* カテゴリボタンのマウスオーバー時の動作指定 */
