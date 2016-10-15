@@ -11,7 +11,7 @@
 
 /* ヘッダ（と余白） */
 body {
-/*  color: #999999;  background: #FFFFFF;*/
+/*  color: #999999;  background: #EEEEEE;*/
   font: 15px/1.6 "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Meiryo", Helvetica, Arial, sans-serif;
 
 /* テキストを選択できなくする呪文らしいです */
@@ -29,9 +29,10 @@ body {
 }
 /* これもヘッダ？ 文字関係ははてなキーワードとか広告非表示とか、はっきりいっていらないものばかりです */
 html,
-body {  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic', sans-serif;}
-a {  color: #EEEEEE;}
-a:hover {  color: #333333;}
+body {  color:#999999;  background:#EEEEEE;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic', sans-serif;}
+a {  color: #000000;}
+a:hover {  color: #777777;}
 a:visited {  color: #555555;}
 
 h1 a,
