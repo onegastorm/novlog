@@ -599,7 +599,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 
 
 #footer .return-bottom {  position: fixed;  bottom: 1%;  left: 48.5%;  background: #00FF00;}
-#footer .return-bottom a {  color: #DDDDDD;   cursor: pointer;  background: #00FF00;
+#footer .return-bottom-btn {  color: #DDDDDD;   cursor: pointer;  background: #00FF00;
 /*    display: block;*/
 /*    right:50px;
     top:50px;
