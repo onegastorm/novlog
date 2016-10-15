@@ -435,7 +435,7 @@ a.keyword {
   border-radius: 12px;  background-clip: padding-box;
 }
 /* 投稿者名の領域規定 */
-.comment-user-name {/*  margin: 4px 0 3px 0;*/}
+.comment-user-name {  margin-bottom: 0;/*  margin: 4px 0 3px 0;*/}
 /* 投稿者名の装飾指定 */
 .comment-user-name a {  color: #777777;  text-decoration: none;}
 /* 本文の折り返しを規定 */
