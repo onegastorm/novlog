@@ -598,6 +598,6 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* 一番下に進むブタンだよ！ */
 
 
-#return-bottom {  position: fixed;  top: 23%;  left: 48.6%;  background: #00FF00;}
+#return-bottom {  position: fixed;  top: 96%;  left: 48.6%;  background: #00FF00;}
 #return-bottom-btn {  color: #DDDDDD;   cursor: pointer;  background: #0000FF;}
 #return-bottom-btn:hover {  color: #999999;  transition: 0.8s;}
