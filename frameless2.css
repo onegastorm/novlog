@@ -203,21 +203,18 @@ th {
 
 /* Common ------------------------------*/
 
-body {
-  background: #FF0000;
-  color: #1a1a1a;
-  font: 15px/1.6 "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Meiryo", Helvetica, Arial, sans-serif;
-}
+/* 何やろね */
+body {  background: #FF0000;  color: #1a1a1a;
+  font: 15px/1.6 "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Meiryo", Helvetica, Arial, sans-serif;}
 /* header ------------------------------ */
 
 /* ヘッダ（と余白） */
 html,
 body {  color: #999999;  background-color: #EEEEEE;
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic', sans-serif;}
-a {  color: #333333;}
-a:hover {  color: #FF00FF;}
-a:visited {  color: #1a1a1a;}
-
+a {  color: #999999;}
+a:hover {  color: #333333;}
+a:visited {  color: #999999;}
 
 h1 a,
 h2 a,
@@ -236,15 +233,9 @@ h2 a:visited,
 h3 a:visited,
 h4 a:visited,
 h5 a:visited,
-h6 a:visited {
-  color: #333333;
-  text-decoration: none;
-}
-a.keyword {
-  text-decoration: none;
-  border-bottom: 1px dotted #999999;
-  color: #1a1a1a;
-}
+h6 a:visited {  color: #333333;  text-decoration: none;}
+/* はてなキーワード？ */
+a.keyword {  text-decoration: none;  border-bottom: 1px dotted #999999;  color: #FF0000;}
 
 /* Buttons ---------------------------------------- */
 /* 何が何だか？ */
