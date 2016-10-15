@@ -325,7 +325,7 @@ a.keyword {
 /* Entry ---------------------------------------- */
 
 /* 記事コンテンツの領域規定 */
-.entry {  position: relative;/*  width: 100%;  margin-bottom: 100px;*/  background: #EEEEFF;}
+.entry {  position: relative;  padding-bottom: 10%;  background: #EEEEFF;}
 /* 記事タイトル部の領域規定 */
 .entry-header {  position: relative;  width: 97.2%; margin:0 auto 0 auto;  background: #FFFF00;}
 /* 記事タイトルの文字領域規定 */
