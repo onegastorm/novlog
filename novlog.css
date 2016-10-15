@@ -282,7 +282,7 @@ a.keyword {  text-decoration: none;  border-bottom: 1px dotted #999999;  color: 
 /* Globalheader ---------------------------------------- */
 
 /* グローバルヘッダの領域規定 */
-#globalheader-container {/*  background: #FFFFFF;  color: #999999;  top: 0;  left: 0;  width: 100%;*/}
+#globalheader-container {  background: #FFFFFF;/*  color: #999999;  top: 0;  left: 0;  width: 100%;*/}
 
 /* Container ---------------------------------------- */
 
