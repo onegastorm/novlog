@@ -204,14 +204,14 @@ th {
 /* Common ------------------------------*/
 
 /* ヘッダ（と余白） */
-body {  color: #999999;  background: #EEEEEE;  
-  line-height: 3;
+body {  color: #999999;  background: #EEEEEE; 
   font: 15px/1.6 "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Meiryo", Helvetica, Arial, sans-serif;}
 /* header ------------------------------ */
 
 /* これもヘッダ？ 文字関係ははてなキーワードとか広告非表示とか、はっきりいっていらないものばかりです */
 html,
-body {  "color: #555555;  background-color: #000000;
+body {  "color: #555555;  background-color: #000000; 
+  line-height: 3;
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic', sans-serif;}
 a {  color: #555555;}
 a:hover {  color: #333333;}
