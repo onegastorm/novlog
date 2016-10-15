@@ -357,7 +357,7 @@ a.keyword {
   font-size: 12px;  text-decoration: none;  color: #CCCCCC;  background: #FFFFFF;
   border: 1px solid #CCCCCC;  border-radius: 3px;}*/
 /* 編集ブタンの前にアイコンをつけます */
-.entry-header-menu a:before {  font-family: "blogicon";  content: "\f010";  padding-right: 0.5%;}
+.entry-header-menu a:before {  font-family: "blogicon";  content: "\f010";  padding-right: 0.4%;}
 /* 編集ボタンのマウスオーバー時の動作指定 */
 .entry-header-menu a:hover {  color: #999999;  transition: 0.8s;}
 
@@ -453,7 +453,7 @@ a.keyword {
 /*  border: 1px solid #CCCCCC;  border-radius: 3px;  background: #FFFFFF;*/
 }
 /* コメントボタンの前にアイコンをつけます */
-.leave-comment-title:before {  font-family: "blogicon";  content: "\f010";  padding-right: 0.5%;}
+.leave-comment-title:before {  font-family: "blogicon";  content: "\f010";  padding-right: 0.8%;}
 /* コメントブタンのマウスオーバー時の動作を指定します。 */
 .leave-comment-title:hover {  color: #999999;/*  background: #EEEEEE;*/  transition: 0.8s;}
 
