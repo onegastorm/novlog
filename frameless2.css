@@ -309,6 +309,8 @@ a.keyword {
 /*#container-inner {  padding: 0 0 0 0;}*/
 /* サイドバーの領域規定 */
 #box2 {/*  width: 100%;*/}
+/* 変換前のテキストを見せない（縦書文庫） */
+.nehan-vert-dangumi { visibility: hidden; }
 
 /* Blogtitle(header) ---------------------------------------- */
 
