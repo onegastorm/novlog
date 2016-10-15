@@ -212,7 +212,7 @@ body {  background: #FF0000;  color: #1a1a1a;
 html,
 body {  color: #999999;  background-color: #EEEEEE;
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic', sans-serif;}
-a {  color: #999999;}
+a {  color: #990000;}
 a:hover {  color: #333333;}
 a:visited {  color: #999999;}
 
@@ -234,8 +234,8 @@ h3 a:visited,
 h4 a:visited,
 h5 a:visited,
 h6 a:visited {  color: #333333;  text-decoration: none;}
-/* はてなキーワード？ */
-a.keyword {  text-decoration: none;  border-bottom: 1px dotted #999999;  color: #1a1a1a;  background: #FF00FF;}
+/* 何？ */
+a.keyword {  text-decoration: none;  border-bottom: 1px dotted #999999;  color: #1a1a1a;}
 
 /* Buttons ---------------------------------------- */
 /* 何が何だか？ */
