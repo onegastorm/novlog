@@ -595,7 +595,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 
 /* page-top ---------------------------------------- */
 
-/* 上に戻るブタンだよ！ */
+/* 上に戻るブタンだよ！　ここにもつけてほしいよ！ */
 #page-top {
   display:none;
   position:fixed;
@@ -612,7 +612,8 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
   cursor:pointer;
 }
 #move-page-top:hover{
-  color:rgba(0,0,0,0.6);
+  color: #DDDDDD;  text-decoration: none;
+/*  color:rgba(0,0,0,0.6);*/
 }
 @media only screen and (min-width: 400px){
   #page-top{
