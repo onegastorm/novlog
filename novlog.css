@@ -29,11 +29,11 @@ body {
 }
 /* これもヘッダ？ 文字関係ははてなキーワードとか広告非表示とか、はっきりいっていらないものばかりです */
 html,
-body {  color:#999999;  background:#EEEEEE;
+body {  color:#FF0000;  background:#FF00FF;
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic', sans-serif;}
-a {  color: #000000;}
-a:hover {  color: #777777;}
-a:visited {  color: #555555;}
+a {  color: #EEEEFF;}
+a:hover {  color: #00FF00;}
+a:visited {  color: #0000FF;}
 
 h1 a,
 h2 a,
