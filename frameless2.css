@@ -606,13 +606,13 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
   text-align:center;
 }
 #move-page-top{
-  color:rgba(0,0,0,0.4);
-  text-decoration:none;
+  color: #DDDDDD;
+/*  text-decoration:none;*/
   display:block;
-  cursor:pointer;
+/*  cursor:pointer;*/
 }
 #move-page-top:hover{
-  color: #DDDDDD;  text-decoration: none;
+  color: #999999;  transition: 0.8s;
 /*  color:rgba(0,0,0,0.6);*/
 }
 @media only screen and (min-width: 400px){
