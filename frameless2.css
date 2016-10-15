@@ -599,8 +599,8 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 #page-top {
 /*  display: none;*/
   position: fixed;
-  top: 5%;
-  right: 2%;
+  top: 5.5%;
+  right: 1%;
 /*  margin: 0;
   padding: 0;
   text-align:center;*/
