@@ -583,7 +583,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* return ---------------------------------------- */
 
 /* 上に戻るブタンだよ！　ここにもつけてほしいよ！ */
-#return-top {  position: fixed;  top: 1%;  left: 48.5%;  background: #FF0000;}
+#return-top {  position: fixed;  top: 1%;  left: 48.6%;  background: #FF0000;}
 #return-top-btn {  color: #DDDDDD;  cursor: pointer;  background: #00FF00;}
 #return-top-btn:hover {  color: #999999;  transition: 0.8s;}
 /*
@@ -598,6 +598,6 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* 一番下に進むブタンだよ！ */
 
 
-#return-bottom {  position: fixed;  top: 5%;  left: 48.5%;  background: #00FF00;}
+#return-bottom {  position: fixed;  top: 10%;  left: 48.6%;  background: #00FF00;}
 #return-bottom-btn {  color: #DDDDDD;   cursor: pointer;  background: #0000FF;}
 #return-bottom-btn:hover {  color: #999999;  transition: 0.8s;}
