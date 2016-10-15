@@ -588,3 +588,33 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 .breadcrumb {  font-size:13px;  color: #999999;  background: #FFEEEE;  width: 973px;  margin: 0 auto 0 auto;}
 .breadcrumb a {  font-size:11px;  color: #DDDDDD;  text-decoration: none;  margin-left:1.4%;}
 .breadcrumb a:hover {  color: #999999;  text-decoration: none;  transition: 0.8s;}
+
+
+
+/* page-top ---------------------------------------- */
+
+/* 上に戻るブタンだよ！ */
+#page-top {
+  display:none;
+  position:fixed;
+  right:10px;
+  bottom:20px;
+  margin: 0;
+  padding: 0;
+  text-align:center;
+}
+#move-page-top{
+  color:rgba(0,0,0,0.4);
+  text-decoration:none;
+  display:block;
+  cursor:pointer;
+}
+#move-page-top:hover{
+  color:rgba(0,0,0,0.6);
+}
+@media only screen and (min-width: 400px){
+  #page-top{
+    right:50%;
+    margin-right: -450px;
+  }
+}
