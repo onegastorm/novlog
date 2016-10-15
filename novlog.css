@@ -379,12 +379,12 @@ a.keyword {  text-decoration: none;  border-bottom: 1px dotted #999999;  color: 
   margin: 0;  padding: 0;
   white-space: pre;
   border: 0;
-  font-size: 32px;
   background: transparent;
   font-family: 'Monaco', 'Consolas', 'Courier New', Courier, monospace, sans-serif;
 }
 .entry-content code {
-  font-size: 90%;
+/*  font-size: 90%;*/
+  font-size: 32px;
   margin: 0 2px;
   padding: 0 5px;
   border: 1px solid #eaeaea;
