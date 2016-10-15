@@ -440,7 +440,7 @@ a.keyword {
 .comment-user-name a {  color: #777777;  text-decoration: none;}
 /* 本文の折り返しを規定 */
 .comment-content {  margin: 0;  word-wrap: break-word;}
-/*コメント本文上のマージンを0に！ */
+/* コメント本文上のマージンを0に！ */
 .comment-content p {  margin: 0;}
 /* 投稿時間の装飾を指定しています。 */
 .comment-metadata {  font-size: 11px;  color: #999999;/*  margin: 0;*/ text-align: right;}
@@ -453,7 +453,7 @@ a.keyword {
 /*  border: 1px solid #CCCCCC;  border-radius: 3px;  background: #FFFFFF;*/
 }
 /* コメントボタンの前にアイコンをつけます */
-.leave-comment-title:before {  font-family: "blogicon";  content: "\f010";  padding-right: 4px;}
+.leave-comment-title:before {  font-family: "blogicon";  content: "\f010";  padding-right: 2.0%;}
 /* コメントブタンのマウスオーバー時の動作を指定します。 */
 .leave-comment-title:hover {  color: #999999;/*  background: #EEEEEE;*/  transition: 0.8s;}
 
