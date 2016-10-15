@@ -351,7 +351,7 @@ a.keyword {
 /* 記事がカテゴリーに属していない時の領域指定 */
 .categories.no-categories {  margin: 0;}
 /* 編集ボタンの領域規定 */
-.entry-header-menu {  display: inline;  padding-left: 5.0%;  position: fixed;}
+.entry-header-menu {  display: inline-block;  padding-left: 5.0%;  position: fixed;}
 /* 編集ボタンの装飾指定 */
 .entry-header-menu a {  font-size: 13px;  color: #DDDDDD;  text-decoration: none;}
 /*.entry-header-menu a {    display: inline-block;  *display: inline;  *zoom:1;
