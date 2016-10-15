@@ -3,6 +3,7 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  -webkit-user-select: none;
 }
 body {
   margin: 0;
@@ -211,7 +212,8 @@ body {  color: #999999;  background: #EEEEEE;
 /* これもヘッダ？ 文字関係ははてなキーワードとか広告非表示とか、はっきりいっていらないものばかりです */
 html,
 body {  "color: #555555;  background-color: #000000;
-  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic', sans-serif;}
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic', sans-serif;
+  -webkit-user-select: none;}
 a {  color: #555555;}
 a:hover {  color: #333333;}
 a:visited {  color: #555555;}
