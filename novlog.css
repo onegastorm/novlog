@@ -3,11 +3,13 @@
 /*  Theme Name: Noblog  Author: Onega Storm  Update: 2016.10.15
     Responsive: yes*/
 /* googleフォントを読み込むのをやめる */
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+/*@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);*/
+/*@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);*/
 
 html {
-  font-family: 'Noto Sans Japanese', serif;
-/*  font-family: sans-serif;*/
+/*  font-family: 'Noto Sans JP', sans-serif;*/
+/*  font-family: 'Noto Sans Japanese', serif;*/
+  font-family: sans-serif;
 /* 文字の大きさの自動調整機能を効かなくする呪文らしいです */
   -webkit-text-size-adjust: 100%;  -moz-text-size-adjust: 100%;  -ms-text-size-adjust: 100%;  -o-text-size-adjust: 100%;  text-size-adjust: 100%;
 /* テキストを選択できなくする呪文らしいです */
