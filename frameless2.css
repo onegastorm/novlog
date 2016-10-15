@@ -212,17 +212,13 @@ body {
 
 /* ヘッダ（と余白） */
 html,
-body {  color: #333333;  background-color: #EEEEEE;
+body {  color: #666666;  background-color: #EEEEEE;
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic', sans-serif;}
-a {
-  color: #1a1a1a;
-}
-a:hover {
-  color: #0f5373;
-}
-a:visited {
-  color: #1a1a1a;
-}
+a {  color: #333333;}
+a:hover {  color: #FF00FF;}
+a:visited {  color: #1a1a1a;}
+
+
 h1 a,
 h2 a,
 h3 a,
