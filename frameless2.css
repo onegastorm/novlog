@@ -593,30 +593,28 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 
 
 
-/* page-top ---------------------------------------- */
+/* return ---------------------------------------- */
 
 /* 上に戻るブタンだよ！　ここにもつけてほしいよ！ */
-#page-top {
+#return {
 /*  display: none;*/
   position: fixed;
   top: 5.4%;
-  right: 0%;
+  right: 0;
 /*  margin: 0;
   padding: 0;
   text-align:center;*/
 }
-#move-page-top{
+#return-top{
   color: #DDDDDD;
 /*  text-decoration:none;*/
 /*  display:block;*/
 /*  cursor:pointer;*/
 }
-#move-page-top:hover{
-  color: #999999;  transition: 0.8s;
-/*  color:rgba(0,0,0,0.6);*/
-}
+#return-top:hover {  color: #999999;  transition: 0.8s;}
+
 @media only screen and (min-width: 400px){
-  #page-top{
+  #return{
     right:50%;
     margin-right: -450px;
   }
