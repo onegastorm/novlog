@@ -10,13 +10,20 @@
 /* Common ------------------------------*/
 
 /* ヘッダ（と余白） */
-body {  color: #999999;  background: #EEEEEE; 
+body {
+  color: #999999;  background: #EEEEEE; 
   font: 15px/1.6 "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Meiryo", Helvetica, Arial, sans-serif;}
 /* header ------------------------------ */
 
 /* これもヘッダ？ 文字関係ははてなキーワードとか広告非表示とか、はっきりいっていらないものばかりです */
 html,
-body {  "color: #555555;  background-color: #000000; 
+body {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -o-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  "color: #555555;  background-color: #000000; 
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic', sans-serif;}
 a {  color: #555555;}
 a:hover {  color: #333333;}
