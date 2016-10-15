@@ -583,8 +583,8 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* return ---------------------------------------- */
 
 /* 上に戻るブタンだよ！　ここにもつけてほしいよ！ */
-#return {  position: fixed;  top: 1%;  left: 50%;  margin: 0 auto 0 auto; background: #00FF00;}
-#return-top {  color: #DDDDDD;  cursor:pointer;}
+#return {  position: fixed;  top: 1%;  left: 50%;  margin: 0 auto 0 auto; background: #FF0000;}
+#return-top {  color: #DDDDDD;  cursor: pointer;  background: #00FF00;}
 #return-top:hover {  color: #999999;  transition: 0.8s;}
 /*
 @media only screen and (min-width: 400px){
