@@ -1,0 +1,7 @@
+@import url("http://onegastorm.github.io/novlog/frameless2.css");
+
+/* 変換前のテキストを見せない */
+.nehan-vert-dangumi { visibility: hidden; }
+
+/* 記事末尾のIDを非表示 */
+span.author.vcard { display: none; }
