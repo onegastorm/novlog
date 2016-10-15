@@ -21,8 +21,7 @@
   margin: 1rem 0;
   height: 0;
   line-height: 1;
-  letter-spacing: 1.5em;
-/*  letter-spacing: .05em;*/
+  letter-spacing: .05em;
   -webkit-user-select: none;
   -webkit-tap-highlight-color: transparent;
   -moz-user-select: none; }
