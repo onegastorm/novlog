@@ -453,7 +453,7 @@ a.keyword {
 /*  border: 1px solid #CCCCCC;  border-radius: 3px;  background: #FFFFFF;*/
 }
 /* コメントボタンの前にアイコンをつけます */
-.leave-comment-title:before {  font-family: "blogicon";  content: "\f010";  padding-right: 2.0%;}
+.leave-comment-title:before {  font-family: "blogicon";  content: "\f010";  padding-right: 0.5%;}
 /* コメントブタンのマウスオーバー時の動作を指定します。 */
 .leave-comment-title:hover {  color: #999999;/*  background: #EEEEEE;*/  transition: 0.8s;}
 
