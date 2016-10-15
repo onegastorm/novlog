@@ -331,7 +331,7 @@ a.keyword {
 /* 記事タイトル部の領域規定 */
 .entry-header {  position: relative;  width: 97.2%; margin:0 auto 0 auto;  background: #FFFF00;}
 /* 記事タイトルの文字領域規定 */
-.entry-title {  display: inline;  font-size: 13px;  font-weight: normal;  margin-right: 2.0%;  background: #FF00FF;}
+.entry-title {  display: inline;  font-size: 13px;  font-weight: normal;/*  margin-right: 2.0%;*/  background: #FF00FF;}
 /* 日付ボタンの領域規定 */
 .date {  display: none;}
 /*.date {  position: absolute;  font-size: 11px;  z-index: 100;  background: #AAAAFF;}*/
@@ -359,7 +359,7 @@ a.keyword {
   font-size: 12px;  text-decoration: none;  color: #CCCCCC;  background: #FFFFFF;
   border: 1px solid #CCCCCC;  border-radius: 3px;}*/
 /* 編集ブタンの前にアイコンをつけます */
-.entry-header-menu a:before {  font-family: "blogicon";  content: "\f010";  padding-right: 4.4%;}
+.entry-header-menu a:before {  font-family: "blogicon";  content: "\f010";  padding-right: 2.0%;}
 /* 編集ボタンのマウスオーバー時の動作指定 */
 .entry-header-menu a:hover {  color: #999999;  transition: 0.8s;}
 
