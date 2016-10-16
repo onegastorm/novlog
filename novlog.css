@@ -264,7 +264,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* 各要素のタイトル */
 .hatena-module-title {  display: block;/*  padding-bottom:10px;*/  border-bottom: solid 1px #555555;  background: #333333;}
 .hatena-module-title a {  color: #777777;  text-decoration: none;}
-.hatena-module-title a:hover {  color: #777777;  text-decoration: none;  cursor: normal;}
+.hatena-module-title a:hover {  color: #777777;  text-decoration: none;  cursor: default;}
 /* 各要素の本文 */
 .hatena-module-body {  margin-top: 4%;/*  float: left;*/  background: #333333;}
 /* 何これ？ */
