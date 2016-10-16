@@ -365,7 +365,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* カテゴリ一覧ページの記事タイトルのセル領域。広告の上が基準点。 */
 .page-archive .archive-entries .entry-title {  position: absolute;}
 .page-archive .archive-entries .entry-title  a {  background: #00FFFF;  color: #777777;
-  position: absolute;  font-size: 110%;}
+/*  position: absolute;*/  font-size: 110%;}
 
 /* カテゴリ一覧のコンテンツを包括して扱う。広告の下が基準点。.archive-entryの方が値が大きい場合無視される。 */
 .page-archive .archive-entries {  color: #999999;}
