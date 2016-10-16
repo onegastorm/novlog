@@ -373,7 +373,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* 何？　日付っつーぐらいだから月間一覧とかの日付ですかね？ */
 /*.page-archive .archive-entries .date {  position: static;}*/
 /* カテゴリ一覧ページのカテゴリボタン関係 */
-.page-archive .archive-entries .categories {  padding-top:200%; /*  line-height: 1.4em;  margin-top: 0%;  line-height: 200%;*/}
+.page-archive .archive-entries .categories {  padding-top:0%; /*  line-height: 1.4em;  margin-top: 0%;  line-height: 200%;*/}
 .page-archive .categories {/*  display: inline-block;*/}
 .page-archive .categories a {  display: block;  text-align: right;  background: #00FF00;}
 
