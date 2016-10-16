@@ -133,7 +133,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* 記事系 */
 .entry {  position: relative;  padding-bottom: 40px;  background: #CCFFCC;}
 /* 記事タイトル部 */
-.entry-header {  position: relative;  width: 97.0%; margin:0 auto 0 auto;  background: #FFFF00;}
+.entry-header {  position: relative;  width: 96%; margin:0 auto 0 auto;  background: #FFFF00;}
 /* 記事タイトル部タイトル系 */
 .entry-title {  display: inline;  font-size: 13px;  font-weight: normal;  margin-right: 2.0%;  background: #FF00FF;}
 /* 記事タイトル部日付ブタン系 */
@@ -145,7 +145,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 .categories {  display: inline;/*  float: right;  margin-right: 10%;*/}
 .categories a {  color: #DDDDDD;  text-decoration: none;  background: #0000FF;}
 .categories a:hover {  color: #999999;  transition: 0.8s;}
-.categories a:before {  font-family: "blogicon";  content: "\f022";  padding-right: 0.5%;}
+.categories a:before {  font-family: "blogicon";  content: "\f022";  padding-right: 2px;}
 .categories.no-categories {  margin: 0;}
 /* 編集ボタン系 */
 .entry-header-menu {  position: fixed;/*  display: block;*/  top: 1.0%;  left: 32.0%;  width: 41px;  background: #00FF00;}
