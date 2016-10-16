@@ -287,7 +287,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 .hatena-urllist {  padding: 0 0 0 0;}
 .hatena-urllist li { line-height: 2.0;}
 .hatena-urllist li a {  color: #777777;  text-decoration: none;}
-.recent-entries a:before {  font-family: "blogicon";  content: "\f029";  padding-right: 2%;}
+.recent-entries a:before {  font-family: "blogicon";  content: "\f029";  padding-right: 10px;}
 .recent-entries a:hover {  color: #DDDDDD;  text-decoration: none;  transition: 0.8s;}
 /*.hatena-module-category {  line-height: 1.0;}*/
 /* 最新記事の本文の文字の大きさを変えるという重要な任務 */
