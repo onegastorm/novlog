@@ -148,7 +148,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 .categories a:before {  font-family: "blogicon";  content: "\f022";  padding-right: 0.5%;}
 .categories.no-categories {  margin: 0;}
 /* 編集ボタン系 */
-.entry-header-menu {  position: fixed;/*  display: block;*/  top: 1.0%;  left: 32.0%;  width: 5.0%;  background: #00FF00;}
+.entry-header-menu {  position: fixed;/*  display: block;*/  top: 1.0%;  left: 32.0%;/*  width: 5.0%;*/  background: #00FF00;}
 .entry-header-menu a {  font-size: 85%;  color: #DDDDDD;  text-decoration: none;  background: #FF00FF;}
 /*.entry-header-menu a {    display: inline-block;  *display: inline;  *zoom:1;
   line-height: 18px;  text-align: center;  vertical-align: middle;  padding: 1px 12px;  cursor: pointer;
@@ -402,3 +402,44 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 #return-bottom {  position: fixed;  bottom: 1%;  left: 49%;  background: #00FF00;}
 #return-bottom-btn {  color: #DDDDDD;   cursor: pointer;  background: #0000FF;}
 #return-bottom-btn:hover {  color: #999999;  transition: 0.8s;}
+
+
+
+/* media queries をインポートするよ！ boilerplateからのこぴぺだけどね！ */
+
+/* Media Queries - Retina Display */
+@media (-webkit-min-device-pixel-ratio: 2) {
+  .hatena-module-search-box .search-module-button {
+    background: transparent url(http://blog.hatena.ne.jp/images/theme/search@2x.png) no-repeat right center;
+    background-size: 20px 20px;
+  }
+}
+
+/* Media Queries - Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+#container {  width: 724px;}
+#main {  width: 460px;  }
+#box2 {  width: 245px;  }
+/* 1カラムにしたい場合は下記のコメントアウトを外してください ----*/
+#main,
+#box2 {  width: 100%;}
+#box2-inner {  width: 744px;}
+.hatena-module {  width: 228px;}
+/* ---- END 1カラム */
+}
+
+/* Media Queries - Small Tablet & Smartphone */
+@media (max-width: 767px) {
+#globalheader-container {  position: static;}
+#container {  width: 93.75%;  word-wrap: break-word;  overflow: hidden;}
+#main {  width: 100%;  float: none;}
+#box2 {  width: 100%;  float: none;}
+#box2-inner {  width: 100%;}
+.hatena-module {  width: 100%;  float: none;}
+.entry-header-menu {  top: -30px;  left: 0px;}
+}
+
+/* Media Queries - Smartphone */
+@media (max-width: 480px) {
+
+}
