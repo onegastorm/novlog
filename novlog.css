@@ -403,7 +403,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
   margin-right: -0.25em; /* Adjusts for spacing */
 }}
 
-.centered {  display: inline-block;  vertical-align: middle;  width: 300px;}
+/*.centered {  display: inline-block;  vertical-align: middle;  width: 300px;}*/
 
 #return-top-btn {  color: #BBBBBB;   cursor: pointer;  background: #0000FF;}
 #return-top-btn:hover {  color: #999999;  transition: 0.8s;}
