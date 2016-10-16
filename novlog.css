@@ -11,7 +11,7 @@
 
 /* bodyだとかhtmlだとかそういう根本がわかってない */
 body {
-/*  color: #999999;  background: #EEEEEE;*/
+  color: #999999;  background: #EEEEEE;
   font: 15px/1.6 "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Meiryo", Helvetica, Arial, sans-serif;
 
 /* テキストを選択できなくする呪文らしいです。 */
@@ -28,7 +28,8 @@ body {
   text-size-adjust: 100%;
 }
 /* 上とのちがいがわからない・・ */
-html, body {  color:#FF0000;  background:#FF00FF;
+html, body {
+/*color:#FF0000;  background:#FF00FF;*/
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic', sans-serif;}
 
 /* 全体的なリンク。 広告に効いているようだ。*/
