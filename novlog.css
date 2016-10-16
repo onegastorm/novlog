@@ -7,20 +7,20 @@
 /* normalize303.cssを読み込む*/
 @import url("http://onegastorm.github.io/novlog/normalize303.css"); 
 
-/* Common ------------------------------*/
+/* Common - 全体的に ----------------------------------------*/
 
-/* ヘッダ（と余白） */
+/* bodyだとかhtmlだとかそういう根本がわかってない */
 body {
 /*  color: #999999;  background: #EEEEEE;*/
   font: 15px/1.6 "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Meiryo", Helvetica, Arial, sans-serif;
 
-/* テキストを選択できなくする呪文らしいです */
+/* テキストを選択できなくする呪文らしいです。 */
   -moz-user-select: none;
   -ms-user-select: none;
   -khtml-user-select: none;
   -webkit-user-select: none;
   -webkit-touch-callout: none;}
-/* 文字の大きさの自動調整機能を効かなくする呪文らしいです */
+/* 文字の大きさの自動調整機能を効かなくする呪文らしいです。 */
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -28,16 +28,17 @@ body {
   text-size-adjust: 100%;
 }
 /* 上とのちがいがわからない・・ */
-html,
-body {  color:#FF0000;  background:#FF00FF;
+html, body {  color:#FF0000;  background:#FF00FF;
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic', sans-serif;}
-/* 広告に効いているようだ */
+
+/* 全体的なリンク。 広告に効いているようだ。*/
 a {  color: #FFFFFF;  text-decoration: none;}
-/* 広告には効いているがキーワードには効いていないようだ */
+/* 全体的なマウスオーバー。しかし広告には効いているがはてなキーワードには効いていないようだ。 */
 a:hover {  color: #FFFFFF;  text-decoration: none;}
-/* キーワードに効いているようだ */
+/* 全体的な足跡。はてなキーワードに効いているようだ。 */
 a:visited {  color: #555555;  text-decoration: none;}
 
+/* 見出し。およそ不要と思われる。*/
 h1 a,
 h2 a,
 h3 a,
@@ -56,12 +57,11 @@ h3 a:visited,
 h4 a:visited,
 h5 a:visited,
 h6 a:visited {  color: #333333;  text-decoration: none;}
-/* 何？ */
-a.keyword {  text-decoration: none;  border-bottom: 1px dotted #999999;  color: #1a1a1a;}
+/* さっぱりわからないがいらなそうなので消してみる。 */
+/*a.keyword {  text-decoration: none;  border-bottom: 1px dotted #999999;  color: #1a1a1a;}*/
 
-/* Buttons ---------------------------------------- */
-/* 何が何だか？ */
-
+/* Buttons - どこのボタンやねん -------------------------------------------------- */
+/*
 .btn {
   display: inline-block;
   *display: inline;
@@ -100,6 +100,7 @@ a.keyword {  text-decoration: none;  border-bottom: 1px dotted #999999;  color: 
   line-height: normal;
   font-weight: bold;
 }
+*/
 
 /* Globalheader ---------------------------------------- */
 
