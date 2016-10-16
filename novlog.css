@@ -104,7 +104,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* Globalheader & Container - 全体的に -------------------------------------------------- */
 
 /* グローバルヘッダ！ */
-#globalheader-container {/*  color: #999999;  background: #FFFFFF;*/}
+#globalheader-container {/*  color: #999999;  background: #FFFFFF;*/  font-size: 13px;}
 /* コンテンツのコンテナ！ */
 #container {/*  margin: 0 auto 0 auto;  width: 100%;*/  background: #FF00FF;}
 /* メインカラム！ */
@@ -135,7 +135,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* 記事タイトル部 */
 .entry-header {  position: relative;  width: 97.2%; margin:0 auto 0 auto;  background: #FFFF00;}
 /* 記事タイトル部タイトル系 */
-.entry-title {  display: inline;  font-size: 60%;  font-weight: normal;  margin-right: 2.0%;  background: #FF00FF;}
+.entry-title {  display: inline;font-weight: normal;  margin-right: 2.0%;  background: #FF00FF;}
 /* 記事タイトル部日付ブタン系 */
 .date {  display: none;}
 /*.date {  position: absolute;  z-index: 100;  background: #AAAAFF;}*/
@@ -143,13 +143,13 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /*.date .hyphen {  padding: 2px;  color: #999999;}*/
 /* 記事タイトル部カテゴリブタン系 */
 .categories {  display: inline;/*  float: right;  margin-right: 10%;*/}
-.categories a {  color: #DDDDDD;  font-size: 80%;  text-decoration: none;  background: #0000FF;}
+.categories a {  color: #DDDDDD;  text-decoration: none;  background: #0000FF;}
 .categories a:hover {  color: #999999;  transition: 0.8s;}
 .categories a:before {  font-family: "blogicon";  content: "\f022";  padding-right: 0.5%;}
 .categories.no-categories {  margin: 0;}
 /* 編集ボタン系 */
 .entry-header-menu {  position: fixed;/*  display: block;*/  top: 1.0%;  left: 32.0%;  width: 5.0%;  background: #00FF00;}
-.entry-header-menu a {  font-size: 80%;  color: #DDDDDD;  text-decoration: none;  background: #FF00FF;}
+.entry-header-menu a {  font-size: 95%;  color: #DDDDDD;  text-decoration: none;  background: #FF00FF;}
 /*.entry-header-menu a {    display: inline-block;  *display: inline;  *zoom:1;
   line-height: 18px;  text-align: center;  vertical-align: middle;  padding: 1px 12px;  cursor: pointer;
   font-size: 12px;  text-decoration: none;  color: #CCCCCC;  background: #FFFFFF;
