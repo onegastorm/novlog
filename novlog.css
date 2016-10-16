@@ -314,9 +314,9 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* Pager ---------------------------------------- */
 
 /* pagerだよー！ */
-.pager {  margin: -3% 3% 5% 3%;  display: block;  *zoom: 1;  color: #000000;  font-size: 36px;  z-index: 1000;  visibility:visible;}
+.pager {  margin: 3% 3% 5% 3%;  display: block;  *zoom: 1;}
 /* 戻るページ送り */
-.pager .pager-prev {/*  float: left;*/  text-align: left;  color: #000000;  font-size: 36px;  z-index: 100;  visibility:visible;}
+.pager .pager-prev {/*  float: left;*/  text-align: left;  color: #000000;  font-size: 36px;}
 .pager .pager-prev a {  color: #999999;  z-index: 10;  visibility:visible;}
 .pager .pager-prev a:hover {  color: #333333;  transition: 0.8s;}
 /* 進むページ送り */
