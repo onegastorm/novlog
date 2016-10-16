@@ -131,7 +131,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* 変換前のテキストを見せない。これだいじ！（縦書文庫） */
 .nehan-vert-dangumi { visibility: hidden; }
 /* 記事系 */
-.entry {  position: relative;  padding-bottom: 5.0%;  background: #CCFFCC;}
+.entry {  position: relative;  padding-bottom: 40px;  background: #CCFFCC;}
 /* 記事タイトル部 */
 .entry-header {  position: relative;  width: 97.2%; margin:0 auto 0 auto;  background: #FFFF00;}
 /* 記事タイトル部タイトル系 */
