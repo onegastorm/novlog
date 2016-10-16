@@ -103,20 +103,20 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 
 /* Globalheader ---------------------------------------- */
 
-/* グローバルヘッダの領域規定 */
+/* グローバルヘッダ！ */
 #globalheader-container {/*  background: #FFFFFF;  color: #999999;  top: 0;  left: 0;  width: 100%;*/}
 
 /* Container ---------------------------------------- */
 
-/* コンテンツの領域規定。 */
+/* コンテンツのコンテナ！ */
 #container {/*  margin: 0 auto 0 auto;  width: 100%;*/  background: #FF00FF;}
-/* メインカラムの領域規定 */
-#main {  margin: 0 auto 0 auto;  width: 973px;}
+/* メインカラム！ */
+#main {  margin: 0 auto 0 auto;  max-width: 973px;}
 /* メインカラムの領域規定。こちらは失敗 */
 /*#container #content {  width: 940px}*/
 /* Container内側の余白規定。必要ないがあえてのこしておきます。 */
 /*#container-inner {  padding: 0 0 0 0;}*/
-/* サイドバーの領域規定 */
+/* サイドバー！ */
 #box2 {/*  width: 100%;*/}
 
 /* Blogtitle(header) ---------------------------------------- */
