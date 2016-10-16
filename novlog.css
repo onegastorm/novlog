@@ -359,9 +359,10 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 .page-archive #main {  max-width: 60%;  min-width: 320px;  margin: 0 auto 0 auto;  background: #EEFFEE;}
 /* 月別一覧のタイトル文字 */
 /*.page-archive #main h2 {  color: #999999;  font-weight: normal;  font-size: 15px;  padding-top:50px;}*/
-/* カテゴリ一覧ページの記事タイトル */
+/* カテゴリ一覧ページの記事タイトルのセル領域。むかつくことに広告の上が基準になってるらしい */
 .page-archive .entry-title {padding-top:10%;  /*  margin: 0 0 0 0;*/}
-.page-archive .archive-entries .entry-title {/*  position: absolute;*/}
+
+.page-archive .archive-entries .entry-title {padding-top:100%;/*  position: absolute;*/}
 .page-archive .archive-entries .entry-title  a {/*  position: absolute;*/  font-size: 110%;  color: #777777;  background: #00FFFF;}
 /* カテゴリ一覧ページの本文関係 */
 .page-archive .archive-entries {  margin-top: 0%;/*  font-size: 13px;*/  color: #999999;/*  line-height: 1.22em;*/}
