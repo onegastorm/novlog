@@ -364,7 +364,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
   /*  display: inline-block;*//*  padding: 10% 10% 10% 10%;*//*  margin: 0 0 0 0;*/}
 /* カテゴリ一覧ページの記事タイトルのセル領域。広告の上が基準点。 */
 .page-archive .archive-entries .entry-title {/*  position: absolute;*/}
-.page-archive .archive-entries .entry-title  a {
+.page-archive .archive-entries .entry-title  a {  position: absolute;
   /*  position: absolute;*/  font-size: 110%;/*  color: #777777;  background: #00FFFF;*/}
 
 /* カテゴリ一覧のコンテンツを包括して扱う。広告の下が基準点。.archive-entryの方が値が大きい場合無視される。 */
@@ -382,7 +382,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* 左右のpadding,marginは効くらしい。*/
 .page-archive .categories {/*line-height: 132%;*/}
 /* paddingは効く。といって周りに影響を及ぼしていない*/
-.page-archive .categories a {/* display: inline-block;*//*  position: absolute;*/
+.page-archive .categories a {  display: block;  text-align: right;/* display: inline-block;*//*  position: absolute;*/
 /*  width: 20%; text-align: right;*/  background: #FF0000;}
 /*.page-archive .categories a {  display: block;  text-align: right;  background: #FF0000;  padding-bottom: 0.4%;}*/
 
