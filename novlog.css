@@ -116,6 +116,16 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* サイドバー！ */
 #box2 {/*  width: 100%;*/}
 
+#container #content:after {
+  display: block;
+
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
+
+  clear: both;
+  content: ".";
+}
 /* Main - Blogtitle -------------------------------------------------- */
 
 /* ブログタイトル系。#mainに縛られてないみたい */
