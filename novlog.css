@@ -217,7 +217,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* Comment-box ---------------------------------------- */
 
 /* 投稿されたコメントボックスの領域規定 */
-.comment-box ul {  list-style: none;  font-size: 13px;  color: #999999;/*  margin: 0 0 15px 0;  text-align: left;*/}
+.comment-box ul {  list-style: none;/*  font-size: 13px;*/  color: #999999;/*  margin: 0 0 15px 0;  text-align: left;*/}
 /* 投稿されたコメントボックスの本文の領域規定 */
 .comment-box li {  position: relative;  padding: 10px 40px 10px 40px;  border-bottom: 1px solid #DDDDDD;}
 /* コメントボックス最上段の罫線を指定 */
