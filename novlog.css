@@ -135,7 +135,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* 記事タイトル部 */
 .entry-header {  position: relative;  width: 97.2%; margin:0 auto 0 auto;  background: #FFFF00;}
 /* 記事タイトル部タイトル系 */
-.entry-title {  display: inline;  font-size: 80%;  font-weight: normal;  margin-right: 2.0%;  background: #FF00FF;}
+.entry-title {  display: inline;  font-size: 85%;  font-weight: normal;  margin-right: 2.0%;  background: #FF00FF;}
 /* 記事タイトル部日付ブタン系 */
 .date {  display: none;}
 /*.date {  position: absolute;  z-index: 100;  background: #AAAAFF;}*/
@@ -149,7 +149,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 .categories.no-categories {  margin: 0;}
 /* 編集ボタン系 */
 .entry-header-menu {  position: fixed;/*  display: block;*/  top: 1.0%;  left: 32.0%;  width: 5.0%;  background: #00FF00;}
-.entry-header-menu a {  font-size: 95%;  color: #DDDDDD;  text-decoration: none;  background: #FF00FF;}
+.entry-header-menu a {  font-size: 90%;  color: #DDDDDD;  text-decoration: none;  background: #FF00FF;}
 /*.entry-header-menu a {    display: inline-block;  *display: inline;  *zoom:1;
   line-height: 18px;  text-align: center;  vertical-align: middle;  padding: 1px 12px;  cursor: pointer;
   font-size: 12px;  text-decoration: none;  color: #CCCCCC;  background: #FFFFFF;
