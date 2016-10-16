@@ -148,7 +148,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 .categories a:before {  font-family: "blogicon";  content: "\f022";  padding-right: 2px;}
 .categories.no-categories {  margin: 0;}
 /* 編集ボタン系 */
-.entry-header-menu {  position: fixed;/*  display: block;*/  bottom: 10px;  left: -10px;  width: 41px;  background: #00FF00;}
+.entry-header-menu {  position: fixed;/*  display: block;*/  bottom: 10px;  left: 0px;  width: 50px;  background: #00FF00;}
 .entry-header-menu a {  color: #DDDDDD;  text-decoration: none;  background: #FF00FF;}
 /*.entry-header-menu a {    display: inline-block;  *display: inline;  *zoom:1;
   line-height: 18px;  text-align: center;  vertical-align: middle;  padding: 1px 12px;  cursor: pointer;
