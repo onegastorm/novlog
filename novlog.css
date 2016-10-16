@@ -323,7 +323,7 @@ span.author.vcard { display: none; }
 .pager .pager-prev a:hover {  color: #333333;  transition: 0.8s;}
 /* 進むページ送り */
 .pager .pager-next {  float: right;  text-align: right;}
-.pager .pager-next a {  text-decoration: none;  font-size: 11px;  color: #000000;}
+.pager .pager-next a {  text-decoration: none;  font-size: 11px;  color: #999999;}
 .pager .pager-next a:hover {  color: #333333;  transition: 0.8s;}
 /* よくわからないが必要なものらしい */
 .pager:after {  display: block;  visibility: hidden;  font-size: 0;  height: 0;  clear: both;  content: "@@@";}
@@ -403,7 +403,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 
 /* 一番下に進むブタンだよ！ */
 #jump-btm {  position: fixed;  bottom: 0;  width: 20%;  margin-left: 40%;  text-align: center;}
-#jump-btm-btn {  font-size: 24px;  color: #BBBBBB;   cursor: pointer;  background: rgba( 256, 256, 256, 0.0);}
+#jump-btm-btn {  font-size: 24px;  color: #000000;   cursor: pointer;  background: rgba( 256, 256, 256, 0.0);}
 #jump-btm-btn:hover {  color: #777777;  transition: 0.8s;}
 
 /* media queries をインポートするよ！ boilerplateからのこぴぺだけどね！ -------------------------------------------------- */
