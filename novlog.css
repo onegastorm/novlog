@@ -377,7 +377,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 .page-archive .archive-entries .categories {/*  line-height: 200%;*/}
 .page-archive .categories {/*  display: inline-block;*/  line-height: 132%;}
 
-.page-archive .categories a {  display: inline-block;  width:100%; text-align: right;  background: #FF0000;}
+.page-archive .categories a {  position: relative;  display: inline-block;  width:100%; text-align: right;  background: #FF0000;}
 /*.page-archive .categories a {  display: block;  text-align: right;  background: #FF0000;  padding-bottom: 0.4%;}*/
 
 /* breadcrumb ---------------------------------------- */
