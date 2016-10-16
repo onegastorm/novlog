@@ -377,7 +377,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* カテゴリ一覧ページのカテゴリボタン関係。なんだかよくわからないが左右のマージンしか効かない。paddingは全く効かない。 */
 .page-archive .archive-entries .categories {/*  float: right;*//*  line-height: 200%;*/}
 /* 左右のpaddingは効くらしい。*/
-.page-archive .categories {padding:50% 10% 50% 10%;/*line-height: 132%;*/}
+.page-archive .categories {margin:50% 10% 50% 10%;/*line-height: 132%;*/}
 /* paddingは効く。*/
 .page-archive .categories a {/* display: inline-block;*//*  position: absolute;*/
 /*  width: 20%; text-align: right;*/  background: #FF0000;}
