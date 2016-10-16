@@ -328,7 +328,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 
 /* copyright, footer -------------------------------------------------- */
 
-#copyright {  width: 90%;  font-size: 13px;  color: #777777;  background: #444444;  padding: 0 0 0 0%;}
+#copyright {  width: 90%;  font-size: 13px;  color: #777777;  background: #444444;  padding: 0 0 0 30px;}
 #copyright a {  text-decoration: none;  color: #777777;}
 #copyright a:hover {  color: #333333;  transition: 0.8s;}
 
