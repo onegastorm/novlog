@@ -359,9 +359,9 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 .page-archive #main {  max-width: 60%;  min-width: 320px;  margin: 0 auto 0 auto;  background: #EEFFEE;}
 /* 月別一覧のタイトル文字 */
 /*.page-archive #main h2 {  color: #999999;  font-weight: normal;  font-size: 15px;  padding-top:50px;}*/
-/* カテゴリ一覧ページの記事タイトルのセル領域。むかつくことに広告の上が基準になってるらしい */
+/* カテゴリ一覧ページの記事タイトルのセル領域。広告の上が基準点。*/
 .page-archive .entry-title {  display: inline-block;/*  padding: 10% 10% 10% 10%;*//*  margin: 0 0 0 0;*/  background: #FFFF00;}
-/* カテゴリ一覧ページの記事タイトルのセル領域。むかつくことに広告の上が基準になってるらしい */
+/* カテゴリ一覧ページの記事タイトルのセル領域。広告の上が基準点。 */
 .page-archive .archive-entries .entry-title {/*  position: absolute;*/}
 .page-archive .archive-entries .entry-title  a {/*  position: absolute;*/  font-size: 110%;  color: #777777;  background: #00FFFF;}
 /* カテゴリ一覧ページのコンテンツを包括して扱うが、広告の下が基準点。 */
@@ -375,7 +375,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* 何？　日付っつーぐらいだから月間一覧とかの日付ですかね？ */
 /*.page-archive .archive-entries .date {  position: static;}*/
 /* カテゴリ一覧ページのカテゴリボタン関係 */
-.page-archive .archive-entries .categories {  float: right;/*  line-height: 200%;*/}
+.page-archive .archive-entries .categories {/*  float: right;*//*  line-height: 200%;*/  background: #FF0000;}
 .page-archive .categories {/*line-height: 132%;*/}
 
 .page-archive .categories a { display: inline-block;/*  position: absolute;*/ /*  width: 20%; text-align: right;*/  background: #FF0000;}
