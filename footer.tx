@@ -1,6 +1,6 @@
-<!-- ‚Ó‚¦‚¥Ac‘•¶ŒÉ‚¾‚æ‚§I -->
+<!-- ãµãˆã‡ã€ç¸¦æ›¸æ–‡åº«ã ã‚ˆã‰ï¼ -->
 <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/tategakibunko/nehan.js/v5.5.4/css/nehan.css" />
-<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/onegastorm/nov/master/responsivook.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/onegastorm/novlog/gh-pages/responsivook.css" />
 <script type="text/javascript" src="https://cdn.rawgit.com/tategakibunko/nehan.js/v5.5.4/dist/nehan.min.js"></script>
 <script type="text/javascript" src="https://cdn.rawgit.com/tategakibunko/responsivook/v1.2.0/responsivook.js"></script>
 
@@ -12,10 +12,10 @@ document.addEventListener("DOMContentLoaded", function(event){
     fontSize:14,
     fontFamily:"MS Mincho",
     height:600,
-    // ‚»‚Ì‘¼‚ÌƒXƒ^ƒCƒ‹
+    // ãã®ä»–ã®ã‚¹ã‚¿ã‚¤ãƒ«
     styles:{
        body:{
-          // s––‘µ‚¦‚ğ—LŒø‚É‚·‚éi‚¿‚å‚Á‚Æd‚­‚È‚éj
+          // è¡Œæœ«æƒãˆã‚’æœ‰åŠ¹ã«ã™ã‚‹ï¼ˆã¡ã‚‡ã£ã¨é‡ããªã‚‹ï¼‰
           textAlign:"justify"
        }
      }
@@ -23,14 +23,14 @@ document.addEventListener("DOMContentLoaded", function(event){
 });
 </script>
 
-<!-- ‚Ó‚¦‚¥AƒRƒs[ƒ‰ƒCƒg‚¾‚æ‚§I -->
+<!-- ãµãˆã‡ã€ã‚³ãƒ”ãƒ¼ãƒ©ã‚¤ãƒˆã ã‚ˆã‰ï¼ -->
 <div id="copyright">
 <font>&copy; 2016 <a href="http://n11blau.hatenablog.com/about">Novlog</a></font>
 </div>
 
 
 
-<!-- ‚Ó‚¦‚¥Aƒuƒ^ƒ“‚Ì“ü‚êq‚¾‚æ‚§I -->
+<!-- ãµãˆã‡ã€ãƒ–ã‚¿ãƒ³ã®å…¥ã‚Œå­ã ã‚ˆã‰ï¼ -->
 <div id="jump">
   <div id="jump-top">
     <a id="jump-top-btn"><i class="fa fa-angle-double-up"></i></a>
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function(event){
 
 
 
-<!-- ‚Ó‚¦‚¥A–ß‚éƒuƒ^ƒ“‚¾‚æ‚§I -->
+<!-- ãµãˆã‡ã€æˆ»ã‚‹ãƒ–ã‚¿ãƒ³ã ã‚ˆã‰ï¼ -->
 <script>
   $(window).scroll(function(){
     var now = $(window).scrollTop();
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function(event){
   });
 </script>
 
-<!-- ‚Ó‚¦‚¥Ai‚Şƒuƒ^ƒ“‚¾‚æ‚§I -->
+<!-- ãµãˆã‡ã€é€²ã‚€ãƒ–ã‚¿ãƒ³ã ã‚ˆã‰ï¼ -->
 <script type="text/javascript">
 $(function(){
     $("#jump-btm-btn").click(function(){
