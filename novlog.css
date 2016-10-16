@@ -108,7 +108,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* コンテンツのコンテナ！ */
 #container {/*  margin: 0 auto 0 auto;  width: 100%;*/  background: #FF00FF;}
 /* メインカラム！ */
-#main {  margin: 0 auto 0 auto;  max-width: 973px;}
+#main {  margin: 0 auto 0 auto;  max-width: 974px;}
 /* メインカラムの領域規定。こちらは失敗 */
 /*#container #content {  width: 940px}*/
 /* コンテナ内側の余白。必要ないがあえてのこす。 */
@@ -131,11 +131,11 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* 変換前のテキストを見せない。これだいじ！（縦書文庫） */
 .nehan-vert-dangumi { visibility: hidden; }
 /* 記事系 */
-.entry {  position: relative;  padding-bottom: 100px;  background: #CCFFCC;}
+.entry {  position: relative;  padding-bottom: 40px;  background: #CCFFCC;}
 /* 記事タイトル部 */
 .entry-header {  position: relative;  width: 97.2%; margin:0 auto 0 auto;  background: #FFFF00;}
 /* 記事タイトル部タイトル系 */
-.entry-title {  display: inline;  font-size: 85%;  font-weight: normal;  margin-right: 2.0%;  background: #FF00FF;}
+.entry-title {  display: inline;  font-size: 13px;  font-weight: normal;  margin-right: 2.0%;  background: #FF00FF;}
 /* 記事タイトル部日付ブタン系 */
 .date {  display: none;}
 /*.date {  position: absolute;  z-index: 100;  background: #AAAAFF;}*/
