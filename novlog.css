@@ -361,7 +361,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /*.page-archive #main h2 {  color: #999999;  font-weight: normal;  font-size: 15px;  padding-top:50px;}*/
 /* カテゴリ一覧ページの記事タイトル */
 .page-archive .entry-title {  margin: 0 0 0 0;}
-.page-archive .archive-entries .entry-title {  line-height: 130%;}
+.page-archive .archive-entries .entry-title {  line-height: 30%;}
 .page-archive .archive-entries .entry-title  a {  position: absolute;  font-size: 120%;  color: #777777;  background: #00FFFF;}
 /* カテゴリ一覧ページの本文関係 */
 .page-archive .archive-entries {  margin: 40px; 0 40px 0;/*  font-size: 13px;*/  color: #999999;/*  line-height: 1.22em;*/}
