@@ -116,19 +116,17 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* サイドバー！ */
 #box2 {/*  width: 100%;*/}
 
-/* Blogtitle(header) -------------------------------------------------- */
+/* Main - Blogtitle -------------------------------------------------- */
 
-/* ブログタイトルテーブル全体の領域規定。#mainに縛られてないみたい */
+/* ブログタイトル系。#mainに縛られてないみたい */
 #blog-title {  display: none;}
 /*#blog-title {  margin:0 auto 0 auto;  width: 973px;  background: #CCCCFF;}*/
-/* ブログタイトル領域を規定します。 */
 /*#title {  background: #FFCCCC;}*/
-/* ブログタイトルのリンク領域を規定します。 */
 /*#title a {  background: #CCCCCC;}*/
-/* タイトル下のリードの領域を規定します。 */
+/* タイトル下のリードらしい */
 /*#blog-description {  background: #CCFFCC;}*/
 
-/* Entry ---------------------------------------- */
+/* Entry -------------------------------------------------- */
 
 /* 変換前のテキストを見せない（縦書文庫） */
 .nehan-vert-dangumi { visibility: hidden; }
