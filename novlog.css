@@ -365,7 +365,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 .page-archive .archive-entries .entry-title {/*  position: absolute;*/}
 .page-archive .archive-entries .entry-title  a {/*  position: absolute;*/  font-size: 110%;  color: #777777;  background: #00FFFF;}
 /* カテゴリ一覧ページのコンテンツを包括して扱うが、広告の下が基準点。 */
-.page-archive .archive-entries {  padding: 0 0 0 0;  color: #999999;/}
+.page-archive .archive-entries {/*  padding: 0 0 0 0;*/  color: #999999;/}
 /* カテゴリ一覧ページのタイトルボタン本文をセットで扱うが、広告の下が基準点。 */
 .page-archive .archive-entries .archive-entry {  background: #DDDDDD;}
 /* 何？ */
@@ -375,10 +375,10 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* 何？　日付っつーぐらいだから月間一覧とかの日付ですかね？ */
 /*.page-archive .archive-entries .date {  position: static;}*/
 /* カテゴリ一覧ページのカテゴリボタン関係 */
-.page-archive .archive-entries .categories {/*  float: right;*//*  line-height: 200%;*/  background: #00FF00;}
-.page-archive .categories {/*line-height: 132%;*//*  background: #0000FF;*/}
+.page-archive .archive-entries .categories {/*  float: right;*//*  line-height: 200%;*/}
+.page-archive .categories {/*line-height: 132%;*/}
 .page-archive .categories a { display: inline-block;/*  position: absolute;*/
-/*  width: 20%; text-align: right;*//*  background: #FF0000;*/}
+/*  width: 20%; text-align: right;*/  background: #FF0000;}
 /*.page-archive .categories a {  display: block;  text-align: right;  background: #FF0000;  padding-bottom: 0.4%;}*/
 
 /* breadcrumb ---------------------------------------- */
