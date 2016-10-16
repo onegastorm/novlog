@@ -384,7 +384,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* 左右のpadding,marginは効くらしい。*/
 .page-archive .categories {/*line-height: 132%;*/}
 /* paddingは効く。といって周りに影響を及ぼしていない*/
-.page-archive .categories a {  background: #FF0000;  display: block;  text-align: right;}
+.page-archive .categories a {  background: #FF0000;  display: block;/*  text-align: right;*/}
 
 /* breadcrumb ---------------------------------------- */
 
