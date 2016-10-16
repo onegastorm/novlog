@@ -382,9 +382,9 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* カテゴリ一覧ページのカテゴリボタン関係。なんだかよくわからないが左右のmargin,paddingしか効かない。 */
 .page-archive .archive-entries .categories {/*  float: right;*//*  line-height: 200%;*//*  position: relative;*/}
 /* 左右のpadding,marginは効くらしい。*/
-.page-archive .categories {/*line-height: 132%;*/}
+.page-archive .categories {  display: inline;}
 /* paddingは効く。といって周りに影響を及ぼしていない*/
-.page-archive .categories a {  background: #FF0000;  display: block;/*  text-align: right;*/}
+.page-archive .categories a {  background: #FF0000;/*  text-align: right;*/}
 
 /* breadcrumb ---------------------------------------- */
 
