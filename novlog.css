@@ -397,8 +397,8 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 #return-top {  position: fixed;  top: 0;  font-size: 24px;/*  background: #FF0000;*/  display: table;  width: 100%;}
 
 #return-top-btn {  color: #BBBBBB;  cursor: pointer;  width: 32px;  background: #00FF00;  display: table-cell;  text-align: center;}
-#return-top-btn:before {  display: table-cell;  background: #0000FF;  width: 100px;}
-#return-top-btn:after {  display: table-cell;  background: #0000FF;  width: 100px;}
+#return-top-btn:before {  display: table-cell;  background: #0000FF;  width: 100px;  height: 10px;}
+#return-top-btn:after {  display: table-cell;  background: #0000FF;  width: 100px;  height: 10px;}
 #return-top-btn:hover {  color: #999999;  transition: 0.8s;}
 /*@media only screen and (min-width: 400px){  #return{  right:50%;  margin-right: -450px;}}*/
 /* 一番下に進むブタンだよ！ */
