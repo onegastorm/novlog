@@ -148,13 +148,13 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 .categories a:before {  font-family: "blogicon";  content: "\f022";  padding-right: 2px;}
 .categories.no-categories {  margin: 0;}
 /* 編集ボタン系 */
-.entry-header-menu {  position: fixed;/*  display: block;*/  bottom: 10px;  left: 0px;  width: 60px;  background: #00FF00;}
+.entry-header-menu {  position: fixed;/*  display: block;*/  bottom: 10px;  left: -40px;  width: 80px;  background: #00FF00;}
 .entry-header-menu a {  color: #DDDDDD;  text-decoration: none;  background: #FF00FF;}
 /*.entry-header-menu a {    display: inline-block;  *display: inline;  *zoom:1;
   line-height: 18px;  text-align: center;  vertical-align: middle;  padding: 1px 12px;  cursor: pointer;
   font-size: 12px;  text-decoration: none;  color: #CCCCCC;  background: #FFFFFF;
   border: 1px solid #CCCCCC;  border-radius: 3px;}*/
-.entry-header-menu a:after {  font-family: "blogicon";  content: "\f010";  padding-left: 10px;  cursor: pointer;}
+.entry-header-menu a:after {  font-family: "blogicon";  content: "\f010";  padding-left: 30px;  cursor: pointer;}
 .entry-header-menu a:hover {  color: #999999;  transition: 0.8s;}
 
 /* entry-content ---------------------------------------- */
