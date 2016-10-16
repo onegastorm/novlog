@@ -360,7 +360,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* 月別一覧のタイトル文字 */
 /*.page-archive #main h2 {  color: #999999;  font-weight: normal;  font-size: 15px;  padding-top:50px;}*/
 /* カテゴリ一覧ページの記事タイトルのセル領域。広告の上が基準点。*/
-.page-archive .entry-title {  background: #FFFF00;  color: #FFEEFF;  position: absolute; display: inline;}
+.page-archive .entry-title {  background: #FFFF00;  color: #FFEEFF;  position: absolute;  display: block;}
   /*  display: inline-block;*//*  padding: 10% 10% 10% 10%;*//*  margin: 0 0 0 0;*/}
 /* カテゴリ一覧ページの記事タイトルのセル領域。広告の上が基準点。 */
 .page-archive .archive-entries .entry-title {/*  position: absolute;*/}
