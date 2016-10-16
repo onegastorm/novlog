@@ -157,7 +157,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* 記事がカテゴリーに属していない時の領域指定 */
 .categories.no-categories {  margin: 0;}
 /* 編集ボタンの領域規定 */
-.entry-header-menu {  position: fixed;/*  display: block;*/  top: 1%;  left: 32%;  width: 100px;  background: #00FF00;  cursor: pointer;}
+.entry-header-menu {  position: fixed;/*  display: block;*/  top: 1%;  left: 32%;  width: 100px;  background: #00FF00;}
 /* 編集ボタンの装飾指定 */
 .entry-header-menu a {  font-size: 12px;  color: #DDDDDD;  text-decoration: none;  background: #FF00FF;  cursor: pointer;}
 /*.entry-header-menu a {    display: inline-block;  *display: inline;  *zoom:1;
