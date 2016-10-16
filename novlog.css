@@ -382,7 +382,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* 左右のpadding,marginは効くらしい。*/
 .page-archive .categories {/*line-height: 132%;*/}
 /* paddingは効く。といって周りに影響を及ぼしていない*/
-.page-archive .categories a {  background: #FF0000;  display: block;  width:80%;  margin: 0 auto 0 auto;  text-align: right;/*  position: relative;*/
+.page-archive .categories a {  background: #FF0000;  display: block;  width:60%;  margin-left: 40%;  text-align: right;/*  position: relative;*/
   /* display: inline-block;*//*  position: absolute;*/
 /*  width: 20%; text-align: right;*/}
 /*.page-archive .categories a {  display: block;  text-align: right;  background: #FF0000;  padding-bottom: 0.4%;}*/
