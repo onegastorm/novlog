@@ -374,7 +374,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /*.page-archive .archive-entries .date {  position: static;}*/
 /* カテゴリ一覧ページのカテゴリボタン関係 */
 .page-archive .archive-entries .categories {/*  line-height: 200%;*/}
-.page-archive .categories {/*  display: inline-block;*/  line-height: 132%;  padding-bottom: 10%;}
+.page-archive .categories {/*  display: inline-block;*/  line-height: 132%;  padding-bottom: 120%;}
 .page-archive .categories a {  display: block;  text-align: right;  background: #00FF00;}
 
 /* breadcrumb ---------------------------------------- */
