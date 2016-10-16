@@ -344,13 +344,13 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* page-about ---------------------------------------- */
 
 /* 紹介コーナー関係 */
-/*.page-about dd {  margin: 0 0 0 0;}*/
+.page-about dd {  margin: 0 0 0 0;}
 /* サブタイトル関係 */
-/*.page-about dt {  font-size: 13px;  color: #BBBBBB;  margin: 6% 0 0 0;}*/
+.page-about dt {  font-size: 13px;  color: #BBBBBB;  margin: 6% 0 0 0;}
 /* ないようがないよう */
-/*.page-about .entry-content {  color: #999999;  text-align: left;  margin: 0 20% 0 20%;  padding: 8% 0 4% 0;}*/
+.page-about .entry-content {  color: #999999;  text-align: left;  margin: 0 20% 0 20%;  padding: 8% 0 4% 0;}
 /* サムネイルですかね */
-/*.page-about .entry-content img {  margin: 0;  display: inline-block;  vertical-align: middle;}*/
+.page-about .entry-content img {  margin: 0;  display: inline-block;  vertical-align: middle;}
 /*.page-about .entry-content img {  display: none;}*/
 
 /* archive ---------------------------------------- */
