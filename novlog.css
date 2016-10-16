@@ -258,7 +258,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* サイドバーの領域 */
 #box2 {/*  margin-top: 4%;*/  font-size: 13px;  color: #777777;  background: #333333;  padding: 40px 10px 10px 10px;}
 /* 段組するよー！ */
-.hatena-module {  display: inline-block;  vertical-align: bottom;  margin: 0 0 0 40px;  width: 360px;}
+.hatena-module {  display: inline-block;  vertical-align: bottom;  margin-left: 50px;  width: 360px;}
 /* 回り込みを防ぐとか何とかよくわかりま1000円 */
 .hatena-module:after {  display: block;  visibility: hidden;  height: 0;  clear: both;  content: "@@@@";}
 /* 各要素のタイトル */
@@ -266,7 +266,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 .hatena-module-title a {  color: #777777;  text-decoration: none;}
 .hatena-module-title a:hover {  color: #777777;  text-decoration: none;  cursor: default;}
 /* 各要素の本文 */
-.hatena-module-body {  margin-top: 4px;/*  float: left;*/  background: #333333;}
+.hatena-module-body {  margin-top: 5px;/*  float: left;*/  background: #333333;}
 /* 何これ？ */
 .hatena-module-body .circle-urllist .circle-image {  float: none;  vertical-align: middle;}
 /* はてなモジュール・プロフィール関係 *//*
@@ -285,7 +285,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 .hatena-module {  clear: both;  overflow: hidden;}
 /* 最新記事とカテゴリ関係 */
 .hatena-urllist {  padding: 0 0 0 0;}
-.hatena-urllist li { line-height: 2.0;}
+.hatena-urllist li {  line-height: 2.0;}
 .hatena-urllist li a {  color: #777777;  text-decoration: none;}
 .recent-entries a:before {  font-family: "blogicon";  content: "\f029";  padding-right: 4px;}
 .recent-entries a:hover {  color: #DDDDDD;  text-decoration: none;  transition: 0.8s;}
@@ -296,7 +296,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /*.urllist-item-inner.entries-access-ranking-item-inner {  font-size: 13px;}*/
 /* 段差作っちゃう */
 .hatena-module-category:before {  display: block;  clear: both;  content: "@";  visibility: hidden;}
-.hatena-module-category { vertical-align: bottom;}
+.hatena-module-category {  vertical-align: bottom;}
 /*.hatena-module-recent-entries:after {  display: block;  height: 40px;  clear: both;  content: "@";  visibility: hidden;}*/
 .recent-entries:after {  display: block;  height: 40px;  clear: both;  content: "@";  visibility: hidden;}
 
