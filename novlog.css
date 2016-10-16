@@ -397,7 +397,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 #return-top {  top: 1%;/*  left: 49%;*/  background: #0000FF;}
 /*#return-top {  position: fixed;  top: 1%;  left: 49%;  background: #FF0000;}*/
 #return-top-btn {  position: fixed;  color: #DDDDDD;  cursor: pointer;  background: #00FF00;  text-align: center;}
-#return-top-btn:before {  display: inline-block; width:100%;  vertical-align: center;  content: " ";margin-right: -0.25em;}
+#return-top-btn:before {  display: inline-block;  width:100%;  height: 100px;  vertical-align: center;  content: " ";margin-right: -0.25em;}
 #return-top-btn:hover {  color: #999999;  transition: 0.8s;}
 /*@media only screen and (min-width: 400px){  #return{  right:50%;  margin-right: -450px;}}*/
 /* 一番下に進むブタンだよ！ */
