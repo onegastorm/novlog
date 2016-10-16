@@ -370,7 +370,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* カテゴリ一覧のコンテンツを包括して扱う。広告の下が基準点。.archive-entryの方が値が大きい場合無視される。 */
 .page-archive .archive-entries {  color: #999999;  display: block;  position: absolute;}
 /* カテゴリ一覧の3要素をセットで扱う（topを広げると段間も広がる）が、広告の下が基準点。 */
-.page-archive .archive-entries .archive-entry {  background: #DDDDDD;  margin-top:5%;}
+.page-archive .archive-entries .archive-entry {  background: #DDDDDD;  margin-top:5%;  position: relative;}
 /* 何？ */
 /*.page-archive .archive-entries .entry-description {  margin: 0 0 1em;  line-height: 1.7em;  font-size: 13px;}*/
 /* サムネイル？　保留です。 */
