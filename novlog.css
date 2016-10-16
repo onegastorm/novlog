@@ -256,7 +256,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* sidebar ---------------------------------------- */
 
 /* サイドバーの領域 */
-#box2 {/*  margin-top: 4%;*/  font-size: 13px;  color: #777777;  background: #333333;  padding: 6% 2% 2% 2%;  text-align: center;}
+#box2 {/*  margin-top: 4%;*/  font-size: 13px;  color: #777777;  background: #333333;  padding: 6% 2% 2% 2%;}
 /* 段組するよー！ */
 .hatena-module {  display: inline-block;  vertical-align: bottom;  margin: 0 0 0 4%;  width: 36%;}
 /* 回り込みを防ぐとか何とかよくわかりま1000円 */
@@ -332,7 +332,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 #copyright a {  text-decoration: none;  color: #777777;}
 #copyright a:hover {  color: #333333;  transition: 0.8s;}
 
-#footer {  width: 90%;  font-size: 13px;  color: #777777;  background: #333333;  padding: 0 0 3% 3%;}
+#footer {  width: 90%;  font-size: 13px;  color: #777777;  background: #333333;  padding: 0 0 3% 3%;  text-align: center;}
 #footer p {  margin: 0;}
 #footer a {  color: #777777;  text-decoration: none;}
 /* ID消しちゃいましょう！ */
