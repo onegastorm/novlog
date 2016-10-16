@@ -393,6 +393,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 
 /* return ---------------------------------------- */
 
+#return {  text-align: center;}
 #return #return-top {
   position: fixed;  top: 0;  width: 60%;  margin: 0 auto 0 auto;  text-align:center;/*  height: 40px;*/  background: rgba(80,80,80,1.0);}
 
