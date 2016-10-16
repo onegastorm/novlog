@@ -256,7 +256,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* sidebar ---------------------------------------- */
 
 /* サイドバーの領域 */
-#box2 {/*  margin-top: 4%;*/  font-size: 13px;  color: #777777;  background: #333333;  padding: 100px 2% 2% 2%;}
+#box2 {/*  margin-top: 4%;*/  font-size: 13px;  color: #777777;  background: #333333;  padding: 0px 2% 2% 2%;}
 /* 段組するよー！ */
 .hatena-module {  display: inline-block;  vertical-align: bottom;  margin: 0 0 0 4%;  width: 36%;}
 /* 回り込みを防ぐとか何とかよくわかりま1000円 */
@@ -277,7 +277,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 .hatena-follow-button-box {  display: inline-block;  margin: 0;  vertical-align: middle;}*/
 /* はてなモジュール・カテゴリー関係 */
 .hatena-module-category .hatena-module-body ul.hatena-urllist li {
-  display:inline-block;  font-size: 15px;  line-height: 23px;  color: #777777;  margin-right: 12px;}
+  display:inline-block;  font-size: 15px;  line-height: 23px;  color: #777777;  margin-right: 14px;}
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a{}
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a:before {  font-family: "blogicon";  content: "\f022";}
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a:hover{  color: #DDDDDD;  transition: 0.8s;}
