@@ -346,7 +346,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* 紹介コーナー関係 */
 .page-about dd {  margin: 0 0 0 0;}
 /* サブタイトル関係 */
-.page-about dt {  font-size: 13px;  color: #BBBBBB;  margin: 6% 0 0 0;}
+.page-about dt {  font-size: 13px;  color: #BBBBBB;  margin: 56% 0 0 0;}
 /* ないようがないよう */
 .page-about .entry-content {  color: #999999;  text-align: left;  margin: 0 20% 0 20%;  padding: 8% 0 4% 0;}
 /* サムネイルですかね */
