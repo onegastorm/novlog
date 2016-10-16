@@ -106,9 +106,9 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* グローバルヘッダ！ */
 #globalheader-container {/*  color: #999999;  background: #FFFFFF;*/  font-size: 13px;}
 /* コンテンツのコンテナ！ */
-#container {/*  margin: 0 auto 0 auto;  width: 100%;*/  background: #FF00FF;  text-align: center;}
+#container {/*  margin: 0 auto 0 auto;  width: 100%;*/  background: #FF00FF;}
 /* メインカラム！ */
-#main {  margin: 0 auto 0 auto;  max-width: 974px;}
+#main {  margin: 0 auto 0 auto;  max-width: 974px;  text-align: center;}
 /* メインカラムの領域規定。こちらは失敗 */
 /*#container #content {  width: 940px}*/
 /* コンテナ内側の余白。必要ないがあえてのこす。 */
