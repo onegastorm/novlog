@@ -394,7 +394,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* return ---------------------------------------- */
 
 
-#return-top {/*  position: fixed;  top: 0;  left:30%;*/  font-size: 24px;  background: #00FF00;  text-align: center;}
+#return-top {  position: absolute;  top: 0;  left:30%;*/  font-size: 24px;  background: #00FF00;  text-align: center;}
 #return-top:before {content: '';
   display: inline-block;
   height: 100%;
