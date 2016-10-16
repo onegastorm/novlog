@@ -387,13 +387,13 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 
 /* パンくず関係 *//*
 .breadcramb {  display: none;}*/
-.breadcrumb {  font-size: 13px;  color: #999999;  background: #FFEEEE;  max-width: 973px;  margin: 0 auto 0 auto;}
+.breadcrumb {  font-size: 13px;  color: #999999;  background: #FFEEEE;  max-width: 974px;  margin: 0 auto 0 auto;}
 .breadcrumb a {  font-size: 11px;  color: #DDDDDD;  text-decoration: none;  margin-left: 1.4%;}
 .breadcrumb a:hover {  color: #999999;  text-decoration: none;  transition: 0.8s;}
 
 /* return ---------------------------------------- */
 
-/* 上に戻るブタンだよ！　ここにもつけようよ！ */
+/* 一番上に戻るブタンだよ！　ここにもつけようよ！ */
 #jump-top {  position: fixed;  top: 0;  width: 20%;  margin-left: 40%;  text-align: center;}
 #jump-top-btn {  font-size: 24px;  color: #BBBBBB;   cursor: pointer;  background: rgba( 256, 256, 256, 0.0);}
 #jump-top-btn:hover {  color: #777777;  transition: 0.8s;}
@@ -402,29 +402,6 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 #jump-btm {  position: fixed;  bottom: 0;  width: 20%;  margin-left: 40%;  text-align: center;}
 #jump-btm-btn {  font-size: 24px;  color: #BBBBBB;   cursor: pointer;  background: rgba( 256, 256, 256, 0.0);}
 #jump-btm-btn:hover {  color: #777777;  transition: 0.8s;}
-
-
-/*
-#jump-top:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-right: -0.25em;
-}}
-.centered {  display: inline-block;  vertical-align: middle;  width: 300px;}
-*/
-
-/* 上に戻るブタンだよ！　ここにもつけてほしいよ！ *//*
-#jump-top {  position: fixed;  top: 0;  left:30%;  font-size: 24px;  background: #00FF00;}
-#jump-top-btn {  color: #BBBBBB;   cursor: pointer;  background: #0000FF;}
-#jump-top-btn:hover {  color: #999999;  transition: 0.8s;}*/
-/* 一番下に進むブタンだよ！ *//*
-#jump-btm {  position: fixed;  bottom: 0;  font-size: 24px;  background: #00FF00;  display: table;  width: 100%;}
-#jump-btm-btn {  color: #BBBBBB;   cursor: pointer;  background: #FF00FF;  display: table-cell;  text-align: center;}
-#jump-btm-btn:hover {  color: #777777;  transition: 0.8s;}
-*/
-
 
 /* media queries をインポートするよ！ boilerplateからのこぴぺだけどね！ -------------------------------------------------- */
 
