@@ -108,7 +108,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* コンテンツのコンテナ！ */
 #container {/*  margin: 0 auto 0 auto;  width: 100%;*/  background: #FF00FF;}
 /* メインカラム！ */
-#main {  margin: 0 auto 0 auto;  max-width: 974px;  text-align: center;}
+#main {  margin: 0 auto 0 auto;  max-width: 974px;}
 /* メインカラムの領域規定。こちらは失敗 */
 /*#container #content {  width: 940px}*/
 /* コンテナ内側の余白。必要ないがあえてのこす。 */
@@ -256,7 +256,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* sidebar ---------------------------------------- */
 
 /* サイドバーの領域 */
-#box2 {/*  margin-top: 4%;*/  font-size: 13px;  color: #777777;  background: #333333;  padding: 6% 2% 2% 2%;}
+#box2 {/*  margin-top: 4%;*/  font-size: 13px;  color: #777777;  background: #333333;  padding: 6% 2% 2% 2%;  text-align: center;}
 /* 段組するよー！ */
 .hatena-module {  display: inline-block;  vertical-align: bottom;  margin: 0 0 0 4%;  width: 36%;}
 /* 回り込みを防ぐとか何とかよくわかりま1000円 */
