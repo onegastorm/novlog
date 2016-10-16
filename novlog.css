@@ -442,7 +442,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 
 
 
-/* media queries をインポートするよ！ boilerplateからのこぴぺだけどね！ */
+/* media queries をインポートするよ！ boilerplateからのこぴぺだけどね！ -------------------------------------------------- */
 
 /* Media Queries - Retina Display */
 @media (-webkit-min-device-pixel-ratio: 2) {
