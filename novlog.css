@@ -393,7 +393,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 
 /* return ---------------------------------------- */
 
-#return {  position: fixed;  top: 0; left: 0;  width: 100%;  text-align:center;  height:100px;  background: #00FFFF;}
+#return {  position: fixed;  top: 0; left: 0;  width: 100%;  text-align:center;  height:20px;  background: #00FFFF;}
 #return #return-top {  font-size: 24px;  background: #00FF00;  text-align: center;}
 
 /*#return-top {  position: fixed;  width:100%;  top: 0;  left:30%;  font-size: 24px;  background: #00FF00;  text-align: center;}*/
