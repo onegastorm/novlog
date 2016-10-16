@@ -367,9 +367,9 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 .page-archive .archive-entries .entry-title  a {
   /*  position: absolute;*/  font-size: 110%;  color: #777777;  background: #00FFFF;}
 /* カテゴリ一覧ページのコンテンツを包括して扱うが、広告の下が基準点。 */
-.page-archive .archive-entries {/*  padding: 0 0 0 0;*/  color: #999999;/}
-/* カテゴリ一覧ページのタイトルボタン本文をセットで扱うが、広告の下が基準点。 */
-.page-archive .archive-entries .archive-entry {  background: #DDDDDD;  margin-top:10%;}
+.page-archive .archive-entries {  color: #999999;  margin-top:10%;}
+/* カテゴリ一覧ページのタイトルボタン本文をセットで扱う（topを広げると段間も広がる）が、広告の下が基準点。 */
+.page-archive .archive-entries .archive-entry {  background: #DDDDDD;}
 /* 何？ */
 /*.page-archive .archive-entries .entry-description {  margin: 0 0 1em;  line-height: 1.7em;  font-size: 13px;}*/
 /* サムネイル？　保留です。 */
