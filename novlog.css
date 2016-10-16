@@ -340,7 +340,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* IDとはてなリンクを1列に！ */
 /*#footer address,#footer .services {  display: inline;  padding-right: 1em;}*/
 #footer .services {  position: relative;}
-#footer .services:hover {  cursor: default;}
+#footer .services a:hover {  cursor: default;}
 
 /* page-about ---------------------------------------- */
 
