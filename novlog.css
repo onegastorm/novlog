@@ -258,7 +258,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* サイドバーの領域 */
 #box2 {/*  margin-top: 4%;*/  font-size: 13px;  color: #777777;  background: #333333;  padding: 40px 10px 10px 10px;}
 /* 段組するよー！ */
-.hatena-module {  display: inline-block;  vertical-align: bottom;  margin: 0 0 0 20px;  width: 360px;}
+.hatena-module {  display: inline-block;  vertical-align: bottom;  margin: 0 0 0 40px;  width: 360px;}
 /* 回り込みを防ぐとか何とかよくわかりま1000円 */
 .hatena-module:after {  display: block;  visibility: hidden;  height: 0;  clear: both;  content: "@@@@";}
 /* 各要素のタイトル */
@@ -266,7 +266,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 .hatena-module-title a {  color: #777777;  text-decoration: none;}
 .hatena-module-title a:hover {  color: #777777;  text-decoration: none;  cursor: default;}
 /* 各要素の本文 */
-.hatena-module-body {  margin-top: 4%;/*  float: left;*/  background: #333333;}
+.hatena-module-body {  margin-top: 4px;/*  float: left;*/  background: #333333;}
 /* 何これ？ */
 .hatena-module-body .circle-urllist .circle-image {  float: none;  vertical-align: middle;}
 /* はてなモジュール・プロフィール関係 *//*
