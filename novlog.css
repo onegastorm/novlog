@@ -339,7 +339,8 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* IDとはてなリンクを1列に！ */
 /*#footer address,#footer .services {  display: inline;  padding-right: 1em;}*/
-#footer .services {  position: relative;  cursor: default;}
+#footer .services {  position: relative;}
+#footer .services:hover {  cursor: default;}
 
 /* page-about ---------------------------------------- */
 
