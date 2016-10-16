@@ -135,7 +135,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* 記事タイトル部 */
 .entry-header {  position: relative;  width: 97.2%; margin:0 auto 0 auto;  background: #FFFF00;}
 /* 記事タイトル部タイトル系 */
-.entry-title {  display: inline;  font-size: 50%;  font-weight: normal;  margin-right: 2.0%;  background: #FF00FF;}
+.entry-title {  display: inline;  font-size: 60%;  font-weight: normal;  margin-right: 2.0%;  background: #FF00FF;}
 /* 記事タイトル部日付ブタン系 */
 .date {  display: none;}
 /*.date {  position: absolute;  z-index: 100;  background: #AAAAFF;}*/
@@ -143,7 +143,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /*.date .hyphen {  padding: 2px;  color: #999999;}*/
 /* 記事タイトル部カテゴリブタン系 */
 .categories {  display: inline;/*  float: right;  margin-right: 10%;*/}
-.categories a {  color: #DDDDDD;  font-size: 90%;  text-decoration: none;  background: #0000FF;}
+.categories a {  color: #DDDDDD;  font-size: 80%;  text-decoration: none;  background: #0000FF;}
 .categories a:hover {  color: #999999;  transition: 0.8s;}
 .categories a:before {  font-family: "blogicon";  content: "\f022";  padding-right: 0.5%;}
 .categories.no-categories {  margin: 0;}
