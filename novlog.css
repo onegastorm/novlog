@@ -108,7 +108,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* コンテンツのコンテナ！ */
 #container {/*  margin: 0 auto 0 auto;  width: 100%;*/  background: #FF00FF;}
 /* メインカラム！ */
-#main {  margin: 0 auto 0 auto;  width: 973px;}
+#main {  margin: 0 auto 0 auto;  max-width: 973px;}
 /* メインカラムの領域規定。こちらは失敗 */
 /*#container #content {  width: 940px}*/
 /* コンテナ内側の余白。必要ないがあえてのこす。 */
@@ -148,7 +148,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 .categories a:before {  font-family: "blogicon";  content: "\f022";  padding-right: 0.5%;}
 .categories.no-categories {  margin: 0;}
 /* 編集ボタン系 */
-.entry-header-menu {  position: fixed;/*  display: block;*/  top: 1.0%;  left: 32.0%;  width: 5.0%;  background: #00FF00;}
+.entry-header-menu {  position: fixed;/*  display: block;*/  top: 1.0%;  left: 32.0%;/*  width: 5.0%;*/  background: #00FF00;}
 .entry-header-menu a {  font-size: 85%;  color: #DDDDDD;  text-decoration: none;  background: #FF00FF;}
 /*.entry-header-menu a {    display: inline-block;  *display: inline;  *zoom:1;
   line-height: 18px;  text-align: center;  vertical-align: middle;  padding: 1px 12px;  cursor: pointer;
@@ -415,20 +415,20 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
   }
 }
 
-/* Media Queries - Tablet */
+/* Media Queries - Tablet *//*
 @media (min-width: 768px) and (max-width: 1024px) {
 #container {  width: 724px;}
 #main {  width: 460px;  }
-#box2 {  width: 245px;  }
-/* 1カラムにしたい場合は下記のコメントアウトを外してください ----*/
+#box2 {  width: 245px;  }*/
+/* 1カラムにしたい場合は下記のコメントアウトを外してください ----*//*
 #main,
 #box2 {  width: 100%;}
 #box2-inner {  width: 744px;}
-.hatena-module {  width: 228px;}
-/* ---- END 1カラム */
+.hatena-module {  width: 228px;}*/
+/* ---- END 1カラム *//*
 }
-
-/* Media Queries - Small Tablet & Smartphone */
+*/
+/* Media Queries - Small Tablet & Smartphone *//*
 @media (max-width: 767px) {
 #globalheader-container {  position: static;}
 #container {  width: 93.75%;  word-wrap: break-word;  overflow: hidden;}
@@ -438,8 +438,9 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 .hatena-module {  width: 100%;  float: none;}
 .entry-header-menu {  top: -30px;  left: 0px;}
 }
-
-/* Media Queries - Smartphone */
+*/
+/* Media Queries - Smartphone *//*
 @media (max-width: 480px) {
 
 }
+*/
