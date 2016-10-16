@@ -374,12 +374,12 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /*.page-archive .entry-thumb {  margin-right: 80px;}*/
 /* 何？　日付っつーぐらいだから月間一覧とかの日付ですかね？ */
 /*.page-archive .archive-entries .date {  position: static;}*/
-/* カテゴリ一覧ページのカテゴリボタン関係。なんだかよくわからないが左右のマージンしか効かない。paddingは全く効かない。 */
-.page-archive .archive-entries .categories {/*  float: right;*//*  line-height: 200%;*/margin:50% 10% 50% 10%;}
+/* カテゴリ一覧ページのカテゴリボタン関係。なんだかよくわからないが左右のmargin,paddingしか効かない。 */
+.page-archive .archive-entries .categories {/*  float: right;*//*  line-height: 200%;*/}
 /* 左右のpadding,marginは効くらしい。*/
 .page-archive .categories {/*line-height: 132%;*/}
 /* paddingは効く。*/
-.page-archive .categories a {/* display: inline-block;*//*  position: absolute;*/
+.page-archive .categories a {margin:50% 10% 50% 10%;/* display: inline-block;*//*  position: absolute;*/
 /*  width: 20%; text-align: right;*/  background: #FF0000;}
 /*.page-archive .categories a {  display: block;  text-align: right;  background: #FF0000;  padding-bottom: 0.4%;}*/
 
