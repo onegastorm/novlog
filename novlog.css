@@ -115,6 +115,8 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /*#container-inner {  padding: 0 0 0 0;}*/
 /* サイドバー！ */
 #box2 {/*  width: 100%;*/}
+/* 記事末尾のIDを非表示。らしいのだが効果なし？ */
+span.author.vcard { display: none; }
 
 /* Main - Blogtitle -------------------------------------------------- */
 
