@@ -392,7 +392,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 .breadcrumb a {  font-size: 11px;  color: #DDDDDD;  text-decoration: none;  margin-left: 17px;}
 .breadcrumb a:hover {  color: #999999;  text-decoration: none;  transition: 0.8s;}
 
-/* return ---------------------------------------- */
+/* jump ---------------------------------------- */
 
 /* 一番上に戻るブタンだよ！　ここにもつけようよ！ */
 #jump-top {  position: fixed;  top: 0;  width: 20%;  margin-left: 40%;  text-align: center;}
