@@ -106,7 +106,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* グローバルヘッダ！ */
 #globalheader-container {/*  color: #999999;  background: #FFFFFF;*/}
 /* コンテンツのコンテナ！ */
-#container {/*  margin: 0 auto 0 auto;  width: 100%;*/  background: #FF00FF;  font-size: 13px;}
+#container {/*  margin: 0 auto 0 auto;  width: 100%;*/  background: #FF00FF;}
 /* メインカラム！ */
 #main {  margin: 0 auto 0 auto;  max-width: 973px;}
 /* メインカラムの領域規定。こちらは失敗 */
@@ -143,7 +143,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /*.date .hyphen {  padding: 2px;  color: #999999;}*/
 /* 記事タイトル部カテゴリブタン系 */
 .categories {  display: inline;/*  float: right;  margin-right: 10%;*/}
-.categories a {  color: #DDDDDD;  text-decoration: none;  background: #0000FF;}
+.categories a {  color: #DDDDDD;  font-size: 13px;  text-decoration: none;  background: #0000FF;}
 .categories a:hover {  color: #999999;  transition: 0.8s;}
 .categories a:before {  font-family: "blogicon";  content: "\f022";  padding-right: 0.5%;}
 .categories.no-categories {  margin: 0;}
