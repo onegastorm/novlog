@@ -394,7 +394,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* return ---------------------------------------- */
 
 /* 上に戻るブタンだよ！　ここにもつけてほしいよ！ */
-#return-top {  position: fixed;  top: 1%;/*  left: 49%;*/  background: #FF0000;  display: table;  width: 100%;}
+#return-top {  position: fixed;  top: 1%;/*  left: 49%;*//*  background: #FF0000;*/  display: table;  width: 100%;}
 /*#return-top {  position: fixed;  top: 1%;  left: 49%;  background: #FF0000;}*/
 #return-top-btn {  color: #DDDDDD;  cursor: pointer;  background: #00FF00;  display: table-cell;  text-align: center;}
 /*#return-top-btn {  color: #DDDDDD;  cursor: pointer;  background: #00FF00;}*/
