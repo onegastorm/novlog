@@ -330,7 +330,7 @@ span.author.vcard { display: none; }
 
 /* copyright, footer -------------------------------------------------- */
 
-#copyright {  width: 100%;  font-size: 13px;  color: #777777;  background: #333333;  padding: 0 0 0 30px;}
+#copyright {  width: 100%;  font-size: 13px;  color: #777777;  background: #FF33FF;  padding: 0 0 0 30px;}
 #copyright a {  text-decoration: none;  color: #777777;}
 #copyright a:hover {  color: #DDDDDD;  transition: 0.8s;}
 
@@ -403,7 +403,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 
 /* 一番下に進むブタンだよ！ */
 #jump-btm {  position: fixed;  bottom: 0;  width: 20%;  margin-left: 40%;  text-align: center;}
-#jump-btm-btn {  font-size: 24px;  color: #000000;   cursor: pointer;  background: rgba( 256, 256, 256, 0.0);}
+#jump-btm-btn {  font-size: 24px;  color: #BBBBBB;   cursor: pointer;  background: rgba( 256, 256, 256, 0.0);}
 #jump-btm-btn:hover {  color: #777777;  transition: 0.8s;}
 
 /* media queries をインポートするよ！ boilerplateからのこぴぺだけどね！ -------------------------------------------------- */
