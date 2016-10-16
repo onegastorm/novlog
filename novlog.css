@@ -133,7 +133,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* 記事系 */
 .entry {  position: relative;  padding-bottom: 40px;  background: #CCFFCC;}
 /* 記事タイトル部 */
-.entry-header {  position: relative;  width: 96.7%; margin:0 auto 0 auto;  background: #FFFF00;}
+.entry-header {  position: relative;  width: 940px; margin:0 auto 0 auto;  background: #FFFF00;}
 /* 記事タイトル部タイトル系 */
 .entry-title {  display: inline;  font-size: 13px;  font-weight: normal;  margin-right: 2.0%;  background: #FF00FF;}
 /* 記事タイトル部日付ブタン系 */
