@@ -376,8 +376,8 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /*.page-archive .archive-entries .date {  position: static;}*/
 /* カテゴリ一覧ページのカテゴリボタン関係。なんだかよくわからないが左右のマージンしか効かない。paddingは全く効かない。 */
 .page-archive .archive-entries .categories {/*  float: right;*//*  line-height: 200%;*/}
-.page-archive .categories {padding:20% 10% 20% 10%;/*line-height: 132%;*/}
-.page-archive .categories a {/* display: inline-block;*//*  position: absolute;*/
+.page-archive .categories {/*line-height: 132%;*/}
+.page-archive .categories a {padding:50% 10% 50% 10%;/* display: inline-block;*//*  position: absolute;*/
 /*  width: 20%; text-align: right;*/  background: #FF0000;}
 /*.page-archive .categories a {  display: block;  text-align: right;  background: #FF0000;  padding-bottom: 0.4%;}*/
 
