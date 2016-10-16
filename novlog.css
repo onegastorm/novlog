@@ -314,7 +314,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* Pager ---------------------------------------- */
 
 /* pagerだよー！ */
-.pager {  margin: 3% 3% 5% 3%;  display: block;  *zoom: 1;}
+.pager {  margin: 0 20px 10px 20px;  display: block;  *zoom: 1;}
 /* 戻るページ送り */
 .pager .pager-prev {/*  float: left;*/  text-align: left;}
 .pager .pager-prev a {  color: #999999;}
