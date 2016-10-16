@@ -362,7 +362,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* カテゴリ一覧ページの記事タイトルのセル領域。むかつくことに広告の上が基準になってるらしい */
 .page-archive .entry-title {/*  padding: 10% 10% 10% 10%;*//*  margin: 0 0 0 0;*/  background: #FFFF00;}
 /* カテゴリ一覧ページの記事タイトルのセル領域。むかつくことに広告の上が基準になってるらしい */
-.page-archive .archive-entries .entry-title {  display: inline;/*  position: absolute;*/}
+.page-archive .archive-entries .entry-title {  display: inline-block;/*  position: absolute;*/}
 .page-archive .archive-entries .entry-title  a {/*  position: absolute;*/  font-size: 110%;  color: #777777;  background: #00FFFF;}
 /* カテゴリ一覧ページの本文関係 */
 .page-archive .archive-entries {  margin-top: 0%;/*  font-size: 13px;*/  color: #999999;/*  line-height: 1.22em;*/}
@@ -375,7 +375,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /*.page-archive .archive-entries .date {  position: static;}*/
 /* カテゴリ一覧ページのカテゴリボタン関係 */
 .page-archive .archive-entries .categories {/*  line-height: 200%;*/}
-.page-archive .categories { display: inline;/*line-height: 132%;*/}
+.page-archive .categories { display: inline-block;/*line-height: 132%;*/}
 
 .page-archive .categories a {/*  position: absolute;*/ /*  width: 20%; text-align: right;*/  background: #FF0000;}
 /*.page-archive .categories a {  display: block;  text-align: right;  background: #FF0000;  padding-bottom: 0.4%;}*/
