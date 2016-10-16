@@ -1,0 +1,19 @@
+https://cdn.rawgit.com/onegastorm/nov/master/novlog.css
+https://cdn.rawgit.com/jonathantneal/normalize.css/master/normalize.css
+
+
+
+to production
+https://cdn.rawgit.com/onegastorm/novlog/gh-pages/responsivook.css
+https://cdn.rawgit.com/onegastorm/novlog/gh-pages/novlog.css
+https://cdn.rawgit.com/onegastorm/novlog/gh-pages/normalize303.css
+
+for development
+
+https://rawgit.com/onegastorm/novlog/gh-pages/responsivook.css
+https://rawgit.com/onegastorm/novlog/gh-pages/novlog.css
+https://rawgit.com/onegastorm/novlog/gh-pages/normalize303.css
+
+
+
+
