@@ -350,7 +350,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* 記事数とか */
 .page-about dd {  margin: 0 0 0 0;}
 /* ブログ投稿件数とか */
-.page-about dt {  font-size: 13px;  color: #BBBBBB;  margin: 10px 0 0 0;}
+.page-about dt {  font-size: 13px;  color: #BBBBBB;  margin: 20px 0 0 0;}
 /* 上下にマージンが効かないとか。 */
 .page-about .entry-content {  text-align: left;  padding: 60px 200px 20px 200px;}
 /* サムネイルですかね */
