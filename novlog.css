@@ -335,7 +335,7 @@ span.author.vcard { display: none;}
 #copyright a:hover {  color: #DDDDDD;  transition: 0.8s;}
 
 #footer {  position: absolute;  display: block;  font-size: 13px;  color: #777777;  background: #333333;  padding: 0 0 30px 30px;}
-/*#footer p {  margin: 0;}*/
+#footer p {  margin: 0;}
 #footer a {  color: #777777;  text-decoration: none;}
 /* ID消しちゃいましょう！ */
 footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
