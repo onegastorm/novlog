@@ -436,14 +436,12 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 .page-about .entry-content {  padding: 80px 30px 20px 30px;}
 /* page-archive */
 .page-archive #main {  width: 460px;)
-
-
 /* 1カラムにしたい場合は下記のコメントアウトを外してください ----*//*
 #main,
 #box2 {  width: 100%;}
 #box2-inner {  width: 744px;}
 .hatena-module {  width: 228px;}
-/* ---- END 1カラム */
+---- END 1カラム */
 }
 
 /* Media Queries - Small Tablet & Smartphone *//*
