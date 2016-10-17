@@ -421,7 +421,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 @media (max-width: 977px)/* and (min-width: 768px)*/ {
 #globalheader-container {  width: 512px;}
 #container {  width: 512px;}
-#main {  width: 508px;}
+#main {  width: 500px;}
 /* entry-footer */
 .entry-footer {  margin:0 2px 0 2px;}
 #box2 {  width: 512px}
