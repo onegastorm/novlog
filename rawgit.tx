@@ -30,6 +30,8 @@ https://rawgit.com/onegastorm/novlog/master/novlog.css
 @import url("http://onegastorm.github.io/novlog/novlog.css");
 
 
+
 編集する時はスタイルCSSで下を読み込んでgh-pagesのcssを編集する
+このurlでブラウザ上にもソースを表示できる
 
 http://onegastorm.github.io/novlog/novlog.css
