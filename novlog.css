@@ -330,7 +330,7 @@ span.author.vcard { display: none; }
 
 /* copyright, footer -------------------------------------------------- */
 
-#copyright {  width: 100%;  font-size: 13px;  color: #777777;  background: #FF33FF;  padding: 0 0 0 30px;}
+#copyright {  width: 100%;  font-size: 13px;  color: #777777;  background: #444444;  padding: 0 0 0 30px;}
 #copyright a {  text-decoration: none;  color: #777777;}
 #copyright a:hover {  color: #DDDDDD;  transition: 0.8s;}
 
