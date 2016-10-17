@@ -348,7 +348,8 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* page-about ---------------------------------------- */
 
 /* 記事件数とか */
-.page-about dd {  margin: 0 0 0 0;  text-align: left;  background: #FFEEEE;}
+.page-about dd {  margin: 0 0 0 0;}
+/*.page-about dd {  margin: 0 0 0 0;  text-align: left;  background: #FFEEEE;}*/
 /* 投稿数とか */
 .page-about dt {  margin: 6% 0 0 0;  text-align: left;  font-size: 13px;  color: #BBBBBB;  background: #00FF00;}
 /* ここでだいたい決まる */
