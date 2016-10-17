@@ -352,7 +352,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* ブログ投稿件数とか */
 .page-about dt {  font-size: 13px;  color: #BBBBBB;  margin: 6% 0 0 0;}
 /* 上下にマージンが効かないとか。 */
-.page-about .entry-content {/*  color: #999999;*/  text-align: left;/*  margin: 0 200px 0 200px;*/  padding: 40px 200px 20px 200px;}
+.page-about .entry-content {  text-align: left;  padding: 40px 200px 20px 200px;}
 /* サムネイルですかね */
 /*.page-about .entry-content img {  margin: 0;  display: inline-block;  vertical-align: middle;}*/
 /*.page-about .entry-content img {  display: none;}*/
