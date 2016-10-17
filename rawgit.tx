@@ -3,7 +3,7 @@ https://cdn.rawgit.com/jonathantneal/normalize.css/master/normalize.css
 
 
 
-to production
+in production
 https://cdn.rawgit.com/onegastorm/novlog/gh-pages/responsivook.css
 https://cdn.rawgit.com/onegastorm/novlog/gh-pages/novlog.css
 https://cdn.rawgit.com/onegastorm/novlog/gh-pages/normalize303.css
@@ -19,3 +19,17 @@ https://rawgit.com/onegastorm/novlog/gh-pages/novlogold.css
 
 
 
+
+https://github.com/onegastorm/novlog/blob/master/novlog.css
+
+in production
+https://cdn.rawgit.com/onegastorm/novlog/master/novlog.css
+for development
+https://rawgit.com/onegastorm/novlog/master/novlog.css
+
+@import url("http://onegastorm.github.io/novlog/novlog.css");
+
+
+編集する時はスタイルCSSで下を読み込んでgh-pagesのcssを編集する
+
+http://onegastorm.github.io/novlog/novlog.css
