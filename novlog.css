@@ -354,7 +354,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* ないようがないよう */
 .page-about .entry-content {/*  color: #999999;*/  text-align: left;/*  margin: 0 20% 0 20%;  padding: 8% 0 4% 0;*/}
 /* サムネイルですかね */
-.page-about .entry-content img {  margin: 0;  display: inline-block;  vertical-align: middle;}
+/*.page-about .entry-content img {  margin: 0;  display: inline-block;  vertical-align: middle;}*/
 /*.page-about .entry-content img {  display: none;}*/
 
 /* archive ---------------------------------------- */
