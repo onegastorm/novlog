@@ -416,20 +416,20 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
   }
 }*/
 
-/* Media Queries - Tablet */
+/* Media Queries - Tablet *//*
 @media (min-width: 768px) and (max-width: 977px) {
 #container {  width: 724px;}
 #main {  width: 460px;  }
 #box2 {  width: 245px;  }
-/* 1カラムにしたい場合は下記のコメントアウトを外してください ----*/
+/* 1カラムにしたい場合は下記のコメントアウトを外してください ----*//*
 #main,
 #box2 {  width: 100%;}
 #box2-inner {  width: 744px;}
 .hatena-module {  width: 228px;}
-/* ---- END 1カラム */
+/* ---- END 1カラム *//*
 }
 
-/* Media Queries - Small Tablet & Smartphone */
+/* Media Queries - Small Tablet & Smartphone *//*
 @media (max-width: 767px) {
 #globalheader-container {  position: static;}
 #container {  width: 93.75%;  word-wrap: break-word;  overflow: hidden;}
@@ -440,7 +440,8 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 .entry-header-menu {  top: -30px;  left: 0px;}
 }
 
-/* Media Queries - Smartphone */
+/* Media Queries - Smartphone *//*
 @media (max-width: 480px) {
 
 }
+*/
