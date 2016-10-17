@@ -330,9 +330,9 @@ span.author.vcard { display: none;}
 
 /* footer, copyright -------------------------------------------------- */
 
-#box3 {  position: relative;  display: block;  height: 100px;  background: #444444;}
+#box3 {  position: relative;  display: block;  height: 100px;}
 /*#copyright {  display: block;  font-size: 13px;  color: #777777;  background: #444444;  padding-left: 30px;}*/
-#copyright {  position: absolute;  bottom: 0;  font-size: 13px;  color: #777777;  padding-left: 30px;}
+#copyright {  position: absolute;  bottom: 0;  font-size: 13px;  color: #777777;  padding-left: 30px;  background: #444444;}
 #copyright a {  text-decoration: none;  color: #777777;  bottom: 0;}
 #copyright a:hover {  color: #BBBBBB;  transition: 0.8s;}
 
