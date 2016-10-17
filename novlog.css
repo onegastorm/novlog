@@ -347,13 +347,13 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 
 /* page-about ---------------------------------------- */
 
-.page-about p {  text-align: left;}
 /* 記事件数とか */
 .page-about dd {  margin: 0 0 0 0;  text-align: left;  background: #FFEEEE;}
 /* 投稿数とか */
-.page-about dt {  font-size: 13px;  color: #BBBBBB;  margin: 6% 0 0 0;  background: #00FF00;}
+.page-about dt {  margin: 6% 0 0 0;  text-align: left;  font-size: 13px;  color: #BBBBBB;  background: #00FF00;}
 /* ないようがないよう */
-.page-about .entry-content {  color: #999999;  margin: 0 auto 0 auto;  padding: 8% 0 4% 0;  background: #00FFFF;  width: 600px;}
+/*.page-about .entry-content {  color: #999999;  margin: 0 auto 0 auto;  padding: 8% 0 4% 0;  background: #00FFFF;  width: 600px;}*/
+.page-about .entry-content a {  color: #999999;  margin: 0 auto 0 auto;  padding: 8% 0 4% 0;  background: #00FFFF;  width: 600px;}
 /* サムネイルですかね */
 .page-about .entry-content img {  margin: 0;  display: inline-block;  vertical-align: middle;}
 /*.page-about .entry-content img {  display: none;}*/
