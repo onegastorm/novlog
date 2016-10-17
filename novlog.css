@@ -106,7 +106,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* グローバルヘッダ！ */
 #globalheader-container {/*  color: #999999;  background: #FFFFFF;*/  font-size: 13px;  width: 978px;}
 /* コンテンツのコンテナ！ */
-#container {/*  margin: 0 auto 0 auto;  width: 100%;*/  background: #FF00FF;  width: 978px;}
+#container {/*  margin: 0 auto 0 auto;  width: 100%;*/  width: 978px;  background: #FF00FF;}
 /* メインカラム！ */
 #main {  margin: 0 auto 0 auto;  width: 974px;}
 /* メインカラムの領域規定。こちらは失敗 */
@@ -205,7 +205,7 @@ span.author.vcard { display: none;}
 /* entry-footer ---------------------------------------- */
 
 /* 記事のフッターの領域規定 */
-.entry-footer {  margin:0 195px 0 195px;  background: #FFEEEE;/*  padding-bottom: 60px;*/}
+.entry-footer {  margin:0 195px 0 195px;/*  padding-bottom: 60px;*/  background: #FFEEEE;}
 /*.entry-footer {  background: #FFEEEE;  margin:0 180px 0 180px;  padding-bottom: 60px;}*/
 /* 文責と投稿時間だけ？ */
 .entry-footer-section {  display: none;}
@@ -253,12 +253,12 @@ span.author.vcard { display: none;}
 /* コメントボタンの前にアイコンをつけます */
 .leave-comment-title:before {  font-family: "blogicon";  content: "\f010";  padding-right: 2px;}
 /* コメントブタンのマウスオーバー時の動作を指定します。 */
-.leave-comment-title:hover {  color: #999999;/*  background: #EEEEEE;*/  transition: 0.8s;}
+.leave-comment-title:hover {  color: #999999;  transition: 0.8s;/*  background: #EEEEEE;*/}
 
 /* sidebar ---------------------------------------- */
 
 /* サイドバーの領域 */
-#box2 {  width: 978px;  font-size: 13px;  color: #777777;  background: #333333;  padding: 40px 0 10px 0;}
+#box2 {  width: 978px;  font-size: 13px;  color: #777777;  padding: 40px 0 10px 0;  background: #333333;}
 /* 段組するよー！ */
 .hatena-module {  display: inline-block;  vertical-align: bottom;  margin-left: 50px;  width: 350px;}
 /* 回り込みを防ぐとか何とかよくわかりま1000円 */
@@ -335,7 +335,7 @@ span.author.vcard { display: none;}
 #copyright a {  text-decoration: none;  color: #777777;  bottom: 0;}
 #copyright a:hover {  color: #BBBBBB;  transition: 0.8s;}
 
-#footer {/*  position: absolute;  display: block;*/  background: #333333;  width: 978px;}
+#footer {/*  position: absolute;  display: block;*/  width: 978px;  background: #333333;}
 #footer p {  margin: 0 0 0 30px;  padding-bottom: 30px;  font-size: 13px;  color: #777777;}
 #footer a {  color: #777777;  text-decoration: none;}
 /* ID消しちゃいましょう！ */
@@ -365,15 +365,15 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /*.page-archive #main h2 {  color: #999999;  font-weight: normal;  font-size: 15px;  padding-top:50px;}*/
 
 /* カテゴリ一覧ページの記事タイトルのセル領域。広告の上が基準点。absoluteにするとカテゴリに重なるよ。 */
-.page-archive .entry-title {  background: #FFFF00;  color: #FFEEFF;/*  position: absolute;*/  display: inline-block;}
+.page-archive .entry-title {  color: #FFEEFF;/*  position: absolute;*/  display: inline-block;  background: #FFFF00;}
 /* カテゴリ一覧ページの記事タイトルのセル領域。広告の上が基準点。 */
 .page-archive .archive-entries .entry-title {}
-.page-archive .archive-entries .entry-title  a {  background: #00FFFF;  color: #777777;  font-size: 110%;}
+.page-archive .archive-entries .entry-title  a {  color: #777777;  font-size: 110%;  background: #00FFFF;}
 .page-archive .archive-entries .entry-title  a:hover {  color: #333333;  transition: 0.8s;}
 /* カテゴリ一覧のコンテンツを包括して扱う。広告の下が基準点。.archive-entryの方が値が大きい場合無視される。 */
 .page-archive .archive-entries {  margin-bottom: 10%;  color: #999999;}
 /* カテゴリ一覧の3要素をセットで扱う（topを広げると段間も広がる）が、広告の下が基準点。 */
-.page-archive .archive-entries .archive-entry {  background: #DDDDDD;  margin-top:5%;}
+.page-archive .archive-entries .archive-entry {  margin-top:5%;  background: #DDDDDD;}
 /* 何？ */
 /*.page-archive .archive-entries .entry-description {  margin: 0 0 1em;  line-height: 1.7em;  font-size: 13px;}*/
 /* サムネイル？　保留です。 */
@@ -383,7 +383,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* カテゴリ一覧ページのカテゴリボタン関係。なんだかよくわからないが左右のmargin,paddingしか効かない。 */
 .page-archive .archive-entries .categories {}
 /* 左右のpadding,marginは効くらしい。*/
-.page-archive .categories {  display: block;  background: #FFEEFF;  text-align: right;}
+.page-archive .categories {  display: block;  text-align: right;  background: #FFEEFF;}
 /* paddingは効く。といって周りに影響を及ぼしていない*/
 .page-archive .categories a {  background: #FF0000;}
 
@@ -391,7 +391,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 
 /* パンくず関係 *//*
 .breadcramb {  display: none;}*/
-.breadcrumb {  font-size: 13px;  color: #999999;  background: #FFEEEE;  width: 974px;  margin: 0 auto 0 auto;}
+.breadcrumb {  font-size: 13px;  color: #999999;  width: 974px;  margin: 0 auto 0 auto;  background: #FFEEEE;}
 .breadcrumb a {  font-size: 11px;  color: #DDDDDD;  text-decoration: none;  margin-left: 17px;}
 .breadcrumb a:hover {  color: #999999;  text-decoration: none;  transition: 0.8s;}
 
