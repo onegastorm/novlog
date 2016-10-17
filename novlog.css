@@ -258,7 +258,7 @@ span.author.vcard { display: none;}
 /* sidebar ---------------------------------------- */
 
 /* サイドバーの領域 */
-#box2 {  width: 978px;  font-size: 13px;  color: #777777;  background: #444444;  padding: 40px 10px 10px 10px;}
+#box2 {  width: 978px;  font-size: 13px;  color: #777777;  background: #444444;  padding: 40px 0 10px 0;}
 /* 段組するよー！ */
 .hatena-module {  display: inline-block;  vertical-align: bottom;  margin-left: 50px;  width: 350px;}
 /* 回り込みを防ぐとか何とかよくわかりま1000円 */
