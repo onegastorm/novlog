@@ -433,7 +433,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 #jump-top {  width: 512px;}
 #jump-btm {  width: 512px;}
 /* page-about  */
-.page-about .entry-content {  text-align: left;  padding: 80px 20px 20px 20px;}
+.page-about .entry-content {  padding: 80px 30px 20px 30px;}
 /* page-archive */
 .page-archive #main {  width: 460px;)
 
