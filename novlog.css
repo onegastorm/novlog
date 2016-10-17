@@ -116,7 +116,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* サイドバー！ */
 #box2 {/*  width: 100%;*/}
 /* 記事末尾のIDを非表示。らしいのだが効果なし？ */
-span.author.vcard { display: none; }
+span.author.vcard { display: none;}
 
 /* Main - Blogtitle -------------------------------------------------- */
 
@@ -330,11 +330,11 @@ span.author.vcard { display: none; }
 
 /* footer, copyright -------------------------------------------------- */
 
-#copyright {  font-size: 13px;  color: #777777;  background: #444444;  width: 978px;*/}
+#copyright {  font-size: 13px;  color: #777777;  background: #444444;  width: 978px;}
 #copyright a {  text-decoration: none;  color: #777777;}
 #copyright a:hover {  color: #DDDDDD;  transition: 0.8s;}
 
-#footer {  font-size: 13px;  color: #777777;  background: #333333;/*  padding: 0 0 0 0;  width: 978px;*/}
+#footer {  font-size: 13px;  color: #777777;  background: #333333;/*  padding: 0 0 0 0;*/  width: 978px;}
 #footer p {  margin: 0;}
 #footer a {  color: #777777;  text-decoration: none;}
 /* ID消しちゃいましょう！ */
