@@ -422,11 +422,14 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 #globalheader-container {  width: 512px;}
 #container {  width: 512px;}
 #main {  width: 508px;}
+/* entry-footer */
 .entry-footer {  margin:0 2px 0 2px;}
 #box2 {  width: 512px}
 #box3 {  width: 100%}
 #footer {  width: 512px}
+/* page-archive */
 .page-archive #main {  width: 460px;)
+/* page-about */
 .page-about .entry-content {  text-align: left;  padding: 80px 20px 20px 20px;}
 
 /* 1カラムにしたい場合は下記のコメントアウトを外してください ----*//*
