@@ -360,7 +360,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* archive ---------------------------------------- */
 
 /* アーカイブコーナー全体。むかつくことに広告の上にマージンできるんですわ */
-.page-archive #main {/*  max-width: 60%;  min-width: 320px;*/  margin: 0 10px 0 10px;  background: #EEFFEE;}
+.page-archive #main {  width: 508px;  margin: 0 auto 0 auto;  background: #EEFFEE;}
 /* 月別一覧のタイトル文字 */
 /*.page-archive #main h2 {  color: #999999;  font-weight: normal;  font-size: 15px;  padding-top:50px;}*/
 
