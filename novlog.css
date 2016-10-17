@@ -426,7 +426,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 #box2 {  width: 512px}
 #box3 {  width: 100%}
 #footer {  width: 512px}
-.page-archive #main {  width: 508px;)
+.page-archive #main {  width: 480px;)
 
 /* 1カラムにしたい場合は下記のコメントアウトを外してください ----*//*
 #main,
