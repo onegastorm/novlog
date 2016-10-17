@@ -330,8 +330,8 @@ span.author.vcard { display: none; }
 
 /* footer, copyright -------------------------------------------------- */
 
-#copyright {  font-size: 13px;  color: #777777;  background: #444444;/*  padding: 0 0 0 0;  width: 978px;*/}
-#copyright a {  text-decoration: none;  color: #777777;  padding: 30px;}
+#copyright {  font-size: 13px;  color: #777777;  background: #444444;  padding-left: 30px;  width: 978px;*/}
+#copyright a {  text-decoration: none;  color: #777777;}
 #copyright a:hover {  color: #DDDDDD;  transition: 0.8s;}
 
 #footer {  font-size: 13px;  color: #777777;  background: #333333;/*  padding: 0 0 0 0;  width: 978px;*/}
