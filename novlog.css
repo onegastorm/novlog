@@ -328,7 +328,7 @@ span.author.vcard { display: none; }
 /* よくわからないが必要なものらしい */
 .pager:after {  display: block;  visibility: hidden;  font-size: 0;  height: 0;  clear: both;  content: "@@@";}
 
-/* copyright, footer -------------------------------------------------- */
+/* footer, copyright -------------------------------------------------- */
 
 #copyright {  font-size: 13px;  color: #777777;  background: #444444;  padding: 0 0 0 0;  width: 978px;}
 #copyright a {  text-decoration: none;  color: #777777;}
