@@ -347,7 +347,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 
 /* page-about ---------------------------------------- */
 
-.page-about {  text-align: left;}
+.page-about p {  text-align: left;}
 /* 記事件数とか */
 .page-about dd {  margin: 0 0 0 0;  background: #FFEEEE;}
 /* 投稿数とか */
