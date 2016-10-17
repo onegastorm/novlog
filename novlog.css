@@ -137,7 +137,7 @@ span.author.vcard { display: none;}
 /* 記事タイトル部 */
 .entry-header {  position: relative;  margin-left:17px;  background: #FFFF00;}
 /* 記事タイトル部タイトル系 */
-.entry-title {  display: inline;  font-size: 13px;  font-weight: normal;  margin-right: 2.0%;  background: #FF00FF;}
+.entry-title {  display: inline;  font-size: 13px;  font-weight: normal;  margin-right: 12px;  background: #FF00FF;}
 /* 記事タイトル部日付ブタン系 */
 .date {  display: none;}
 /*.date {  position: absolute;  z-index: 100;  background: #AAAAFF;}*/
