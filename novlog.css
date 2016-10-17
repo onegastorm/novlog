@@ -106,7 +106,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 /* グローバルヘッダ！ */
 #globalheader-container {/*  color: #999999;  background: #FFFFFF;*/  font-size: 13px;  width: 978px;}
 /* コンテンツのコンテナ！ */
-#container {/*  margin: 0 auto 0 auto;  width: 100%;*/  background: #FF00FF;}
+#container {/*  margin: 0 auto 0 auto;  width: 100%;*/  background: #FF00FF;  width: 978px;}
 /* メインカラム！ */
 #main {  margin: 0 auto 0 auto;  width: 974px;}
 /* メインカラムの領域規定。こちらは失敗 */
