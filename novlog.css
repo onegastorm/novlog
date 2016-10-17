@@ -419,7 +419,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 
 /* Media Queries - Tablet */
 @media (min-width: 768px) and (max-width: 977px) {
-#globalheader-container {  width: 978px;}
+#globalheader-container {  width: 768px;}
 #container {  width: 768px;}
 #main {  width: 460px;}
 #box2 {  width: 100%}
