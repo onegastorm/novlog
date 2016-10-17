@@ -422,7 +422,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 #globalheader-container {  width: 512px;}
 #container {  width: 512px;}
 #main {  width: 508px;}
-.entry-footer {  margin:0 5% 0 5%;}
+.entry-footer {  margin:0 10px 0 10px;}
 #box2 {  width: 512px}
 #box3 {  width: 100%}
 #footer {  width: 512px}
