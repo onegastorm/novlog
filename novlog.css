@@ -352,8 +352,8 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* 投稿数とか */
 .page-about dt {  margin: 6% 0 0 0;  text-align: left;  font-size: 13px;  color: #BBBBBB;  background: #00FF00;}
 /* ここでだいたい決まる */
-.page-about .entry-content {  margin: 0 auto 0 auto;  padding: 8% 0 4% 0;  background: #00FFFF;  width: 600px;}*/
-.page-about .entry-content a {  color: #999999;  text-align: left;}
+.page-about .entry-content {  margin: 0 auto 0 auto;  padding: 8% 0 4% 0;  background: #00FFFF;  width: 600px;  text-align: left;}
+.page-about .entry-content a {  color: #999999;}
 /* サムネイルですかね */
 .page-about .entry-content img {  margin: 0;  display: inline-block;  vertical-align: middle;}
 /*.page-about .entry-content img {  display: none;}*/
