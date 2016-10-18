@@ -103,7 +103,7 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 
 /* Responsivok & Nehan -------------------------------------------------- */
 
-.nehan-vert-dangumi {    height:600;}
+.nehan-vert-dangumi {    height:200;}
 
 /* 変換前のテキストを見せない。これだいじ！（縦書文庫） */
 .nehan-vert-dangumi { visibility: hidden; }
