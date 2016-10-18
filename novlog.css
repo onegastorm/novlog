@@ -10,7 +10,7 @@
 /* Common - 全体的に ----------------------------------------*/
 
 /* bodyだとかhtmlだとかそういう根本をお前はわかってない */
-body {  color: #999999;  background: #00FFFF;
+body {  color: #999999;  background: #FFFFFF;
   font: 15px/1.6 "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Meiryo", Helvetica, Arial, sans-serif;
 
 /* テキストを選択できなくする呪文らしいです。 */
