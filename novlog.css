@@ -101,6 +101,14 @@ h6 a:visited {  color: #333333;  text-decoration: none;}
 }
 */
 
+/* Responsivok & Nehan -------------------------------------------------- */
+
+.nehan-vert-dangumi {    height:600;}
+
+/* 変換前のテキストを見せない。これだいじ！（縦書文庫） */
+.nehan-vert-dangumi { visibility: hidden; }
+/* 記事系 */
+
 /* Globalheader & Container - 全体的に -------------------------------------------------- */
 
 /* グローバルヘッダ！ */
@@ -130,9 +138,6 @@ span.author.vcard { display: none;}
 
 /* Entry -------------------------------------------------- */
 
-/* 変換前のテキストを見せない。これだいじ！（縦書文庫） */
-.nehan-vert-dangumi { visibility: hidden; }
-/* 記事系 */
 .entry {  position: relative;  padding-bottom: 40px;  background: #CCFFCC;}
 /* 記事タイトル部 */
 .entry-header {  position: relative;  margin-left:17px;  background: #FFFF00;}
